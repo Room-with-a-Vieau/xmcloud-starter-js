@@ -1,6 +1,11 @@
 # SitecoreAI Front End Application Starter Kits
 
-This repository contains multiple Next.js Starter Kits, and the SPA Starters monorepo (which includes a Node Proxy Application and and SPA starter apps) for SitecoreAI Development. It is intended to get developers up and running quickly with a new front end project that is integrated with SitecoreAI.
+This repository was forked from the [SitecoreAI Starter Kit](https://github.com/SitecoreAI/xmcloud-starter-js).
+
+This repository contains custom demo sites created by me. See the original detail for more information, this is probably not for you.
+
+I'm leaving the rest of this file as it was written originally.
+
 
 [Deploying SitecoreAI](https://doc.sitecore.com/xmc/en/developers/xm-cloud/deploying-xm-cloud.html)
 
