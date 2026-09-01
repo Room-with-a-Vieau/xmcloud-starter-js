@@ -45,7 +45,7 @@ To improve these rules:
 4. Test changes with AI coding assistants to ensure effectiveness
 5. Consider impact across all starter applications
 
-For more details, see the [Contributing Guide](../CONTRIBUTING.md#ai-assisted-development).
+For more details, see [CLAUDE.md](../CLAUDE.md) at the repository root.
 
 ## Development Workflow
 

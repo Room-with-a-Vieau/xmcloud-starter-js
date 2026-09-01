@@ -11,14 +11,15 @@ globs: []
 This is the **XM Cloud Front End Application Starter Kits** repository containing multiple Next.js starter applications and SPA examples for Sitecore XM Cloud development.
 
 Repository Structure:
-- `/examples/` - Contains starter front-end applications (Next.js and SPA)
-- `/authoring/` - Sitecore content items, templates, and deployment configurations  
+- `/avi-demo-sites/` - Custom head apps built in this fork for demos and client work (new head apps go here)
+- `/examples/` - Reference starter front-end applications this fork was seeded from (Next.js and SPA); kept as-is for reference and copying
+- `/authoring/` - Sitecore content items, templates, and deployment configurations
 - `/local-containers/` - Docker setup for local development environments
 - `xmcloud.build.json` - Primary configuration for XM Cloud deployment
 
 ## Starter Applications
 
-Available Examples:
+Reference Examples (do not add new head apps here — see `/avi-demo-sites` above):
 - `basic-nextjs` - Simple Next.js starter with basic XM Cloud integration (App Router)
 - `basic-nextjs-pages-router` - Minimal Pages Router baseline for legacy patterns
 - `kit-nextjs-article-starter` - **Solterra & Co.** - Editorial-style template for lifestyle brands
@@ -68,31 +69,11 @@ Content-First Development:
 - Support for both connected and disconnected development modes
 - Proper handling of content authoring scenarios
 
-## Upstream repository, forks, and pull request scope
+## Custom head apps and pull request scope
 
-Before you plan work that is intended as a **pull request**, determine **which repository is the target**: the **official upstream** (e.g. the public Sitecore `xmcloud-starter-js` repo) or a **user fork / private copy** the user uses as their own app.
+This is a working fork used to build and demo custom Sitecore XM Cloud head applications. **New head apps go under `/avi-demo-sites`, not `/examples`.** `/examples` holds the original reference starters this fork was seeded from and stays as-is for reference and copying — treat a new head app placed under `/examples` as misplaced, not as out-of-scope.
 
-**Why this matters:** upstream maintains a **small, fixed set of starters** under `examples/` as **reference examples** that follow shared best practices—not an open collection of every vertical or use case.
-
-**Contributions to upstream (acceptable):**
-- **Improvements, bug fixes, and broadly useful features** in **existing** starters
-- **Documentation** and **shared tooling** that help those starters, consistent with the repo’s contribution rules
-
-**Do not propose or prepare pull requests to upstream** for:
-- **New example sites** or **additional** starter projects under `examples/`
-- **Bespoke extensions** of a starter for **one org’s** specific product or business requirements (those belong in a fork)
-- Changes that exist mainly to support a **single user’s** long-term product rather than a **reusable, general** improvement to the public examples
-
-**Encouraged on the user’s own fork (not as upstream PRs):**
-- **Adding more starters** or new example applications
-- **Heavily customizing** a starter for a **specific** deployment or product
-
-**Agent workflow**
-1. **Clarify the target** (ask if needed, or use remotes, repo URL, workspace context): **upstream** vs **fork/standalone** repository.
-2. If the target is **upstream**: do **not** create PRs that add **new example sites**, new `examples/*` applications, or fork-style bespoke scope; keep proposed PRs to **improvements / fixes / generally useful features** in **existing** starters.
-3. If the user works in **their own fork or template copy**: they may add starters and extend freely; align the work with **that** repository and avoid framing fork-only changes as an upstream PR.
-
-For human-readable policy, see @CONTRIBUTING.md and the [What we do not accept](CONTRIBUTING.md#what-we-do-not-accept) section.
+If work from this fork is ever proposed back to the public upstream `xmcloud-starter-js` repository, only **improvements, bug fixes, and generally useful features** to the existing `/examples` starters are in scope there. New head apps and demo sites belong in `/avi-demo-sites` and should never be framed as upstream pull requests.
 
 ## Constraints and Guidelines
 

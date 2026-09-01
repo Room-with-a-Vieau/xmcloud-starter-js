@@ -5,7 +5,7 @@
 - [Repository Overview](#repository-overview)
 - [Technology Stack](#technology-stack)
 - [Development Principles](#development-principles)
-- [Upstream, forks, and pull request scope](#upstream-forks-and-pull-request-scope)
+- [Custom head apps and pull request scope](#custom-head-apps-and-pull-request-scope)
 - [Constraints and Guidelines](#constraints-and-guidelines)
 - [Code Style](#code-style)
 - [General Coding Principles](#general-coding-principles)
@@ -20,7 +20,8 @@
 This is the **XM Cloud Front End Application Starter Kits** repository containing multiple Next.js starter applications and SPA examples for Sitecore XM Cloud development.
 
 **Repository Structure:**
-- `/examples/` - Contains starter front-end applications (Next.js and SPA)
+- `/avi-demo-sites/` - Custom head apps built in this fork for demos and client work (new head apps go here)
+- `/examples/` - Reference starter front-end applications this fork was seeded from (Next.js and SPA); kept as-is for reference and copying
 - `/authoring/` - Sitecore content items, templates, and deployment configurations  
 - `/local-containers/` - Docker setup for local development environments
 - `xmcloud.build.json` - Primary configuration for XM Cloud deployment
@@ -74,15 +75,11 @@ Each starter demonstrates:
 - Support for both connected and disconnected development modes
 - Proper handling of content authoring scenarios
 
-## Upstream, forks, and pull request scope
+## Custom head apps and pull request scope
 
-The official **upstream** repository (this project’s public GitHub home) keeps a **small, fixed** set of starters in `examples/` as **reference examples**, not a catalog of every vertical. Before treating work as an **upstream pull request**, confirm whether the target is **upstream** or a **user fork** / **template** copy.
+This is a working fork used to build and demo custom Sitecore XM Cloud head applications. **New head apps go under `/avi-demo-sites`, not `/examples`.** `/examples` holds the original reference starters this fork was seeded from (`basic-nextjs`, the `kit-nextjs-*` kits, `basic-spa`) and stays as-is for reference and copying — treat a new head app under `/examples` as misplaced, not as out-of-scope.
 
-- **Fits upstream PRs:** **Improvements, bug fixes, and broadly useful features** in **existing** starters; **documentation** and **tooling** aligned with the repo’s contribution policy.
-- **Not for upstream PRs:** **New example sites**, **additional** starters, or **product-specific** extensions for one org that should live in a **fork** or separate repo. Use **Use this template** or maintain a **fork** for that work.
-- **Fork or standalone copy:** Add starters and customize freely; do not frame that work as an official upstream change unless maintainers have agreed otherwise.
-
-Authoritative human policy: **[CONTRIBUTING.md](CONTRIBUTING.md)** — especially **[What we do not accept](CONTRIBUTING.md#what-we-do-not-accept)**. For Cursor, see **`.cursor/rules/project-context.mdc`**.
+If work from this fork is ever proposed back to the public upstream `xmcloud-starter-js` repository, only **improvements, bug fixes, and generally useful features** to the existing `/examples` starters are in scope there. New head apps and demo sites belong in `/avi-demo-sites` and should never be framed as upstream pull requests. For Cursor, see **`.cursor/rules/project-context.mdc`**.
 
 ## Constraints and Guidelines
 
