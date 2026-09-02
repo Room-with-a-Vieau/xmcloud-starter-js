@@ -41,7 +41,7 @@ Never commit or edit sensitive environment files:
 Focus editing on:
 - **Source code**: `.ts`, `.tsx`, `.js`, `.jsx` files in `src/`
 - **Configuration**: `next.config.js`, `tsconfig.json`, `package.json`
-- **Documentation**: `README.md`, `CONTRIBUTING.md`
+- **Documentation**: `README.md`
 - **Styles**: `.css`, `.scss` files
 - **Component maps**: `.sitecore/component-map.ts`
 

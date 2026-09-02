@@ -5,7 +5,7 @@
 - [Repository Overview](#repository-overview)
 - [Technology Stack](#technology-stack)
 - [Development Principles](#development-principles)
-- [Custom head apps and pull request scope](#custom-head-apps-and-pull-request-scope)
+- [Custom Head Apps](#custom-head-apps)
 - [Constraints and Guidelines](#constraints-and-guidelines)
 - [Code Style](#code-style)
 - [General Coding Principles](#general-coding-principles)
@@ -20,7 +20,7 @@
 This is the **XM Cloud Front End Application Starter Kits** repository containing multiple Next.js starter applications and SPA examples for Sitecore XM Cloud development.
 
 **Repository Structure:**
-- `/avi-demo-sites/` - Custom head apps built in this fork for demos and client work (new head apps go here)
+- `/avidemo/` - Custom head apps built in this fork for demos and client work (new head apps go here)
 - `/examples/` - Reference starter front-end applications this fork was seeded from (Next.js and SPA); kept as-is for reference and copying
 - `/authoring/` - Sitecore content items, templates, and deployment configurations  
 - `/local-containers/` - Docker setup for local development environments
@@ -75,11 +75,9 @@ Each starter demonstrates:
 - Support for both connected and disconnected development modes
 - Proper handling of content authoring scenarios
 
-## Custom head apps and pull request scope
+## Custom Head Apps
 
-This is a working fork used to build and demo custom Sitecore XM Cloud head applications. **New head apps go under `/avi-demo-sites`, not `/examples`.** `/examples` holds the original reference starters this fork was seeded from (`basic-nextjs`, the `kit-nextjs-*` kits, `basic-spa`) and stays as-is for reference and copying — treat a new head app under `/examples` as misplaced, not as out-of-scope.
-
-If work from this fork is ever proposed back to the public upstream `xmcloud-starter-js` repository, only **improvements, bug fixes, and generally useful features** to the existing `/examples` starters are in scope there. New head apps and demo sites belong in `/avi-demo-sites` and should never be framed as upstream pull requests. For Cursor, see **`.cursor/rules/project-context.mdc`**.
+This is a working fork used to build and demo custom Sitecore XM Cloud head applications for client work. **New head apps go under `/avidemo`, not `/examples`.** `/examples` holds the original reference starters this fork was seeded from (`basic-nextjs`, the `kit-nextjs-*` kits, `basic-spa`) and stays as-is for reference and copying — treat a new head app under `/examples` as misplaced, not as out-of-scope. For Cursor, see **`.cursor/rules/project-context.mdc`**.
 
 ## Constraints and Guidelines
 
@@ -90,19 +88,6 @@ If work from this fork is ever proposed back to the public upstream `xmcloud-sta
 - Independent package.json for each example
 
 **Development Workflow:**
-
-DMZ git flow will be implemented in the future to support better development practices, scaling, efficiency and developer productivity.
-Below is an outline of the planned workflow and processes that will be followed:
-
-- Has a shared main repo (`upstream repository`) with two key branches: `main` and `dmz`
-- Each contributor uses their own fork as their workspace
-- Feature branches are sourced from `main` but Pull Requests (PRs) with changes are merged to `dmz` branch 
-- `main` branch in the `upstream repository` is always clean (deployable, branchable and reliable). It does not accept PRs created by developers.
-- Developers should push changes to feature branches in their own fork and then create PRs to `dmz` branch in the `upstream repository`.  
-- PRs are merged by reviewers to the `dmz` branch after review and validation. Conflicts should be resolved by rebasing onto main. 
-- Once a PR has been merged into `dmz` branch the code changes are validated through an automated full build of the `dmz` branch `HEAD` in the Continous Integration server.  
-- The `dmz` branch acts as a staging/integration branch and once sevearl chnages are integrated and tested in the `dmz` branch they can be manually merged to the `main` branch using merge commits (usually at the end of 1 or 2 weeks)
-- If the build fails, the changes are or issues are found in the `dmz` branch during integration, the problamatic commits can be reverted
 
 - Each starter can be developed independently in its own directory
 - Copy `.env.remote.example` to `.env.local` for local development
@@ -1261,7 +1246,7 @@ Never commit or edit sensitive environment files:
 Focus editing on:
 - **Source code**: `.ts`, `.tsx`, `.js`, `.jsx` files in `src/`
 - **Configuration**: `next.config.js`, `tsconfig.json`, `package.json`
-- **Documentation**: `README.md`, `CONTRIBUTING.md`
+- **Documentation**: `README.md`
 - **Styles**: `.css`, `.scss` files
 - **Component maps**: `.sitecore/component-map.ts`
 

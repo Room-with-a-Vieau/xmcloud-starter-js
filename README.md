@@ -1,26 +1,24 @@
 # SitecoreAI Front End Application Starter Kits
 
-This repository was forked from the [SitecoreAI Starter Kit](https://github.com/SitecoreAI/xmcloud-starter-js).
+This is a working fork of the [SitecoreAI Starter Kit](https://github.com/SitecoreAI/xmcloud-starter-js), reused as a base for building and demoing custom Sitecore XM Cloud head applications for client work.
 
-This repository contains custom demo sites created by me. See the original detail for more information, this is probably not for you.
+- **`/avidemo`** — custom demo sites built in this fork, one subfolder per demo (e.g. `avidemo/gsf`). New head apps always go here. See [avidemo/README.md](avidemo/README.md) for conventions.
+- **`/examples`** — the original reference starters this fork was seeded from. Kept as-is for reference and copying; new demo work does not belong here.
 
-I'm leaving the rest of this file as it was written originally.
-
+Everything below this point is the original starter kit documentation, kept intact as a reference for working with any of the `/examples` starters. See [CLAUDE.md](CLAUDE.md) for the full set of conventions this fork follows.
 
 [Deploying SitecoreAI](https://doc.sitecore.com/xmc/en/developers/xm-cloud/deploying-xm-cloud.html)
 
 ## Table of Contents
 
 - [Repository Overview](#repository-overview)
-- [Contributing](#contributing)
 - [How to Run a Next.js Starter Locally](#how-to-run-a-nextjs-starter-locally)
-- [How to Add an Editing Host to SitecoreAI](#how-to-add-an-editing-host-to-xm-cloud)
+- [How to Add an Editing Host to SitecoreAI](#how-to-add-an-editing-host-to-sitecoreai)
 - [GitHub Template](#github-template)
   - [Prerequisites](#prerequisites)
   - [Getting Started Guide](#getting-started-guide)
   - [Running the Next.js Starter Kit](#running-the-nextjs-starter-kit)
   - [SPA Starters Monorepo and Angular SPA](#spa-starters-monorepo-and-angular-spa)
-- [Development Workflow](#development-workflow)
 - [SEO & AI Crawler Access](#seo--ai-crawler-access)
 - [GEO Optimization & Compliance](#geo-optimization--compliance)
 - [AI-Assisted Development](#ai-assisted-development)
@@ -67,12 +65,6 @@ Here's a quick overview of the major folders and their purpose:
       * postActions: Actions that run after a successful deployment, such as warming up the CM server or triggering reindexing.
 
       * authoringPath: Path to the folder containing Sitecore item definitions (default is ./authoring).
-
-## Contributing
-
-**Pull requests to the official repository** are welcome for **improvements, bug fixes, and generally useful features** in the **existing** starters under `examples/`, plus documentation and tooling that support that goal. The maintainers keep a **limited** set of examples that follow shared best practices.
-
-This repository does **not** accept pull requests that add **new example sites** (for example, a new app under `examples/`, or an additional starter). For your own app, extra starters, or heavy product-specific customization, use this repo as a **[GitHub template](#github-template)** or work in your **own fork**. See **[CONTRIBUTING.md](CONTRIBUTING.md)** and **[What we do not accept](CONTRIBUTING.md#what-we-do-not-accept)** for the full policy, branching (`dmz`), and how to submit changes.
 
 ## How to Run a Next.js Starter Locally
 
@@ -152,34 +144,6 @@ For developers new to SitecoreAI you can follow the Getting Started Guide on the
 
 A new starter SPA based on Angular has been introduced with JSS v22.3.0. The Angular starter has been designed to be compatible with SitecoreAI and should be used with the provided node SitecoreAI proxy application to handle server-side rendering (SSR), data queries, personalization and more. For more details and information on how to run and deploy the Angular starter and proxy to SitecoreAI have a look at [SPA starters monorepo](examples/basic-spa/)
 
-## Development Workflow
-
-This repository uses a **DMZ git workflow** to ensure the `main` branch is always clean, deployable, and production-ready.
-
-### Quick Overview
-
-- **`main` branch**: Always clean and deployable (never commit directly)
-- **`dmz` branch**: Validation layer where PRs are merged and tested
-- **Feature branches**: Created from `main`, PRs target `dmz`
-
-### Key Requirements
-
-1. ✅ Always create feature branches from the latest `main`
-2. ✅ Create PRs to `dmz` (not `main`)
-3. ✅ Use **Squash and merge** only (enforced)
-4. ✅ Ensure your branch is based on the latest `main` before creating a PR
-5. ✅ PR validation runs automatically (lint, build, test, type-check)
-6. ✅ After merge to `dmz`, CI validates the build; `main` is manually updated via merge commits periodically (every 1-2 weeks)
-
-### For Contributors
-
-Read **[Contributing](#contributing)** (including that we do not accept **new example sites** via PR to this repo) and **[CONTRIBUTING.md](CONTRIBUTING.md)**.  
-📖 **[Read the full DMZ Workflow Guide](.github/DMZ-WORKFLOW.md)** for detailed instructions, common issues, and best practices.
-
-### For Repository Maintainers
-
-🔒 **[Branch Protection Setup Guide](.github/BRANCH-PROTECTION-SETUP.md)** - Configure GitHub branch protection rules to enforce the workflow.
-
 ## SEO & AI Crawler Access
 
 This repository is configured to allow AI crawlers and search engines to index your content for maximum discoverability. All starter applications include:
@@ -203,17 +167,11 @@ For testing and validation, see the [GEO Compliance Checklist](docs/GEO_COMPLIAN
 
 ## AI-Assisted Development
 
-This repository includes comprehensive AI guidance files to help maintain consistent code quality and follow SitecoreAI best practices across all starter applications:
+This repository includes AI guidance files to help maintain consistent code quality across all starter and demo applications:
 
 - **Skills: Capability Map** ([docs/Skills.md](docs/Skills.md)) - High-level capability groupings for the starter kits; helps AI tools and developers understand what the starters support and when to use each area
-- [**Agents.md**](Agents.md) - AI agent guidance: structure, commands, DOs/DON'Ts, boundaries, and quick reference
 - **Claude Code Guide** (`CLAUDE.md`) - Comprehensive guide for Claude Code and AI assistants with project architecture, coding standards, and best practices
 - **Cursor AI Rules** (`.cursor/rules/`) - Automatically provide context and enforce patterns when using Cursor AI
-- **Windsurf IDE Rules** (`.windsurfrules`) - Comprehensive coding standards, folder structure, and best practices for Windsurf's agentic IDE workflows
-- **GitHub Copilot Instructions** (`copilot-instructions.md`) - Detailed development patterns and component guidelines for GitHub Copilot
-- **LLM Guidance** (`LLMs.txt`) - Concise guidance for various AI assistants covering architecture principles and safety rules
-
-These files ensure consistent development patterns whether you're using Claude Code, Cursor AI, Windsurf IDE, GitHub Copilot, or other AI coding assistants. See the [Contributing Guide](CONTRIBUTING.md#ai-assisted-development) for details on using AI assistance with this project.
 
 ## FAQ
 
@@ -221,18 +179,10 @@ These files ensure consistent development patterns whether you're using Claude C
 
 No. Rendering host items are created automatically when you create a rendering host. Site-to-editing-host mapping is also automatic.
 
-### Can I add a new example site or starter via pull request?
-
-No. This repository does **not** accept pull requests that add **new example sites**. Use a **[GitHub template](#github-template)** or a **fork** for additional starters or your own app. You can still contribute **improvements and fixes** to **existing** starters. See [Contributing](#contributing) and [CONTRIBUTING.md - What we do not accept](CONTRIBUTING.md#what-we-do-not-accept).
-
-### Which branch do I create my PR against?
-
-Create your PR against **`dmz`**, not `main`. Branch from the latest `main`. See [Development Workflow](#development-workflow) and [DMZ Workflow Guide](.github/DMZ-WORKFLOW.md).
-
 ### Where do I get environment variables for local development?
 
 In SitecoreAI Deploy Portal → your Environment → **Developer Settings** → **Local Development**, copy the sample `.env` and use it in your starter’s `.env.local`. See [How to Run a Next.js Starter Locally](#how-to-run-a-nextjs-starter-locally).
 
 ### When do I need to add an editing host manually?
 
-Only if you have **split deployment** enabled. Otherwise, editing hosts are created from `xmcloud.build.json` when the starter is enabled. See [How to Add an Editing Host to XM Cloud](#how-to-add-an-editing-host-to-xm-cloud).
+Only if you have **split deployment** enabled. Otherwise, editing hosts are created from `xmcloud.build.json` when the starter is enabled. See [How to Add an Editing Host to SitecoreAI](#how-to-add-an-editing-host-to-sitecoreai).
