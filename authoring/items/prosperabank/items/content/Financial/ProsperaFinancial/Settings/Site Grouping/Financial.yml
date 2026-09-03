@@ -24,7 +24,7 @@ SharedFields:
   Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: prosperabank.dev
+  Value: *
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: "en=play-finance&fr=play-finance&ar-EG=play-finance&zh-CN=play-finance&de-CH=play-finance&is-IS=play-finance&it-CH=play-finance&ja-JP=play-finance&th-TH=play-finance"
@@ -39,7 +39,7 @@ SharedFields:
   Value: "ef0c21ad-810e-4f41-a519-3c7382978ec9"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
-  Value: prosperabank.dev
+  Value: *
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: prosperabank
