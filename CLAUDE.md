@@ -53,7 +53,7 @@ Each starter demonstrates:
 **Additional Libraries:**
 - **Framer Motion** - Animation library for interactive components
 - **Lucide React** - Icon library for consistent iconography  
-- **next-localization** - Internationalization with dictionary support
+- **next-localization** - Internationalization with dictionary support (the `/examples` starters; `/avidemo` apps may use another library — prospera uses `next-intl`)
 - **change-case** - String case transformation utilities
 
 **Development Tools:**
@@ -78,6 +78,8 @@ Each starter demonstrates:
 ## Custom Head Apps
 
 This is a working fork used to build and demo custom Sitecore XM Cloud head applications for client work. **New head apps go under `/avidemo`, not `/examples`.** `/examples` holds the original reference starters this fork was seeded from (`basic-nextjs`, the `kit-nextjs-*` kits, `basic-spa`) and stays as-is for reference and copying — treat a new head app under `/examples` as misplaced, not as out-of-scope. For Cursor, see **`.cursor/rules/project-context.mdc`**.
+
+**Guidance precedence:** this file is the default for the whole repo. A head app under `/avidemo/<app>` may ship its own guidance (`CLAUDE.md`, `AGENTS.md`, `.cursor/rules/`, `.agents/skills/`), and where that guidance is more specific it **wins for that app** — including its choice of libraries and component-file layout. Read the app's own files before applying the conventions below to code inside it. This file still governs the repo as a whole (structure, safety rules, deployment) and is the sole source for `/examples`.
 
 ## Constraints and Guidelines
 
@@ -439,13 +441,13 @@ src/
   styles/             # Styling files (global CSS)
 ```
 
-**File Organization:**
+**File Organization** (the `/examples` starters; a head app under `/avidemo` may organize components differently — follow that app's own guidance):
 - Component directories contain main file, variants, and props
 - Main component file should contain variants and rendering logic; keep props/interfaces in sidecar files (`*.props.ts` / `*.props.tsx`)
 - Using `.dev.tsx` files for variant implementations is discouraged unless maintainability becomes dificult for the componenent and seperation can not be avoided
 - Shared utilities in dedicated directories
 - Group UI components in `ui/` subdirectory
-- Exclude sidecar props files from component-map generation in each starter `sitecore.cli.config.ts` via `componentMap.exclude`:
+- Where sidecar props files are used, exclude them from component-map generation in that app's `sitecore.cli.config.ts` via `componentMap.exclude` (alongside anything else that is not a Sitecore rendering, e.g. `ui/**`, `atoms/**`, helper folders):
   - `src/components/**/*.props.ts`
   - `src/components/**/*.props.tsx`
 - After adding or renaming sidecar props files, regenerate maps with `npm run sitecore-tools:generate-map` and verify `.sitecore/component-map.ts` has no props-sidecar registrations.
@@ -721,7 +723,7 @@ import { Button } from '@/components/ui/button';
 - Use `NoDataFallback` for missing datasources
 - Import image wrapper: `Default as ImageWrapper` from `@/components/image/ImageWrapper.dev`
 - Use button components: `ButtonBase` from `@/components/button-component/ButtonComponent`
-- Implement localization with `useI18n` and `dictionaryKeys`
+- Implement localization with `useI18n` and `dictionaryKeys` — in the `/examples` starters. Check the app's own i18n setup first; `/avidemo` apps may use a different library.
 
 ```typescript
 import { NoDataFallback } from '@/utils/NoDataFallback';

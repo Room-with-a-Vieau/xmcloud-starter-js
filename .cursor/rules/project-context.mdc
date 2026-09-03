@@ -73,6 +73,8 @@ Content-First Development:
 
 This is a working fork used to build and demo custom Sitecore XM Cloud head applications for client work. **New head apps go under `/avidemo`, not `/examples`.** `/examples` holds the original reference starters this fork was seeded from and stays as-is for reference and copying — treat a new head app placed under `/examples` as misplaced, not as out-of-scope.
 
+**Guidance precedence:** these rules are the default for the whole repo. A head app under `/avidemo/<app>` may ship its own guidance (`AGENTS.md`, `.cursor/rules/`, `.agents/skills/`), and where that guidance is more specific it **wins for that app** — including its choice of libraries and component-file layout. Read the app's own files before applying these conventions to code inside it.
+
 ## Constraints and Guidelines
 
 Starter Independence:
