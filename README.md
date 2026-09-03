@@ -2,7 +2,7 @@
 
 This is a working fork of the [SitecoreAI Starter Kit](https://github.com/SitecoreAI/xmcloud-starter-js), reused as a base for building and demoing custom Sitecore XM Cloud head applications for client work.
 
-- **`/avidemo`** — custom demo sites built in this fork, one subfolder per demo (e.g. `avidemo/gsf`). New head apps always go here. See [avidemo/README.md](avidemo/README.md) for conventions.
+- **`/avidemo`** — custom demo sites built in this fork, one subfolder per demo (e.g. `avidemo/prospera`). New head apps always go here. See [avidemo/README.md](avidemo/README.md) for conventions.
 - **`/examples`** — the original reference starters this fork was seeded from. Kept as-is for reference and copying; new demo work does not belong here.
 
 Everything below this point is the original starter kit documentation, kept intact as a reference for working with any of the `/examples` starters. See [CLAUDE.md](CLAUDE.md) for the full set of conventions this fork follows.

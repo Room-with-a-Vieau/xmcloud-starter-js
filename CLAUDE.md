@@ -45,8 +45,8 @@ Each starter demonstrates:
 **Core Technologies:**
 - **Next.js 14+** - React framework with App Router (all starters except `basic-nextjs-pages-router`)
 - **TypeScript** - Strict type safety throughout all components
-- **Sitecore XM Cloud** - Headless content management and delivery
-- **Sitecore Content SDK** - Modern SDK for XM Cloud integration
+- **Sitecore XM Cloud** - Headless content management and delivery. XM Cloud is not SitecoreAI CMS.
+- **Sitecore Content SDK** - Modern SDK for SitecoreAI integration
 - **Tailwind CSS** - Utility-first CSS with container queries (@container)
 - **Shadcn/ui** - Modern component library with accessibility features
 
