@@ -68,6 +68,7 @@ import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as Eyebrow from 'src/components/navigation/Eyebrow';
 import * as Breadcrumb from 'src/components/navigation/Breadcrumb';
+import * as Image from 'src/components/image/Image';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCClientWrapper],
@@ -135,6 +136,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Footer', { ...Footer }],
   ['Eyebrow', { ...Eyebrow }],
   ['Breadcrumb', { ...Breadcrumb }],
+  ['Image', { ...Image }],
 ]);
 
 export default componentMap;
