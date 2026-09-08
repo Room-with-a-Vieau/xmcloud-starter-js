@@ -88,9 +88,11 @@ export const Default: React.FC<ImageProps> = (props) => {
       ) : (
         <Image />
       )}
+      {/* 
       <figcaption className="image-caption field-imagecaption">
         <Text tag="span" field={fields.ImageCaption} />
       </figcaption>
+      */}
     </ImageWrapper>
   );
 };
