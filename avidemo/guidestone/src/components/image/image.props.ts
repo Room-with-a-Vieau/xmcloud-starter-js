@@ -1,19 +1,16 @@
-import { CompatibleField, ComponentProps } from 'lib/component-props';
-import { Field, ImageField, LinkField } from '@sitecore-content-sdk/nextjs';
-import type React from 'react';
+import type { CSSProperties } from 'react';
+import type { Field, ImageField, LinkField } from '@sitecore-content-sdk/nextjs';
+import type { ComponentProps } from 'lib/component-props';
 
-export interface ImageFields {
-  Image?: CompatibleField<ImageField>;
-  ImageCaption?: CompatibleField<Field<string>>;
-  TargetUrl?: CompatibleField<LinkField>;
+export interface SXAImageFields {
+  Image?: ImageField & { metadata?: { [key: string]: unknown } };
+  ImageCaption?: Field<string>;
+  TargetUrl?: LinkField;
 }
 
-export interface ImageProps extends ComponentProps {
-  fields?: ImageFields;
-}
+export type ImageProps = ComponentProps & {
+  params: { [key: string]: string };
+  fields?: SXAImageFields;
+};
 
-export interface ImageWrapperProps {
-  className: string;
-  id?: string;
-  children: React.ReactNode;
-}
+export type BackgroundStyle = CSSProperties;

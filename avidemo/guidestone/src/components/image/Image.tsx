@@ -1,51 +1,51 @@
 import {
   NextImage as ContentSdkImage,
+  Link as ContentSdkLink,
   Text,
-} from "@sitecore-content-sdk/nextjs";
-import React from "react";
-import { CompatibleLink } from "components/content-sdk/CompatibleLink";
-import { getFieldValue } from 'lib/component-props';
-import { ImageProps, ImageWrapperProps } from './image.props';
+} from '@sitecore-content-sdk/nextjs';
+import React from 'react';
+import type { ImageProps } from './image.props';
 
-const ImageWrapper: React.FC<ImageWrapperProps> = ({ className, id, children }) => (
+const ImageWrapper: React.FC<{
+  className: string;
+  id?: string;
+  children: React.ReactNode;
+}> = ({ className, id, children }) => (
   <figure className={className.trim()} id={id}>
     <div className="component-content">{children}</div>
   </figure>
 );
 
 const ImageDefault: React.FC<ImageProps> = ({ params }) => (
-  <ImageWrapper className={`component image ${params.styles}`}>
+  <ImageWrapper className={`component image ${params.styles ?? ''}`}>
     <span className="is-empty-hint">Image</span>
   </ImageWrapper>
 );
 
 export const Banner: React.FC<ImageProps> = ({ params, fields }) => {
   const { styles, RenderingIdentifier: id } = params;
-  const baseImageField = getFieldValue(fields?.Image);
-  const imageField = baseImageField && {
-    ...baseImageField,
+  const imageField = fields?.Image && {
+    ...fields.Image,
     value: {
-      ...baseImageField.value,
-      style: { objectFit: "cover", width: "100%", height: "100%" },
+      ...fields.Image.value,
+      style: { objectFit: 'cover', width: '100%', height: '100%' },
     },
   };
 
   const altText =
-    typeof baseImageField?.value?.alt === "string"
-      ? baseImageField.value.alt
-      : "Hero banner";
+    typeof fields?.Image?.value?.alt === 'string' ? fields.Image.value.alt : 'Hero banner';
 
-  // Use pixel caps per breakpoint so the browser picks the next-lowest srcset width
-  // instead of 100vw (which with DPR can still request 1920px on ~1319px viewport).
-  // This fixes mobile/tablet overserving (e.g. 1920px image when displayed at 1319px).
   const bannerSizes =
-    "(max-width: 640px) 100vw, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1280px, 1920px";
+    '(max-width: 640px) 100vw, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1280px, 1920px';
 
   return (
-    <figure className={`component hero-banner ${styles}`.trim()} id={typeof id === "string" ? id : undefined}>
+    <figure
+      className={`component hero-banner ${styles ?? ''}`.trim()}
+      id={typeof id === 'string' ? id : undefined}
+    >
       <div className="component-content sc-sxa-image-hero-banner">
         <ContentSdkImage
-          field={imageField}
+          field={imageField || fields?.Image}
           loading="eager"
           fetchPriority="high"
           sizes={bannerSizes}
@@ -59,9 +59,6 @@ export const Banner: React.FC<ImageProps> = ({ params, fields }) => {
 export const Default: React.FC<ImageProps> = (props) => {
   const { fields, params, page } = props;
   const { styles, RenderingIdentifier: id } = params;
-  const imageField = getFieldValue(fields?.Image);
-  const imageCaptionField = getFieldValue(fields?.ImageCaption);
-  const targetUrlField = getFieldValue(fields?.TargetUrl);
 
   if (!fields) {
     return <ImageDefault {...props} />;
@@ -69,29 +66,28 @@ export const Default: React.FC<ImageProps> = (props) => {
 
   const Image = () => (
     <ContentSdkImage
-      field={imageField}
+      field={fields.Image}
       sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 90vw, 1200px"
-      alt={
-        typeof imageField?.value?.alt === "string"
-          ? imageField.value.alt
-          : ""
-      }
+      alt={typeof fields?.Image?.value?.alt === 'string' ? fields.Image.value.alt : ''}
     />
   );
-  const shouldWrapWithLink =
-    !page?.mode?.isEditing && targetUrlField?.value?.href;
+
+  const shouldWrapWithLink = !page?.mode?.isEditing && fields.TargetUrl?.value?.href;
 
   return (
-    <ImageWrapper className={`component image ${styles}`} id={typeof id === "string" ? id : undefined}>
-      {shouldWrapWithLink ? (
-        <CompatibleLink field={targetUrlField}>
+    <ImageWrapper
+      className={`component image ${styles ?? ''}`}
+      id={typeof id === 'string' ? id : undefined}
+    >
+      {shouldWrapWithLink && fields.TargetUrl ? (
+        <ContentSdkLink field={fields.TargetUrl}>
           <Image />
-        </CompatibleLink>
+        </ContentSdkLink>
       ) : (
         <Image />
       )}
       <figcaption className="image-caption field-imagecaption">
-        <Text tag="span" field={imageCaptionField} />
+        <Text tag="span" field={fields.ImageCaption} />
       </figcaption>
     </ImageWrapper>
   );
