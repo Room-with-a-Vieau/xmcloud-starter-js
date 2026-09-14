@@ -1,0 +1,24 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "guidestone",
+  "description": "Guidestone demo site. Owns only the site-specific content tree and media under the Financial site collection. The shared Financial scaffolding (collection root, project templates, renderings, placeholder settings) is owned by the prosperabank module.",
+  "references": [
+    "prosperabank"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "content",
+        "path": "/sitecore/content/Financial/guidestone",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/Financial/guidestone",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

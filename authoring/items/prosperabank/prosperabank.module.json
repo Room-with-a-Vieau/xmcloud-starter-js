@@ -25,13 +25,25 @@
         "name": "content",
         "path": "/sitecore/content/financial",
         "scope": "ItemAndDescendants",
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "rules": [
+          {
+            "path": "/guidestone",
+            "scope": "ignored"
+          }
+        ]
       },
       {
         "name": "media",
         "path": "/sitecore/media library/Project/financial",
-        "scope": "ItemAndDescendants", 
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "rules": [
+          {
+            "path": "/guidestone",
+            "scope": "ignored"
+          }
+        ]
       }
     ]
   }
