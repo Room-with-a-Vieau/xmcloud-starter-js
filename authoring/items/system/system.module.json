@@ -1,0 +1,15 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "system",
+  "description": "System-level items shared by every site module. Owns the language definitions that item versions across all modules depend on.",
+  "items": {
+    "includes": [
+      {
+        "name": "languages",
+        "path": "/sitecore/system/Languages",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}
