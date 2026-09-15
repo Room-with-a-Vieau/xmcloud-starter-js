@@ -1,0 +1,64 @@
+﻿---
+ID: "7d34ae20-751a-4b90-af36-9f64900f862a"
+Parent: "665ff094-2c86-4671-8fab-4083127093dd"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Financial/guidestone/Home/retirement-planning/Data/Questions 1/Question 4"
+BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{42F8779C-8AB1-4D2D-9119-9AE9AC43F286}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260903T231332Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0673e9d-ef3c-4a5b-8d80-3b5c6d59bffc"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How do I request assistance or learn more?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260903T235452Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: "Contact GuideStone at 1-888-98-GUIDE. Our team can help you apply for assistance or share how your church can support Mission:Dignity."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92b82a8c-86ad-4024-8a4e-91b1394f6eb0"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Comment puis-je commencer à planifier ma retraite ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Pour démarrer votre parcours de planification de la retraite, commencez par évaluer votre situation financière actuelle et réfléchissez à vos objectifs de retraite. Ensuite, consultez l'un de nos conseillers pour créer un plan de retraite personnalisé adapté à vos besoins.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af0e2d53-214d-42c7-9011-14e2eb9cc02e"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: 退職後の生活設計はどのように始めればよいのでしょうか？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: リタイアメント・プランニングの旅を始めるには、まず現在の財務状況を評価し、リタイアメントの目標を考えることから始めよう。 次に、私どものアドバイザーにご相談いただき、お客様のニーズに合った退職プランをお作りください。
