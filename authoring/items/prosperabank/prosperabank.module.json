@@ -1,6 +1,9 @@
 {
   "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
   "namespace": "prosperabank",
+  "references": [
+    "system"
+  ],
   "items": {
     "includes": [
       {

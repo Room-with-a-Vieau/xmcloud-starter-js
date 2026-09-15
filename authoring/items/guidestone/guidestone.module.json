@@ -3,6 +3,7 @@
   "namespace": "guidestone",
   "description": "Guidestone demo site. Owns only the site-specific content tree and media under the Financial site collection. The shared Financial scaffolding (collection root, project templates, renderings, placeholder settings) is owned by the prosperabank module.",
   "references": [
+    "system",
     "prosperabank"
   ],
   "items": {
