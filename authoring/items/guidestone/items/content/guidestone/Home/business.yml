@@ -75,41 +75,13 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "53c71979-5cd7-42b8-8822-b59078ea1888"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Business
+    Value: Organization
   Versions:
-  - Version: 1
-    Fields:
-    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
-      Hint: Title
-      Value: Business
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20260903T231327Z
-    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
-      Hint: Content
-      Value: <p>Support for you and your business. Guaranteed.</p>
-    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
-      Hint: __Workflow state
-      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
-    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
-      Hint: NavigationTitle
-      Value: Business
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\andrew.vieau@sitecore.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "92cebb44-9e90-44ef-b0f6-e307921bdba1"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\andrew.vieau@sitecore.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20260903T231607Z
   - Version: 2
     Fields:
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
@@ -134,7 +106,7 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fec8d383-f319-429a-9e04-2eaea97564f1"
+      Value: "d6e57012-045c-41cb-a2cc-ac3eeb4c3d4d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -144,7 +116,7 @@ Languages:
       Value: 20260903T235348Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260903T235348Z
+      Value: 20260915T034418Z
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

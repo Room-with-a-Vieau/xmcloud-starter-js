@@ -1,0 +1,133 @@
+﻿---
+ID: "acc8c5f1-e0c3-41fd-b675-f5dc933c7ba0"
+Parent: "d1fd0ab0-07cc-4699-9e1b-8fd1dc611fda"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: /sitecore/content/Financial/guidestone/Home/articles/Retirement
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D6ED57E8-BB99-476B-9F37-05EB7AE46F91}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "00679ab8-71bf-49b8-aeb1-32e0b01e2bbd"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="ff7d6af2-1dff-431f-9ec1-9b635b29edcd" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2ad13801-b3da-4741-814c-3b192af5b7df"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Retirement Test
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B18E729F-51BC-4DB7-BBCF-A5F1F62ABA37}"
+              s:ds="fc87e93b-45cd-4df8-b370-dfc87fc88d31"
+              s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B0AB20EC8-11B4-43F6-BCF1-1BE5C94D182C%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+          </d>
+        </r>
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Retirement
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260915T042550Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Retirement
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4d36b6b-ad79-473a-9cdb-3ab18190b723"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260915T042822Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2aa7454e-bf5c-4c51-a4bd-4b2ae22e4fc2"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 退職テスト
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B18E729F-51BC-4DB7-BBCF-A5F1F62ABA37}"
+              s:ds="fc87e93b-45cd-4df8-b370-dfc87fc88d31"
+              s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B0AB20EC8-11B4-43F6-BCF1-1BE5C94D182C%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+          </d>
+        </r>
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: 退職
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260915T042550Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 退職
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba6f26f9-fc5a-456f-b3de-a9fd42517d58"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T001808Z

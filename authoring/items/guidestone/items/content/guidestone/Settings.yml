@@ -44,9 +44,12 @@ SharedFields:
 - ID: "c8d002f9-9518-4c5e-9baa-6617e13f0797"
   Hint: LayoutPath
   Value: "{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}"
+- ID: "d0ce707c-342f-4c02-ac0a-edb21346dde4"
+  Hint: SupportedLanguages
+  Value: af58419145c9420187405409f4cf8bdd|fe63a69d29a744ff80461d69f5456bfd|83a1cec6810e41f1b7e4504002a4e616|ba7bd4c1078343d487fb98a2ec443a79
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0ab41d86-0256-45fe-81ec-ec49f7b70b0e"
+  Value: "e62ae77b-d11d-4f5c-ab86-25b1a8e0c984"
 - ID: "e8881464-38af-4655-be4a-ee10586578a2"
   Hint: Templates
   Value: "{8B77B250-9318-47A8-9B33-6D35B27F5897}"
@@ -70,11 +73,49 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5cb0359a-6780-42e2-b75e-677166d53f64"
+      Value: "85ec0d99-d017-495b-ae43-222538b490b1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260903T231512Z
+      Value: 20260916T141355Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "85e9b2d9-7854-4e07-bd8d-7841bd536b35"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 設定
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260903T231401Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff78a46b-8e13-4014-b56c-67213f572d06"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9cbc4d47-1608-4a43-ac9c-6eb461fe58f5"
+      Hint: ComponentEditorScript
+      Value: "https://feaasstatic.blob.core.windows.net/packages/page-extension/latest/page.js"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T001751Z

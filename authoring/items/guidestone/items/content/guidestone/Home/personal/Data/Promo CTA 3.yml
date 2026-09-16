@@ -1,0 +1,79 @@
+﻿---
+ID: "3e71804c-b532-4d03-8d04-8ef68024dc9c"
+Parent: "646a534b-80b8-4c9e-aebe-0838c1bd7fcf"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Financial/guidestone/Home/personal/Data/Promo CTA 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260915T191807Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e77b4718-86a9-4111-ab40-57377a57ca15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260915T191807Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: 痛みそのものは愛です
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260915T191807Z
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: 受け入れられた
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: |
+        <link anchor="" target="" linktype="external" text="詳細はこちら" url="https://example.com" />
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="詳細" url="https://example.com" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf7a214e-ce73-48e5-90d3-aff1c4edf484"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>痛みそのものは愛であり、主なエリート層が追求しますが、労働と大きな苦痛を伴う一時的な状況が発生します。</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T001848Z
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: マエケナスはリゾーススの痛みを必要としません。

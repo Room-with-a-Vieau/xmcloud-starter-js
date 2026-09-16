@@ -26,13 +26,52 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\andrew.vieau@sitecore.com
+    - ID: "75fbf1b1-e7c5-494b-9633-693909f79425"
+      Hint: TargetUrl
+      Value: |
+        <link linktype="internal" id="8b5ff48f-9edc-4d87-9889-768e37a7e762" anchor="" querystring="" target="" class="" text="" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c25feb5d-5dc2-48cf-ae57-b097945fb2b1"
+      Value: "f3ad3682-2c29-4414-b956-591c66249647"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260908T150909Z
+      Value: 20260916T044941Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260908T150850Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
+      Hint: Image
+      Value: |
+        <image mediaid="d918d6fd-738c-48eb-982e-d2939a594da6" alt="Guidestone Financialのロゴ" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2058cf09-dc0d-4157-80c4-430c3dc39c4e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T001948Z

@@ -1,0 +1,127 @@
+﻿---
+ID: "13fa62a4-b2f5-4498-817f-c7fd87334f08"
+Parent: "bb03b150-19f0-4e3b-95aa-3e2c29a628ff"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Financial/guidestone/Data/Promos/Promo CTA/IRA Promo Personalized
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f8275b71-eb87-467b-b2ee-ccf560cb89a1"
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="1b807f88-215d-4a42-b561-49a38787f2ec" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Your IRA application is almost complete
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165630Z
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: "Welcome Back!"
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: |
+        <link linktype="external" url="https://example.com" text="Speak with a specialist" anchor=""/>
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link linktype="internal" id="{25EC8C9C-D0CE-4953-A69A-32A245196FD5}" anchor="" querystring="" target="" class="" text="Resume" title=""/>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d31534e7-cbf5-4a25-91b9-a366f556a0ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p>GuideStone walks with you so you can answer your calling with confidence.</p></div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T194215Z
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: Pick up right where you left off
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: "Débloquez un compte-chèques qui évolue avec vous"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165629Z
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link class="" id="25EC8C9C-D0CE-4953-A69A-32A245196FD5" querystring="" anchor="" target="" title="" linktype="internal" text="Commencez" url="/Financial/ProsperaBank/Home/personal/everyday-banking" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e03b1dd7-109b-453d-b813-55718e2c7dbf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "À mesure que vos finances augmentent, vous débloquerez plus d'avantages et de services de PLAY! financier."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260915T192750Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: あなたとともに成長するチェックを解除する
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165629Z
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{25EC8C9C-D0CE-4953-A69A-32A245196FD5}" anchor="" target="" title="" linktype="internal" text="はじめる" url="/Financial/ProsperaBank/Home/personal/everyday-banking" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e53380ee-2348-4590-a7c5-bdf608997af8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "お客様の財政が成長するにつれて、Play! finance から多くの特典やサービスが提供されます。"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260915T192750Z

@@ -16,20 +16,13 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "19611527-1e31-4490-8042-482e61e3ce84"
       Hint: Text
       Value: |
-        <p>Manage retirement, health, and investment accounts from one place — with the same values-based guidance you trust.</p>
-        <div class="container">
-        <div class="row  row-gap-3">
-        <div class="col-sm">
-        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="" src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=46&amp;w=150" style="height: 46px; width: 150px;" /></a></div>
-        <div class="col-sm">
-        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="Google Play" src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=46&amp;w=150" style="height: 46px; width: 150px;" /></a></div>
-        <div class="col-sm">
-        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="" src="-/media/3FB814AFD8E846FF9BFD4312B2213EC4.ashx?h=44&amp;w=150" style="height: 44px; width: 150px;" /></a></div>
-        </div>
-        </div>
+        <div class="ck-content"><p>Manage retirement, health, and investment accounts from one place — with the same values-based guidance you trust.</p><div class="container"><div class="row row-gap-3"><div class="col-sm"><a href="http://www.sitecore.com" target="_blank" rel="noopener noreferrer"><img src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx" alt="" width="150" height="46" /></a></div><div class="col-sm"><a href="http://www.sitecore.com" target="_blank" rel="noopener noreferrer"><img src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx" alt="Google Play" width="150" height="46" /></a></div><div class="col-sm"><a href="http://www.sitecore.com" target="_blank" rel="noopener noreferrer"><img src="-/media/3FB814AFD8E846FF9BFD4312B2213EC4.ashx" alt="" width="150" height="44" /></a></div></div></div></div>
     - ID: "1f0455dc-9254-4487-b94d-6c66f103e7bf"
       Hint: Title
       Value: Access your GuideStone account
@@ -42,14 +35,14 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40d5973b-6734-4176-abdf-3152273fa49d"
+      Value: "ff76a9ab-1a3c-44ee-90a9-576d6fec8cd2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260903T235257Z
+      Value: 20260915T191630Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -9,19 +9,19 @@ SharedFields:
   Value: 8b5ff48f9edc4d879889768e37a7e762
 - ID: "4e9e2ae5-36db-4955-9af1-5a1934a27c7d"
   Hint: Language Embedding
-  Value: 0
+  Value: 
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: "{75AE5EB4-BBAB-4A27-8B94-BC8411D6BF94}"
 - ID: "6e6da5b0-8d01-4514-b7dd-1940aff3e8cd"
   Hint: FieldLanguageFallback
-  Value: 0
+  Value: 
 - ID: "8c436235-b85d-4097-89cf-d5a4fa70cc0a"
   Hint: ItemLanguageFallback
-  Value: 0
+  Value: 
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: *
+  Value: "https://avdemo-prod-guidestone.vercel.app"
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: "en=guidestone-financial&fr-CA=guidestone-financial&ja-JP=guidestone-financial&es-MX=guidestone-financial"
@@ -33,7 +33,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9023cd73-7de3-41f2-9c78-a3cb475ebca9"
+  Value: "640e6f27-7026-4647-9517-b53d8103dbb6"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: guidestone
@@ -55,11 +55,36 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "870ececf-e406-45cd-9f27-3df9d575ab35"
+      Value: "e9e86522-4bd5-4921-b32a-fd94a3d8b311"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260908T152005Z
+      Value: 20260916T002058Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260903T231631Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bff420ec-949f-49ed-9c28-1e18ff6f4667"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T001842Z

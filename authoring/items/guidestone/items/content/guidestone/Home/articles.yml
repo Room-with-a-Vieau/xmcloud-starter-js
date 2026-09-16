@@ -6,7 +6,12 @@ Path: /sitecore/content/Financial/guidestone/Home/articles
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: "{F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}"
+  Value: |
+    {F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}
+    {AAD350F5-9331-4D71-A942-E3643653C028}
+    {1226C3C7-2D1F-48F5-87B4-C1DA459F05E5}
+    {14431DCE-508D-4D54-9D04-C22ABBDC8F83}
+    {5282D418-6C18-46EB-85AF-9116CDE9E6EB}
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
@@ -19,7 +24,7 @@ SharedFields:
     <image mediaid="{09EB088A-E896-4A26-8C04-7E498435C40D}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5e63ab21-c0e1-4c6e-87db-be18a5ba86c9"
+  Value: "a49bb221-6b8c-4500-90a4-37fb5c6e8ab4"
 - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
   Hint: BackgroundImage
   Value: |
@@ -50,44 +55,13 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b106880b-39e3-4d0b-8b49-2b6d9b19d3f9"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Articles
+    Value: Resources
   Versions:
-  - Version: 1
-    Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
-    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
-      Hint: Title
-      Value: Articles
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20260903T231334Z
-    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
-      Hint: Content
-      Value: "Keep up-to-date with our industry experts"
-    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
-      Hint: __Workflow state
-      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
-    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
-      Hint: NavigationTitle
-      Value: Articles
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\andrew.vieau@sitecore.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "074aa07a-5bfc-4132-9611-3574d00da449"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\andrew.vieau@sitecore.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20260903T231613Z
   - Version: 2
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
@@ -115,7 +89,7 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "25194f32-176c-468d-b020-4deb4998fd82"
+      Value: "8ac72e9c-1a30-4255-82e1-3d272d0554c9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -125,7 +99,7 @@ Languages:
       Value: 20260903T235400Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260903T235401Z
+      Value: 20260915T193637Z
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

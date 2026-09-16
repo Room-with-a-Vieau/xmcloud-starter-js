@@ -6,22 +6,22 @@ Path: /sitecore/system/Settings/Services/Rendering Hosts/Default
 SharedFields:
 - ID: "3121c257-53cf-464a-b736-98b418876057"
   Hint: AppName
-  Value: "basic-nextjs"
+  Value: prosperabank
 - ID: "94470b31-e282-4d8d-bc54-85689efb294c"
   Hint: ServerSideRenderingEngineConfigUrl
-  Value: "https://xmc-3xodxppwu8z8kvr7c2qg2f-eh.sitecorecloud.io/api/editing/config"
+  Value: "https://xmc-4ykrp9ops1le6suvfdatnh-eh.sitecorecloud.io/api/editing/config"
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3381fdba-ddcb-4f55-a28b-a82a8e0eb669"
+  Value: "6f81c1b9-900d-436d-a367-8d893547fbde"
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
-  Value: "https://xmc-3xodxppwu8z8kvr7c2qg2f-eh.sitecorecloud.io"
+  Value: "https://xmc-4ykrp9ops1le6suvfdatnh-eh.sitecorecloud.io"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "https://xmc-3xodxppwu8z8kvr7c2qg2f-eh.sitecorecloud.io/api/editing/render"
+  Value: "https://xmc-4ykrp9ops1le6suvfdatnh-eh.sitecorecloud.io/api/editing/render"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -68,14 +68,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "62761d1f-7303-4409-9b61-47cba082752b"
+      Value: "4c4ac0ad-3436-41ab-b6d4-b068b7b66930"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260915T005907Z
+      Value: 20260916T195547Z
 - Language: "es-MX"
   Versions:
   - Version: 1
@@ -89,14 +89,14 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "feaf4122-8b89-423a-922d-bba17072da02"
+      Value: "daf3f9b7-3b60-4501-a14d-461e06a02822"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260901T161813Z
+      Value: 20260915T205652Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -110,14 +110,14 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8e88e1cb-4816-4026-83e0-b5f2bff35b63"
+      Value: "9cc4afc0-addd-4345-b0b4-14b18af09af9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260901T161813Z
+      Value: 20260915T205652Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -142,14 +142,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "18c5dbd1-7b54-4d53-95c3-d4b17bd76d1e"
+      Value: "df0fa205-dbb8-4e71-b4fa-e8a87d5c7bc1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260901T161813Z
+      Value: 20260915T205652Z
 - Language: "zh-CN"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

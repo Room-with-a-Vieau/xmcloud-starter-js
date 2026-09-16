@@ -1,0 +1,127 @@
+﻿---
+ID: "20acde07-3300-4654-b43e-fbaac1ce6419"
+Parent: "da6a8595-2def-49cf-a77e-cb255383ddc7"
+Template: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+Path: /sitecore/content/Financial/guidestone/Home/Get Started/Retirement and Investing/Data/Documents List 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "22ed4827-cc6b-4a00-a358-0ccfadbea4eb"
+      Hint: Link3
+      Value: |
+        <link linktype="internal" id="7523576bb00642d6bcb40ab8666b120f" anchor="" querystring="" target="" class="" text="IRA (Individual Retirement Account)" title=""/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260915T185055Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "67fdca76-8a62-4424-a499-236787bd226c"
+      Hint: Subtitle2
+      Value: "This 403(b) retirement plan is for ministers with self-employment income (such as income from speaking engagements or book sales, but not regular income from church employment). "
+    - ID: "742e047d-3a1f-4643-ae1e-c78847a8b700"
+      Hint: Subtitle1
+      Value: "This 403(b) retirement plan is for employees (both ministers and non-ministers) of eligible organizations, including churches, schools, associations, universities, hospitals, retirement or children's homes, mission-sending organizations, etc. "
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc0e426a-57a3-4bff-a129-641712cffdda"
+    - ID: "926c0ca9-eaa5-468e-919e-de8c15876439"
+      Hint: Subtitle3
+      Value: "An individual retirement account is for anyone and is frequently opened in addition to — or in the absence of — an employer-sponsored retirement plan. "
+    - ID: "95989e20-ee37-47bf-bae1-1dedf4d57a1a"
+      Hint: Link4
+      Value: |
+        <link linktype="external" url="#" target="" text="Investment Account" title="" class=""/>
+    - ID: "b2d03f41-06ad-4238-bcf2-7055674ea2a6"
+      Hint: Subtitle4
+      Value: An investment account is for anyone and can be used to confidently invest toward your goals, prepare for the future or leave a legacy for loved ones. There are check writing privileges for Money Market accounts, no limits on contributions and no penalties for withdrawals. 
+    - ID: "b39d2c2c-ff8b-49f4-9856-03c1d163decf"
+      Hint: Link2
+      Value: |
+        <link linktype="external" url="#" target="" text="Self-Employed Minister Retirement Plan" title="" class=""/>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be4d4a97-19b9-4d92-a28e-38e5b09c2bc4"
+      Hint: Link1
+      Value: |
+        <link linktype="external" url="#" target="" text="Employer-Sponsored Retirement Plan" title="" class=""/>
+    - ID: "c02be9a2-0c6f-47a8-b6c8-2c35f1946946"
+      Hint: Title1
+      Value: "What are you interested in?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260915T185321Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "22ed4827-cc6b-4a00-a358-0ccfadbea4eb"
+      Hint: Link3
+      Value: |
+        <link class="" querystring="" id="7523576bb00642d6bcb40ab8666b120f" anchor="" target="" title="" linktype="internal" text="IRA（個人退職口座）" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260915T185055Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "67fdca76-8a62-4424-a499-236787bd226c"
+      Hint: Subtitle2
+      Value: この403(b)退職年金プランは、自営業収入のある牧師（講演活動や書籍販売による収入など。ただし、教会での通常の雇用収入は含みません）を対象としています。
+    - ID: "742e047d-3a1f-4643-ae1e-c78847a8b700"
+      Hint: Subtitle1
+      Value: この403(b)退職年金プランは、教会、学校、協会、大学、病院、退職者ホームや児童ホーム、宣教団体などを含む適格団体の従業員（牧師および牧師以外の両方）を対象としています。
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2fa2284e-0b11-4a30-9902-3de78d6fef4e"
+    - ID: "926c0ca9-eaa5-468e-919e-de8c15876439"
+      Hint: Subtitle3
+      Value: 個人退職口座は誰でも利用でき、雇用主提供の退職年金プランに加えて、またはその代わりとして開設されることがよくあります。
+    - ID: "95989e20-ee37-47bf-bae1-1dedf4d57a1a"
+      Hint: Link4
+      Value: |
+        <link class="" target="" title="" linktype="external" text="投資口座" url="#" />
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2d03f41-06ad-4238-bcf2-7055674ea2a6"
+      Hint: Subtitle4
+      Value: 投資口座は誰でも利用でき、目標に向けて自信を持って投資したり、将来に備えたり、大切な人へ資産を遺したりするために活用できます。マネーマーケット口座には小切手機能があり、拠出額に上限はなく、引き出しに対するペナルティもありません。
+    - ID: "b39d2c2c-ff8b-49f4-9856-03c1d163decf"
+      Hint: Link2
+      Value: |
+        <link class="" target="" title="" linktype="external" text="自営業牧師向け退職年金プラン" url="#" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be4d4a97-19b9-4d92-a28e-38e5b09c2bc4"
+      Hint: Link1
+      Value: |
+        <link class="" target="" title="" linktype="external" text="雇用主提供の退職年金プラン" url="#" />
+    - ID: "c02be9a2-0c6f-47a8-b6c8-2c35f1946946"
+      Hint: Title1
+      Value: どの内容にご興味がありますか？
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T001947Z

@@ -1,0 +1,52 @@
+﻿---
+ID: "803763be-8bb3-42e4-8fe7-ab69ae286ac2"
+Parent: "d1fd0ab0-07cc-4699-9e1b-8fd1dc611fda"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: /sitecore/content/Financial/guidestone/Home/articles/Test
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D586AECF-75C9-4D15-978C-8A3252B3B65D}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0301c628-68c9-42ed-be80-78e9aa5dfd59"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="62ffbba4-eccb-42cf-9dd7-b38fc06c6595" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Test
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260916T181631Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Test
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "06956e9c-d3a7-4e68-9ece-e59aebc0788c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T184616Z
