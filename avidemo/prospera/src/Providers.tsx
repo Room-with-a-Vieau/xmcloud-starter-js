@@ -4,6 +4,7 @@ import { Page, SitecoreProvider } from '@sitecore-content-sdk/nextjs';
 import scConfig from 'sitecore.config';
 import components from '.sitecore/component-map.client';
 import { SiteTheme } from 'components/utilities/SiteTheme';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Providers({ children, page }: { children: React.ReactNode; page: Page }) {
   return (
@@ -14,7 +15,7 @@ export default function Providers({ children, page }: { children: React.ReactNod
       loadImportMap={() => import('.sitecore/import-map.client')}
     >
       <SiteTheme siteName={page.siteName} />
-      {children}
+      <ParallaxProvider>{children}</ParallaxProvider>
     </SitecoreProvider>
   );
 }
