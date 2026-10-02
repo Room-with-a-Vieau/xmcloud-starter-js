@@ -1,0 +1,103 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Cooley"
+  systemName: "cooley"            # <customer-system-name>
+  folder: "cooley"                # <customer-folder> kebab-case
+  url: "https://www.cooley.com/"
+  screenshotPath: "/Users/andrewvieau/.cursor/projects/Users-andrewvieau-dev-xmcloud-starter-js/assets/Screenshot_2026-10-02_at_1.57.03_PM-a8aa9641-fb1d-4883-8d90-21bcae7ec3ca.png"
+  startedAt: "2026-10-02T18:57:00Z"
+  lastUpdatedAt: "2026-10-02T19:52:00Z"
+
+selection:
+  collectionMode: "existing"        # new | existing
+  customerCollection: "legal"
+  collectionId: "f339692f56ad412ba69d34f25102fcad"
+  sourceSiteName: "cooley"
+  sourceSiteId: "4cee7714-0ce9-4914-8fc2-6efcae015293"
+  sourceCollectionId: "f339692f56ad412ba69d34f25102fcad"
+  sourceFolder: "prospera"
+  needsMove: false           # true | false
+
+artifacts:
+  newSiteId: "4cee7714-0ce9-4914-8fc2-6efcae015293"
+  ehEnvironmentId: "5gNSOjm6BfvQ5hkWCjCcJ2"
+  cmEnvironmentId: "1X53QJOQ0rj7vn7cjMZ8De"       # authoring env id if editing host path used
+  renderingHostKey: "cooley"
+
+steps:
+  inputs:
+    status: "complete"       # pending | complete
+
+  preflight_auth:
+    status: "complete"       # pending | complete | failed
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"       # pending | complete
+
+  source_verification:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1a_collection:
+    status: "skipped"       # pending | complete | skipped
+    # skipped = existing collection reused
+
+  step1a_duplicate:
+    status: "complete"       # pending | complete | failed
+    tempSiteName: "Cooley-copy"
+    error: ""
+
+  step1a_rename:
+    status: "skipped"       # pending | complete | failed
+    error: ""
+
+  step1a_move_notify:
+    status: "skipped"       # pending | complete | skipped
+    # skipped when needsMove is false
+
+  step1b_local_copy:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1c_env_local:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  move_verify:
+    status: "skipped"       # pending | complete | skipped | failed
+    error: ""
+
+  step1d_editing_host:
+    status: "complete"       # pending | complete | skipped | failed
+    optedIn: true           # true | false
+    error: ""
+
+  step1_verification:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step2_build_demo:
+    status: "handed_off"       # pending | complete | failed | handed_off
+    # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
+    error: ""
+
+notes:
+  - "2026-10-02T19:05:00Z — Sites API and Marketer MCP authenticated. Waiting on collection mode."
+  - "2026-10-02T19:05:00Z — Existing site cooley (id 4cee7714-0ce9-4914-8fc2-6efcae015293) is in collection legal (f339692f56ad412ba69d34f25102fcad)."
+  - "2026-10-02T19:05:00Z — Skill paths updated from industry-verticals to avidemo per user."
+  - "2026-10-02T19:10:00Z — Target collection legal. Source site cooley. Source folder avidemo/prospera. needsMove false."
+  - "2026-10-02T19:20:00Z — Duplicate Cooley-copy created (a0385176-5435-4137-8f92-cebb6dbb3a6b) in legal. Rename to Cooley failed: name already exists."
+  - "2026-10-02T19:25:00Z — User chose the existing cooley site. Rename skipped. Local copy avidemo/cooley created. NEXT_PUBLIC_DEFAULT_SITE_NAME=cooley. renderingHosts.cooley already pointed at ./avidemo/cooley, left unchanged. Unused duplicate Cooley-copy remains."
+  - "2026-10-02T19:32:00Z — .NET SDK 8.0.131 installed via Homebrew. CLI and XM Cloud plugin already passed. Waiting on Authoring environment ID."
+  - "2026-10-02T19:52:00Z — Editing host cooley created. Type eh. Environment id 5gNSOjm6BfvQ5hkWCjCcJ2. No NEXT_PUBLIC_SEARCH_* vars to upsert. Step 1 verified. Step 2 handed off."
