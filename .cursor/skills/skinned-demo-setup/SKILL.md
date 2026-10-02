@@ -368,43 +368,7 @@ Skip the rest of Step 1d. Proceed to **Step 1 verification**, then Step 2.
 
 ### If yes
 
-#### 1. Tooling pre-flight
-
-Run these checks from the repo root (or a directory with a local tool manifest when using the CLI). For **each** failure, ask permission before installing; do not install without approval.
-
-| Check | Command | Pass criteria |
-|---|---|---|
-| .NET 8 | `dotnet --info` | Output includes a .NET SDK/runtime **version 8.*** |
-| Sitecore CLI | `dotnet sitecore --version` | Version **6.*** or greater |
-| XM Cloud plugin | `dotnet sitecore plugin list` | Includes **Sitecore.DevEx.Extensibility.XMCloud** at **v1.1.122** or greater |
-
-**Install .NET 8** (only after permission):
-
-| OS | Install |
-|---|---|
-| macOS | `brew install dotnet@8` |
-| Windows | Download/run the [.NET install PowerShell script](https://dot.net/v1/dotnet-install.ps1) with `--version 8.0.125` |
-
-**Install Sitecore CLI** (macOS or Windows, only after permission), from the repo root:
-
-```bash
-dotnet new tool-manifest
-dotnet nuget add source -n Sitecore https://nuget.sitecore.com/resources/v3/index.json
-dotnet tool install Sitecore.CLI
-dotnet sitecore init
-```
-
-If a tool manifest or Sitecore NuGet source already exists, skip the redundant `new` / `add source` step and continue.
-
-**Install XM Cloud plugin** (macOS or Windows, only after permission):
-
-```bash
-dotnet sitecore plugin add -n Sitecore.DevEx.Extensibility.XMCloud
-```
-
-Re-run the failed check(s) after each install. Stop if the user declines a required install.
-
-#### 2. Collect Authoring environment ID
+#### 1. Collect Authoring environment ID
 
 Ask the user for the **Environment ID** of their Authoring environment (`cm-environment-id`).
 
@@ -412,7 +376,7 @@ Tell them: find it in the **Deploy Portal** → their project → **Authoring En
 
 Do not proceed without `cm-environment-id`.
 
-#### 3. Login and create editing host
+#### 2. Login and create editing host
 
 1. Run `dotnet sitecore cloud login` and wait for the user to complete the authorization pop-up.
 2. After success:
@@ -428,7 +392,7 @@ Use **`<customer-folder>`** (lowercase) for `--name` — it must match the `rend
    - Capture the new Environment ID as `eh-environment-id`
 4. If Type is not `eh` or no Environment ID is returned, stop and report the response.
 
-#### 4. Upsert `NEXT_PUBLIC_SEARCH_*` variables to the editing host
+#### 3. Upsert `NEXT_PUBLIC_SEARCH_*` variables to the editing host
 
 From `avidemo/<customer-folder>/.env.local`, for **each** variable whose name starts with `NEXT_PUBLIC_SEARCH_`:
 
@@ -446,7 +410,7 @@ dotnet sitecore cloud environment variable list --environment-id <eh-environment
 
 Confirm each upserted `NEXT_PUBLIC_SEARCH_*` name appears with the expected value. If verification fails, stop and report.
 
-#### 5. Prompt Deploy Portal GitHub config (non-blocking)
+#### 4. Prompt Deploy Portal GitHub config (non-blocking)
 
 Tell the user:
 

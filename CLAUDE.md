@@ -1238,7 +1238,7 @@ Never modify package artifacts:
 
 ### Do Not Edit Environment Files
 
-Never commit or edit sensitive environment files:
+Never commit sensitive environment files, and always ask before editing them:
 - **Local environment**: `.env.local`, `.env.*.local`
 - **Secret files**: `*.deploysecret.config`
 - **User-specific configs**: `.sitecore/user.json`
