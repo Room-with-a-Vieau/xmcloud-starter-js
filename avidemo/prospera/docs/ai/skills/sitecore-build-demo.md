@@ -250,7 +250,21 @@ Home/Data/
   └── Cooley - Hero - Retirees                    # personalization (SE creates)
 ```
 
-#### Step 1 — Upload images to Content Hub
+#### Step 1 — Upload images (Media Library — default)
+
+**Use the Sitecore Media Library, not Content Hub, for demo images.** Content Hub DAM references (`<Image src=… dam-id=…>`) render in preview but show as **placeholders in Pages** unless the CM's DAM connector is configured and deployed for that exact Content Hub instance. Media Library images (`<image mediaid=…>`) render everywhere, the same way Prospera's own images do.
+
+```bash
+node docs/ai/scripts/upload-to-media-library.mjs \
+  --images-dir docs/ai/demos/<client>/images \
+  --cm-host https://<cm-host>.sitecorecloud.io \
+  --media-folder "Project/<siteCollection>/<siteName>"
+```
+
+It needs `SITECORE_AUTOMATION_CLIENT_ID` / `SITECORE_AUTOMATION_CLIENT_SECRET` and writes `imageFieldXml` (`<image mediaid="{…}" alt="…" />`) into `image-manifest.json`. Existing media items with the same name are reused (the Media Library cannot overwrite). Before uploading, **look at every image**: scraper "logo" candidates are often unrelated tiles, so take the real logo from the site's header markup. Prefer images at least ~1200px wide for full-width components; the extractor often captures CMS thumbnails (strip `mh`/`mw`/`cw`/`ch` query params to get originals).
+
+#### Step 1b — Content Hub upload (only when the CM DAM connector is verified for this instance)
+
 
 **Run this FIRST** — before creating datasource items. The `imageFieldXml` values are needed when populating fields in Step 3.
 

@@ -11,12 +11,15 @@
     "height": 1008,
     "status": "downloaded",
     "approved": true,
-    "uploadStatus": "uploaded",
     "assetId": 83766,
     "assetIdentifier": "qYtavXnvTneN8qjRQ-Lj7g",
     "publicUrl": "https://cooley.sitecoresandbox.cloud/api/public/content/83766-cooley-office?v=8663b3e7",
     "thumbnailUrl": "https://cooley.sitecoresandbox.cloud/api/gateway/83766/thumbnail",
-    "imageFieldXml": "<Image src=\"https://cooley.sitecoresandbox.cloud/api/public/content/83766-cooley-office?v=8663b3e7\" dam-id=\"qYtavXnvTneN8qjRQ-Lj7g\" width=\"1792\" height=\"1008\" alt=\"Cooley office lobby\" dam-content-type=\"Image\" thumbnailsrc=\"https://cooley.sitecoresandbox.cloud/api/gateway/83766/thumbnail\" />"
+    "imageFieldXml": "<image mediaid=\"{BF233BCC-7667-4633-AB16-E6F29EEA2821}\" alt=\"Cooley office lobby\" />",
+    "uploadError": "upload HTTP 500",
+    "mediaItemId": "{BF233BCC-7667-4633-AB16-E6F29EEA2821}",
+    "mediaItemPath": "/sitecore/media library/Project/Legal/Cooley/cooley-office",
+    "uploadStatus": "existing-media-library"
   },
   {
     "src": "https://www.cooley.com/-/media/cooley/media-logos/cooley-social-image.jpg?rev=cbcaaa724fce468a9958f34a7a9cf8c4",
@@ -30,11 +33,29 @@
     "height": 630,
     "status": "downloaded",
     "approved": true,
-    "uploadStatus": "uploaded",
     "assetId": 83771,
     "assetIdentifier": "eIkGUbOIT5eoNqmXHmKOVA",
     "publicUrl": "https://cooley.sitecoresandbox.cloud/api/public/content/83771-cooley-brand?v=1675a894",
     "thumbnailUrl": "https://cooley.sitecoresandbox.cloud/api/gateway/83771/thumbnail",
-    "imageFieldXml": "<Image src=\"https://cooley.sitecoresandbox.cloud/api/public/content/83771-cooley-brand?v=1675a894\" dam-id=\"eIkGUbOIT5eoNqmXHmKOVA\" width=\"1200\" height=\"630\" alt=\"Cooley\" dam-content-type=\"Image\" thumbnailsrc=\"https://cooley.sitecoresandbox.cloud/api/gateway/83771/thumbnail\" />"
+    "imageFieldXml": "<image mediaid=\"{F37C3FF2-07FD-4FE2-A355-1563625E0BCD}\" alt=\"Cooley\" />",
+    "uploadError": "upload HTTP 500",
+    "mediaItemId": "{F37C3FF2-07FD-4FE2-A355-1563625E0BCD}",
+    "mediaItemPath": "/sitecore/media library/Project/Legal/Cooley/cooley-brand",
+    "uploadStatus": "existing-media-library"
+  },
+  {
+    "src": "https://www.cooley.com/assets/images/logo-red.png",
+    "alt": "Cooley",
+    "localFile": "cooley-logo-red.png",
+    "extension": "png",
+    "sectionPosition": 1,
+    "type": "img",
+    "width": 500,
+    "height": 164,
+    "status": "downloaded",
+    "mediaItemId": "{32623380-E41C-4779-A5CD-598DF94EF63A}",
+    "mediaItemPath": "/sitecore/media library/Project/Legal/Cooley/cooley-logo-red",
+    "imageFieldXml": "<image mediaid=\"{32623380-E41C-4779-A5CD-598DF94EF63A}\" alt=\"Cooley\" />",
+    "uploadStatus": "uploaded-media-library"
   }
 ]

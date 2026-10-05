@@ -19,7 +19,7 @@
 | 2 | Carousel | Carousel - Default (Cooley's copy, rewritten) | ✅ 3 Cooley news slides (see note) |
 | 3 | Heading CTA | Cooley - Resources Heading | ✅ Wired · ⚠️ Needs variant Compact |
 | 4 | Three Column CTA | Cooley - Resources | ✅ Public Company Resource Hub / IPO GO / Cooley GO |
-| — | Header | partial design | ⚠️ Manual: logo + WithLogoImage |
+| — | Header | partial design | ✅ WithLogoImage with the Cooley wordmark |
 
 **Carousel note:** `set_component_datasource` fails for the Carousel because its branch template is missing from the environment. So the existing Cooley-site copy `Carousel - Default` was updated in place with 3 Cooley headlines (LA28, Uber bridge financing, Top M&A/PE rankings).
 
@@ -31,6 +31,8 @@ Code: `.site-cooley` class (mapped from site name `Cooley` in `src/lib/site-them
 - **Takes effect after redeploying the cooley editing host and rendering host.**
 
 ## Image Upload Summary
+All images are **Sitecore Media Library** items under `/sitecore/media library/Project/Legal/Cooley/` (`cooley-office`, `cooley-brand`, `cooley-logo-red`), so they render in Pages, preview and the live site. The Content Hub copies below are no longer referenced; they showed as placeholders in Pages.
+
 | File | Used on | Content Hub asset | Size |
 |---|---|---|---|
 | cooley-office.jpg | Carousel slides 1 and 3 | 83766 (approved, public link) | 1792×1008 |

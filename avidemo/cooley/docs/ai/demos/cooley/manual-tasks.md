@@ -9,12 +9,11 @@ The Cooley theme lives in code (`avidemo/cooley`). Commit and push, then redeplo
 | # | Component | Current | Needed |
 |---|-----------|---------|--------|
 | 1 | Heading CTA ("Resources") | Default | **Compact** |
-| 2 | Header (partial design) | Default | **WithLogoImage** |
 
 Click the component, open the **Design** tab, and pick the variant.
 
 ## 2. Context-Only Components
-- **Header logo:** upload `docs/ai/themes/cooley/images/logo.png` (the Cooley wordmark) and set it on the header in the Header partial design.
+- **Header logo:** done. The Header partial design now uses the WithLogoImage variant with the Cooley wordmark (`/sitecore/media library/Project/Legal/Cooley/cooley-logo-red`). The old "PLAY! finance" Rich Text in `header-left` is no longer rendered by this variant.
 
 ## 3. Cleanup
 **Leftover Prospera components on Home:** remove these in Pages. The MCP can't delete them.
