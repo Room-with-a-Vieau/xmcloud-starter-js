@@ -334,7 +334,7 @@ update_fields_on_item(newItemId, {
 })
 ```
 
-**Standard values prefill (Prospera):** new items inherit example content from template standard values — Prospera photos in Image fields and `example.com` "Details" links. After creating each item, read it back (`get_content_item_by_id`) and set every field that is not in the content map to `""` so no Prospera content leaks into the demo.
+**Standard values prefill (Prospera):** new items inherit example content from template standard values — Prospera photos in Image fields and `example.com` "Details" links. After creating each item, read it back (`get_content_item_by_id`) and replace every inherited value so no Prospera content leaks into the demo: text/link fields not in the content map → `""`; **image fields → a client image, never empty** (Pages shows an empty image field as a placeholder graphic on the canvas). If the client design has no image there, use a relevant brand image (e.g. the resource's own og:image).
 
 **Matching images to fields:** The content-map's `imageFields` array lists `{ field, src }` per section. The `image-manifest.json` maps each `src` URL to its `imageFieldXml`. To wire them:
 1. For each section's `imageFields` entry, find the manifest entry with matching `src`
@@ -589,6 +589,9 @@ Add components to the page in build-plan order and wire each to its datasource i
 **Known limitation:** The Agent API cannot set rendering parameters (including variant selection) when adding components. Variants must be set manually in Pages editor after assembly. See `docs/ai/reference/agent-api-limitations.md`.
 
 #### Step 1 — Use the existing Home page (default)
+
+> **Versions:** page layouts (`__Final Renderings`) are versioned, and the SE may be editing a newer version in Pages at the same time. Before and after assembly, check the page's **latest** version (Authoring GraphQL `item { version versions { version } }`). If someone else saved a newer version, read its layout, merge your changes into it, and save as a new version. Never assume the version you last wrote is current.
+
 
 **Always use the existing Home page** unless the user explicitly asks for a new subpage. Do not create a new page by default — the Home page is the primary demo surface and already has the correct Page Design, partial designs (header/footer), and URL routing.
 

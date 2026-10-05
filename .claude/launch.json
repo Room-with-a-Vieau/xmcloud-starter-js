@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "demo-snapshot",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8765", "--bind", "127.0.0.1", "--directory", "/private/tmp/claude-501/-Users-andrewvieau-dev-xmcloud-starter-js/5578e2bb-9009-4d73-bd01-0df5b9a11a6e/scratchpad/render"],
+      "port": 8765
+    }
+  ]
+}
