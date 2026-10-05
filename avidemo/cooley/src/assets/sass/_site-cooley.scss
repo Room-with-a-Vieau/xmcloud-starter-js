@@ -1,5 +1,12 @@
 // Cooley skinned-demo overrides (theme only — no component changes).
 // Serif display headings and a centered, image-free hero like cooley.com.
+
+// Prospera's base body style hard-codes 'Open Sans'; use the theme font instead.
+body.site-cooley,
+.site-cooley {
+  font-family: var(--font-family);
+}
+
 .site-cooley {
   h1,
   h2,
@@ -29,4 +36,11 @@
       }
     }
   }
+}
+
+// Lighter serif headlines like cooley.com (Prospera markup forces Bootstrap's fw-bold, which is !important).
+.site-cooley .display-6.fw-bold,
+.site-cooley h1.fw-bold,
+.site-cooley h2.fw-bold {
+  font-weight: 400 !important;
 }

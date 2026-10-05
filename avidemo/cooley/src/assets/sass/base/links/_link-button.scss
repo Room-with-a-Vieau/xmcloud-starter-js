@@ -24,6 +24,27 @@
   --button-text-transform: uppercase;
 }
 
+// Cooley (skinned demo): square burgundy buttons with white text (≈17:1 contrast), crimson on hover.
+.site-cooley {
+  --button-main-color: #fff;
+  --button-main-bg-color: var(--bg-accent);
+  --button-secondary-color: var(--text-colored);
+  --button-simple-color: var(--text-colored);
+  --button-padding: 0.75rem 1.75rem;
+  --button-roundness: 0;
+  --button-font-weight: 700;
+  --button-font-size: 1rem;
+
+  .button-accent {
+    color: #fff;
+  }
+
+  .button-main:hover {
+    background-color: var(--bg-saturated);
+    filter: none;
+  }
+}
+
 .button {
   display: inline-block;
   text-decoration: none;
