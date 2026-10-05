@@ -1,0 +1,426 @@
+{
+  "url": "https://www.cooley.com/",
+  "extractedAt": "2026-10-05T03:31:54.142Z",
+  "detectedLanguage": "en-US",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 5,
+  "totalImages": 25,
+  "totalVideos": 3,
+  "interactionStats": {
+    "lazySourcesResolved": 1,
+    "tabsClicked": 2,
+    "accordionsExpanded": 1,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 1,
+    "backgroundImagesCollected": 0
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "header",
+      "classHint": "hero-home js-hero-home -full-width",
+      "backgroundHint": "light",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Counsel, beyond convention."
+        }
+      ],
+      "paragraphs": [
+        "Cooley Named an Official Legal Services Provider Of LA28 Olympic and Paralympic Games",
+        "Cooley Launches GO Public With OpenAI",
+        "Cooley Advises Uber on Approximately €14 Billion Bridge Financing Commitment in Connection With Delivery Hero Acquisition",
+        "Cooley Maintains Top Rankings in Global M&A and Private Equity",
+        "State Of 2026 Energy Dealmaking: Midyear Report",
+        "Q1 2026 Venture Financing Report",
+        "Cooley Continues Rise in Legal 500 US 2026 Rankings",
+        "Cooley Continues Upward Trajectory in Chambers USA 2026 Rankings",
+        "Mission in Motion: Coordinating HawkEye's Acquisition, Financings and IPO at Orbit Speed"
+      ],
+      "links": [
+        {
+          "text": "Cooley Named an Official Legal Services Provider Of LA28 Olympic and Paralympic Games",
+          "href": "https://www.cooley.com/news/coverage/2026/2026-07-15-cooley-named-an-official-legal-services-provider-of-la28-olympic-and-paralympic-games",
+          "target": ""
+        },
+        {
+          "text": "Cooley Launches GO Public With OpenAI",
+          "href": "https://www.cooley.com/news/coverage/2026/2026-09-16-cooley-launches-go-public-with-openai",
+          "target": ""
+        },
+        {
+          "text": "Cooley Maintains Top Rankings in Global M&A and Private Equity",
+          "href": "https://www.cooley.com/news/coverage/2026/2026-07-01-cooley-maintains-top-rankings-in-global-ma-and-private-equity",
+          "target": ""
+        },
+        {
+          "text": "State Of 2026 Energy Dealmaking: Midyear Report",
+          "href": "https://www.cooley.com/news/coverage/2026/2026-07-13-state-of-2026-energy-dealmaking-midyear-report",
+          "target": ""
+        },
+        {
+          "text": "Q1 2026 Venture Financing Report",
+          "href": "https://www.cooley.com/news/insight/2026/2026-04-29-q1-2026-venture-financing-report",
+          "target": ""
+        },
+        {
+          "text": "Cooley Continues Rise in Legal 500 US 2026 Rankings",
+          "href": "https://www.cooley.com/news/coverage/2026/2026-06-11-cooley-continues-rise-in-legal-500-us-2026-rankings",
+          "target": ""
+        },
+        {
+          "text": "Cooley Continues Upward Trajectory in Chambers USA 2026 Rankings",
+          "href": "https://www.cooley.com/news/coverage/2026/2026-06-04-cooley-continues-upward-trajectory-in-chambers-usa-2026-rankings",
+          "target": ""
+        },
+        {
+          "text": "Mission in Motion: Coordinating HawkEye's Acquisition, Financings and IPO at Orbit Speed",
+          "href": "https://www.cooley.com/news/insight/2026/2026-05-19-mission-in-motion-coordinating-an-acquisition-financings-and-ipo-at-orbit-speed",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/la28-home-hero-news-carousel.png?mh=140&mw=276&rev=38d4437893b642798ae02ed329a12fbe&hash=B8156122DAFA9FF070403A478AC30114",
+          "alt": "",
+          "type": "img",
+          "width": 160,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-tech.jpg?mh=140&mw=276&rev=c04478b904d24dd18346ac050b5ca012&hash=EC9EFDE91CA666B94D7BA39442F9FA5E",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-wheel.jpg?mh=140&mw=276&rev=cb0322fa759843caa9a5045e799a2703&hash=3B443E46042B4393BB73F36784122C68",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-rank.jpg?mh=140&mw=276&rev=f8cbc103fbff4026995f88e207e53f30&hash=131A0B99109E3B326AA7B9468DE86E2F",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-wind-turbine.jpg?mh=140&mw=276&rev=8046731ff8f34cfca8dbdc05afd87134&hash=7A811A1D18633FDDAC4DF8B136C73582",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-pencil.jpg?mh=140&mw=276&rev=8b8d764dd9a54fe5bdca3ab55366e706&hash=D29634F10CEEF633BF14F790D24ADBB9",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-big-balloon.jpg?mh=140&mw=276&rev=264a7d8762d34f3eb3bc2f57b77626d1&hash=0BBABEAB772D05A2E03777656F5B0667",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-steps.jpg?mh=140&mw=276&rev=9a998826eca44296b7571e200ff2b87b&hash=D41274782C9FD014A9B2D54FCB7EC677",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-radar.jpg?mh=140&mw=276&rev=c672690df14c43aca25b2af86ede4ce5&hash=C43CD67C66BC6F634AB12282808387C6",
+          "alt": "",
+          "type": "img",
+          "width": 276,
+          "height": 140
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/2025-cooley-website-image-1.jpg?rev=a6d9ddfb15a74202b775259af73ba25c&cx=0&cy=0&cw=195&ch=260&hash=B686A78293D8A51C9E113BF7D7D4D5D2",
+          "alt": "",
+          "type": "img",
+          "width": 195,
+          "height": 260
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/2025-cooley-website-image-2-1.jpg?rev=bad4ab9f231d4e19ba6d0349a7560512&cx=0&cy=0&cw=195&ch=195&hash=C83C36A13916BF08F757FCDA1A075C3E",
+          "alt": "",
+          "type": "img",
+          "width": 195,
+          "height": 195
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/la28-home-hero-news-carousel.png?mh=106&mw=209&rev=38d4437893b642798ae02ed329a12fbe&hash=77C2F618A0860CCAF58489C7D89839D9",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-tech.jpg?mh=106&mw=209&rev=c04478b904d24dd18346ac050b5ca012&hash=3380D84511D5F82D6A9B3FCD17051FDA",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-wheel.jpg?mh=106&mw=209&rev=cb0322fa759843caa9a5045e799a2703&hash=3F728987A76DE3FA236FC03168A05819",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-rank.jpg?mh=106&mw=209&rev=f8cbc103fbff4026995f88e207e53f30&hash=54E3256AEEE81AC3A20A629A57572510",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-wind-turbine.jpg?mh=106&mw=209&rev=8046731ff8f34cfca8dbdc05afd87134&hash=CCBEC92EDDFAF6F24517360A8EEE7B91",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-pencil.jpg?mh=106&mw=209&rev=8b8d764dd9a54fe5bdca3ab55366e706&hash=8F60CAAF6FE60E26F557F7A18B41A0CC",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-big-balloon.jpg?mh=106&mw=209&rev=264a7d8762d34f3eb3bc2f57b77626d1&hash=AA51EBC4D6AE10DB6FDA900C7F94AB4C",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-steps.jpg?mh=106&mw=209&rev=9a998826eca44296b7571e200ff2b87b&hash=256A19A813EF3FB6D1DFA886F6108007",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-radar.jpg?mh=106&mw=209&rev=c672690df14c43aca25b2af86ede4ce5&hash=C1DF07A20E83ED913528617712874659",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/videoe-3-placeholder-b.png?rev=e17a9955f02f4d3eb7f928bf5c2ef4bc&cx=0&cy=0&cw=185&ch=247&hash=BF3B2C0CD3E70898120C94FED9B7E262",
+          "alt": "Video poster",
+          "type": "video-poster",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/videoe-1-placeholder-b.png?rev=cf05e1ddd990478ca9ee146d2b5d4185&cx=0&cy=0&cw=180&ch=180&hash=4F1606F4E54FD942A93944561249CD93",
+          "alt": "Video poster",
+          "type": "video-poster",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Cooley Named an Official Legal Services Provider Of LA28 Olympic and Paralympic Games",
+          "description": "Cooley Named an Official Legal Services Provider Of LA28 Olympic and Paralympic Games Read the announcement",
+          "link": {
+            "text": "Cooley Named an Official Legal Services Provider Of LA28 Olympic and Paralympic Games",
+            "href": "https://www.cooley.com/news/coverage/2026/2026-07-15-cooley-named-an-official-legal-services-provider-of-la28-olympic-and-paralympic-games"
+          },
+          "image": {
+            "src": "https://www.cooley.com/-/media/cooley/home-hero-carousel/la28-home-hero-news-carousel.png?mh=140&mw=276&rev=38d4437893b642798ae02ed329a12fbe&hash=B8156122DAFA9FF070403A478AC30114",
+            "alt": ""
+          }
+        }
+      ],
+      "videos": [
+        {
+          "type": "video",
+          "sources": [
+            {
+              "src": "https://www.cooley.com/assets/images/formations/hero-home/red/ripple-organic.mp4",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "poster": "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/videoe-3-placeholder-b.png?rev=e17a9955f02f4d3eb7f928bf5c2ef4bc&cx=0&cy=0&cw=185&ch=247&hash=BF3B2C0CD3E70898120C94FED9B7E262",
+          "sources": [
+            {
+              "src": "https://www.cooley.com/-/media/cooley/video/2025-cooley-website-home-1-shorter.webm?rev=5a3f498cb9714c1b8d33285bb61391bc",
+              "type": "video/webm?rev=5a3f498cb9714c1b8d33285bb61391bc"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "poster": "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/videoe-1-placeholder-b.png?rev=cf05e1ddd990478ca9ee146d2b5d4185&cx=0&cy=0&cw=180&ch=180&hash=4F1606F4E54FD942A93944561249CD93",
+          "sources": [
+            {
+              "src": "https://www.cooley.com/-/media/cooley/video/2025-cooley-website-home-2-shorter.webm?rev=286b649a347445cd8c47ebf1cb280e4f",
+              "type": "video/webm?rev=286b649a347445cd8c47ebf1cb280e4f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "article",
+      "classHint": "resource-threeup-cards",
+      "backgroundHint": "light",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": [],
+      "listItems": [
+        {
+          "title": "Public Company Resource Hub",
+          "description": "Resources for forward-thinking board members and leaders of US-listed public companies",
+          "link": {
+            "text": "Public Company Resource Hub",
+            "href": "https://www.cooley.com/hub/pubco"
+          }
+        },
+        {
+          "title": "IPO GO",
+          "description": "Guidance and resources for companies on the path to going public",
+          "link": {
+            "text": "IPO GO",
+            "href": "https://ipogo.cooley.com/"
+          }
+        },
+        {
+          "title": "Cooley Go",
+          "description": "Start and build your business",
+          "link": {
+            "text": "Cooley Go",
+            "href": "https://www.cooleygo.com/"
+          }
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "article",
+      "classHint": "condensed-featured-media js-condensed-featured-media",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": [],
+      "listItems": [
+        {
+          "title": "San Diego Cooley Office Settles for Gold",
+          "link": {
+            "text": "San Diego Cooley Office Settles for Gold",
+            "href": "https://www.cooley.com/news/coverage/2026/2026-10-02-san-diego-cooley-office-settles-for-gold"
+          }
+        },
+        {
+          "title": "Armadin Raises $255.5 Million Series B",
+          "link": {
+            "text": "Armadin Raises $255.5 Million Series B",
+            "href": "https://www.cooley.com/news/coverage/2026/2026-10-01-armadin-raises-$255-5-million-series-b"
+          }
+        },
+        {
+          "title": "Cooley Maintains Top Rankings in Global M&A and Private Equity",
+          "link": {
+            "text": "Cooley Maintains Top Rankings in Global M&A and Private Equity",
+            "href": "https://www.cooley.com/news/coverage/2026/2026-10-01-cooley-maintains-top-rankings-in-global-ma-and-private-equity"
+          }
+        },
+        {
+          "title": "Cooley Bolsters Securities Litigation Practice in New York",
+          "link": {
+            "text": "Cooley Bolsters Securities Litigation Practice in New York",
+            "href": "https://www.cooley.com/news/coverage/2026/2026-10-01-cooley-bolsters-securities-litigation-practice-in-new-york"
+          }
+        },
+        {
+          "title": "Varda Announces $251 Million Series D",
+          "link": {
+            "text": "Varda Announces $251 Million Series D",
+            "href": "https://www.cooley.com/news/coverage/2026/2026-09-30-varda-announces-$251-million-series-d"
+          }
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "article",
+      "classHint": "video-full-width",
+      "backgroundHint": "light",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": [
+        {
+          "src": "https://www.cooley.com/-/media/cooley/video/placeholder-cooley-video-home-page.jpg?rev=f1ad841012f941f89d7f4dd52d92f059&cx=0&cy=0&cw=1792&ch=1008&hash=0AFF64500A46F20BE1EE88BC683690B3",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/video/placeholder-cooley-video-home-page.jpg?rev=f1ad841012f941f89d7f4dd52d92f059&cx=0&cy=0&cw=999&ch=562&hash=7D353D9AE5832FE7A7EF62D5704181E6",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cooley.com/-/media/cooley/video/placeholder-cooley-video-home-page.jpg?rev=f1ad841012f941f89d7f4dd52d92f059&cx=0&cy=0&cw=599&ch=500&hash=66363F89235BE1CF71938C00EABFA943",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "tagName": "article",
+      "classHint": "tabbed-link-list",
+      "backgroundHint": "light",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "View all practices",
+          "href": "https://www.cooley.com/services/practice",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "title": "Corporate",
+          "link": {
+            "text": "Corporate",
+            "href": "https://www.cooley.com/services/practice/corporate"
+          }
+        }
+      ]
+    }
+  ]
+}

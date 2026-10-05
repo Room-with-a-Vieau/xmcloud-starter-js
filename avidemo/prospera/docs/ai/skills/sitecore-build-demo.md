@@ -320,6 +320,8 @@ update_fields_on_item(newItemId, {
 })
 ```
 
+**Standard values prefill (Prospera):** new items inherit example content from template standard values — Prospera photos in Image fields and `example.com` "Details" links. After creating each item, read it back (`get_content_item_by_id`) and set every field that is not in the content map to `""` so no Prospera content leaks into the demo.
+
 **Matching images to fields:** The content-map's `imageFields` array lists `{ field, src }` per section. The `image-manifest.json` maps each `src` URL to its `imageFieldXml`. To wire them:
 1. For each section's `imageFields` entry, find the manifest entry with matching `src`
 2. Use the manifest's `imageFieldXml` as the field value
@@ -639,6 +641,10 @@ Same as simple — wire the client parent item ID. The children live under it an
 
 **Context-only components (NavigationHeader, SiteFooter):**
 No datasource to set — skip this step.
+
+**Branch-template renderings (Prospera):** Carousel, Accordion, Questions and Testimonials point their Datasource Template at `/sitecore/templates/Branches/Project/Verticals/*` (`rendering.datasourceBranch` in the manifest). If that branch is missing from the environment, `set_component_datasource` and `add_component_on_page` fail with a 404. Fallback: write the client content into the component's **existing** datasource on the target site (its children are regular items), and list the unused new item under manual cleanup.
+
+**Missing variant definitions:** a variant can only be picked in Pages if a Variant Definition item exists under `<siteRoot>/Presentation/Headless Variants/<container>`. If the build plan needs a variant that exists in code but not in Sitecore, create it (`create_content_item`, template Variant Definition `{4D50CDAE-C2D9-4DE8-B080-8F992BFB1B55}`).
 
 #### Step 4 — Generate the variant checklist
 

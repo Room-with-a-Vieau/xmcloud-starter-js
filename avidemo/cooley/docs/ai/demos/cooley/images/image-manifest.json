@@ -1,0 +1,40 @@
+[
+  {
+    "src": "https://www.cooley.com/-/media/cooley/video/placeholder-cooley-video-home-page.jpg?rev=f1ad841012f941f89d7f4dd52d92f059&cx=0&cy=0&cw=1792&ch=1008&hash=0AFF64500A46F20BE1EE88BC683690B3",
+    "alt": "Cooley office lobby",
+    "localFile": "cooley-office.jpg",
+    "extension": "jpg",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 180552,
+    "width": 1792,
+    "height": 1008,
+    "status": "downloaded",
+    "approved": true,
+    "uploadStatus": "uploaded",
+    "assetId": 83766,
+    "assetIdentifier": "qYtavXnvTneN8qjRQ-Lj7g",
+    "publicUrl": "https://cooley.sitecoresandbox.cloud/api/public/content/83766-cooley-office?v=8663b3e7",
+    "thumbnailUrl": "https://cooley.sitecoresandbox.cloud/api/gateway/83766/thumbnail",
+    "imageFieldXml": "<Image src=\"https://cooley.sitecoresandbox.cloud/api/public/content/83766-cooley-office?v=8663b3e7\" dam-id=\"qYtavXnvTneN8qjRQ-Lj7g\" width=\"1792\" height=\"1008\" alt=\"Cooley office lobby\" dam-content-type=\"Image\" thumbnailsrc=\"https://cooley.sitecoresandbox.cloud/api/gateway/83766/thumbnail\" />"
+  },
+  {
+    "src": "https://www.cooley.com/-/media/cooley/media-logos/cooley-social-image.jpg?rev=cbcaaa724fce468a9958f34a7a9cf8c4",
+    "alt": "Cooley",
+    "localFile": "cooley-brand.jpg",
+    "extension": "jpg",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 94159,
+    "width": 1200,
+    "height": 630,
+    "status": "downloaded",
+    "approved": true,
+    "uploadStatus": "uploaded",
+    "assetId": 83771,
+    "assetIdentifier": "eIkGUbOIT5eoNqmXHmKOVA",
+    "publicUrl": "https://cooley.sitecoresandbox.cloud/api/public/content/83771-cooley-brand?v=1675a894",
+    "thumbnailUrl": "https://cooley.sitecoresandbox.cloud/api/gateway/83771/thumbnail",
+    "imageFieldXml": "<Image src=\"https://cooley.sitecoresandbox.cloud/api/public/content/83771-cooley-brand?v=1675a894\" dam-id=\"eIkGUbOIT5eoNqmXHmKOVA\" width=\"1200\" height=\"630\" alt=\"Cooley\" dam-content-type=\"Image\" thumbnailsrc=\"https://cooley.sitecoresandbox.cloud/api/gateway/83771/thumbnail\" />"
+  }
+]

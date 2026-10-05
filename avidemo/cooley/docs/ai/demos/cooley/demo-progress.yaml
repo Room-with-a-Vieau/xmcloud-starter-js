@@ -7,7 +7,7 @@ client:
   name: "Cooley"
   sourceUrl: "https://cooley.com/"
   startedAt: "2026-10-02T23:02:26Z"
-  lastUpdatedAt: "2026-10-02T23:28:01Z"
+  lastUpdatedAt: "2026-10-05T03:40:24Z"
 
 phases:
   phase0_inputs:
@@ -27,15 +27,15 @@ phases:
     userApproved: true
 
   phase2_analysis:
-    status: "pending"       # pending | complete
+    status: "complete"       # pending | complete
     buildPlanFile: "docs/ai/demos/cooley/build-plan.yaml"
     totalSections: 5
-    userApproved: false     # MANDATORY checkpoint
+    userApproved: true     # MANDATORY checkpoint
 
   phase2_5_content:
-    status: "pending"       # pending | complete | failed
-    contentMapFile: ""
-    extractorUsed: false    # true = DOM extractor, false = screenshot fallback
+    status: "complete"       # pending | complete | failed
+    contentMapFile: "docs/ai/demos/cooley/content-map.yaml"
+    extractorUsed: true    # true = DOM extractor, false = screenshot fallback
 
   phase3_content:
     status: "pending"       # pending | partial | complete | failed
@@ -43,35 +43,107 @@ phases:
     totalSections: 0
 
   phase4_theme:
-    status: "pending"       # pending | complete
-    themeDelivery: ""       # site-theme-class (see theme-component-mapping.md §3)
-    cssWritten: false       # true after :root block written
-    fontsAdded: false       # true after Google Fonts <link> added to layout.tsx
+    status: "complete"       # pending | complete
+    themeDelivery: "site-theme-class"       # site-theme-class (see theme-component-mapping.md §3)
+    cssWritten: true       # true after :root block written
+    fontsAdded: true       # true after Google Fonts <link> added to layout.tsx
 
   phase5_custom:
-    status: "pending"       # pending | complete | skipped
+    status: "skipped"       # pending | complete | skipped
     customComponentsNeeded: 0
     customComponentsBuilt: 0
 
   phase5_5_variants:
-    status: "pending"       # pending | partial | complete | skipped
+    status: "skipped"       # pending | partial | complete | skipped
     variantsNeeded: 0       # sections needing custom variants
     variantsCreated: 0      # variants successfully created (TSX + Sitecore)
     variantSpecsFile: ""    # docs/ai/demos/<client>/variant-specs.yaml
-    skippedReason: ""       # if skipped: "user chose generic" or "all exact matches"
+    skippedReason: "user chose existing Prospera variants; minimal component changes"       # if skipped: "user chose generic" or "all exact matches"
 
   phase6_assembly:
-    status: "pending"       # pending | partial | complete | failed
-    componentsAdded: 0
-    datasourcesWired: 0
-    totalComponents: 0
+    status: "complete"
+    componentsAdded: 2
+    datasourcesWired: 4
+    totalComponents: 4
 
   phase7_summary:
-    status: "pending"       # pending | complete
+    status: "complete"       # pending | complete
 
 # Per-section tracking for Phase 3 (content population) and Phase 6 (assembly)
 # Each section maps to a build-plan position
 sections:
+  - position: 2
+    componentName: "Hero"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "27bc770a-484b-4ae3-bce3-87a5ba908c18"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      imagesUploaded: 0
+      imagesExpected: 0
+      imagesFailed: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "359fe131-3f7c-432d-9575-7573eacfc976"
+      datasourceWired: true
+      error: ""
+  - position: 3
+    componentName: "Carousel"
+    kind: "list"
+    phase3:
+      status: "populated"
+      itemId: "f98f9b3f-6e88-4628-8e0a-173a4b3e442b"
+      fieldsPopulated: true
+      childrenCreated: 2
+      childrenExpected: 2
+      imagesUploaded: 2
+      imagesExpected: 2
+      imagesFailed: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "124106de-fb02-4b43-a521-a309fc75a5bc"
+      datasourceWired: true
+      error: ""
+  - position: 4
+    componentName: "HeadingCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "c86bcb87-2987-49af-ba35-366482c08177"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      imagesUploaded: 0
+      imagesExpected: 0
+      imagesFailed: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "b320edf5-e394-434d-a3db-4ab3829d5a9d"
+      datasourceWired: true
+      error: ""
+  - position: 5
+    componentName: "ThreeColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "334e8db2-6eeb-46fd-a7e1-2f7f753dcfec"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      imagesUploaded: 0
+      imagesExpected: 0
+      imagesFailed: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "d54d53b4-1aa4-4998-9bdf-eb934c32cfb6"
+      datasourceWired: true
+      error: ""
   # Example:
   # - position: 1
   #   componentName: "AnnouncementBar"
@@ -101,3 +173,5 @@ sections:
 # 2026-10-02T23:03:04Z — Phase 0.5 STOP: manifest/project.yaml target main/main-website + /sitecore/templates/Project/fmc-custom-demo (not found in environment); 29/29 manifest React files (src/components/uiim/*) missing. Content Hub auth failed (simple 401, OAuth unauthorized_client).
 # 2026-10-02T23:08:21Z — Content Hub re-validated: simple auth 200 (credentials.local.yaml, authMethod simple).
 # 2026-10-02T23:28:01Z — Kit rebuilt for Prospera (generated manifest/registry). Site definition SiteName fixed Cooley-copy -> Cooley. Phase 0.5 re-run: PASS.
+# 2026-10-05T02:00:02Z — Phase 2 approved; existing variants (5.5 skipped). Resume check: MCP ok, SiteName Cooley ok, Content Hub ok; Sitecore CLI token expired; cooley rendering host now exists, site RenderingHost still Default.
+# 2026-10-05T03:40:24Z — Phase 6: Hero + HeadingCta added and wired; ThreeColumnCta re-wired; Carousel set_component_datasource 404 (missing branch template) — Cooley slides written into Carousel - Default. Added Heading CTA/Compact variant definition. Phase 7 summary written.

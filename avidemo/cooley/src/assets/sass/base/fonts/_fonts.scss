@@ -1,5 +1,5 @@
 /* stylelint-disable value-keyword-case */
-@import 'https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Arimo:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap';
 
 .site-basic {
   --font-family: 'Open Sans', Helvetica, Verdana, Tahoma, sans-serif;
@@ -11,4 +11,9 @@
 
 .site-services {
   --font-family: 'Epilogue', Helvetica, Arial, sans-serif;
+}
+
+.site-cooley {
+  --font-family: 'Arimo', Arial, Helvetica, sans-serif;
+  --heading-font-family: 'Newsreader', Garamond, 'Times New Roman', serif;
 }

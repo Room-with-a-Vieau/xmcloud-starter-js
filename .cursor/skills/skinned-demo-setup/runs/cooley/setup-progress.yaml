@@ -24,7 +24,7 @@ selection:
 
 artifacts:
   newSiteId: "e6ff4077-132f-4196-901b-bdbb64255d65"
-  ehEnvironmentId: "3o1qR36Q1YXlBQgTYsxdtr"
+  ehEnvironmentId: "14iBKWmFHmk0KwK1332OPE"
   cmEnvironmentId: "1X53QJOQ0rj7vn7cjMZ8De"       # authoring env id if editing host path used
   renderingHostKey: "cooley"
 
@@ -88,7 +88,7 @@ steps:
     error: ""
 
   step2_build_demo:
-    status: "handed_off"       # pending | complete | failed | handed_off
+    status: "complete"       # pending | complete | failed | handed_off
     # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
     error: ""
 
@@ -100,3 +100,5 @@ notes:
   - "2026-10-02T22:50:20Z — Move verified: Cooley listed under Legal (99fa07cc44a2451eb34b143e1cafa913). User reports authoring build & deploy in progress."
   - "2026-10-02T23:01:43Z — Editing host cooley created (3o1qR36Q1YXlBQgTYsxdtr, Type eh). No NEXT_PUBLIC_SEARCH_* vars to upsert. Step 1 verified. Step 2 handed off to avidemo/cooley sitecore-build-demo."
   - "2026-10-02T23:28:18Z — Site definition SiteName was Cooley-copy (copy-then-rename bug); set to Cooley via MCP. RenderingHost still Default until the cooley editing host deploys. Customer docs/ai kit replaced with the rebuilt Prospera kit; project.yaml -> Legal/Cooley."
+  - "2026-10-05T03:25:01Z — User deleted/recreated editing host cooley: new env 14iBKWmFHmk0KwK1332OPE (eh, provisioned, deployed). Site RenderingHost set to cooley by user."
+  - "2026-10-05T03:40:24Z — sitecore-build-demo finished (Phases 0–7). See avidemo/cooley/docs/ai/demos/cooley/demo-summary.md."

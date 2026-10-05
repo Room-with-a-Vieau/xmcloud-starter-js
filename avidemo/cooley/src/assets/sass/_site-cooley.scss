@@ -1,0 +1,32 @@
+// Cooley skinned-demo overrides (theme only — no component changes).
+// Serif display headings and a centered, image-free hero like cooley.com.
+.site-cooley {
+  h1,
+  h2,
+  h3,
+  .display-6,
+  .hero .content-container .title {
+    font-family: var(--heading-font-family);
+    font-weight: 300;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 480px;
+
+    .content-container {
+      position: relative;
+      left: auto;
+      transform: none;
+      justify-content: center;
+      text-align: center;
+
+      .title {
+        color: var(--text-colored);
+        font-size: clamp(48px, 7vw, 98px);
+        line-height: 1.05;
+        letter-spacing: -0.01em;
+      }
+    }
+  }
+}

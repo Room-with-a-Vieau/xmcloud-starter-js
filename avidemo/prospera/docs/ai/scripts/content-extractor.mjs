@@ -220,6 +220,16 @@ try {
   // then inject them into the extraction phase.
   await page.evaluate(() => { window.__collectedBgImages = new Set(); });
 
+  // Interactions below click carousel arrows, tabs and dots. On some sites those are real links,
+  // so block link navigation (JS handlers still run) to keep extraction on the target page.
+  await page.evaluate(() => {
+    document.addEventListener('click', (e) => {
+      const a = e.target instanceof Element ? e.target.closest('a[href]') : null;
+      const href = a?.getAttribute('href') || '';
+      if (a && !href.startsWith('#') && !href.startsWith('javascript:')) e.preventDefault();
+    }, true);
+  });
+
   const snapshotBgImages = async () => {
     return await page.evaluate(() => {
       let count = 0;
@@ -483,8 +493,15 @@ try {
     await page.waitForTimeout(1000);
   }
 
+  // Backstop: if an interaction still navigated away, return to the target page.
+  if (page.url().replace(/\/$/, '') !== siteUrl.replace(/\/$/, '')) {
+    console.warn(`[extractor]   WARN: navigated to ${page.url()} during interactions — reloading ${siteUrl}`);
+    await page.goto(siteUrl, { waitUntil: 'domcontentloaded', timeout });
+    await page.waitForTimeout(2000);
+  }
+
   // Read all collected background image URLs
-  const collectedBgUrls = await page.evaluate(() => [...window.__collectedBgImages]);
+  const collectedBgUrls = await page.evaluate(() => [...(window.__collectedBgImages || [])]);
   console.log(`[extractor]   Total background images collected: ${collectedBgUrls.length}`);
 
   // ── Extract content section by section ────────────────────

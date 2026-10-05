@@ -1,0 +1,91 @@
+# Content map — Cooley (Phase 2.5)
+# Source: docs/ai/demos/cooley/extracted-content.json (DOM) + build-plan.yaml
+client:
+  name: "Cooley"
+  sourceUrl: "https://www.cooley.com/"
+  createdAt: "2026-10-05T03:40:00Z"
+  contentSource: "dom"
+  language: "en"
+  targetParent: "/sitecore/content/Legal/Cooley/Home/Data"
+
+sections:
+  - position: 2
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Cooley - Hero"
+    fields:
+      Title: "Counsel, beyond convention."
+      Text: ""
+      Link: ""
+    children: []
+    imageFields: []   # intentionally empty: Cooley's hero is a headline on white (tiles are 195px thumbnails)
+
+  - position: 3
+    componentName: "Carousel"
+    manifestName: "Carousel"
+    kind: "list"
+    datasourceItemName: "Cooley - Carousel"
+    fields: {}
+    children:
+      - name: "Cooley - LA28 Official Legal Services Provider"
+        fields:
+          Title: "Cooley Named an Official Legal Services Provider of LA28 Olympic and Paralympic Games"
+          Text: ""
+          Link: { text: "Read the announcement", href: "https://www.cooley.com/news/coverage/2026/2026-07-15-cooley-named-an-official-legal-services-provider-of-la28-olympic-and-paralympic-games", target: "_blank" }
+        imageFields:
+          - { field: "Image", src: "https://www.cooley.com/-/media/cooley/video/placeholder-cooley-video-home-page.jpg" }
+      - name: "Cooley - Uber Bridge Financing"
+        fields:
+          Title: "Cooley Advises Uber on Approximately €14 Billion Bridge Financing Commitment in Connection With Delivery Hero Acquisition"
+          Text: ""
+          Link: { text: "Read more", href: "https://www.cooley.com/news/coverage", target: "_blank" }
+        imageFields:
+          - { field: "Image", src: "https://www.cooley.com/-/media/cooley/media-logos/cooley-social-image.jpg" }
+    imageFields: []
+
+  - position: 4
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Cooley - Resources Heading"
+    fields:
+      Eyebrow: "Resources"
+      Heading: ""
+      Text: ""
+      Link: ""
+    children: []
+    imageFields: []
+
+  - position: 5
+    componentName: "ThreeColumnCta"
+    manifestName: "ThreeColumnCta"
+    kind: "simple"
+    datasourceItemName: "Cooley - Resources"
+    fields:
+      Text1: "Public Company Resource Hub"
+      SubText1: "Resources for forward-thinking board members and leaders of US-listed public companies"
+      Link1: { text: "Explore", href: "https://www.cooley.com/hub/pubco", target: "_blank" }
+      Text2: "IPO GO"
+      SubText2: "Guidance and resources for companies on the path to going public"
+      Link2: { text: "Explore", href: "https://ipogo.cooley.com/", target: "_blank" }
+      Text3: "Cooley GO"
+      SubText3: "Start and build your business"
+      Link3: { text: "Explore", href: "https://www.cooleygo.com/", target: "_blank" }
+    children: []
+    imageFields: []   # Cooley's cards are text on solid color — no images
+
+notes:
+  - "Uber slide link: the exact article URL was not captured (slide rotated away); links to the news listing."
+  - "Below-the-fold sections found by the extractor (latest news, video, practices tabs) are outside the approved plan."
+
+datasourceItems:
+  - { componentName: "Hero", itemName: "Cooley - Hero", itemId: "{27BC770A-484B-4AE3-BCE3-87A5BA908C18}", fieldsPopulated: ["Title"], clearedStandardValues: ["Image", "Link"] }
+  - componentName: "Carousel"
+    itemName: "Cooley - Carousel"
+    itemId: "{F98F9B3F-6E88-4628-8E0A-173A4B3E442B}"
+    children:
+      - { name: "Cooley - LA28 Official Legal Services Provider", itemId: "{EAB6C425-6E33-4203-AFA9-999BBCDA1244}", fieldsPopulated: ["Title", "Link", "Image"] }
+      - { name: "Cooley - Uber Bridge Financing", itemId: "{430FA26D-C2BF-4793-B565-59E0A3EF7FD1}", fieldsPopulated: ["Title", "Link", "Image"] }
+  - { componentName: "HeadingCta", itemName: "Cooley - Resources Heading", itemId: "{C86BCB87-2987-49AF-BA35-366482C08177}", fieldsPopulated: ["Eyebrow"], clearedStandardValues: ["Link"] }
+  - { componentName: "ThreeColumnCta", itemName: "Cooley - Resources", itemId: "{334E8DB2-6EEB-46FD-A7E1-2F7F753DCFEC}", fieldsPopulated: ["Text1-3", "SubText1-3", "Link1-3"], clearedStandardValues: ["Image1", "Image2", "Image3"] }
