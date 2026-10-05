@@ -1,6 +1,6 @@
 # GENERATED — do not hand-edit. Re-run: node docs/ai/scripts/generate-manifest.mjs
 generatedBy: docs/ai/scripts/generate-manifest.mjs
-generatedAt: '2026-10-02T23:27:48.779Z'
+generatedAt: '2026-10-02T23:24:56.406Z'
 source:
   authoring: ../../authoring/items/prosperabank
   serializedSiteRoot: /sitecore/content/Financial/ProsperaFinancial

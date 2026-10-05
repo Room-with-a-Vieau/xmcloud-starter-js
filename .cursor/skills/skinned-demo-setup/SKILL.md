@@ -2,7 +2,7 @@
 name: skinned-demo-setup
 description: >-
   Sets up a skinned Sitecore demo from ProsperaFinancial (or another chosen base
-  site): selects or creates a Site Collection, duplicates/renames a Site via Sites
+  site): selects or creates a Site Collection, duplicates a Site via Sites
   API, prompts Content Editor move when needed while copying an avidemo
   source folder to a customer-named folder, wires .env.local and xmcloud.build.json,
   optionally creates an XM Cloud editing host, then hands off to sitecore-build-demo.
@@ -51,6 +51,7 @@ Update that summary when a major step completes or when pausing for user action 
 If the user says **"resume skinned demo"**, **"continue setup"**, **"pick up where we left off"**, or a previous session was interrupted:
 
 1. Find the progress file under `.cursor/skills/skinned-demo-setup/runs/*/setup-progress.yaml` (ask which customer if several).
+   - **Stale check:** if the run's `artifacts.newSiteId` no longer exists (`GET /api/v1/sites/{id}` → 404) or `avidemo/<customer-folder>` is gone, the run was torn down. Tell the user and offer to start fresh (overwrite the progress file) instead of resuming.
 2. Load session variables from `customer`, `selection`, and `artifacts`.
 3. Find the last step with `status: "complete"` or `"skipped"`.
 4. Resume at the first step with `status: "pending"`, `"failed"`, or (for move) still waiting — read `notes` / `error`.
@@ -71,7 +72,7 @@ Derive names:
 
 | Use | Rule |
 |---|---|
-| Site Collection / Site system `name` | Sanitize to Sites API pattern: letters, digits, `_`, `-`, spaces; no leading/trailing space or leading `-`. Prefer PascalCase or spaced display-friendly form matching the customer name. Max 50 for site rename, 100 for collection. |
+| Site Collection / Site system `name` | Sanitize to Sites API pattern: letters, digits, `_`, `-`, spaces; no leading/trailing space or leading `-`. Prefer PascalCase or spaced display-friendly form matching the customer name. Max 50 for a site, 100 for a collection. |
 | Local folder (`<customer-folder>`) | Prefer lowercase kebab-case under `avidemo/` (e.g. `Acme Bank` → `acme-bank`). If that path exists, ask before overwriting. |
 
 Confirm derived names with the user once, then:
@@ -110,7 +111,7 @@ Skinned Demo Setup
 - [ ] Source site and avidemo/<source-folder> verified
 - [ ] Step 1a: Target collection ready (created or selected)
 - [ ] Step 1a: Site duplicated from <source-site-name>
-- [ ] Step 1a: Site renamed to customer name
+- [ ] Step 1a: Site definition checked (`SiteName` = customer system name)
 - [ ] User notified of Content Editor move if <needs-move> — continue without waiting
 - [ ] Step 1b: Local folder copied from <source-folder>
 - [ ] Step 1c: NEXT_PUBLIC_DEFAULT_SITE_NAME set in customer .env.local
@@ -133,10 +134,12 @@ Run auth checks first. **Stop on any failure.**
 
 Docs: [Sites API](https://api-docs.sitecore.com/sai/sites-api)
 
-1. Resolve automation credentials (env preferred; prompt if missing):
+1. Resolve automation credentials — **all three are required**. Read them from the environment; if missing, ask the user to export them (shell profile, or a gitignored file they `source`) rather than pasting secrets into chat:
    - `SITECORE_AUTOMATION_CLIENT_ID`
    - `SITECORE_AUTOMATION_CLIENT_SECRET`
-   - Optional: `SITECORE_ENVIRONMENT_ID` (pass as `environmentId` query param when set)
+   - `SITECORE_ENVIRONMENT_ID` — the Authoring environment ID; pass it as the `environmentId` query param on every Sites API call. It is also the default `cm-environment-id` for Step 1d.
+
+   Never write these to the repo or to `setup-progress.yaml`. Keep the JWT in session-scoped temp storage only.
 2. Request JWT:
 
 ```bash
@@ -220,7 +223,7 @@ Then proceed to Step 1a.
 
 ---
 
-## Step 1a — Sites API (collection + duplicate + rename)
+## Step 1a — Sites API (collection + duplicate)
 
 Base URL: `https://xmapps-api.sitecorecloud.io`  
 Details: [sites-api-reference.md](sites-api-reference.md)
@@ -250,26 +253,29 @@ Skip create. Use the already selected `<collectionId>` / `<customer-collection>`
 ### 2. Duplicate source site
 
 1. Confirm `<source-site-id>` for `<source-site-name>` (re-fetch if needed).
-2. `POST /api/v1/sites/{source-site-id}/copy` with a **temporary** unique name (e.g. `<customer-system-name>-copy`):
+2. If `GET /api/v1/sites` already lists `<customer-system-name>`, stop and ask (reuse it, or pick another name). Do not copy under a temporary name and rename it afterwards: **rename does not update the site definition's `SiteName`**, which then breaks the Agent API (`Error fetching site information … (400)`) and the head app's `NEXT_PUBLIC_DEFAULT_SITE_NAME`.
+3. `POST /api/v1/sites/{source-site-id}/copy` with the **final** name:
 
 ```json
 {
-  "name": "<customer-system-name>-copy",
-  "displayName": "<customer name>"
+  "name": "<customer-system-name>",
+  "displayName": "<customer name>",
+  "description": "Skinned demo site for <customer name>"
 }
 ```
 
-3. Poll until `Completed`. Resolve the new site id (`GET /api/v1/sites` by the temp name).
+4. Wait for completion ([job polling](sites-api-reference.md#job-polling)), then resolve the new site id from `GET /api/v1/sites` by name. Record it as `artifacts.newSiteId`.
 
-### 3. Rename duplicated site
+### 3. Check the site definition
 
-`POST /api/v1/sites/{newSiteId}/rename`
+Read `/sitecore/content/<source-collection>/<customer-system-name>/Settings/Site Grouping` (Marketer MCP `get_content_item_by_path`) and its child **Site** item:
 
-```json
-{ "name": "<customer-system-name>" }
-```
+| Field | Must be | Fix |
+|---|---|---|
+| `SiteName` | `<customer-system-name>` | `update_fields_on_item` |
+| `RenderingHost` | leave as copied for now | set to `<customer-folder>` after Step 1d's editing host has deployed (the rendering host item doesn't exist before that) |
 
-Poll until `Completed`. Confirm via `GET /api/v1/sites` that the renamed site exists.
+Confirm with Marketer MCP `get_site_information(newSiteId)` — it must succeed. Mark `step1a_rename` as `skipped` (no rename needed).
 
 ### 4. Notify — Content Editor move (only if `<needs-move>`)
 
@@ -311,7 +317,7 @@ Run after the folder copy, **before** move verification / Step 1d.
 
 ### 1. Update customer `.env.local`
 
-In `avidemo/<customer-folder>/.env.local`:
+Repo guidance (`CLAUDE.md`) says to ask before editing `.env.local` — confirm with the user once, then in `avidemo/<customer-folder>/.env.local`:
 
 1. If `.env.local` is missing, create it by copying `.env.remote.example` (or `.env.container.example`) from the same folder, then proceed.
 2. Set `NEXT_PUBLIC_DEFAULT_SITE_NAME` to `<customer-system-name>`.
@@ -322,11 +328,28 @@ NEXT_PUBLIC_DEFAULT_SITE_NAME=<customer-system-name>
 
 Only change this variable (and create the file if needed). Do not invent or commit other secrets. Edit **only** the copied customer folder’s `.env.local`, never the source folder’s.
 
-### 2. Register rendering host in `xmcloud.build.json`
+### 2. Point the demo kit at the customer site
+
+In `avidemo/<customer-folder>/docs/ai/config/project.yaml`, set:
+
+```yaml
+siteCollection: "<customer-collection>"
+siteName: "<customer-system-name>"
+```
+
+Leave the library roots (`renderingsRoot`, `projectTemplatesRoot`, `serializedSiteRoot`) unchanged — the components are shared with the source site. Then run, from `avidemo/<customer-folder>/`:
+
+```bash
+node docs/ai/scripts/generate-manifest.mjs
+```
+
+It must report every component `react=ok`.
+
+### 3. Register rendering host in `xmcloud.build.json`
 
 Edit the repo-root **`xmcloud.build.json`**.
 
-1. Under `renderingHosts`, find an entry whose `path` is `./avidemo/<source-folder>` (e.g. `"prospera"` for Prospera). If none matches, ask which existing host to clone.
+1. Under `renderingHosts`, find the entry whose `path` is `./avidemo/<source-folder>` — match on `path`, not the key (Prospera's key is `"prosperabank"`). If none matches, ask which existing host to clone.
 2. **Duplicate** that object.
 3. Rename the new key to **`<customer-folder>`** (customer name in **lowercase** kebab-case — same value everywhere this host is named).
 4. Set `"path"` to `"./avidemo/<customer-folder>"`.
@@ -346,7 +369,7 @@ If a `renderingHosts` key for that customer already exists, ask before overwriti
 
 **If `<needs-move>` is true:**
 
-1. `GET /api/v1/collections/{collectionId}/sites` — confirm the renamed site is listed.
+1. `GET /api/v1/collections/{collectionId}/sites` — confirm the new site is listed.
 2. Optionally cross-check with Marketer MCP `list_sites` / `get_site_information`.
 
 | Result | Action |
@@ -370,7 +393,7 @@ Skip the rest of Step 1d. Proceed to **Step 1 verification**, then Step 2.
 
 #### 1. Collect Authoring environment ID
 
-Ask the user for the **Environment ID** of their Authoring environment (`cm-environment-id`).
+Use `SITECORE_ENVIRONMENT_ID` as the **Environment ID** of the Authoring environment (`cm-environment-id`); confirm it with the user.
 
 Tell them: find it in the **Deploy Portal** → their project → **Authoring Environments** tab.
 
@@ -416,6 +439,8 @@ Tell the user:
 
 > In the Deploy Portal, open your project’s **Editing Host** tab, click the new editing host (`<customer-folder>`), then **Options** → **Edit Environment Details**, and configure the GitHub connections for this host.
 
+Also tell them: after the editing host's first deployment creates the `<customer-folder>` rendering host item, set `RenderingHost` on the site definition (Step 1a §3) to `<customer-folder>` so Pages uses the customer's editing host.
+
 **Do not wait** for a response. Continue immediately to **Step 1 verification**.
 
 ---
@@ -428,6 +453,8 @@ Confirm all artifacts:
 |---|---|
 | Site Collection | `GET /api/v1/collections` — `<customer-collection>` / `<collectionId>` present |
 | Site | `GET /api/v1/sites` — `<customer-system-name>` present |
+| Site definition | `SiteName` = `<customer-system-name>`; Marketer MCP `get_site_information(newSiteId)` succeeds |
+| Demo kit target | customer `docs/ai/config/project.yaml` has the customer collection/site; `generate-manifest.mjs` reports all `react=ok` |
 | Site in target collection | `GET /api/v1/collections/{collectionId}/sites` — site listed (required; if `<needs-move>` was false this should already be true) |
 | Local folder | `avidemo/<customer-folder>` exists (copied from `<source-folder>`) |
 | `.env.local` site name | `NEXT_PUBLIC_DEFAULT_SITE_NAME` equals `<customer-system-name>` |
@@ -458,7 +485,7 @@ Where:
 
 - `<customer-folder>` — local folder from Step 1b
 - `<customer-collection>` — target Site Collection system name
-- `<customer-site>` — Site system name from Step 1a rename (`<customer-system-name>`)
+- `<customer-site>` — Site system name from Step 1a (`<customer-system-name>`)
 
 **Do not** edit the source codebase under `avidemo/<source-folder>/`, or write content under `<source-site-name>` (or any other site) paths.
 
@@ -511,7 +538,7 @@ Set `steps.step2_build_demo.status: "handed_off"` in `setup-progress.yaml` befor
 - Sites API or Marketer MCP auth fails after prompting
 - User declines collection mode / collection pick / source site / source folder confirmation
 - Chosen `<source-site-name>` or `avidemo/<source-folder>` missing
-- Copy/rename job status `Failed`
+- Copy job status `Failed`, or `get_site_information` still fails after fixing `SiteName`
 - `<needs-move>` and move verification fails / user will not complete the Content Editor move
 - User declines overwrite of an existing local customer folder
 - User declines overwrite of an existing `xmcloud.build.json` renderingHosts key

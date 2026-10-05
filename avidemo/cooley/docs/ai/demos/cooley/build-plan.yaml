@@ -1,0 +1,131 @@
+# Demo Build Plan
+client:
+  name: "Cooley"
+  sourceUrl: "https://www.cooley.com/"
+  themeFile: "docs/ai/themes/cooley.theme.yaml"
+  analyzedAt: "2026-10-02T23:00:00Z"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/demos/cooley/homepage-screenshot.png"   # user-provided; ends at the resource cards
+    mobile: "docs/ai/themes/cooley/screenshot-mobile.png"
+    hero: "docs/ai/themes/cooley/screenshot-hero.png"
+  totalSections: 5
+  templateMatches: 5
+  customRequired: 0
+  targetPage: "/sitecore/content/Legal/Cooley/Home"
+  coverageNote: "Screenshot and scrape stop after the first row of resource cards (below-the-fold content lazy-loads). Plan covers the visible top of the page only."
+
+sections:
+  - position: 1
+    description: "Minimal header: crimson 'Cooley' wordmark left, search field + hamburger right"
+    matchedComponent:
+      registryId: "Header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "high"
+    kind: "context-only"
+    apiAddable: false
+    sectionBackground: "default"
+    content:
+      Logo: "Cooley wordmark (docs/ai/themes/cooley/images/logo.png)"
+    contentNotes: "Lives in the header partial design — swap the logo manually in Pages. Navigation items come from the site tree."
+    variantReason: "Wordmark is an image logo."
+
+  - position: 2
+    description: "Hero: huge centered crimson serif headline 'Counsel, beyond convention.' with small offset photo tiles floating around it"
+    matchedComponent:
+      registryId: "Hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Counsel, beyond convention."
+      Text: ""
+      Image: "one of the floating photo tiles"
+      Link: ""
+    contentNotes: "The floating multi-image collage is not reproduced — Hero has one Image field. No subtitle or CTA on the live hero."
+    variantReason: "tone.heroStyle centered-overlay → Hero (static headline, not rotating)."
+
+  - position: 3
+    description: "Rotating news panel (lavender card on the right of the hero) with image, headline, 'Read more' link and prev/next arrows"
+    matchedComponent:
+      registryId: "Carousel"
+      manifestName: "Carousel"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "list"
+    apiAddable: true
+    sectionBackground: "accent"
+    content:
+      items:
+        - Title: "Cooley Named an Official Legal Services Provider of LA28 Olympic and Paralympic Games"
+          Link: { text: "Read the announcement" }
+          Image: "LA28 logo tile"
+        - Title: "Cooley Advises Uber on Approximately €14 Billion Bridge Financing Commitment"
+          Link: { text: "Read more" }
+          Image: "wheel close-up"
+    contentNotes: "On the live site this panel sits inside the hero; in Prospera it renders as a full-width carousel under the hero with the text in the side panel. Full headlines/links come from Phase 2.5 extraction."
+    variantReason: "Only Carousel rotates items with prev/next arrows and a side text panel."
+
+  - position: 4
+    description: "Small crimson 'RESOURCES' section label with a 'Pause motion' control at right"
+    matchedComponent:
+      registryId: "HeadingCta"
+      manifestName: "HeadingCta"
+      variant: "Compact"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Eyebrow: "Resources"
+      Heading: "Resources"
+    contentNotes: "'Pause motion' is a site-wide animation toggle — not reproduced."
+    variantReason: "Slim section label → Compact."
+
+  - position: 5
+    description: "Three flat square resource cards: dark burgundy 'Public C…', crimson 'IPO GO', blush 'Cooley GO'"
+    matchedComponent:
+      registryId: "ThreeColumnCta"
+      manifestName: "ThreeColumnCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Text1: "Public C…"      # truncated in screenshot — take full title from Phase 2.5
+      Text2: "IPO GO"
+      Text3: "Cooley GO"
+    contentNotes: "Each card has its own background color (burgundy / crimson / blush); the Prospera cards use images instead. Card images/links from Phase 2.5."
+    variantReason: "Three equal linked cards → ThreeColumnCta Default."
+
+customComponents: []
+
+existingPageInventory:
+  # Already on /Legal/Cooley/Home (copied from ProsperaFinancial)
+  reuse:
+    - { componentName: "Carousel", instanceId: "124106de-fb02-4b43-a521-a309fc75a5bc", forSection: 3 }
+    - { componentName: "Three Column CTA", instanceId: "d54d53b4-1aa4-4998-9bdf-eb934c32cfb6", forSection: 5 }
+  notInPlan:  # cannot be removed via MCP — manual cleanup in Pages
+    - "Promo CTA (x3)"
+    - "Five Column CTA"
+    - "Two Column CTA"
+    - "Article List"
+    - "Documents List"
+    - "App Promo"
+
+buildOrder:
+  phase1_sitecore: ["Hero", "Carousel", "HeadingCta", "ThreeColumnCta"]
+  phase2_theme: "docs/ai/themes/cooley.theme.yaml → .site-cooley tokens"
+  phase3_custom: []
+  manual: ["Header (logo)"]

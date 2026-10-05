@@ -4,32 +4,32 @@
 # Used by "resume demo" to skip completed work.
 
 client:
-  name: ""
-  sourceUrl: ""
-  startedAt: ""
-  lastUpdatedAt: ""
+  name: "Cooley"
+  sourceUrl: "https://cooley.com/"
+  startedAt: "2026-10-02T23:02:26Z"
+  lastUpdatedAt: "2026-10-02T23:28:01Z"
 
 phases:
   phase0_inputs:
-    status: "pending"       # pending | complete
-    screenshot: false
-    url: ""
+    status: "complete"       # pending | complete
+    screenshot: true
+    url: "https://cooley.com/"
 
   phase0_5_manifest:
-    status: "pending"       # pending | complete | skipped
-    result: ""              # pass | fail
-    homePageId: ""          # <siteRoot>/Home — resolved at run time
-    pageDataFolderId: ""    # <siteRoot>/Home/Data — parent for client datasources
+    status: "complete"       # pending | complete | skipped
+    result: "pass"              # pass | fail
+    homePageId: "d143f98d-f55c-4163-93e6-c5a4a867d493"
+    pageDataFolderId: "792702e7-48af-4976-aae6-35fe4a9742d4"
 
   phase1_theme:
-    status: "pending"       # pending | complete
-    themeFile: ""
-    userApproved: false
+    status: "complete"       # pending | complete
+    themeFile: "docs/ai/themes/cooley.theme.yaml"
+    userApproved: true
 
   phase2_analysis:
     status: "pending"       # pending | complete
-    buildPlanFile: ""
-    totalSections: 0
+    buildPlanFile: "docs/ai/demos/cooley/build-plan.yaml"
+    totalSections: 5
     userApproved: false     # MANDATORY checkpoint
 
   phase2_5_content:
@@ -46,7 +46,7 @@ phases:
     status: "pending"       # pending | complete
     themeDelivery: ""       # site-theme-class (see theme-component-mapping.md §3)
     cssWritten: false       # true after :root block written
-    fontsAdded: false       # true after font added to _fonts.scss
+    fontsAdded: false       # true after Google Fonts <link> added to layout.tsx
 
   phase5_custom:
     status: "pending"       # pending | complete | skipped
@@ -97,3 +97,7 @@ sections:
   #     componentInstanceId: "" # from add_component_on_page response
   #     datasourceWired: false  # true after set_component_datasource
   #     error: ""
+
+# 2026-10-02T23:03:04Z — Phase 0.5 STOP: manifest/project.yaml target main/main-website + /sitecore/templates/Project/fmc-custom-demo (not found in environment); 29/29 manifest React files (src/components/uiim/*) missing. Content Hub auth failed (simple 401, OAuth unauthorized_client).
+# 2026-10-02T23:08:21Z — Content Hub re-validated: simple auth 200 (credentials.local.yaml, authMethod simple).
+# 2026-10-02T23:28:01Z — Kit rebuilt for Prospera (generated manifest/registry). Site definition SiteName fixed Cooley-copy -> Cooley. Phase 0.5 re-run: PASS.

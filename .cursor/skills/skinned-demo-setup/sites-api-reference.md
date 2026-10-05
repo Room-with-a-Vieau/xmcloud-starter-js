@@ -20,7 +20,7 @@ Optional query on most endpoints: `environmentId`.
 | List sites | `GET` | `/api/v1/sites` |
 | Get site | `GET` | `/api/v1/sites/{siteId}` |
 | Duplicate site | `POST` | `/api/v1/sites/{siteId}/copy` |
-| Rename site | `POST` | `/api/v1/sites/{siteId}/rename` |
+| Rename site | `POST` | `/api/v1/sites/{siteId}/rename` — not used; rename leaves `SiteName` stale |
 | List collections | `GET` | `/api/v1/collections` |
 | Create collection | `POST` | `/api/v1/collections` |
 | List collection sites | `GET` | `/api/v1/collections/{collectionId}/sites` |
@@ -62,12 +62,17 @@ Copy does **not** accept a target `collectionId`. The duplicate stays in the sou
 
 ## Job polling
 
-`GET /api/v1/jobs/{jobHandle}/status`
+`GET /api/v1/jobs/{jobHandle}/status` — URL-encode the handle (it contains `;` → `%3B`).
 
-Terminal `status` values: `Completed` | `Failed`.  
-While `Queued` or `Running`, wait and retry (suggest 5–15s intervals; back off if long-running).
+Observed behavior (differs from the catalog docs):
 
-On `Failed`, stop the skill and surface the job payload to the user.
+- While running, the response has `"done": false`; `status` is often `null`.
+- When finished, `"done": true` with `errors: []` on success — `status` may still be `null` rather than `Completed`.
+- Fast jobs (e.g. create collection) may already be purged: the endpoint returns **404 "job was not found"**. Treat 404 as "finished" and verify the result.
+
+**Always confirm by resource**, not by job status alone: `GET /api/v1/collections` for a new collection, `GET /api/v1/sites` (by name) for a copy. A copied site can appear in the list before its job reports `done` — wait for `done: true` (or 404) before touching it.
+
+Poll every 10s; most site copies finish in 3–5 minutes. On non-empty `errors`, stop the skill and surface the payload.
 
 ## Not available
 

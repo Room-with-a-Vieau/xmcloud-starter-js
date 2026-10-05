@@ -25,9 +25,9 @@ A **build plan** saved to `docs/ai/demos/<client-kebab>/build-plan.yaml` with th
 ### Step 1 — Load references
 
 Read these files before analyzing:
-- `docs/ai/catalog/component-registry.yaml` — the 18 template components with visual keywords and variant hints
+- `docs/ai/catalog/component-registry.yaml` — the Prospera component library (generated): visual keywords, variant hints, fields
 - `docs/ai/catalog/theme-component-mapping.md` — how theme tone fields drive variant selection
-- `docs/ai/manifests/sitecore-manifest.yaml` — verify all 18 components are `status: "complete"`
+- `docs/ai/manifests/sitecore-manifest.yaml` — rendering/template IDs; use only components with `status: "complete"`
 - The client's theme file at `docs/ai/themes/<client>.theme.yaml`
 
 ### Step 2 — Inspect the screenshots
@@ -45,7 +45,8 @@ For each identified section, find the best match in `component-registry.yaml`:
 1. Compare the visual pattern against each component's `visualKeywords`
 2. If multiple components could match, use the section's layout and content to disambiguate
 3. Pick the best variant using `variantSelectionHints` and the theme's `tone.*` fields
-4. Use the **registry-to-manifest mapping table** below to set both `registryId` and `manifestName`
+4. Set `registryId` and `manifestName` from the registry entry's `id` / `manifestName` (they are the rendering componentName, e.g. `PromoCta`)
+   - `role: chrome` entries (Header, Footer) map to the screenshot's header/footer — they live in partial designs, so list them under manual tasks instead of placing them
 5. Assign a `sectionBackground` hint based on the visual background observed:
    - Light/white background → `"default"`
    - Subtle gray/tinted background → `"muted"`
@@ -90,31 +91,12 @@ Use the template at `docs/ai/templates/build-plan-summary.template.md` for the s
 
 ---
 
-## Registry-to-Manifest mapping table
+## Registry-to-Manifest mapping
 
-All 18 template components are built and `status: "complete"` in the manifest.
-Use this table to set both `registryId` and `manifestName` in the build plan:
-
-| registryId | manifestName | kind | variants |
-|---|---|---|---|
-| `announcement-bar` | `AnnouncementBar` | simple | Default, Highlight |
-| `navigation-header` | `NavigationHeader` | context-only | Default, Transparent, Minimal |
-| `hero-banner` | `HeroBanner` | simple | Default, SplitImageText, BackgroundImage, VideoBackground, Minimal |
-| `tab-navigation` | `TabNavigationSection` | list | Default, Underline, Boxed |
-| `product-pricing-cards` | `ProductPricingCards` | list | Default, Horizontal, Compact, Highlighted |
-| `feature-highlight` | `FeatureHighlight` | simple | Default, Centered, WithVideo, IconLeft |
-| `legal-compliance` | `LegalComplianceBanner` | simple | Default, WithImage |
-| `value-proposition-grid` | `ValuePropositionGrid` | list | Default, TwoColumn, FourColumn, Horizontal |
-| `trust-stats` | `TrustStatsRow` | list | Default, WithIcons, LogoRow |
-| `testimonial-quote` | `TestimonialBlock` | list | Default, Carousel, Grid, WithPhoto |
-| `cta-banner` | `CTABanner` | simple | Default, WithImage, Split, Minimal |
-| `feature-cards-grid` | `FeatureCardsGrid` | list | Default, TwoColumn, WithImages, Carousel |
-| `image-gallery` | `ImageGallery` | simple | Default, Gallery, Parallax |
-| `logo-cloud` | `LogoCloud` | list | Default, Grid, WithLabels |
-| `footer` | `SiteFooter` | context-only | Default, Minimal, MegaFooter |
-| `newsletter-signup` | `NewsletterSignup` | simple | Default, Banner, Compact |
-| `faq-accordion` | `FAQAccordion` | list | Default, AllOpen, TwoColumn |
-| `rich-text-block` | `RichTextBlock` | simple | Default, Centered, Narrow |
+`component-registry.yaml` is generated from the manifest, so `id` = `manifestName` = rendering
+componentName, and `kind` / `variants` / fields come straight from serialization and the React
+exports. Do not use any hard-coded component list — regenerate with
+`node docs/ai/scripts/generate-manifest.mjs` if the registry looks stale.
 
 ---
 
@@ -167,84 +149,51 @@ buildOrder:
 
 ### Use the theme's tone fields first
 
-- `tone.heroStyle: "full-bleed-image"` → HeroBanner variant `BackgroundImage`
-- `tone.heroStyle: "split-image-text"` → HeroBanner variant `SplitImageText`
-- `tone.heroStyle: "centered-overlay"` or `"gradient"` → HeroBanner variant `Default`
-- `tone.heroStyle: "video-background"` → HeroBanner variant `VideoBackground`
-- `tone.heroStyle: "minimal-text"` → HeroBanner variant `Minimal`
-- `tone.navStyle: "solid-bar"` → NavigationHeader variant `Default`
-- `tone.navStyle: "transparent-overlay"` → NavigationHeader variant `Transparent`
-- `tone.navStyle: "minimal"` → NavigationHeader variant `Minimal`
-- `tone.cardStyle: "elevated"` → cards use shadow
-- `tone.cardStyle: "bordered"` → cards use border
-
-See `docs/ai/catalog/theme-component-mapping.md` for the full mapping.
+Pick variants with `docs/ai/catalog/theme-component-mapping.md` §4 (tone → variant) and each
+registry entry's `variantSelectionHints`.
 
 ### Visual pattern → component matching
 
+Match against each registry entry's `visualKeywords`. Quick reference for the Prospera library:
+
 | Visual pattern | Component | Variant |
 |---|---|---|
-| Thin colored bar at very top with text | AnnouncementBar | Default |
-| Logo + nav links + CTA button in header | NavigationHeader | Default/Transparent |
-| Large heading + subtitle + CTA, dark/full-width | HeroBanner | Default |
-| Large heading + image on the side | HeroBanner | SplitImageText |
-| Full-bleed photo with text overlay | HeroBanner | BackgroundImage |
-| Full-bleed hero with icon categories or accordion overlay | **Split:** HeroBanner + FAQAccordion/TabNav, or mark custom | — |
-| Multiple full-width rotating slides with dots/arrows | HeroBannerCarousel | Default |
-| Row of cards in horizontal carousel with dots/arrows | FeatureCardsGrid | Carousel |
-| Horizontal row of pill/tab buttons | TabNavigationSection | Default |
-| 2-3 cards with title, price, CTA | ProductPricingCards | Default |
-| Single feature with image + text side by side | FeatureHighlight | Default |
-| Feature with play button overlay on image | FeatureHighlight | WithVideo |
-| Small icon left, text right, compact | FeatureHighlight | IconLeft |
-| Compliance/law text section | LegalComplianceBanner | Default |
-| 3-4 icons with short text below each | ValuePropositionGrid | Default |
-| Row of big numbers (40+, 2M, etc.) | TrustStatsRow | Default |
-| Quote with attribution | TestimonialBlock | Default |
-| Multiple quotes in a row/carousel | TestimonialBlock | Carousel/Grid |
-| Bold CTA section with button | CTABanner | Default |
-| 3 cards with icon + title + description | FeatureCardsGrid | Default |
-| Full-width photo/image break | ImageGallery | Default |
-| Row of partner/client logos | LogoCloud | Default |
-| Multi-column footer with links | SiteFooter | Default |
-| Email input + subscribe button | NewsletterSignup | Default |
-| Expandable Q&A list | FAQAccordion | Default |
-| Simple heading + body text | RichTextBlock | Default/Centered |
+| Rotating full-width hero slides | Carousel | Default |
+| Large hero headline with intro + CTA (static) | Hero | Default |
+| Split hero (text column + image) | HeroBanner | Default |
+| Centered section heading / intro text | HeadingCta | Centered (or Default) |
+| Full-width image band with centered headline | ParallaxBanner | Default |
+| Image beside text promo block | PromoCta | Default / WithBackgroundImage |
+| Wide CTA band with image | CtaBanner | Default / LargeImage |
+| 2 / 3 / 4 / 5 linked cards in a row | TwoColumnCta / ThreeColumnCta / FourColumnCta / FiveColumnCta | see hints |
+| Eyebrow + headline with two feature columns | Features | Default |
+| Row of big numbers | StatsCounter | Default |
+| Single pull quote | Quote | Default / Simple |
+| Several reviews / star ratings | Testimonials | Default |
+| FAQ / Q&A list | Questions | Default / SingleColumn |
+| Expandable sections | Accordion | Default |
+| News / insights cards | ArticleList | see hints |
+| Downloads / documents list | DocumentsList | Default |
+| Image grid | ImageGallery | Default |
+| App download promo | AppPromo | Default |
+| Header / footer | Header / Footer (`role: chrome`) | manual (partial designs) |
 
 ### Disambiguating similar components
 
 | Confusion pair | How to decide |
 |---|---|
-| ValuePropositionGrid vs FeatureCardsGrid | ValueProps: short, icon-focused, 1-2 lines text. FeatureCards: longer description, may have link per card |
-| FeatureHighlight vs RichTextBlock | FeatureHighlight has an image. RichTextBlock is text-only |
-| FeatureHighlight vs HeroBanner | Hero is above the fold and full-width. FeatureHighlight is mid-page, typically half-width image |
-| CTABanner vs HeroBanner | CTA is conversion-focused (single action), appears toward page bottom. Hero is the main intro section at top |
-| ProductPricingCards vs FeatureCardsGrid | PricingCards have price/badge fields. FeatureCards have icon + description but no pricing |
-| HeroBanner vs HeroBanner + FAQAccordion | If the hero section has expandable/collapsible categories, icon navigation, or accordion-style content overlaid on the hero image, do NOT map to plain HeroBanner. See "Compound/interactive sections" below. |
-| FeatureCardsGrid vs HeroBannerCarousel | If cards are in a horizontal carousel with dots/arrows (not a static grid), consider HeroBannerCarousel if they're hero-sized, or note the carousel behavior in `contentNotes` for Phase 5.5 |
+| Hero vs Carousel | Carousel only when the hero itself rotates; a static headline with a small rotating news panel → Hero + note the panel |
+| Hero vs HeroBanner | HeroBanner is a two-column split; Hero is a single large headline block |
+| ThreeColumnCta vs Features | Features has an eyebrow + headline over two image/text pairs; ThreeColumnCta is three equal linked cards |
+| PromoCta vs CtaBanner | PromoCta is a mid-page image/text pair; CtaBanner is a wide conversion band |
+| HeadingCta vs Hero | HeadingCta introduces a section; Hero is the page-top hero |
 
 ### Compound / interactive sections
 
-Some homepage sections combine multiple behaviors that don't map to a single template component. Do NOT force these into one component — split them or mark as custom.
-
-**Hero with accordion/category navigation:**
-If a hero section includes expandable categories, icon-based navigation tabs, or an accordion overlay on top of the hero image:
-- Split into: **HeroBanner** (BackgroundImage) for the visual + **FAQAccordion** or **TabNavigationSection** for the interactive overlay
-- Or mark as `matchType: "custom"` if the interaction is tightly coupled
-- **Never** map to a plain HeroBanner and silently drop the interactive content
-- Note what's being lost in `contentNotes` so the SE can decide
-
-**Carousel sections that aren't hero-sized:**
-If a section shows cards in a horizontal carousel with dots/arrows:
-- If the cards are hero-sized with full-bleed images → **HeroBannerCarousel**
-- If the cards are mid-page content cards → **FeatureCardsGrid** with `contentNotes` noting the carousel behavior
-- Note in `contentNotes`: "Live site uses carousel; template renders as grid. Phase 5.5 can add carousel variant."
-
-**Asymmetric layouts:**
-If a section has one large image + smaller tiles (not a uniform grid):
-- Do NOT force into a symmetric grid component
-- Mark as `matchConfidence: "low"` with a note about the asymmetry
-- Suggest splitting into ImageGallery + FeatureCardsGrid, or mark custom
+Do not force a compound section into one component. Split it (e.g. Hero + ArticleList) or mark
+`matchType: "custom"`, and say what is lost in `contentNotes`. Asymmetric or collage layouts
+(floating image tiles) → nearest component with `matchConfidence: "low"` and a note; Phase 5.5
+can add a custom variant.
 
 ### Confidence levels
 

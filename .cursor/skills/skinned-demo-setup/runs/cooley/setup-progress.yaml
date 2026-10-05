@@ -8,9 +8,9 @@ customer:
   systemName: "Cooley"            # <customer-system-name>
   folder: "cooley"                # <customer-folder> kebab-case
   url: "https://cooley.com/"
-  screenshotPath: "/private/tmp/claude-501/-Users-andrewvieau-dev-xmcloud-starter-js/5578e2bb-9009-4d73-bd01-0df5b9a11a6e/images/1.png (session attachment; copy into customer folder at handoff)"        # path or attachment note — not binary
+  screenshotPath: "avidemo/cooley/docs/ai/demos/cooley/homepage-screenshot.png"        # path or attachment note — not binary
   startedAt: "2026-10-02T22:22:29Z"
-  lastUpdatedAt: "2026-10-02T22:38:48Z"
+  lastUpdatedAt: "2026-10-02T23:28:18Z"
 
 selection:
   collectionMode: "new"        # new | existing
@@ -24,7 +24,7 @@ selection:
 
 artifacts:
   newSiteId: "e6ff4077-132f-4196-901b-bdbb64255d65"
-  ehEnvironmentId: ""
+  ehEnvironmentId: "3o1qR36Q1YXlBQgTYsxdtr"
   cmEnvironmentId: "1X53QJOQ0rj7vn7cjMZ8De"       # authoring env id if editing host path used
   renderingHostKey: "cooley"
 
@@ -75,20 +75,20 @@ steps:
     error: ""
 
   move_verify:
-    status: "pending"       # pending | complete | skipped | failed
+    status: "complete"       # pending | complete | skipped | failed
     error: ""
 
   step1d_editing_host:
-    status: "pending"       # pending | complete | skipped | failed
+    status: "complete"       # pending | complete | skipped | failed
     optedIn: true           # true | false
     error: ""
 
   step1_verification:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   step2_build_demo:
-    status: "pending"       # pending | complete | failed | handed_off
+    status: "handed_off"       # pending | complete | failed | handed_off
     # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
     error: ""
 
@@ -97,3 +97,6 @@ notes:
 # - "2026-09-25T15:00:00Z — Waiting on Content Editor move."
   - "2026-10-02T22:36:46Z — Collection Legal created (99fa07cc44a2451eb34b143e1cafa913). Site duplicated as Cooley-copy and renamed to Cooley (e6ff4077-132f-4196-901b-bdbb64255d65); still in Financial. Waiting on user Content Editor move to /sitecore/content/Legal."
   - "2026-10-02T22:38:48Z — avidemo/cooley copied; .env.local created from .env.remote.example with NEXT_PUBLIC_DEFAULT_SITE_NAME=Cooley; renderingHosts.cooley added (cloned from prosperabank)."
+  - "2026-10-02T22:50:20Z — Move verified: Cooley listed under Legal (99fa07cc44a2451eb34b143e1cafa913). User reports authoring build & deploy in progress."
+  - "2026-10-02T23:01:43Z — Editing host cooley created (3o1qR36Q1YXlBQgTYsxdtr, Type eh). No NEXT_PUBLIC_SEARCH_* vars to upsert. Step 1 verified. Step 2 handed off to avidemo/cooley sitecore-build-demo."
+  - "2026-10-02T23:28:18Z — Site definition SiteName was Cooley-copy (copy-then-rename bug); set to Cooley via MCP. RenderingHost still Default until the cooley editing host deploys. Customer docs/ai kit replaced with the rebuilt Prospera kit; project.yaml -> Legal/Cooley."

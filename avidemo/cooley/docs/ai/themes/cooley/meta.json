@@ -1,0 +1,72 @@
+{
+  "title": "Cooley | Global Law Firm for Innovative Companies and Investors // Cooley // Global Law Firm",
+  "themeColor": "#33040e",
+  "msColor": null,
+  "ogTitle": "Cooley | Global Law Firm for Innovative Companies and Investors // Cooley // Global Law Firm",
+  "ogDescription": "Cooley is a leading global law firm providing strategic legal counsel to innovative companies and investors across technology, life sciences, capital markets, M&A, litigation and regulatory matters.",
+  "ogImage": "https://www.cooley.com/-/media/cooley/media-logos/cooley-social-image.jpg?rev=cbcaaa724fce468a9958f34a7a9cf8c4",
+  "ogSiteName": null,
+  "favicon": "https://www.cooley.com/assets/pwa/icons/favicon.ico",
+  "googleFontsLinks": [],
+  "fontFaces": [
+    {
+      "family": "icomoon",
+      "src": "url(\"/assets/fonts/icomoon.woff2?qovine\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "ArialNova",
+      "src": "url(\"/assets/fonts/ArialNovaRegular.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "ArialNova",
+      "src": "url(\"/assets/fonts/ArialNovaItalic.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "ArialNova",
+      "src": "url(\"/assets/fonts/ArialNovaLight.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "ArialNova",
+      "src": "url(\"/assets/fonts/ArialNovaLightItalic.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "ArialNova",
+      "src": "url(\"/assets/fonts/ArialNovaBold.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "ArialNova",
+      "src": "url(\"/assets/fonts/ArialNovaBoldItalic.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "GT-Sectra-Book",
+      "src": "url(\"/assets/fonts/GT-Sectra-Book.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "GT-Sectra-Regular",
+      "src": "url(\"/assets/fonts/GT-Sectra-Regular.woff2\") format(\"woff2\")",
+      "weight": "400"
+    }
+  ],
+  "logoCandidates": [
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/la28-home-hero-news-carousel.png?mh=140&mw=276&rev=38d4437893b642798ae02ed329a12fbe&hash=B8156122DAFA9FF070403A478AC30114",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-tech.jpg?mh=140&mw=276&rev=c04478b904d24dd18346ac050b5ca012&hash=EC9EFDE91CA666B94D7BA39442F9FA5E",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-wheel.jpg?mh=140&mw=276&rev=cb0322fa759843caa9a5045e799a2703&hash=3B443E46042B4393BB73F36784122C68",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-rank.jpg?mh=140&mw=276&rev=f8cbc103fbff4026995f88e207e53f30&hash=131A0B99109E3B326AA7B9468DE86E2F",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-wind-turbine.jpg?mh=140&mw=276&rev=8046731ff8f34cfca8dbdc05afd87134&hash=7A811A1D18633FDDAC4DF8B136C73582",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-pencil.jpg?mh=140&mw=276&rev=8b8d764dd9a54fe5bdca3ab55366e706&hash=D29634F10CEEF633BF14F790D24ADBB9",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-big-balloon.jpg?mh=140&mw=276&rev=264a7d8762d34f3eb3bc2f57b77626d1&hash=0BBABEAB772D05A2E03777656F5B0667",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-steps.jpg?mh=140&mw=276&rev=9a998826eca44296b7571e200ff2b87b&hash=D41274782C9FD014A9B2D54FCB7EC677",
+    "https://www.cooley.com/-/media/cooley/home-hero-carousel/home-carousel-radar.jpg?mh=140&mw=276&rev=c672690df14c43aca25b2af86ede4ce5&hash=C43CD67C66BC6F634AB12282808387C6",
+    "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/2025-cooley-website-image-1.jpg?rev=a6d9ddfb15a74202b775259af73ba25c&cx=0&cy=0&cw=195&ch=260&hash=B686A78293D8A51C9E113BF7D7D4D5D2",
+    "https://www.cooley.com/-/media/cooley/pages/home/hero-assets/2025-cooley-website-image-2-1.jpg?rev=bad4ab9f231d4e19ba6d0349a7560512&cx=0&cy=0&cw=195&ch=195&hash=C83C36A13916BF08F757FCDA1A075C3E"
+  ],
+  "heroBgImage": null
+}

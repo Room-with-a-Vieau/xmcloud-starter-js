@@ -9,13 +9,20 @@ Use this skill when:
 - the user says "analyze this homepage and build the components"
 
 ## Prerequisites
-- Template component library must be built (check manifest for 17+ components with status "complete")
+- The manifest and registry are **generated** from serialization — run `node docs/ai/scripts/generate-manifest.mjs` from the app root whenever components change (Phase 0.5 does this automatically)
+- `docs/ai/config/project.yaml` → `siteCollection` / `siteName` name the target site (skinned-demo-setup sets these per customer)
 - Playwright scraper must be installed (`node docs/ai/scripts/site-scraper.mjs --help` should work)
 
 ## Load first
+- `docs/ai/config/project.yaml`
 - `docs/ai/catalog/component-registry.yaml`
 - `docs/ai/catalog/theme-component-mapping.md`
 - `docs/ai/manifests/sitecore-manifest.yaml`
+
+## Content model (Prospera component library)
+- Template and rendering IDs in the manifest are shared and stable across site copies.
+- **Datasources are page-local**: create client items under the target page's `Data` folder (`<siteRoot>/Home/Data`), where `<siteRoot>` = `/sitecore/content/<siteCollection>/<siteName>`. Resolve that folder's ID at run time — a copied site has new item IDs.
+- MCP tool for field writes is `update_fields_on_item` (fields as `[{ name, value }]`).
 
 ## Resume a demo build
 
@@ -93,29 +100,14 @@ If it prints `[auth] OK`, credentials are valid. If it prints `ERROR`, they need
 
 ### Phase 0.5 — Manifest health check
 
-Before any demo work, validate that the manifest is usable and pointing at the right environment.
+Before any demo work, make sure the manifest matches this codebase and the target site resolves.
 
-**Run the `sitecore-validate-manifest` skill in Quick mode.**
+1. **Regenerate** (no MCP): `node docs/ai/scripts/generate-manifest.mjs`. It must report every component `react=ok`. Any `MISSING` → warn the user (that component can't be used).
+2. **Site resolves** (MCP): `list_sites` → find `siteName` from `project.yaml`, then `get_site_information(siteId)`. If it errors (400 "Error fetching site information"), the site definition `SiteName` on `<siteRoot>/Settings/Site Grouping/<item>` doesn't match — set it to `siteName` and retry. **STOP** if it still fails.
+3. **Roots resolve** (MCP, parallel): `get_content_item_by_path` for `<siteRoot>/Home` and `<siteRoot>/Home/Data`. Record both IDs in `demo-progress.yaml` (`phases.phase0_5_manifest.homePageId`, `pageDataFolderId`). **STOP** if either is missing.
+4. **Library resolves** (MCP): `get_components_on_page(homePageId)` succeeds, and at least one placed component's rendering ID appears in the manifest. A mismatch means the site was built from a different component library — **STOP**.
 
-This performs:
-1. Config consistency check (`project.yaml` vs manifest `project` block)
-2. Root path validation (7 parallel MCP calls to verify structural folders exist)
-3. React file existence check (all component files present)
-4. Component map cross-check
-
-**Decision tree:**
-
-| Quick result | Action |
-|---|---|
-| All PASS | Proceed to Phase 1 |
-| Config mismatch only | Auto-fix applied, re-run Quick, then proceed |
-| Root paths fail | STOP — ask user to verify environment. Do not proceed. |
-| React files missing | WARN user, but can proceed (missing components won't be used in this demo) |
-| Component map mismatch | WARN user — dev server restart may be needed after demo build |
-
-**If Quick validation finds stale IDs** (items exist but with different GUIDs), the skill auto-repairs the manifest. The user is shown what changed before proceeding.
-
-**If the user requests Full validation** (or Quick fails on multiple checks), run Full mode. This adds per-component deep checks (~3-5 minutes) but guarantees every template, rendering, datasource folder, example item, and variant container exists.
+Set `phases.phase0_5_manifest.status: "complete"` and `result: "pass"` when all four pass.
 
 **Do not skip this phase.** A stale manifest causes silent failures in Phase 3 (content population) that are hard to diagnose.
 
@@ -175,7 +167,7 @@ Present the **build plan summary** to the user and STOP. The SE reads the summar
 
 **Ask TWO questions — do not continue without answers to both:**
 1. "Does the build plan look correct? Approved to proceed?"
-2. "Do you want pixel-perfect custom variants for each component (Phase 5.5), or are the generic template variants sufficient?"
+2. "Do you want pixel-perfect custom variants for each component (Phase 5.5), or are the existing Prospera variants sufficient?" (recommend existing variants — see the Phase 5.5 caveat)
 
 Record the Phase 5.5 decision in `demo-progress.yaml` (`phases.phase5_5_variants.skippedReason` if declined).
 
@@ -251,11 +243,11 @@ If any key is missing or uses a non-standard name, **fix the content map first**
 
 Examples:
 ```
-Data/HeroBanners/
-  ├── Hero Banner                                 # original example (untouched)
-  ├── Eurobank - Hero Banner                      # default (pipeline creates)
-  ├── Eurobank - Hero Banner - Families           # personalization (SE creates)
-  └── Eurobank - Hero Banner - Retirees           # personalization (SE creates)
+Home/Data/
+  ├── Hero 1                                      # existing copied item (untouched)
+  ├── Cooley - Hero                               # default (pipeline creates)
+  ├── Cooley - Hero - Families                    # personalization (SE creates)
+  └── Cooley - Hero - Retirees                    # personalization (SE creates)
 ```
 
 #### Step 1 — Upload images to Content Hub
@@ -295,7 +287,7 @@ For each section in `buildOrder.phase1_sitecore` with `matchType: "template"`:
 create_content_item(
   name="<ClientName> - <ComponentName>",
   templateId=manifest.templates.datasource.itemId,
-  parentId=manifest.datasourceFolder.itemId
+  parentId=<pageDataFolderId from Phase 0.5>
 )
 ```
 Save the returned `itemId`.
@@ -305,7 +297,7 @@ Save the returned `itemId`.
 create_content_item(
   name="<ClientName> - <ComponentName>",
   templateId=manifest.templates.datasource.itemId,
-  parentId=manifest.datasourceFolder.itemId
+  parentId=<pageDataFolderId from Phase 0.5>
 )
 ```
 Then create each child item under the new parent (see Step 4).
@@ -315,7 +307,7 @@ Then create each child item under the new parent (see Step 4).
 For each new client datasource item, build a single field update that includes **all field types**:
 
 ```
-update_fields_on_content_item(newItemId, {
+update_fields_on_item(newItemId, {
   // Text fields — from content-map
   "Title": contentMap.sections[N].fields.Title,
   "Description": contentMap.sections[N].fields.Description,
@@ -331,7 +323,7 @@ update_fields_on_content_item(newItemId, {
 **Matching images to fields:** The content-map's `imageFields` array lists `{ field, src }` per section. The `image-manifest.json` maps each `src` URL to its `imageFieldXml`. To wire them:
 1. For each section's `imageFields` entry, find the manifest entry with matching `src`
 2. Use the manifest's `imageFieldXml` as the field value
-3. Include it in the same `update_fields_on_content_item` call as text and link fields
+3. Include it in the same `update_fields_on_item` call as text and link fields
 
 **If images were not uploaded** (Step 1 was skipped), omit Image fields — add them to `images-to-upload.md` for manual handling.
 
@@ -355,7 +347,7 @@ For each child in contentMap.sections[N].children:
     templateId=manifest.templates.child.itemId,
     parentId=<new client parent itemId from Step 2>
   )
-  update_fields_on_content_item(newChildId, {
+  update_fields_on_item(newChildId, {
     // Text + link + image fields — all in one call
     "CardTitle": child.fields.CardTitle,
     "CardDescription": child.fields.CardDescription,
@@ -462,8 +454,7 @@ additional datasource items in the same folder:
 
 | Component | Folder | Template |
 |-----------|--------|----------|
-| Hero Banner | /Data/HeroBanners | HeroBanner template |
-| Product Pricing Cards | /Data/ProductPricingCards | ProductPricingCards template |
+| Hero | Home/Data | Hero template |
 
 Naming convention: "<ClientName> - <ComponentName> - <Segment>"
 Example: "Eurobank - Hero Banner - Families"
@@ -495,7 +486,7 @@ sections:
 sections[N].phase3.status:
   "pending"   → not started
   "created"   → create_content_item succeeded, itemId recorded
-  "populated" → update_fields_on_content_item succeeded
+  "populated" → update_fields_on_item succeeded
   "failed"    → MCP call returned error, error message recorded
 ```
 
@@ -519,55 +510,25 @@ For list components, also track:
 
 ### Phase 4 — Apply the theme
 
-The theme was extracted in Phase 1. All 18 template components consume `--brand-*` CSS variables (see `docs/ai/reference/brand-variables.md` for the full contract).
+The theme was extracted in Phase 1. Prospera components read per-site tokens (`--text-*`, `--bg-*`, `--roundness`, `--font-family`) from a `.site-<name>` class — **not** `--brand-*` variables.
 
-**Two delivery methods** — prefer inlined, fall back to import:
-
-#### Method 1: Inlined in globals.css (PREFERRED)
-
-Paste the client `:root` block **above** `@layer base` in `src/app/globals.css`. An unlayered `:root` always beats `@layer base` in the CSS cascade, regardless of how Next.js processes the CSS.
-
-1. Read the theme YAML's `cssVariables` block (produced in Phase 1)
-2. In `src/app/globals.css`, find the commented `/* CLIENT THEME */` placeholder above `@layer base`
-3. Replace it with the client's `:root` block:
-   ```css
-   :root {
-     --brand-primary: #00827f;
-     --brand-primary-foreground: #ffffff;
-     --brand-heading-font: 'Poppins', sans-serif;
-     /* ... all 19 variables from the theme */
-   }
-   ```
-4. Record `themeDelivery: "globals-inlined"` in `demo-progress.yaml`
-
-#### Method 2: Separate globals-brand.css (FALLBACK)
-
-Only use this if you have verified the `@import` works in DevTools after build.
-
-1. Write the `:root` block to `src/app/globals-brand.css`
-2. Uncomment the `@import './globals-brand.css'` line at the bottom of `globals.css`
-3. Build and verify in DevTools that `--brand-primary` etc. resolve to client values, not defaults
-4. Record `themeDelivery: "globals-brand-import"` in `demo-progress.yaml`
-
-**Why Method 1 is preferred:** Next.js App Router CSS processing can strip or reorder `@import` statements. When this happens, the `@layer base` defaults win and the client theme doesn't apply. An unlayered `:root` block above `@layer base` is immune to this — it always wins the cascade.
-
-**Google Fonts (if applicable):**
-
-If the theme specifies `typography.googleFontsUrl`, add a `<link>` tag to `src/app/layout.tsx`:
-```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" />
-```
+Follow **`docs/ai/catalog/theme-component-mapping.md` §2–3** exactly:
+1. Map the theme's `--brand-*` palette to Prospera tokens (§2 table)
+2. Add a `.site-<client-kebab>` block to `src/assets/sass/abstracts/vars/_colors.scss`
+3. Add the font to `src/assets/sass/base/fonts/_fonts.scss`
+4. Map the site name to the new class in `src/lib/site-theme.ts` (and make it the default)
+5. Record `themeDelivery: "site-theme-class"`, `cssWritten: true`, `fontsAdded: true` in `demo-progress.yaml`
 
 **Present the theme diff to the user before proceeding:**
-- Show the `:root` block content and where it was placed
-- Show the Google Fonts link (if any)
-- Note any font substitutions (proprietary -> Google Fonts alternative)
-- Note which delivery method was used (inlined / import)
+- Show the token block and where it was placed
+- Show the font change (and any substitutions — proprietary → Google Fonts alternative)
 - Ask: "Does this look correct? Ready to apply?"
 
-The theme takes effect on next dev server restart. All 18 components pick up the new values automatically via `var(--brand-*)` references.
+The theme takes effect on next dev server restart (or rebuild of the rendering host).
 
 ### Phase 5 — Build custom components (if any)
+
+> **Prospera caveat:** the component-authoring skills this phase calls (`sitecore-create-*-component`, `sitecore-create-demo-variants`, `rules/03-react-uiim-shadcn.md`) were written for a different (`uiim`) component library and still reference its paths. Adapt paths to `src/components/pagecontent/` and `/sitecore/templates/Project/financial` when using them, or skip this phase and use the existing Prospera variants (recommended default).
 
 For each section in the build plan with `matchType: "custom"`:
 
@@ -584,6 +545,8 @@ Custom components must be fully built before page assembly so they can be placed
 If there are no custom components (`customComponents: []` in build plan), skip to Phase 5.5.
 
 ### Phase 5.5 — Create demo variants (pixel-perfect matching)
+
+> **Prospera caveat:** the component-authoring skills this phase calls (`sitecore-create-*-component`, `sitecore-create-demo-variants`, `rules/03-react-uiim-shadcn.md`) were written for a different (`uiim`) component library and still reference its paths. Adapt paths to `src/components/pagecontent/` and `/sitecore/templates/Project/financial` when using them, or skip this phase and use the existing Prospera variants (recommended default).
 
 For each component on the page, create a custom named export that replicates the exact layout, spacing, and visual style from the client's screenshot.
 
@@ -617,8 +580,8 @@ Add components to the page in build-plan order and wire each to its datasource i
 1. Resolve the Home page: `get_content_item_by_path("/sitecore/content/<siteCollection>/<siteName>/Home")`
 2. Read current components: `get_components_on_page(homePageId)`
 3. Inventory what's already on the page:
-   - **Custom uiim components** already placed (match by `componentName`) — these will be re-wired to new client datasources, not re-added
-   - **OOB starter kit components** (RichText, Image, Container, Promo — identified by paths under `/sitecore/layout/Renderings/Feature/`) — these cannot be removed via MCP, note them for manual cleanup
+   - **Prospera components** already placed (match the page's `componentName` to the manifest `displayName`, e.g. "Promo CTA" → `PromoCta`) — these will be re-wired to new client datasources, not re-added
+   - **Prospera components not in the build plan** — these cannot be removed via MCP, note them for manual cleanup (remove in Pages)
 4. Use the Home page ID for all subsequent `add_component_on_page` and `set_component_datasource` calls
 
 **Only create a new subpage if the user explicitly requests it:**

@@ -17,8 +17,9 @@ phases:
 
   phase0_5_manifest:
     status: "pending"       # pending | complete | skipped
-    validationMode: ""      # quick | full
     result: ""              # pass | fail
+    homePageId: ""          # <siteRoot>/Home — resolved at run time
+    pageDataFolderId: ""    # <siteRoot>/Home/Data — parent for client datasources
 
   phase1_theme:
     status: "pending"       # pending | complete
@@ -43,9 +44,9 @@ phases:
 
   phase4_theme:
     status: "pending"       # pending | complete
-    themeDelivery: ""       # globals-inlined (preferred) | globals-brand-import (fallback)
+    themeDelivery: ""       # site-theme-class (see theme-component-mapping.md §3)
     cssWritten: false       # true after :root block written
-    fontsAdded: false       # true after Google Fonts <link> added to layout.tsx
+    fontsAdded: false       # true after font added to _fonts.scss
 
   phase5_custom:
     status: "pending"       # pending | complete | skipped

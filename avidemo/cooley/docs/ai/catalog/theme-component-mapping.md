@@ -1,115 +1,91 @@
-# Theme-to-Component Mapping Guide
+# Theme-to-Component Mapping Guide (Prospera component library)
 
-How the extracted client theme drives component variant selection and styling.
+How an extracted client theme (`docs/ai/themes/<client-kebab>.theme.yaml`) is applied to this
+app, and how the theme's `tone` fields drive variant selection in Phase 2.
 
-## Variant Selection Rules
+The previous version of this guide described a different component library (`uiim`,
+`--brand-*` variables in `globals.css`). Prospera components do **not** read `--brand-*`;
+they read the per-site tokens below.
 
-When the Site Analyzer (Step 4) decomposes a homepage, it uses the theme's `tone`
-fields to pick the best variant for each matched component.
+## 1. How Prospera themes work
 
-### Hero Banner
-| `tone.heroStyle` value | Variant |
-|---|---|
-| `full-bleed-image` | `BackgroundImage` |
-| `split-image-text` | `SplitImageText` |
-| `centered-overlay` | `Default` |
-| `video-background` | `VideoBackground` |
-| `gradient` | `Default` |
-| `minimal-text` | `Minimal` |
+| Piece | File | What it holds |
+|---|---|---|
+| Color + shape tokens | `src/assets/sass/abstracts/vars/_colors.scss` | One block per theme class: `.site-financial`, `.site-services`, … |
+| Font family | `src/assets/sass/base/fonts/_fonts.scss` | `--font-family` per theme class + the Google Fonts `@import` |
+| Theme selection | `src/lib/site-theme.ts` | Maps the Sitecore **site name** (`page.siteName`) to a theme class |
 
-### Navigation Header
-| `tone.navStyle` value | Variant |
-|---|---|
-| `solid-bar` | `Default` |
-| `transparent-overlay` | `Transparent` |
-| `minimal` | `Minimal` |
-| `mega-menu` | `Default` (with expanded hover behavior) |
+The layout puts the theme class on `<body>`, so every component picks up the tokens.
 
-### Product / Pricing Cards
-| Visual observation | Variant |
-|---|---|
-| Cards in 2-3 column grid | `Default` |
-| Wide cards with image left | `Horizontal` |
-| Dense cards without images | `Compact` |
-| One card larger / highlighted | `Highlighted` |
+## 2. Brand palette → Prospera tokens
 
-### Testimonials
-| Visual observation | Variant |
-|---|---|
-| Single large quote | `Default` |
-| Multiple quotes with arrows/dots | `Carousel` |
-| 2-3 quote cards side by side | `Grid` |
-| Author photo visible | `WithPhoto` |
+The extract-theme skill still produces the generic `--brand-*` palette (`cssVariables` in the
+theme YAML). Map it to Prospera tokens like this:
 
-## Styling Application Rules
+| Prospera token | From theme | Notes |
+|---|---|---|
+| `--text-body` | `--brand-fg` | body copy color |
+| `--text-body-inverted` | `--brand-primary-foreground` | text on saturated backgrounds |
+| `--text-colored` | `--brand-primary` | headings/links in brand color |
+| `--text-accent` | `--brand-accent` | eyebrows, accents |
+| `--text-footer` | `--brand-footer-fg` | |
+| `--bg-body` | `--brand-bg` | page background |
+| `--bg-main` | `--brand-muted` | tinted section background |
+| `--bg-main-alt` | `--brand-muted` | alternate tinted background |
+| `--bg-color` | lightened `--brand-primary` (or `--brand-secondary` if light) | soft brand fill |
+| `--bg-saturated` | `--brand-primary` | buttons, strong bands |
+| `--bg-accent` | `--brand-accent` | |
+| `--bg-footer` | `--brand-footer-bg` | |
+| `--border-color` | `--brand-border` | |
+| `--hr-color` | `--brand-bg` | |
+| `--roundness` | `--brand-radius` (or `--brand-card-radius`) | `0` for square brands |
+| `--font-family` | `--brand-body-font` (heading font if only one) | in `_fonts.scss` |
 
-Every template component uses CSS variables from the theme. The agent does NOT
-hardcode hex colors — it references `var(--brand-*)` variables.
+## 3. Applying a client theme (Phase 4)
 
-### Color mapping
-| CSS Variable | Used for |
-|---|---|
-| `--brand-primary` | Primary buttons, active tab indicators, links |
-| `--brand-secondary` | Secondary buttons, section backgrounds |
-| `--brand-accent` | CTAs, highlight badges, alerts |
-| `--brand-bg` | Page background, card backgrounds (light mode) |
-| `--brand-fg` | Body text, headings on light backgrounds |
-| `--brand-muted` | Alternating section backgrounds, card backgrounds |
-| `--brand-muted-fg` | Secondary text, captions, descriptions |
-| `--brand-header-bg` | Navigation header background |
-| `--brand-header-fg` | Navigation text |
-| `--brand-footer-bg` | Footer background |
-| `--brand-footer-fg` | Footer text and links |
-| `--brand-border` | Card borders, dividers, input borders |
-| `--brand-ring` | Focus rings, active states |
+Do this **only in the customer copy** (`avidemo/<customer-folder>/`), never in `avidemo/prospera`.
 
-### Typography mapping
-| CSS Variable | Tailwind usage |
-|---|---|
-| `--brand-heading-font` | `font-heading` in Tailwind config → applied to h1–h6 |
-| `--brand-body-font` | `font-body` in Tailwind config → applied to body text |
-| `--brand-radius` | `rounded-[var(--brand-radius)]` or Tailwind config override |
-| `--brand-button-radius` | Button border-radius |
-| `--brand-card-radius` | Card border-radius |
+1. **Tokens** — append a light block to `_colors.scss`, named after the client:
+   ```scss
+   // <Client name>
+   body.site-<client-kebab>,
+   .site-<client-kebab> {
+     --text-body: …;
+     /* …all tokens from the table above… */
+     --roundness: …;
+   }
+   ```
+   Add a matching `.dark` block only if the demo needs dark mode (copy the light values with
+   swapped body/background colors).
+2. **Fonts** — in `_fonts.scss`, add the client's Google Fonts family to the `@import` URL and:
+   ```scss
+   .site-<client-kebab> { --font-family: '<Font>', Helvetica, Arial, sans-serif; }
+   ```
+3. **Theme selection** — in `src/lib/site-theme.ts`, add `'<SiteName>': 'site-<client-kebab>'`
+   to `SITE_THEME_CLASS_MAP` **and** set `DEFAULT_SITE_THEME_CLASS = 'site-<client-kebab>'`.
+   `<SiteName>` is the Sitecore site definition name (`SiteName` on
+   `Settings/Site Grouping/<site>`), which skinned-demo-setup sets to the customer system name.
+4. Record `themeDelivery: "site-theme-class"` in `demo-progress.yaml`.
 
-### Dark vs Light section handling
-Many sites alternate between dark and light sections. Use the theme's
-`tone.colorMode` to determine the default:
+## 4. Variant selection from `tone`
 
-| `tone.colorMode` | Behavior |
-|---|---|
-| `light` | Default sections use `--brand-bg` / `--brand-fg`. Dark sections use `--brand-header-bg` / `--brand-header-fg`. |
-| `dark` | Default sections use dark backgrounds. Light sections (cards, content) use `--brand-bg` / `--brand-fg`. |
-| `mixed` | Alternate automatically. Hero and footer dark, content sections light. |
+Variants are named React exports (see `variants` in `component-registry.yaml`). Selection is a
+manual step in Pages (see the variant checklist), so these rules only choose what goes on that
+checklist.
 
-## Section Background Alternation
+| Component | Observation / `tone` value | Variant |
+|---|---|---|
+| Carousel / Hero / HeroBanner | `tone.heroStyle: full-bleed-image` or rotating slides | `Carousel` (`Default`) if slides, else `Hero` |
+| | `tone.heroStyle: split-image-text` | `HeroBanner` |
+| | `tone.heroStyle: centered-overlay` / `minimal-text` | `Hero`, or `ParallaxBanner` for a mid-page band |
+| CtaBanner | image dominates the band | `LargeImage` |
+| PromoCta | text over a background image | `WithBackgroundImage` |
+| HeadingCta | centered section intro | `Centered`; page title block → `PageHeading`; slim strip → `Compact` |
+| ThreeColumnCta | icon tiles | `WithIcons` (small tiles → `WithIconsCompact`) |
+| Quote | no author block | `Simple` |
+| Questions | single column | `SingleColumn` |
+| ArticleList | 3 cards across | `ThreeColumn`; dense grid → `Grid`; compact list → `Simplified` |
+| Header | image logo | `WithLogoImage` |
+| Footer | social icons | `WithSocials` |
 
-To create visual rhythm, template components alternate between:
-1. `--brand-bg` (white/light) — default
-2. `--brand-muted` (subtle gray/tint) — every other section
-3. `--brand-header-bg` or `--brand-primary` (dark/brand) — hero, CTA, feature highlight
-
-The Site Analyzer assigns a `sectionBackground` hint to each component:
-- `"default"` → `bg-[var(--brand-bg)]`
-- `"muted"` → `bg-[var(--brand-muted)]`
-- `"dark"` → `bg-[var(--brand-header-bg)]` with light text
-- `"primary"` → `bg-[var(--brand-primary)]` with `--brand-primary-foreground` text
-- `"accent"` → `bg-[var(--brand-accent)]` with `--brand-accent-foreground` text
-
-## Font Substitution for Demo
-
-When the theme notes proprietary fonts (like "Sage Headline"), the components
-use the Google Fonts alternative specified in the theme. The mapping:
-
-1. Theme `typography.headingFamily` → if available on Google Fonts, use directly
-2. If proprietary → check `extraction.notes` for suggested alternative
-3. Load via `typography.googleFontsUrl` in the page `<head>`
-
-Common substitutions:
-| Proprietary Font | Google Fonts Alternative |
-|---|---|
-| Sage Headline (black weight) | `Poppins` weight 900 or `Montserrat` weight 800 |
-| Sage Text | `Inter` or `Source Sans 3` |
-| Custom serif (luxury brands) | `Playfair Display` or `Cormorant Garamond` |
-| Custom geometric sans | `DM Sans` or `Albert Sans` |
-| Custom humanist sans | `Open Sans` or `Nunito` |
+When `tone.cardStyle` is `flat`/`square`, prefer `--roundness: 0`; `rounded` → `0.75rem`–`1rem`.
