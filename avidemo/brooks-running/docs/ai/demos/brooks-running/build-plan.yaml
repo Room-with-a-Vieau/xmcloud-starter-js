@@ -1,0 +1,219 @@
+# Demo Build Plan — Brooks Running homepage
+client:
+  name: "Brooks Running"
+  sourceUrl: "https://www.brooksrunning.com/"
+  themeFile: "docs/ai/themes/brooks-running.theme.yaml"
+  analyzedAt: "2026-10-07T22:00:00Z"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/demos/brooks-running/homepage-screenshot.png"   # user-supplied; scraper was blocked (Access Denied)
+    mobile: ""
+    hero: ""
+  totalSections: 14
+  templateMatches: 14
+  customRequired: 0
+
+sections:
+  - position: 1
+    description: "Thin light-aqua announcement strip above the header: 'Members get free shipping. Join us' with a close (X) icon."
+    matchedComponent: { registryId: "", manifestName: "", variant: "", matchType: "template", matchConfidence: "low" }
+    sectionBackground: "accent"
+    content: { Text: "Members get free shipping. Join us" }
+    contentNotes: "No announcement-bar component in the Prospera library, and it sits above the header partial design. Omitted from the demo; listed as a gap."
+    variantReason: ""
+    skip: true
+
+  - position: 2
+    description: "Utility links row (Shop Pre-Owned Gear, Blog, Store Locator, Customer Care, Become a Member) over a solid navy nav bar with the BROOKS wordmark, NEW ARRIVALS / WOMEN / MEN / SHOE FINDER, search box, account and cart icons."
+    matchedComponent: { registryId: "Header", manifestName: "Header", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    sectionBackground: "primary"
+    content: { Logo: "BROOKS (text logo)", Nav: ["New Arrivals", "Women", "Men", "Shoe Finder"] }
+    contentNotes: "Chrome — lives in the Header partial design, context-only (nav comes from page items). Manual task. Default (text logo) variant unless the user supplies the Brooks logo for WithLogoImage. Utility row, account/cart icons are not reproduced."
+    variantReason: "No logo image available (site blocked scraping)."
+    apiAddable: false
+
+  - position: 3
+    description: "Full-bleed photo of a runner (video on the live site) with large uppercase white headline 'ENERGIZE EVERY STRIDE' and two underlined text CTAs bottom-left."
+    matchedComponent: { registryId: "Hero", manifestName: "Hero", variant: "Default", matchType: "template", matchConfidence: "high" }
+    sectionBackground: "dark"
+    content:
+      Title: "Energize every stride"
+      Text: ""
+      Link: { text: "Shop Ghost Amp", href: "https://www.brooksrunning.com/en_us/ghost-amp/" }
+    imageFields: [{ field: "Image", file: "imgi_76_F26-BRcom-HP-Oct-01-GhostAmp-XL.jpg" }]
+    contentNotes: "Hero has one link; the second CTA 'Shop Road Running Gear' is dropped. Video replaced by its still image."
+    variantReason: ""
+    apiAddable: true
+
+  - position: 4
+    description: "Warm off-white band with centered heading 'Gear built for every run'."
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    sectionBackground: "muted"
+    content: { Eyebrow: "", Heading: "Gear built for every run", Text: "", Link: "" }
+    contentNotes: "FourColumnCta has no section-title field, so the heading is its own component."
+    variantReason: "Centered section heading."
+    apiAddable: true
+
+  - position: 5
+    description: "Four square photo tiles in a row with underlined uppercase labels: Women's Shoes, Women's Apparel, Men's Shoes, Men's Apparel."
+    matchedComponent: { registryId: "FourColumnCta", manifestName: "FourColumnCta", variant: "Default", matchType: "template", matchConfidence: "high" }
+    sectionBackground: "muted"
+    content:
+      Title1: "Women's shoes"
+      Link1: { text: "Women's shoes", href: "https://www.brooksrunning.com/en_us/womens/shoes/" }
+      Title2: "Women's apparel"
+      Link2: { text: "Women's apparel", href: "https://www.brooksrunning.com/en_us/womens/apparel/" }
+      Title3: "Men's shoes"
+      Link3: { text: "Men's shoes", href: "https://www.brooksrunning.com/en_us/mens/shoes/" }
+      Title4: "Men's apparel"
+      Link4: { text: "Men's apparel", href: "https://www.brooksrunning.com/en_us/mens/apparel/" }
+    imageFields:
+      - { field: "Image1", file: "imgi_77_F26-BRcom-HP-Oct-02a-MockNav-XL.jpg" }
+      - { field: "Image2", file: "imgi_78_F26-BRcom-HP-Oct-02b-MockNav-XL.jpg" }
+      - { field: "Image3", file: "imgi_79_F26-BRcom-HP-Oct-02c-MockNav-XL.jpg" }
+      - { field: "Image4", file: "imgi_80_F26-BRcom-HP-Oct-02d-MockNav-XL.jpg" }
+    contentNotes: "Text1-4 left empty. Link URLs are best-guess brooksrunning.com category paths (site could not be crawled)."
+    variantReason: ""
+    apiAddable: true
+
+  - position: 6
+    description: "Full-bleed photo of a runner in a white reflective jacket with uppercase headline 'MORE HOURS TO RUN', a one-line description and an underlined CTA, left-aligned."
+    matchedComponent: { registryId: "Hero", manifestName: "Hero", variant: "Default", matchType: "template", matchConfidence: "high" }
+    sectionBackground: "dark"
+    content:
+      Title: "More hours to run"
+      Text: "Reflective gear for miles before sunrise and after sunset."
+      Link: { text: "Shop reflective gear", href: "https://www.brooksrunning.com/en_us/reflective-running-gear/" }
+    imageFields: [{ field: "Image", file: "imgi_81_F26-BRcom-HP-Oct-03-Reflective-XL.jpg" }]
+    contentNotes: "Same visual pattern as the page hero, so the same component is reused."
+    variantReason: ""
+    apiAddable: true
+
+  - position: 7
+    description: "Off-white band with small uppercase eyebrow 'FALL ARRIVALS' and centered heading 'Ready for the season'."
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    sectionBackground: "muted"
+    content: { Eyebrow: "Fall arrivals", Heading: "Ready for the season", Text: "", Link: "" }
+    contentNotes: ""
+    variantReason: "Centered section heading with eyebrow."
+    apiAddable: true
+
+  - position: 8
+    description: "Two large square photo tiles side by side with underlined uppercase labels overlaid bottom-left: Cold-Weather Gear and Wet-Weather Gear."
+    matchedComponent: { registryId: "TwoColumnCta", manifestName: "TwoColumnCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    sectionBackground: "muted"
+    content:
+      Title1: "Cold-weather gear"
+      Link1: { text: "Cold-weather gear", href: "https://www.brooksrunning.com/en_us/cold-weather-running-gear/" }
+      Title2: "Wet-weather gear"
+      Link2: { text: "Wet-weather gear", href: "https://www.brooksrunning.com/en_us/wet-weather-running-gear/" }
+    imageFields:
+      - { field: "Image1", file: "imgi_82_F26-BRcom-HP-Oct-04a-Thermal-XL.jpg" }
+      - { field: "Image2", file: "imgi_83_F26-BRcom-HP-Oct-04b-Gortex-XL.jpg" }
+    contentNotes: "Prospera renders labels below the images rather than overlaid. Reuses the TwoColumnCta already on the Home page (rewired to a new datasource)."
+    variantReason: ""
+    apiAddable: true
+    reuseExistingInstance: "0ed2d2c2"
+
+  - position: 9
+    description: "Full-bleed photo of two runners with uppercase headline 'BROOKS RUN CLUB', line 'FREE shipping and early access to new gear.' and an underlined 'Learn more' CTA."
+    matchedComponent: { registryId: "Hero", manifestName: "Hero", variant: "Default", matchType: "template", matchConfidence: "high" }
+    sectionBackground: "dark"
+    content:
+      Title: "Brooks Run Club"
+      Text: "FREE shipping and early access to new gear."
+      Link: { text: "Learn more", href: "https://www.brooksrunning.com/en_us/brooks-run-club/" }
+    imageFields: [{ field: "Image", file: "imgi_84_F26-BRcom-HP-Oct-05-BRC-XL.jpg" }]
+    contentNotes: ""
+    variantReason: ""
+    apiAddable: true
+
+  - position: 10
+    description: "Light gray band with centered heading 'Stories to transform your run'."
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    sectionBackground: "muted"
+    content: { Eyebrow: "", Heading: "Stories to transform your run", Text: "", Link: "" }
+    contentNotes: ""
+    variantReason: "Centered section heading."
+    apiAddable: true
+
+  - position: 11
+    description: "Four article cards: photo, uppercase category + date, bold title, read time."
+    matchedComponent: { registryId: "FourColumnCta", manifestName: "FourColumnCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    sectionBackground: "muted"
+    content:
+      Title1: "Brooks Ghost running shoes: What's your match?"
+      Text1: "Gear and technology · April 14, 2026 · 4 min. read"
+      Title2: "Brooks' best trail running shoes"
+      Text2: "Gear and technology · November 18, 2025 · 4 min. read"
+      Title3: "The evolution of the Brooks Ghost running shoe"
+      Text3: "Gear and technology · April 21, 2026 · 4 min. read"
+      Title4: "Trail running tips for beginners"
+      Text4: "Running tips · October 23, 2025 · 6 min. read"
+      Link1-4: "brooksrunning.com blog (exact URLs unknown; site could not be crawled)"
+    imageFields:
+      - { field: "Image1", file: "imgi_58_Mobile_Ghost_Series_Header.jpg" }
+      - { field: "Image2", file: "imgi_59_S25-BRcom-best-shoes-trail-running-hero-S.jpg" }
+      - { field: "Image3", file: "imgi_60_Mobile_Ghost_18_Header.jpg" }
+      - { field: "Image4", file: "imgi_61_S25-BRcom-trail-running-tips-hero-S.jpg" }
+    contentNotes: "Static cards. Alternative: ArticleList (context-only) listing real Article pages — would require creating 4 Article pages under Home/articles."
+    variantReason: ""
+    apiAddable: true
+
+  - position: 12
+    description: "Slim navy band with a round 'Run Happy Promise' badge and the line 'Take it for a 90-day trial run. If you're not happy, we're not happy.'"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Compact", matchType: "template", matchConfidence: "low" }
+    sectionBackground: "primary"
+    content:
+      Heading: "Take it for a 90-day trial run."
+      Text: "If you're not happy, we're not happy."
+      Link: { text: "90-day trial run", href: "https://www.brooksrunning.com/en_us/run-happy-promise/" }
+    contentNotes: "No badge image available. Navy background depends on an existing SXA background style on the rendering; if none exists the band renders on the default background."
+    variantReason: "Short single-line strip."
+    apiAddable: true
+
+  - position: 13
+    description: "White footer: BROOKS wordmark, newsletter signup text + email field, social icons, four link columns (Run Community, Find Your Perfect Gear, Customer Care, Get to Know Our Brand), legal links row."
+    matchedComponent: { registryId: "Footer", manifestName: "Footer", variant: "WithSocials", matchType: "template", matchConfidence: "medium" }
+    sectionBackground: "default"
+    content:
+      Title1: "Run community"
+      Text1: "Events, Future Run, PR Invite, Athletes, Sports Medicine Program, Community Heroes, Affiliate Program"
+      Title2: "Find your perfect gear"
+      Text2: "Shoe Finder, Bra Finder, Size Guides, Ask a Guru, Used Gear"
+      Title3: "Customer care"
+      Text3: "Contact Us, Run Happy Promise, Returns, Track Order, Shipping, Store Locator, FAQ, Gift Cards"
+      Title4: "Get to know our brand"
+      Text4: "Our Company, Our Purpose, Our History, Sustainability, Careers, Press, Research & Innovation"
+      Copyright: "© 2026 Brooks Sports, Inc"
+      SocialsTitle: ""
+    contentNotes: "Chrome — lives in the Footer partial design; content written to the footer's datasource under this site. Newsletter email form is not reproduced. Footer supports 3 social links (Brooks shows 6+)."
+    variantReason: "Social icons present."
+    apiAddable: false
+
+  - position: 14
+    description: "Existing Prospera components already on the copied Home page that are not in this plan: Carousel, Promo CTA x3, Five Column CTA, Three Column CTA, Article List, Documents List, App Promo."
+    matchedComponent: { registryId: "", manifestName: "", variant: "", matchType: "template", matchConfidence: "high" }
+    sectionBackground: ""
+    content: {}
+    contentNotes: "Cannot be removed via MCP — manual cleanup in Pages (9 components)."
+    skip: true
+
+customComponents: []
+
+buildOrder:
+  phase1_sitecore:
+    - "Hero (Energize every stride)"
+    - "HeadingCta (Gear built for every run)"
+    - "FourColumnCta (category tiles)"
+    - "Hero (More hours to run)"
+    - "HeadingCta (Ready for the season)"
+    - "TwoColumnCta (cold/wet weather) — reuse existing instance"
+    - "Hero (Brooks Run Club)"
+    - "HeadingCta (Stories to transform your run)"
+    - "FourColumnCta (stories)"
+    - "HeadingCta Compact (Run Happy promise)"
+    - "Footer (partial design datasource)"
+  phase2_theme: "site-theme-class .site-brooks-running + Barlow / Barlow Condensed headings (option B)"
+  phase3_custom: []

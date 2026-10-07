@@ -24,6 +24,19 @@
   --button-text-transform: uppercase;
 }
 
+// Brooks Running (skinned demo): square navy buttons, bold uppercase labels.
+.site-brooks-running {
+  --button-main-color: #fff;
+  --button-main-bg-color: var(--bg-saturated);
+  --button-secondary-color: var(--text-colored);
+  --button-simple-color: var(--text-colored);
+  --button-padding: 0.75rem 1.75rem;
+  --button-roundness: 0;
+  --button-font-weight: 700;
+  --button-font-size: 0.875rem;
+  --button-text-transform: uppercase;
+}
+
 .button {
   display: inline-block;
   text-decoration: none;

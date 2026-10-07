@@ -1,0 +1,52 @@
+// Brooks Running skinned-demo overrides (theme only — no component changes).
+// Condensed uppercase display headings and white underlined CTAs over full-bleed photos, like brooksrunning.com.
+
+// Prospera's base body style hard-codes 'Open Sans'; use the theme font instead.
+body.site-brooks-running,
+.site-brooks-running {
+  font-family: var(--font-family);
+}
+
+.site-brooks-running {
+  h1,
+  h2,
+  h3,
+  .display-3,
+  .display-4,
+  .display-6 {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+  }
+
+  .hero {
+    color: #fff;
+
+    .content-container {
+      justify-content: flex-end;
+      gap: 1.5rem;
+
+      .title {
+        font-family: var(--heading-font-family);
+        font-size: clamp(40px, 5vw, 64px);
+        line-height: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+
+    // Brooks hero CTAs are white underlined text links, not filled buttons.
+    a {
+      background: transparent;
+      color: #fff;
+      padding: 0;
+      text-decoration: underline;
+      text-underline-offset: 6px;
+      letter-spacing: 0.04em;
+    }
+  }
+}

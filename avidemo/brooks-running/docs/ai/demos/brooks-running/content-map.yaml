@@ -1,0 +1,194 @@
+# Content map — Brooks Running (Phase 2.5)
+# Source: homepage screenshot + build-plan.yaml. brooksrunning.com blocks automated access,
+# so the content extractor was not run; text is transcribed from the screenshot.
+client:
+  name: "Brooks Running"
+  sourceUrl: "https://www.brooksrunning.com/"
+  createdAt: "2026-10-07T22:20:00Z"
+  contentSource: "screenshot"
+  language: "en"
+  targetParent: "/sitecore/content/Fitness/BrooksRunning/Home/Data"
+
+sections:
+  - position: 3
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Hero Energize"
+    fields:
+      Title: "Energize every stride"
+      Text: ""
+      Link: { text: "Shop Ghost Amp", href: "https://www.brooksrunning.com/en_us/ghost-amp/" }
+    children: []
+    imageFields:
+      - { field: "Image", src: "local:imgi_76_F26-BRcom-HP-Oct-01-GhostAmp-XL.jpg" }
+
+  - position: 4
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Heading Gear"
+    fields:
+      Eyebrow: ""
+      Heading: "Gear built for every run"
+      Text: ""
+      Link: ""
+    children: []
+    imageFields: []
+
+  - position: 5
+    componentName: "FourColumnCta"
+    manifestName: "FourColumnCta"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Category Tiles"
+    fields:
+      Title1: "Women's shoes"
+      Text1: ""
+      Link1: { text: "Women's shoes", href: "https://www.brooksrunning.com/en_us/womens/shoes/" }
+      Title2: "Women's apparel"
+      Text2: ""
+      Link2: { text: "Women's apparel", href: "https://www.brooksrunning.com/en_us/womens/apparel/" }
+      Title3: "Men's shoes"
+      Text3: ""
+      Link3: { text: "Men's shoes", href: "https://www.brooksrunning.com/en_us/mens/shoes/" }
+      Title4: "Men's apparel"
+      Text4: ""
+      Link4: { text: "Men's apparel", href: "https://www.brooksrunning.com/en_us/mens/apparel/" }
+    children: []
+    imageFields:
+      - { field: "Image1", src: "local:imgi_77_F26-BRcom-HP-Oct-02a-MockNav-XL.jpg" }
+      - { field: "Image2", src: "local:imgi_78_F26-BRcom-HP-Oct-02b-MockNav-XL.jpg" }
+      - { field: "Image3", src: "local:imgi_79_F26-BRcom-HP-Oct-02c-MockNav-XL.jpg" }
+      - { field: "Image4", src: "local:imgi_80_F26-BRcom-HP-Oct-02d-MockNav-XL.jpg" }
+
+  - position: 6
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Hero Reflective"
+    fields:
+      Title: "More hours to run"
+      Text: "<p>Reflective gear for miles before sunrise and after sunset.</p>"
+      Link: { text: "Shop reflective gear", href: "https://www.brooksrunning.com/en_us/reflective-running-gear/" }
+    children: []
+    imageFields:
+      - { field: "Image", src: "local:imgi_81_F26-BRcom-HP-Oct-03-Reflective-XL.jpg" }
+
+  - position: 7
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Heading Season"
+    fields:
+      Eyebrow: "Fall arrivals"
+      Heading: "Ready for the season"
+      Text: ""
+      Link: ""
+    children: []
+    imageFields: []
+
+  - position: 8
+    componentName: "TwoColumnCta"
+    manifestName: "TwoColumnCta"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Weather Gear"
+    fields:
+      Title1: "Cold-weather gear"
+      Text1: ""
+      Link1: { text: "Cold-weather gear", href: "https://www.brooksrunning.com/en_us/cold-weather-running-gear/" }
+      Title2: "Wet-weather gear"
+      Text2: ""
+      Link2: { text: "Wet-weather gear", href: "https://www.brooksrunning.com/en_us/wet-weather-running-gear/" }
+    children: []
+    imageFields:
+      - { field: "Image1", src: "local:imgi_82_F26-BRcom-HP-Oct-04a-Thermal-XL.jpg" }
+      - { field: "Image2", src: "local:imgi_83_F26-BRcom-HP-Oct-04b-Gortex-XL.jpg" }
+
+  - position: 9
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Hero Run Club"
+    fields:
+      Title: "Brooks Run Club"
+      Text: "<p>FREE shipping and early access to new gear.</p>"
+      Link: { text: "Learn more", href: "https://www.brooksrunning.com/en_us/brooks-run-club/" }
+    children: []
+    imageFields:
+      - { field: "Image", src: "local:imgi_84_F26-BRcom-HP-Oct-05-BRC-XL.jpg" }
+
+  - position: 10
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Heading Stories"
+    fields:
+      Eyebrow: ""
+      Heading: "Stories to transform your run"
+      Text: ""
+      Link: ""
+    children: []
+    imageFields: []
+
+  - position: 11
+    componentName: "FourColumnCta"
+    manifestName: "FourColumnCta"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Stories"
+    fields:
+      Title1: "Brooks Ghost running shoes: What's your match?"
+      Text1: "Gear and technology · April 14, 2026 · 4 min. read"
+      Link1: { text: "Read the story", href: "https://www.brooksrunning.com/en_us/blog/" }
+      Title2: "Brooks' best trail running shoes"
+      Text2: "Gear and technology · November 18, 2025 · 4 min. read"
+      Link2: { text: "Read the story", href: "https://www.brooksrunning.com/en_us/blog/" }
+      Title3: "The evolution of the Brooks Ghost running shoe"
+      Text3: "Gear and technology · April 21, 2026 · 4 min. read"
+      Link3: { text: "Read the story", href: "https://www.brooksrunning.com/en_us/blog/" }
+      Title4: "Trail running tips for beginners"
+      Text4: "Running tips · October 23, 2025 · 6 min. read"
+      Link4: { text: "Read the story", href: "https://www.brooksrunning.com/en_us/blog/" }
+    children: []
+    imageFields:
+      - { field: "Image1", src: "local:imgi_58_Mobile_Ghost_Series_Header.jpg" }
+      - { field: "Image2", src: "local:imgi_59_S25-BRcom-best-shoes-trail-running-hero-S.jpg" }
+      - { field: "Image3", src: "local:imgi_60_Mobile_Ghost_18_Header.jpg" }
+      - { field: "Image4", src: "local:imgi_61_S25-BRcom-trail-running-tips-hero-S.jpg" }
+
+  - position: 12
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Run Happy Promise"
+    fields:
+      Eyebrow: ""
+      Heading: "Take it for a 90-day trial run."
+      Text: "If you're not happy, we're not happy."
+      Link: { text: "Run Happy Promise", href: "https://www.brooksrunning.com/en_us/run-happy-promise/" }
+    children: []
+    imageFields: []
+
+  - position: 13
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "simple"
+    datasourceItemName: "Brooks Running - Footer"
+    fields:
+      Title1: "Run community"
+      Text1: ["Events", "Future Run", "PR Invite", "Athletes", "Sports Medicine Program", "Community Heroes", "Affiliate Program"]
+      Title2: "Find your perfect gear"
+      Text2: ["Shoe Finder", "Bra Finder", "Size Guides", "Ask a Guru", "Used Gear"]
+      Title3: "Customer care"
+      Text3: ["Contact Us", "Run Happy Promise", "Returns", "Track Order", "Shipping", "Store Locator", "FAQ", "Gift Cards"]
+      Title4: "Get to know our brand"
+      Text4: ["Our Company", "Our Purpose", "Our History", "Sustainability", "Careers", "Press", "Research & Innovation"]
+      Copyright: "© 2026 Brooks Sports, Inc"
+      SocialsTitle: ""
+    children: []
+    imageFields: []
+    notes: "Text1-4 are rich-text link lists; their HTML follows the existing Prospera footer's markup. Social links/icons and the footer logo stay as copied unless replaced."
+
+notes:
+  - "Links point to brooksrunning.com; category and blog URLs are best guesses because the site could not be crawled."
+  - "Hero second CTA ('Shop Road Running Gear') dropped — Hero has a single Link field."
+  - "Images are user-supplied files in images/; image-manifest.json maps them to fields."

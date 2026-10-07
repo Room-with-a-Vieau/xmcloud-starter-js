@@ -74,6 +74,26 @@ body.site-services.dark,
   --roundness: 0.375rem;
 }
 
+// Brooks Running (skinned demo — tokens from docs/ai/themes/brooks-running.theme.yaml)
+body.site-brooks-running,
+.site-brooks-running {
+  --text-body: #0e1320;
+  --text-body-inverted: #fff;
+  --text-colored: #1b3889;
+  --text-footer: #0e1320;
+  --text-accent: #1b3889;
+  --bg-body: #fff;
+  --bg-footer: #fff;
+  --bg-main: #f8f5f0;
+  --bg-main-alt: #f8f8f8;
+  --bg-color: #b8dde1;
+  --bg-saturated: #1b3889;
+  --bg-accent: #1b3889;
+  --border-color: #c8c9cc;
+  --hr-color: #fff;
+  --roundness: 0;
+}
+
 // Backgrounds colors
 $bg-transparent: transparent !default;
 $bg-basic-color: var(--bg-body) !default;

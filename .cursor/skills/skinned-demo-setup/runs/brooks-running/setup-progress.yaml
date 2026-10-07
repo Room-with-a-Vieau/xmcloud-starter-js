@@ -10,7 +10,7 @@ customer:
   url: "https://www.brooksrunning.com/"
   screenshotPath: "~/Downloads/www.brooksrunning.com_en_us.png"        # path or attachment note — not binary
   startedAt: "2026-10-07T19:55:18Z"
-  lastUpdatedAt: "2026-10-07T20:49:23Z"
+  lastUpdatedAt: "2026-10-07T22:06:03Z"
 
 selection:
   collectionMode: "new"        # new | existing
@@ -75,20 +75,20 @@ steps:
     error: ""
 
   move_verify:
-    status: "pending"       # pending | complete | skipped | failed
+    status: "complete"       # pending | complete | skipped | failed
     error: ""
 
   step1d_editing_host:
-    status: "pending"       # pending | complete | skipped | failed
+    status: "complete"       # pending | complete | skipped | failed
     optedIn: null           # true | false
     error: ""
 
   step1_verification:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   step2_build_demo:
-    status: "pending"       # pending | complete | failed | handed_off
+    status: "complete"       # pending | complete | failed | handed_off
     # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
     error: ""
 
@@ -98,4 +98,6 @@ notes:
   - "2026-10-07T20:44:10Z — Marketer MCP authed (list_sites ok). Source ProsperaFinancial verified in collection Financial; avidemo/prospera present; Fitness collection and avidemo/brooks-running do not exist yet. Waiting on plan confirmation."
   - "2026-10-07T20:45:51Z — Plan confirmed (incl. .env.local edit). Collection Fitness created (61741f32d04641338f2ccc06db3d65ab). Copy of ProsperaFinancial as BrooksRunning started (final name, no rename)."
   - "2026-10-07T20:49:23Z — BrooksRunning copied (f871f069-0603-4299-90c8-180182aea327), SiteName correct, RenderingHost Default. User asked to move it Financial -> Fitness in Content Editor. avidemo/brooks-running copied; .env.local created with NEXT_PUBLIC_DEFAULT_SITE_NAME=BrooksRunning; project.yaml -> Fitness/BrooksRunning; manifest 38/38 react=ok; renderingHosts.brooks-running added (cloned from prosperabank)."
+  - "2026-10-07T21:32:24Z — Move verified (BrooksRunning listed under Fitness). Editing host brooks-running created manually by user and deployed (rendering host item 70fe101e-4f37-7fc3-f066-01f87f6049fe); site RenderingHost set to brooks-running. Step 1 verified. Step 2 handed off to avidemo/brooks-running sitecore-build-demo."
+  - "2026-10-07T22:06:03Z — sitecore-build-demo finished (Phases 0-7) for the homepage. See avidemo/brooks-running/docs/ai/demos/brooks-running/demo-summary.md. Category page (ProductGrid) is a planned follow-up."
 # - "2026-09-25T15:00:00Z — Waiting on Content Editor move."

@@ -1,0 +1,217 @@
+# Demo Progress Tracker
+# Created automatically at the start of a demo build.
+# Updated after each MCP call or phase completion.
+# Used by "resume demo" to skip completed work.
+
+client:
+  name: "Brooks Running"
+  sourceUrl: "https://www.brooksrunning.com/"
+  startedAt: "2026-10-07T21:32:45Z"
+  lastUpdatedAt: "2026-10-07T22:05:48Z"
+
+phases:
+  phase0_inputs:
+    status: "complete"       # pending | complete
+    screenshot: true
+    url: "https://www.brooksrunning.com/"
+
+  phase0_5_manifest:
+    status: "complete"       # pending | complete | skipped
+    result: "pass"              # pass | fail
+    homePageId: "cf033256-33fe-41f9-aa53-8d465360ec98"          # <siteRoot>/Home — resolved at run time
+    pageDataFolderId: "93fa77b5-d1e4-4676-b7c0-3862b26b91f7"    # <siteRoot>/Home/Data — parent for client datasources
+
+  phase1_theme:
+    status: "complete"       # pending | complete
+    themeFile: "docs/ai/themes/brooks-running.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"       # pending | complete
+    buildPlanFile: "docs/ai/demos/brooks-running/build-plan.yaml"
+    totalSections: 11
+    userApproved: true     # MANDATORY checkpoint
+
+  phase2_5_content:
+    status: "complete"       # pending | complete | failed
+    contentMapFile: "docs/ai/demos/brooks-running/content-map.yaml"
+    extractorUsed: false    # true = DOM extractor, false = screenshot fallback
+
+  phase3_content:
+    status: "complete"       # pending | partial | complete | failed
+    completedSections: 11
+    totalSections: 11
+
+  phase4_theme:
+    status: "complete"       # pending | complete
+    themeDelivery: "site-theme-class"       # site-theme-class (see theme-component-mapping.md §3)
+    cssWritten: true       # true after :root block written
+    fontsAdded: true       # true after font added to _fonts.scss
+
+  phase5_custom:
+    status: "skipped"       # pending | complete | skipped
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "skipped"       # pending | partial | complete | skipped
+    variantsNeeded: 0       # sections needing custom variants
+    variantsCreated: 0      # variants successfully created (TSX + Sitecore)
+    variantSpecsFile: ""    # docs/ai/demos/<client>/variant-specs.yaml
+    skippedReason: "user chose existing Prospera variants"       # if skipped: "user chose generic" or "all exact matches"
+
+  phase6_assembly:
+    status: "complete"       # pending | partial | complete | failed
+    componentsAdded: 10
+    datasourcesWired: 11
+    totalComponents: 11
+
+  phase7_summary:
+    status: "complete"       # pending | complete
+
+# Per-section tracking for Phase 3 (content population) and Phase 6 (assembly)
+# Each section maps to a build-plan position
+sections:
+  - position: 3
+    componentName: "Hero"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "88b19287-2886-4b61-941d-2a787e264309"
+      fieldsPopulated: true
+      imagesUploaded: 1
+      imagesExpected: 1
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "09663161-8594-4bb4-b43d-8412be83a7e6"
+  - position: 4
+    componentName: "HeadingCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "594728b8-dfa4-4bb5-9cde-cb9fd49c7765"
+      fieldsPopulated: true
+      imagesUploaded: 0
+      imagesExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "c33a4a7e-7ce9-409b-acbe-ee319ce44b89"
+  - position: 5
+    componentName: "FourColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "2a20b4d7-187d-440e-a9c8-c6c7772a1408"
+      fieldsPopulated: true
+      imagesUploaded: 4
+      imagesExpected: 4
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "9a081eea-4e9c-46d5-8ad8-c8aa1b6cae93"
+  - position: 6
+    componentName: "Hero"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "1e2da725-b065-4be5-8dd7-468fbd393046"
+      fieldsPopulated: true
+      imagesUploaded: 1
+      imagesExpected: 1
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "20fd43ba-64f3-41b5-bb23-22fc85032716"
+  - position: 7
+    componentName: "HeadingCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "f0f763e5-eb45-4698-963d-a6f021f7f95b"
+      fieldsPopulated: true
+      imagesUploaded: 0
+      imagesExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "618871e4-1b65-4c77-8f48-0e400008bd13"
+  - position: 8
+    componentName: "TwoColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "c91bdc3b-8bf8-4dff-b9df-0ec15cb5021c"
+      fieldsPopulated: true
+      imagesUploaded: 2
+      imagesExpected: 2
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "66cdfa48-41eb-4233-8fef-f1290f2b0c40"
+  - position: 9
+    componentName: "Hero"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "790d23eb-8d8b-4bfb-84ca-1d96a8229f95"
+      fieldsPopulated: true
+      imagesUploaded: 1
+      imagesExpected: 1
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "430745ee-7e61-479a-8b29-20d2b15cc7de"
+  - position: 10
+    componentName: "HeadingCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "e69cc3ab-e2df-4a08-a3f5-0c6642019173"
+      fieldsPopulated: true
+      imagesUploaded: 0
+      imagesExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "33e8af68-c9ae-450f-b0ac-f459f509bdff"
+  - position: 11
+    componentName: "FourColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "e12810e0-5b08-4514-902d-a06643a96d36"
+      fieldsPopulated: true
+      imagesUploaded: 4
+      imagesExpected: 4
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "652aab58-d012-4e1e-abe5-8776e722c14e"
+  - position: 12
+    componentName: "HeadingCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "bcbdc487-de5c-4d8b-af27-7fc9cc1fc063"
+      fieldsPopulated: true
+      imagesUploaded: 0
+      imagesExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "a8ff80b6-85ad-48f0-84d0-a596f0a297f4"
+  - position: 13
+    componentName: "Footer"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "9e8decbc-8066-4907-a8be-58776c8d914b"
+      fieldsPopulated: true
+      imagesUploaded: 0
+      imagesExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      componentInstanceId: "29758c1f-8daf-4d56-a212-eb734e2907ae"
