@@ -10,68 +10,68 @@ customer:
   url: "https://www.brooksrunning.com/"
   screenshotPath: "~/Downloads/www.brooksrunning.com_en_us.png"        # path or attachment note — not binary
   startedAt: "2026-10-07T19:55:18Z"
-  lastUpdatedAt: "2026-10-07T19:55:18Z"
+  lastUpdatedAt: "2026-10-07T20:49:23Z"
 
 selection:
   collectionMode: "new"        # new | existing
   customerCollection: "Fitness"
-  collectionId: ""
+  collectionId: "61741f32d04641338f2ccc06db3d65ab"
   sourceSiteName: "ProsperaFinancial"
-  sourceSiteId: ""
-  sourceCollectionId: ""
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
   sourceFolder: "prospera"
-  needsMove: null           # true | false
+  needsMove: true           # true | false
 
 artifacts:
-  newSiteId: ""
+  newSiteId: "f871f069-0603-4299-90c8-180182aea327"
   ehEnvironmentId: ""
   cmEnvironmentId: ""       # authoring env id if editing host path used
-  renderingHostKey: ""
+  renderingHostKey: "brooks-running"
 
 steps:
   inputs:
     status: "complete"       # pending | complete
 
   preflight_auth:
-    status: "failed"       # pending | complete | failed
-    sitesApiOk: false
-    marketerMcpOk: false
+    status: "complete"       # pending | complete | failed
+    sitesApiOk: true
+    marketerMcpOk: true
     error: ""
 
   collection_source_selection:
     status: "complete"       # pending | complete
 
   source_verification:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   step1a_collection:
-    status: "pending"       # pending | complete | skipped
+    status: "complete"       # pending | complete | skipped
     # skipped = existing collection reused
 
   step1a_duplicate:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     tempSiteName: ""
     error: ""
 
   step1a_rename:
-    status: "pending"       # pending | complete | failed
+    status: "skipped"       # pending | complete | failed
     error: ""
 
   step1a_move_notify:
-    status: "pending"       # pending | complete | skipped
+    status: "complete"       # pending | complete | skipped
     # skipped when needsMove is false
 
   step1b_local_copy:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   step1c_env_local:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   step1c_xmcloud_build:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   move_verify:
@@ -94,4 +94,8 @@ steps:
 
 notes:
   - "2026-10-07T19:55:18Z — Inputs confirmed (category page screenshot ~/Downloads/brooksrunning.png reserved for a follow-up PLP build with a new ProductGrid component). Editing host: user creates manually. Pre-flight blocked: SITECORE_AUTOMATION_CLIENT_ID / _SECRET / SITECORE_ENVIRONMENT_ID not in environment or .env.automation.local."
+  - "2026-10-07T20:42:02Z — Credentials loaded from .env.automation.local; Sites API JWT ok (3 sites listed, no BrooksRunning). Waiting on user /mcp auth for Marketer MCP."
+  - "2026-10-07T20:44:10Z — Marketer MCP authed (list_sites ok). Source ProsperaFinancial verified in collection Financial; avidemo/prospera present; Fitness collection and avidemo/brooks-running do not exist yet. Waiting on plan confirmation."
+  - "2026-10-07T20:45:51Z — Plan confirmed (incl. .env.local edit). Collection Fitness created (61741f32d04641338f2ccc06db3d65ab). Copy of ProsperaFinancial as BrooksRunning started (final name, no rename)."
+  - "2026-10-07T20:49:23Z — BrooksRunning copied (f871f069-0603-4299-90c8-180182aea327), SiteName correct, RenderingHost Default. User asked to move it Financial -> Fitness in Content Editor. avidemo/brooks-running copied; .env.local created with NEXT_PUBLIC_DEFAULT_SITE_NAME=BrooksRunning; project.yaml -> Fitness/BrooksRunning; manifest 38/38 react=ok; renderingHosts.brooks-running added (cloned from prosperabank)."
 # - "2026-09-25T15:00:00Z — Waiting on Content Editor move."

@@ -1,0 +1,1912 @@
+# GENERATED — do not hand-edit. Re-run: node docs/ai/scripts/generate-manifest.mjs
+generatedBy: docs/ai/scripts/generate-manifest.mjs
+generatedAt: '2026-10-07T20:49:08.724Z'
+source:
+  authoring: ../../authoring/items/prosperabank
+  serializedSiteRoot: /sitecore/content/Financial/ProsperaFinancial
+project:
+  sdk: '@sitecore-content-sdk/nextjs'
+  renderingsRoot: /sitecore/layout/Renderings/Project/Financial
+  projectTemplatesRoot: /sitecore/templates/Project/Financial
+  siteRelative:
+    homePage: Home
+    pageDataFolder: Home/Data
+    headlessVariants: Presentation/Headless Variants
+    availableRenderings: Presentation/Available Renderings
+  note: Site-relative paths are joined to /sitecore/content/<siteCollection>/<siteName> from project.yaml.
+components:
+  - name: ArticleDetails
+    displayName: Article Details
+    kind: context-only
+    category: Articles
+    status: complete
+    react:
+      filePath: src/components/pagecontent/ArticleDetails.tsx
+      componentMapKey: ArticleDetails
+      variants:
+        - Default
+        - Simple
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Article Details
+      path: /sitecore/layout/Renderings/Project/Financial/Articles/Article Details
+      itemId: '{A7343C45-4438-441E-967E-C2CB350DDA75}'
+      componentName: ArticleDetails
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ArticleList
+    displayName: Article List
+    kind: context-only
+    category: Articles
+    status: complete
+    react:
+      filePath: src/components/pagecontent/ArticleList.tsx
+      componentMapKey: ArticleList
+      variants:
+        - Default
+        - ThreeColumn
+        - Simplified
+        - Grid
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Article List
+      path: /sitecore/layout/Renderings/Project/Financial/Articles/Article List
+      itemId: '{52733592-6F5D-4FB4-8003-9B8223C5BC76}'
+      componentName: ArticleList
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*
+      parametersTemplateId: '{175A5B0F-A181-446D-A0EA-4B8F5EE42DB2}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Article List
+      variants:
+        - Default
+        - Simplified
+        - ThreeColumn
+  - name: AuthorDetails
+    displayName: Author Details
+    kind: context-only
+    category: Articles
+    status: complete
+    react:
+      filePath: src/components/pagecontent/AuthorDetails.tsx
+      componentMapKey: AuthorDetails
+      variants:
+        - Default
+        - Simple
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Author Details
+      path: /sitecore/layout/Renderings/Project/Financial/Articles/Author Details
+      itemId: '{F7BB574A-E5C1-4475-A07E-0EBF590CC50E}'
+      componentName: AuthorDetails
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: AuthorList
+    displayName: Author List
+    kind: context-only
+    category: Articles
+    status: complete
+    react:
+      filePath: src/components/pagecontent/AuthorList.tsx
+      componentMapKey: AuthorList
+      variants:
+        - Default
+        - Slider
+        - Simple
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Author List
+      path: /sitecore/layout/Renderings/Project/Financial/Articles/Author List
+      itemId: '{69E8A90F-59CA-4638-B53E-BDCE65835230}'
+      componentName: AuthorList
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: AuthorWidget
+    displayName: Author Widget
+    kind: simple
+    category: Articles
+    status: complete
+    react:
+      filePath: src/components/pagecontent/AuthorWidget.tsx
+      componentMapKey: AuthorWidget
+      variants:
+        - Default
+        - WithSocials
+    templates:
+      datasource:
+        name: Author Page
+        path: /sitecore/templates/Project/Financial/Pages/Author Page
+        itemId: '{AAD350F5-9331-4D71-A942-E3643653C028}'
+        fields:
+          - name: Name
+            type: Single-Line Text
+            section: Content
+          - name: Position
+            type: Single-Line Text
+            section: Content
+          - name: SocialLink1
+            type: General Link
+            section: Socials
+          - name: Photo
+            type: Image
+            section: Content
+          - name: SocialIcon1
+            type: Image
+            section: Socials
+          - name: Bio
+            type: Rich Text
+            section: Content
+          - name: SocialLink2
+            type: General Link
+            section: Socials
+          - name: BackgroundImage
+            type: Image
+            section: Content
+          - name: SocialIcon2
+            type: Image
+            section: Socials
+          - name: SocialLink3
+            type: General Link
+            section: Socials
+          - name: SocialIcon3
+            type: Image
+            section: Socials
+      child: null
+    rendering:
+      name: Author Widget
+      path: /sitecore/layout/Renderings/Project/Financial/Articles/Author Widget
+      itemId: '{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}'
+      componentName: AuthorWidget
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Pages/Author Page
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/Home/authors
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: Breadcrumb
+    displayName: Breadcrumb
+    kind: context-only
+    category: Navigation
+    status: complete
+    react:
+      filePath: src/components/navigation/Breadcrumb.tsx
+      componentMapKey: Breadcrumb
+      variants:
+        - Default
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Breadcrumb
+      path: /sitecore/layout/Renderings/Project/Financial/Navigation/Breadcrumb
+      itemId: '{613A1798-71DD-4A5C-A183-A3BAB92289C4}'
+      componentName: Breadcrumb
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: Eyebrow
+    displayName: Eyebrow
+    kind: context-only
+    category: Navigation
+    status: complete
+    react:
+      filePath: src/components/navigation/Eyebrow.tsx
+      componentMapKey: Eyebrow
+      variants:
+        - Default
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Eyebrow
+      path: /sitecore/layout/Renderings/Project/Financial/Navigation/Eyebrow
+      itemId: '{5F765231-1DA9-467A-8B35-2171CCE313C1}'
+      componentName: Eyebrow
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{F03F2904-7182-4125-ACAE-8FE8AB0D398C}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: Footer
+    displayName: Footer
+    kind: simple
+    category: Navigation
+    status: complete
+    react:
+      filePath: src/components/navigation/Footer.tsx
+      componentMapKey: Footer
+      variants:
+        - Default
+        - WithSocials
+    templates:
+      datasource:
+        name: Footer
+        path: /sitecore/templates/Project/Financial/Components/Footer
+        itemId: '{947DB8F8-DC76-453F-ACA1-A27BABFE633B}'
+        fields:
+          - name: Title1
+            type: Single-Line Text
+            section: Column 1
+          - name: Title2
+            type: Single-Line Text
+            section: Column 2
+          - name: Title3
+            type: Single-Line Text
+            section: Column 3
+          - name: Title4
+            type: Single-Line Text
+            section: Column 4
+          - name: Copyright
+            type: Single-Line Text
+            section: Footnote
+          - name: SocialsTitle
+            type: Single-Line Text
+            section: Socials
+          - name: Link1
+            type: General Link
+            section: Footnote
+          - name: Text1
+            type: Rich Text
+            section: Column 1
+          - name: Text2
+            type: Rich Text
+            section: Column 2
+          - name: Text3
+            type: Rich Text
+            section: Column 3
+          - name: Text4
+            type: Rich Text
+            section: Column 4
+          - name: Link2
+            type: General Link
+            section: Footnote
+          - name: SocialLink1
+            type: General Link
+            section: Socials
+          - name: Image1
+            type: Image
+            section: Logo
+          - name: SocialIcon1
+            type: Image
+            section: Socials
+          - name: SocialLink2
+            type: General Link
+            section: Socials
+          - name: SocialIcon2
+            type: Image
+            section: Socials
+          - name: SocialLink3
+            type: General Link
+            section: Socials
+          - name: SocialIcon3
+            type: Image
+            section: Socials
+      child: null
+    rendering:
+      name: Footer
+      path: /sitecore/layout/Renderings/Project/Financial/Navigation/Footer
+      itemId: '{771A3F27-6448-44AC-ADD0-E5DE311C6E3B}'
+      componentName: Footer
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Footer
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Footer']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Footer']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Footer
+      variants:
+        - Default
+  - name: Header
+    displayName: Header
+    kind: context-only
+    category: Navigation
+    status: complete
+    react:
+      filePath: src/components/navigation/Header.tsx
+      componentMapKey: Header
+      variants:
+        - Default
+        - WithLogoImage
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Header
+      path: /sitecore/layout/Renderings/Project/Financial/Navigation/Header
+      itemId: '{81317D3B-F929-426A-83EC-421982F8F1E6}'
+      componentName: Header
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{F03F2904-7182-4125-ACAE-8FE8AB0D398C}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Header
+      variants:
+        - Default
+        - WithLogoImage
+  - name: Accordion
+    displayName: Accordion
+    kind: list
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Accordion.tsx
+      componentMapKey: Accordion
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Accordion
+        path: /sitecore/templates/Project/Financial/Components/Accordion
+        itemId: '{9BC52F2F-FEED-47DC-88EC-1946FA308AF0}'
+        fields: []
+      child:
+        name: Accordion Item
+        path: /sitecore/templates/Project/Financial/Components/Accordion Item
+        itemId: '{02FC3E8B-A97F-4A7A-844B-3047E24432A0}'
+        fields:
+          - name: Icon
+            type: Image
+            section: Data
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Content
+            type: Rich Text
+            section: Data
+    rendering:
+      name: Accordion
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Accordion
+      itemId: '{5816F979-C8BB-46E9-8EC8-513C6CAF41E6}'
+      componentName: Accordion
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Accordion
+      datasourceBranch: /sitecore/templates/Branches/Project/Verticals/Accordion
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Accordion']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Accordion']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: AppPromo
+    displayName: App Promo
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/AppPromo.tsx
+      componentMapKey: AppPromo
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: App Promo
+        path: /sitecore/templates/Project/Financial/Components/App Promo
+        itemId: '{BBCCCD48-218C-4F19-A1D4-BB3DBF1F4D89}'
+        fields:
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Image
+            type: Image
+            section: Data
+      child: null
+    rendering:
+      name: App Promo
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/App Promo
+      itemId: '{F9905F68-21E8-4C6F-8B89-56BB99020D31}'
+      componentName: AppPromo
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/App Promo
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: Carousel
+    displayName: Carousel
+    kind: list
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Carousel.tsx
+      componentMapKey: Carousel
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Carousel
+        path: /sitecore/templates/Project/Financial/Components/Carousel
+        itemId: '{C7B8468F-4290-400F-93BB-D46C5F8DB126}'
+        fields: []
+      child:
+        name: Carousel Item
+        path: /sitecore/templates/Project/Financial/Components/Carousel Item
+        itemId: '{54DB209D-CD0F-49D9-AE4E-ECB65D72CC4D}'
+        fields:
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Link
+            type: General Link
+            section: Data
+          - name: Image
+            type: Image
+            section: Data
+          - name: Video
+            type: Image
+            section: Data
+    rendering:
+      name: Carousel
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Carousel
+      itemId: '{8094185B-4C72-40C8-B005-C6ED91708754}'
+      componentName: Carousel
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Carousel
+      datasourceBranch: /sitecore/templates/Branches/Project/Verticals/Carousel
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Carousel']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Carousel']
+      parametersTemplateId: '{A1ABD5CF-C257-4BB1-9F7A-93E6F3375391}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: Comparison
+    displayName: Comparison
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Comparison.tsx
+      componentMapKey: Comparison
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Comparison
+        path: /sitecore/templates/Project/Financial/Components/Comparison
+        itemId: '{32F00428-21AC-4DC0-AA2B-F2E31CA3E97E}'
+        fields:
+          - name: Amount1
+            type: Single-Line Text
+            section: Item 1
+          - name: Amount2
+            type: Single-Line Text
+            section: Item 2
+          - name: Currency1
+            type: Single-Line Text
+            section: Item 1
+          - name: Currency2
+            type: Single-Line Text
+            section: Item 2
+          - name: Subtitle1
+            type: Single-Line Text
+            section: Item 1
+          - name: Subtitle2
+            type: Single-Line Text
+            section: Item 2
+          - name: Value1
+            type: Single-Line Text
+            section: Operator
+          - name: Title1
+            type: Single-Line Text
+            section: Title
+      child: null
+    rendering:
+      name: Comparison
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Comparison
+      itemId: '{20E5EA95-6B50-49CD-8852-433B7C565F06}'
+      componentName: Comparison
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Comparison
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Comparison']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Comparison']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: CtaBanner
+    displayName: CTA Banner
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/CtaBanner.tsx
+      componentMapKey: CtaBanner
+      variants:
+        - Default
+        - LargeImage
+    templates:
+      datasource:
+        name: CTA Banner
+        path: /sitecore/templates/Project/Financial/Components/CTA Banner
+        itemId: '{4900D7E5-61B0-483A-A9D6-69419D4D5982}'
+        fields:
+          - name: Eyebrow
+            type: Single-Line Text
+            section: Data
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Link
+            type: General Link
+            section: Data
+          - name: Image
+            type: Image
+            section: Data
+          - name: Icon
+            type: Image
+            section: Data
+      child: null
+    rendering:
+      name: CTA Banner
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/CTA Banner
+      itemId: '{488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}'
+      componentName: CtaBanner
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/CTA Banner
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='CTA Banner']|query:$sharedSites/*[@@name='Data']/*[@@templatename='CTA Banner']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: CTA Banner
+      variants:
+        - Default
+  - name: DocumentsList
+    displayName: Documents List
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/DocumentsList.tsx
+      componentMapKey: DocumentsList
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Documents List
+        path: /sitecore/templates/Project/Financial/Components/Documents List
+        itemId: '{BC79B430-F5E0-4363-83F8-5FB8CCD79C61}'
+        fields:
+          - name: Subtitle1
+            type: Single-Line Text
+            section: Item 1
+          - name: Subtitle2
+            type: Single-Line Text
+            section: Item 2
+          - name: Subtitle3
+            type: Single-Line Text
+            section: Item 3
+          - name: Subtitle4
+            type: Single-Line Text
+            section: Item 4
+          - name: Title1
+            type: Single-Line Text
+            section: Title
+          - name: Link1
+            type: General Link
+            section: Item 1
+          - name: Link2
+            type: General Link
+            section: Item 2
+          - name: Link3
+            type: General Link
+            section: Item 3
+          - name: Link4
+            type: General Link
+            section: Item 4
+          - name: Image1
+            type: Image
+            section: Item 1
+          - name: Image2
+            type: Image
+            section: Item 2
+          - name: Image3
+            type: Image
+            section: Item 3
+          - name: Image4
+            type: Image
+            section: Item 4
+      child: null
+    rendering:
+      name: Documents List
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Documents List
+      itemId: '{CCC3A815-5DE9-4529-BAD5-874548667D66}'
+      componentName: DocumentsList
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Documents List
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Documents List']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Documents List']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: Features
+    displayName: Features
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Features.tsx
+      componentMapKey: Features
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Features
+        path: /sitecore/templates/Project/Financial/Components/Features
+        itemId: '{D3FDDED9-44AE-4410-961C-3320CC82D638}'
+        fields:
+          - name: Eyebrow
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Link
+            type: General Link
+            section: Data
+          - name: Image1
+            type: Image
+            section: Column 1
+          - name: Image2
+            type: Image
+            section: Column 2
+          - name: Title1
+            type: Single-Line Text
+            section: Column 1
+          - name: Title2
+            type: Single-Line Text
+            section: Column 2
+          - name: Text1
+            type: Single-Line Text
+            section: Column 1
+          - name: Text2
+            type: Single-Line Text
+            section: Column 2
+      child: null
+    rendering:
+      name: Features
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Features
+      itemId: '{B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}'
+      componentName: Features
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Features
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Features']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Features']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Features
+      variants:
+        - Default
+  - name: FiveColumnCta
+    displayName: Five Column CTA
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/FiveColumnCta.tsx
+      componentMapKey: FiveColumnCta
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Five Column CTA
+        path: /sitecore/templates/Project/Financial/Components/Five Column CTA
+        itemId: '{3B41D9FC-0EDF-48E1-966C-E260339BA815}'
+        fields:
+          - name: Text1
+            type: Single-Line Text
+            section: Column 1
+          - name: Text2
+            type: Single-Line Text
+            section: Column 2
+          - name: Text3
+            type: Single-Line Text
+            section: Column 3
+          - name: Text4
+            type: Single-Line Text
+            section: Column 4
+          - name: Text5
+            type: Single-Line Text
+            section: Column 5
+          - name: Link1
+            type: General Link
+            section: Column 1
+          - name: Link2
+            type: General Link
+            section: Column 2
+          - name: Link3
+            type: General Link
+            section: Column 3
+          - name: Link4
+            type: General Link
+            section: Column 4
+          - name: Link5
+            type: General Link
+            section: Column 5
+          - name: Image1
+            type: Image
+            section: Column 1
+          - name: Image2
+            type: Image
+            section: Column 2
+          - name: Image3
+            type: Image
+            section: Column 3
+          - name: Image4
+            type: Image
+            section: Column 4
+          - name: Image5
+            type: Image
+            section: Column 5
+      child: null
+    rendering:
+      name: Five Column CTA
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Five Column CTA
+      itemId: '{333DEF3E-C272-4AD9-A493-8D5CCAE08312}'
+      componentName: FiveColumnCta
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Five Column CTA
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Five Column CTA
+      variants:
+        - Default
+  - name: FourColumnCta
+    displayName: Four Column CTA
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/FourColumnCta.tsx
+      componentMapKey: FourColumnCta
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Four Column CTA
+        path: /sitecore/templates/Project/Financial/Components/Four Column CTA
+        itemId: '{1B694EF9-154D-429A-9C3F-D7774CD4A852}'
+        fields:
+          - name: Title1
+            type: Single-Line Text
+            section: Column 1
+          - name: Title2
+            type: Single-Line Text
+            section: Column 2
+          - name: Title3
+            type: Single-Line Text
+            section: Column 3
+          - name: Title4
+            type: Single-Line Text
+            section: Column 4
+          - name: Text1
+            type: Single-Line Text
+            section: Column 1
+          - name: Text2
+            type: Single-Line Text
+            section: Column 2
+          - name: Text3
+            type: Single-Line Text
+            section: Column 3
+          - name: Text4
+            type: Single-Line Text
+            section: Column 4
+          - name: Link1
+            type: General Link
+            section: Column 1
+          - name: Link2
+            type: General Link
+            section: Column 2
+          - name: Link3
+            type: General Link
+            section: Column 3
+          - name: Link4
+            type: General Link
+            section: Column 4
+          - name: Image1
+            type: Image
+            section: Column 1
+          - name: Image2
+            type: Image
+            section: Column 2
+          - name: Image3
+            type: Image
+            section: Column 3
+          - name: Image4
+            type: Image
+            section: Column 4
+      child: null
+    rendering:
+      name: Four Column CTA
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Four Column CTA
+      itemId: '{35075000-760E-4FF3-BD1C-F2EEBA251DCB}'
+      componentName: FourColumnCta
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Four Column CTA
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Four Column CTA
+      variants:
+        - Default
+  - name: HeadingCta
+    displayName: Heading CTA
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/HeadingCta.tsx
+      componentMapKey: HeadingCta
+      variants:
+        - Default
+        - Compact
+        - PageHeading
+        - Centered
+    templates:
+      datasource:
+        name: Heading CTA
+        path: /sitecore/templates/Project/Financial/Components/Heading CTA
+        itemId: '{FA136527-6302-471D-83AB-E66FC72BDA99}'
+        fields:
+          - name: Eyebrow
+            type: Single-Line Text
+            section: Data
+          - name: Heading
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Multi-Line Text
+            section: Data
+          - name: Link
+            type: General Link
+            section: Data
+      child: null
+    rendering:
+      name: Heading CTA
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Heading CTA
+      itemId: '{89E1D547-7CD6-4EF0-9A27-1E99410797DD}'
+      componentName: HeadingCta
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Heading CTA
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Heading CTA']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Heading CTA']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Heading CTA
+      variants:
+        - Default
+  - name: Hero
+    displayName: Hero
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Hero.tsx
+      componentMapKey: Hero
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Hero
+        path: /sitecore/templates/Project/Financial/Components/Hero
+        itemId: '{90D315E8-AA42-4B23-A7EB-4491396453F8}'
+        fields:
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Image
+            type: Image
+            section: Data
+          - name: Link
+            type: General Link
+            section: Data
+      child: null
+    rendering:
+      name: Hero
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Hero
+      itemId: '{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}'
+      componentName: Hero
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Hero
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Hero']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Hero']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Hero
+      variants:
+        - Default
+  - name: HeroBanner
+    displayName: HeroBanner
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/HeroBanner.tsx
+      componentMapKey: HeroBanner
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: HeroBanner
+        path: /sitecore/templates/Project/Financial/Components/HeroBanner
+        itemId: '{0089BCB3-0117-43F2-A760-0771D5FF7417}'
+        fields:
+          - name: Tagline
+            type: Single-Line Text
+            section: Data
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Image
+            type: Image
+            section: Data
+          - name: Cta1
+            type: General Link
+            section: Data
+          - name: Cta2
+            type: General Link
+            section: Data
+          - name: Icon
+            type: Image
+            section: Data
+      child: null
+    rendering:
+      name: HeroBanner
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/HeroBanner
+      itemId: '{0E8CC47E-32D6-4F55-A7BF-E713ABD06323}'
+      componentName: HeroBanner
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/HeroBanner
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='HeroBanner']|query:$sharedSites/*[@@name='Data']/*[@@templatename='HeroBanner']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ImageGallery
+    displayName: Image Gallery
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/ImageGallery.tsx
+      componentMapKey: ImageGallery
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Image Gallery
+        path: /sitecore/templates/Project/Financial/Components/Image Gallery
+        itemId: '{BD5988C0-88EA-4E5D-8CBA-A88755DD0FB8}'
+        fields: []
+      child: null
+    rendering:
+      name: Image Gallery
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Image Gallery
+      itemId: '{881CE560-277E-47B6-85BE-A223348D69CA}'
+      componentName: ImageGallery
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Image Gallery
+      datasourceBranch: /sitecore/templates/Branches/Project/Verticals/Image Gallery
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Image Gallery']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Image Gallery']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: PageBackground
+    displayName: PageBackground
+    kind: context-only
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/PageBackground.tsx
+      componentMapKey: PageBackground
+      variants:
+        - Default
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: PageBackground
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/PageBackground
+      itemId: '{1F52FB4E-FB4B-40ED-A5D8-F8F9784B36F2}'
+      componentName: PageBackground
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ParallaxBanner
+    displayName: Parallax Banner
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/ParallaxBanner.tsx
+      componentMapKey: ParallaxBanner
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Parallax Banner
+        path: /sitecore/templates/Project/Financial/Components/Parallax Banner
+        itemId: '{28B7F396-DC4A-4116-8C93-3B7909CBEB0E}'
+        fields:
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Link
+            type: General Link
+            section: Data
+          - name: BackgroundImage
+            type: Image
+            section: Data
+          - name: ForegroundImage
+            type: Image
+            section: Data
+      child: null
+    rendering:
+      name: Parallax Banner
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Parallax Banner
+      itemId: '{200920AD-9645-4CB2-B72A-C7D8278E709F}'
+      componentName: ParallaxBanner
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Parallax Banner
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Parallax Banner']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Parallax Banner']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: PromoCta
+    displayName: Promo CTA
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/PromoCta.tsx
+      componentMapKey: PromoCta
+      variants:
+        - Default
+        - WithPlaceholderColumn
+        - WithBackgroundImage
+    templates:
+      datasource:
+        name: Promo CTA
+        path: /sitecore/templates/Project/Financial/Components/Promo CTA
+        itemId: '{C0943942-AE0F-4205-86FA-84884CCE4A53}'
+        fields:
+          - name: Eyebrow
+            type: Single-Line Text
+            section: Data
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Subtitle
+            type: Single-Line Text
+            section: Data
+          - name: Text
+            type: Rich Text
+            section: Data
+          - name: Link
+            type: General Link
+            section: Data
+          - name: Link2
+            type: General Link
+            section: Data
+          - name: Image
+            type: Image
+            section: Data
+      child: null
+    rendering:
+      name: Promo CTA
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Promo CTA
+      itemId: '{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}'
+      componentName: PromoCta
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Promo CTA
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Promo CTA
+      variants:
+        - Default
+        - WithBackgroundImage
+  - name: Questions
+    displayName: Questions
+    kind: list
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Questions.tsx
+      componentMapKey: Questions
+      variants:
+        - Default
+        - SingleColumn
+    templates:
+      datasource:
+        name: Questions
+        path: /sitecore/templates/Project/Financial/Components/Questions
+        itemId: '{FAE81BF9-1117-4F97-9133-00E752F41772}'
+        fields: []
+      child:
+        name: Question
+        path: /sitecore/templates/Project/Financial/Components/Question
+        itemId: '{2DC7A13E-6753-47EF-805A-1CDE39012EEC}'
+        fields:
+          - name: Question
+            type: Single-Line Text
+            section: Data
+          - name: Answer
+            type: Rich Text
+            section: Data
+    rendering:
+      name: Questions
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Questions
+      itemId: '{75464A5E-CBB7-4F96-BBBC-104AFE57923A}'
+      componentName: Questions
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Questions
+      datasourceBranch: /sitecore/templates/Branches/Project/Verticals/Questions
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Questions']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Questions']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: Quote
+    displayName: Quote
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Quote.tsx
+      componentMapKey: Quote
+      variants:
+        - Default
+        - Simple
+    templates:
+      datasource:
+        name: Quote
+        path: /sitecore/templates/Project/Financial/Components/Quote
+        itemId: '{CAD49C2A-BD85-44FD-852A-10C1A1C8FD72}'
+        fields:
+          - name: Quote
+            type: Multi-Line Text
+            section: Data
+          - name: AuthorName
+            type: Single-Line Text
+            section: Data
+          - name: AuthorPosition
+            type: Single-Line Text
+            section: Data
+          - name: Image
+            type: Image
+            section: Data
+      child: null
+    rendering:
+      name: Quote
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Quote
+      itemId: '{4B94B6D0-CA8E-4807-BB9A-4C3FBD21504C}'
+      componentName: Quote
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Quote
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Quote']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Quote']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: StatsCounter
+    displayName: Stats Counter
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/StatsCounter.tsx
+      componentMapKey: StatsCounter
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Stats Counter
+        path: /sitecore/templates/Project/Financial/Components/Stats Counter
+        itemId: '{C24BFC74-C6E2-413A-AEBD-903180DFAFF7}'
+        fields:
+          - name: Image1
+            type: Image
+            section: Data
+          - name: Image2
+            type: Image
+            section: Data
+          - name: Value1
+            type: Number
+            section: Column 1
+          - name: Value2
+            type: Number
+            section: Column 2
+          - name: Symbol1
+            type: Single-Line Text
+            section: Column 1
+          - name: Symbol2
+            type: Single-Line Text
+            section: Column 2
+          - name: Value3
+            type: Number
+            section: Column 3
+          - name: Caption1
+            type: Single-Line Text
+            section: Column 1
+          - name: Caption2
+            type: Single-Line Text
+            section: Column 2
+          - name: Symbol3
+            type: Single-Line Text
+            section: Column 3
+          - name: Caption3
+            type: Single-Line Text
+            section: Column 3
+      child: null
+    rendering:
+      name: Stats Counter
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Stats Counter
+      itemId: '{316889FA-FDD4-42A6-A034-201124FE54E8}'
+      componentName: StatsCounter
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Stats Counter
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Stats Counter']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Stats Counter']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: StatsCounter
+      variants:
+        - Default
+  - name: Testimonials
+    displayName: Testimonials
+    kind: list
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/Testimonials.tsx
+      componentMapKey: Testimonials
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Testimonials
+        path: /sitecore/templates/Project/Financial/Components/Testimonials
+        itemId: '{91CD4DE0-ED0B-457B-9936-A333E8A874A3}'
+        fields: []
+      child:
+        name: Testimonial
+        path: /sitecore/templates/Project/Financial/Components/Testimonial
+        itemId: '{40472280-0A67-4C52-A06B-79E327AF9F44}'
+        fields:
+          - name: Rating
+            type: Number
+            section: Data
+          - name: Content
+            type: Multi-Line Text
+            section: Data
+          - name: AuthorName
+            type: Single-Line Text
+            section: Data
+          - name: AuthorPosition
+            type: Single-Line Text
+            section: Data
+          - name: AuthorImage
+            type: Image
+            section: Data
+    rendering:
+      name: Testimonials
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Testimonials
+      itemId: '{F3766B60-C8CE-49AF-9BFE-B2CEE6E287DF}'
+      componentName: Testimonials
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Testimonials
+      datasourceBranch: /sitecore/templates/Branches/Project/Verticals/Testimonials
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Testimonials']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Testimonials']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ThreeColumnCta
+    displayName: Three Column CTA
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/ThreeColumnCta.tsx
+      componentMapKey: ThreeColumnCta
+      variants:
+        - Default
+        - WithIcons
+        - WithIconsCompact
+    templates:
+      datasource:
+        name: Three Column CTA
+        path: /sitecore/templates/Project/Financial/Components/Three Column CTA
+        itemId: '{148D07BA-F923-4FB2-8907-0BD440D5DB44}'
+        fields:
+          - name: Text1
+            type: Single-Line Text
+            section: Column 1
+          - name: Text2
+            type: Single-Line Text
+            section: Column 2
+          - name: Text3
+            type: Single-Line Text
+            section: Column 3
+          - name: SubText1
+            type: Single-Line Text
+            section: Column 1
+          - name: SubText2
+            type: Single-Line Text
+            section: Column 2
+          - name: SubText3
+            type: Single-Line Text
+            section: Column 3
+          - name: Link1
+            type: General Link
+            section: Column 1
+          - name: Link2
+            type: General Link
+            section: Column 2
+          - name: Link3
+            type: General Link
+            section: Column 3
+          - name: Image1
+            type: Image
+            section: Column 1
+          - name: Image2
+            type: Image
+            section: Column 2
+          - name: Image3
+            type: Image
+            section: Column 3
+      child: null
+    rendering:
+      name: Three Column CTA
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Three Column CTA
+      itemId: '{AD385021-CE2B-4FC1-89AA-207D408034A8}'
+      componentName: ThreeColumnCta
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Three Column CTA
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']
+      parametersTemplateId: '{A94D823B-94AD-4A04-8238-3A5FD72C0E7C}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Three Column CTA
+      variants:
+        - Default
+  - name: TwoColumnCta
+    displayName: Two Column CTA
+    kind: simple
+    category: Page Content
+    status: complete
+    react:
+      filePath: src/components/pagecontent/TwoColumnCta.tsx
+      componentMapKey: TwoColumnCta
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Two Column CTA
+        path: /sitecore/templates/Project/Financial/Components/Two Column CTA
+        itemId: '{1812BF3E-6BDD-466D-99B2-0D7CEBB020FC}'
+        fields:
+          - name: Title1
+            type: Single-Line Text
+            section: Column 1
+          - name: Title2
+            type: Single-Line Text
+            section: Column 2
+          - name: Text1
+            type: Single-Line Text
+            section: Column 1
+          - name: Text2
+            type: Single-Line Text
+            section: Column 2
+          - name: Link1
+            type: General Link
+            section: Column 1
+          - name: Link2
+            type: General Link
+            section: Column 2
+          - name: Image1
+            type: Image
+            section: Column 1
+          - name: Image2
+            type: Image
+            section: Column 2
+      child: null
+    rendering:
+      name: Two Column CTA
+      path: /sitecore/layout/Renderings/Project/Financial/Page Content/Two Column CTA
+      itemId: '{3A9A9D22-C092-4B54-9511-EB202CEABE8D}'
+      componentName: TwoColumnCta
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Two Column CTA
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']
+      parametersTemplateId: '{A94D823B-94AD-4A04-8238-3A5FD72C0E7C}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: Two Column CTA
+      variants:
+        - Default
+  - name: ProjectDetails
+    displayName: Project Details
+    kind: context-only
+    category: Projects
+    status: complete
+    react:
+      filePath: src/components/pagecontent/ProjectDetails.tsx
+      componentMapKey: ProjectDetails
+      variants:
+        - Default
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Project Details
+      path: /sitecore/layout/Renderings/Project/Financial/Projects/Project Details
+      itemId: '{7D1264B8-DBEA-4DCD-8B2C-5DB934359EA9}'
+      componentName: ProjectDetails
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ProjectList
+    displayName: Project List
+    kind: context-only
+    category: Projects
+    status: complete
+    react:
+      filePath: src/components/pagecontent/ProjectList.tsx
+      componentMapKey: ProjectList
+      variants:
+        - Default
+        - Mosaic
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Project List
+      path: /sitecore/layout/Renderings/Project/Financial/Projects/Project List
+      itemId: '{3F98B12E-9693-47D6-8507-18B054CCFB8E}'
+      componentName: ProjectList
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*
+      parametersTemplateId: '{4F54253C-BBEB-430A-8428-11EB11DF1E09}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ApplicationForm
+    displayName: Application Form
+    kind: simple
+    category: Utilities
+    status: complete
+    react:
+      filePath: src/components/utilities/ApplicationForm.tsx
+      componentMapKey: ApplicationForm
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Application Form
+        path: /sitecore/templates/Project/Financial/Components/Application Form
+        itemId: '{AE920CE6-5C6E-4842-B54C-E4B516DC0752}'
+        fields:
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: Subtitle
+            type: Rich Text
+            section: Data
+          - name: FullName
+            type: Single-Line Text
+            section: Data
+          - name: IDNumber
+            type: Single-Line Text
+            section: Data
+          - name: Email
+            type: Single-Line Text
+            section: Data
+          - name: MobileNumber
+            type: Single-Line Text
+            section: Data
+          - name: Footnote
+            type: Rich Text
+            section: Data
+          - name: SubmitButton
+            type: General Link
+            section: Data
+      child: null
+    rendering:
+      name: Application Form
+      path: /sitecore/layout/Renderings/Project/Financial/Utilities/Application Form
+      itemId: '{E4B51F7C-EF5D-4621-A05B-A0080826E54D}'
+      componentName: ApplicationForm
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Application Form
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Application Form']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Application Form']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ContactForm
+    displayName: Contact Form
+    kind: simple
+    category: Utilities
+    status: complete
+    react:
+      filePath: src/components/utilities/ContactForm.tsx
+      componentMapKey: ContactForm
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Contact Form
+        path: /sitecore/templates/Project/Financial/Components/Contact Form
+        itemId: '{6D166C16-D4CC-4BA9-B1E1-FE6378916533}'
+        fields:
+          - name: Title
+            type: Single-Line Text
+            section: Data
+          - name: EmailLabel
+            type: Single-Line Text
+            section: Data
+          - name: SubjectLabel
+            type: Single-Line Text
+            section: Data
+          - name: MessageLabel
+            type: Single-Line Text
+            section: Data
+          - name: ButtonLabel
+            type: Single-Line Text
+            section: Data
+          - name: BackgroundImage
+            type: Image
+            section: Data
+      child: null
+    rendering:
+      name: Contact Form
+      path: /sitecore/layout/Renderings/Project/Financial/Utilities/Contact Form
+      itemId: '{09530D1F-141D-4885-8B3E-EBCA3EA5A23E}'
+      componentName: ContactForm
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Contact Form
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Contact Form']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Contact Form']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: true
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: LanguageSwitcher
+    displayName: Language Switcher
+    kind: context-only
+    category: Utilities
+    status: complete
+    react:
+      filePath: src/components/utilities/LanguageSwitcher.tsx
+      componentMapKey: LanguageSwitcher
+      variants:
+        - Default
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Language Switcher
+      path: /sitecore/layout/Renderings/Project/Financial/Utilities/Language Switcher
+      itemId: '{0F8E13AA-7CBE-4D00-AE30-4F0BC26870F6}'
+      componentName: LanguageSwitcher
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: LoanCalculator
+    displayName: Loan Calculator
+    kind: simple
+    category: Utilities
+    status: complete
+    react:
+      filePath: src/components/utilities/LoanCalculator.tsx
+      componentMapKey: LoanCalculator
+      variants:
+        - Default
+    templates:
+      datasource:
+        name: Loan Calculator
+        path: /sitecore/templates/Project/Financial/Components/Loan Calculator
+        itemId: '{8A299404-EC7C-4BC2-84C5-B6F4C5AF6121}'
+        fields:
+          - name: MinAmount
+            type: Integer
+            section: Data
+          - name: MaxAmount
+            type: Integer
+            section: Data
+          - name: Currency
+            type: Single-Line Text
+            section: Data
+          - name: MinTerm
+            type: Integer
+            section: Data
+          - name: MaxTerm
+            type: Integer
+            section: Data
+          - name: TermName
+            type: Single-Line Text
+            section: Data
+          - name: InterestRate
+            type: Number
+            section: Data
+          - name: BankFee
+            type: Number
+            section: Data
+      child: null
+    rendering:
+      name: Loan Calculator
+      path: /sitecore/layout/Renderings/Project/Financial/Utilities/Loan Calculator
+      itemId: '{A9598B40-14D5-47FC-B183-0B9FF10B90D3}'
+      componentName: LoanCalculator
+      datasourceTemplatePath: /sitecore/templates/Project/Financial/Components/Loan Calculator
+      datasourceBranch: ''
+      datasourceLocationQuery: query:$site/*[@@name='Data']/*[@@templatename='Loan Calculator']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Loan Calculator']
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
+  - name: ThemeSwitcher
+    displayName: Theme Switcher
+    kind: context-only
+    category: Utilities
+    status: complete
+    react:
+      filePath: src/components/utilities/ThemeSwitcher.tsx
+      componentMapKey: ThemeSwitcher
+      variants:
+        - Default
+    templates:
+      datasource: null
+      child: null
+    rendering:
+      name: Theme Switcher
+      path: /sitecore/layout/Renderings/Project/Financial/Utilities/Theme Switcher
+      itemId: '{5558C08C-3DC9-4F6E-B492-F4316C712826}'
+      componentName: ThemeSwitcher
+      datasourceTemplatePath: ''
+      datasourceBranch: ''
+      datasourceLocationQuery: ''
+      parametersTemplateId: '{A65AEA73-8224-408B-913C-B1CEDAE0C443}'
+      autoDatasource: false
+    datasourceFolder:
+      mode: page-data
+      relativePath: Home/Data
+      note: Create client datasources under the target page Data folder (resolve its ID at run time).
+    headlessVariants:
+      containerName: ''
+      variants: []
