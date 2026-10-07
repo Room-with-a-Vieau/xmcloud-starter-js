@@ -1,0 +1,97 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Brooks Running"
+  systemName: "BrooksRunning"            # <customer-system-name>
+  folder: "brooks-running"                # <customer-folder> kebab-case
+  url: "https://www.brooksrunning.com/"
+  screenshotPath: "~/Downloads/www.brooksrunning.com_en_us.png"        # path or attachment note — not binary
+  startedAt: "2026-10-07T19:55:18Z"
+  lastUpdatedAt: "2026-10-07T19:55:18Z"
+
+selection:
+  collectionMode: "new"        # new | existing
+  customerCollection: "Fitness"
+  collectionId: ""
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: ""
+  sourceCollectionId: ""
+  sourceFolder: "prospera"
+  needsMove: null           # true | false
+
+artifacts:
+  newSiteId: ""
+  ehEnvironmentId: ""
+  cmEnvironmentId: ""       # authoring env id if editing host path used
+  renderingHostKey: ""
+
+steps:
+  inputs:
+    status: "complete"       # pending | complete
+
+  preflight_auth:
+    status: "failed"       # pending | complete | failed
+    sitesApiOk: false
+    marketerMcpOk: false
+    error: ""
+
+  collection_source_selection:
+    status: "complete"       # pending | complete
+
+  source_verification:
+    status: "pending"       # pending | complete | failed
+    error: ""
+
+  step1a_collection:
+    status: "pending"       # pending | complete | skipped
+    # skipped = existing collection reused
+
+  step1a_duplicate:
+    status: "pending"       # pending | complete | failed
+    tempSiteName: ""
+    error: ""
+
+  step1a_rename:
+    status: "pending"       # pending | complete | failed
+    error: ""
+
+  step1a_move_notify:
+    status: "pending"       # pending | complete | skipped
+    # skipped when needsMove is false
+
+  step1b_local_copy:
+    status: "pending"       # pending | complete | failed
+    error: ""
+
+  step1c_env_local:
+    status: "pending"       # pending | complete | failed
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "pending"       # pending | complete | failed
+    error: ""
+
+  move_verify:
+    status: "pending"       # pending | complete | skipped | failed
+    error: ""
+
+  step1d_editing_host:
+    status: "pending"       # pending | complete | skipped | failed
+    optedIn: null           # true | false
+    error: ""
+
+  step1_verification:
+    status: "pending"       # pending | complete | failed
+    error: ""
+
+  step2_build_demo:
+    status: "pending"       # pending | complete | failed | handed_off
+    # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
+    error: ""
+
+notes:
+  - "2026-10-07T19:55:18Z — Inputs confirmed (category page screenshot ~/Downloads/brooksrunning.png reserved for a follow-up PLP build with a new ProductGrid component). Editing host: user creates manually. Pre-flight blocked: SITECORE_AUTOMATION_CLIENT_ID / _SECRET / SITECORE_ENVIRONMENT_ID not in environment or .env.automation.local."
+# - "2026-09-25T15:00:00Z — Waiting on Content Editor move."
