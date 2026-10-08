@@ -49,3 +49,17 @@
 ## Manual Tasks
 
 See `manual-tasks.md` and `variant-checklist.md`.
+
+## Category page — /running-shoes (added 2026-10-07)
+
+| # | Section | Component | Datasource |
+|---|---|---|---|
+| 1 | Breadcrumb | Breadcrumb (context) | — |
+| 2 | Ghost / Glycerin / Adrenaline GTS / Best sellers tiles | Four Column CTA | Brooks_Running_-_Series_Tiles |
+| 3 | Sidebar + filters + 24 products + 2 promos | **Product Grid (new)** | Brooks Running - Product Grid |
+| 4 | SEO copy (5 sections) | Rich Text | Brooks_Running_-_Running_Shoes_SEO_Copy |
+| 5 | Run Happy promise | Heading CTA | Run_Happy_placeholder (filled with Run Happy copy) |
+
+**New component:** `src/components/pagecontent/ProductGrid.tsx` + `_component-product-grid.scss`. Sitecore templates `Product Grid`, `Product Grid Product`, `Product Grid Promo` and rendering `Product Grid` live in the new `authoring/items/brooks-running` module (`/sitecore/templates/Project/BrooksRunning`, `/sitecore/layout/Renderings/Project/BrooksRunning`). The rendering uses a GraphQL ComponentQuery (datasource fields + children). Registered in the site's Available Renderings → Custom Demo, with a Default headless variant.
+
+**Images:** 30 selected from the user's mass download (`images/category-selected/`), uploaded to `Project/Fitness/BrooksRunning/Running Shoes`. Sizes are invented demo data (women 5–12, men 7–15, unisex 5–15).

@@ -25,3 +25,9 @@ All CTAs point to brooksrunning.com; category, reflective, weather-gear, Run Clu
 
 ## Personalization (optional)
 Create extra datasources in Home/Data named `Brooks Running - <Component> - <Segment>`, then in Pages: select component → Personalize → add condition → assign datasource.
+
+## Category page (/running-shoes)
+- Set the **Run Happy** Heading CTA to the **Compact** variant.
+- Optional: apply a background style to the series tiles.
+- The Breadcrumb reads the page tree (Home / Running shoes); Brooks shows "Home / Running".
+- `images/category/` holds the raw 200-file download (third-party retailer images) — keep it out of git; only `images/category-selected/` is needed.
