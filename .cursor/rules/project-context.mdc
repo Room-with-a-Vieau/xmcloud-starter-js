@@ -8,11 +8,11 @@ globs: []
 
 ## Repository Overview
 
-This is the **XM Cloud Front End Application Starter Kits** repository containing multiple Next.js starter applications and SPA examples for Sitecore XM Cloud development.
+This is the **XM Cloud Front End Application Starter Kits** repository containing multiple Next.js starter applications for Sitecore XM Cloud development.
 
 Repository Structure:
 - `/avidemo/` - Custom head apps built in this fork for demos and client work (new head apps go here)
-- `/examples/` - Reference starter front-end applications this fork was seeded from (Next.js and SPA); kept as-is for reference and copying
+- `/examples/` - Reference starter front-end applications this fork was seeded from (Next.js); kept as-is for reference and copying
 - `/authoring/` - Sitecore content items, templates, and deployment configurations
 - `/local-containers/` - Docker setup for local development environments
 - `xmcloud.build.json` - Primary configuration for XM Cloud deployment
@@ -26,7 +26,6 @@ Reference Examples (do not add new head apps here — see `/avidemo` above):
 - `kit-nextjs-location-finder` - **Alaris** - Car brand template with location finder functionality
 - `kit-nextjs-product-listing` - **SYNC** - Product-focused template for audio gear companies
 - `kit-nextjs-skate-park` - Simple demo site showcasing component examples
-- `basic-spa` - SPA starter kit with Angular and Node proxy
 
 Each starter demonstrates:
 - Tailwind-based styling with Shadcn/ui components

@@ -18,7 +18,6 @@ Everything below this point is the original starter kit documentation, kept inta
   - [Prerequisites](#prerequisites)
   - [Getting Started Guide](#getting-started-guide)
   - [Running the Next.js Starter Kit](#running-the-nextjs-starter-kit)
-  - [SPA Starters Monorepo and Angular SPA](#spa-starters-monorepo-and-angular-spa)
 - [SEO & AI Crawler Access](#seo--ai-crawler-access)
 - [GEO Optimization & Compliance](#geo-optimization--compliance)
 - [AI-Assisted Development](#ai-assisted-development)
@@ -31,7 +30,6 @@ Here's a quick overview of the major folders and their purpose:
   - `/examples`:
   Contains starter front-end applications. Each subfolder is a working app. Each starter is independent and self-contained
     * basic-nextjs: [README](https://github.com/Sitecore/xmcloud-starter-js/tree/main/examples/basic-nextjs/README.md)
-    * basic-spa: [README](https://github.com/Sitecore/xmcloud-starter-js/tree/main/examples/basic-spa/README.md)
     * kit-nextjs-article-starter: [README](https://github.com/Sitecore/xmcloud-starter-js/tree/main/examples/kit-nextjs-article-starter/README.md)
     * kit-nextjs-location-finder: [README](https://github.com/Sitecore/xmcloud-starter-js/blob/main/examples/kit-nextjs-location-finder/README.md)
     * kit-nextjs-product-listing: [README](https://github.com/Sitecore/xmcloud-starter-js/blob/main/examples/kit-nextjs-product-listing/README.md)
@@ -139,10 +137,6 @@ For developers new to SitecoreAI you can follow the Getting Started Guide on the
   npm run start
   ```
   This builds the app and runs it in production mode. Access the site at `http://localhost:3000`.
-
-### SPA Starters Monorepo and Angular SPA
-
-A new starter SPA based on Angular has been introduced with JSS v22.3.0. The Angular starter has been designed to be compatible with SitecoreAI and should be used with the provided node SitecoreAI proxy application to handle server-side rendering (SSR), data queries, personalization and more. For more details and information on how to run and deploy the Angular starter and proxy to SitecoreAI have a look at [SPA starters monorepo](examples/basic-spa/)
 
 ## SEO & AI Crawler Access
 

@@ -25,7 +25,6 @@ A working fork of the Sitecore **XM Cloud Front End Application Starter Kits**, 
 - `kit-nextjs-location-finder` — **Alaris**, car brand with location finder
 - `kit-nextjs-product-listing` — **SYNC**, audio gear product listing
 - `kit-nextjs-skate-park` — Component showcase
-- `basic-spa` — Angular SPA + Node proxy, a separate pnpm workspace (deploy disabled)
 
 The kits use Tailwind + Shadcn/ui, personalization via URL parameters, component variants, and `en`/`en-CA` localization via `next-localization`.
 

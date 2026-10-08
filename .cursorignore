@@ -9,7 +9,6 @@
 **/dist-server/
 **/build/
 **/.generated/
-**/.angular/
 **/tmp/
 **/out-tsc/
 
@@ -91,7 +90,6 @@
 # Lock files (optional - you may want to include these)
 **/package-lock.json
 **/yarn.lock
-**/pnpm-lock.yaml
 
 # Large media files
 **/*.mp4
