@@ -1,0 +1,499 @@
+# Demo Progress Tracker
+# Created automatically at the start of a demo build.
+# Updated after each MCP call or phase completion.
+# Used by "resume demo" to skip completed work.
+
+client:
+  name: "Logix Federal Credit Union"
+  sourceUrl: "https://www.logixbanking.com/"
+  startedAt: "2026-10-09T16:44:03Z"
+  lastUpdatedAt: "2026-10-09T17:16:05Z"
+
+phases:
+  phase0_inputs:
+    status: "complete"       # pending | complete
+    screenshot: true
+    url: "https://www.logixbanking.com/"
+
+  phase0_5_manifest:
+    status: "complete"       # pending | complete | skipped
+    result: "pass"              # pass | fail
+    homePageId: "5e9ab00d-6e28-46d5-8f43-f1f7b9f1ade0"          # <siteRoot>/Home — resolved at run time
+    pageDataFolderId: "85b5f8ec-2d2c-4849-8157-e8056e4caa6f"    # <siteRoot>/Home/Data — parent for client datasources
+
+  phase1_theme:
+    status: "complete"       # pending | complete
+    themeFile: "docs/ai/themes/logix.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"       # pending | complete
+    buildPlanFile: "docs/ai/demos/logix/build-plan.yaml"
+    totalSections: 30
+    userApproved: true     # MANDATORY checkpoint
+
+  phase2_5_content:
+    status: "complete"       # pending | complete | failed
+    contentMapFile: "docs/ai/demos/logix/content-map.yaml"
+    extractorUsed: true    # true = DOM extractor, false = screenshot fallback
+
+  phase3_content:
+    status: "complete"       # pending | partial | complete | failed
+    completedSections: 28
+    totalSections: 28
+
+  phase4_theme:
+    status: "complete"       # pending | complete
+    themeDelivery: "site-theme-class"       # site-theme-class (see theme-component-mapping.md §3)
+    cssWritten: true       # true after :root block written
+    fontsAdded: true       # true after font added to _fonts.scss
+
+  phase5_custom:
+    status: "skipped"       # pending | complete | skipped
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "skipped"       # pending | partial | complete | skipped
+    variantsNeeded: 0       # sections needing custom variants
+    variantsCreated: 0      # variants successfully created (TSX + Sitecore)
+    variantSpecsFile: ""    # docs/ai/demos/<client>/variant-specs.yaml
+    skippedReason: "user chose existing Prospera variants"       # if skipped: "user chose generic" or "all exact matches"
+
+  phase6_assembly:
+    status: "complete"       # pending | partial | complete | failed
+    componentsAdded: 24
+    datasourcesWired: 28
+    totalComponents: 28
+
+  phase7_summary:
+    status: "complete"       # pending | complete
+
+# Per-section tracking for Phase 3 (content population) and Phase 6 (assembly)
+# Each section maps to a build-plan position
+sections:
+- position: 2
+  componentName: Hero
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: eac763a2-309f-434b-9bcc-ca8c4ee25920
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 3
+  componentName: HeadingCta
+  kind: simple
+  variant: Centered
+  phase3:
+    status: populated
+    itemId: 29112487-b56f-40cd-a992-e9dc6490bd0f
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 4
+  componentName: ThreeColumnCta
+  kind: simple
+  variant: WithIcons
+  phase3:
+    status: populated
+    itemId: 051f9edf-3039-457f-b31f-afc3ede851ee
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 5
+  componentName: HeadingCta
+  kind: simple
+  variant: Centered
+  phase3:
+    status: populated
+    itemId: 267ea4e2-5b8f-4659-93f6-f110679750d5
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 6
+  componentName: FourColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: e0c6fb79-6868-455e-9e68-5e7e8b21ab9e
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 7
+  componentName: HeadingCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 2c3f1713-4e71-4fe0-9ce5-c0420c36ba24
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 8
+  componentName: Testimonials
+  kind: list
+  variant: Default
+  phase3:
+    status: populated
+    itemId: eda0dd6601f44b0893d328fed281831b
+    fieldsPopulated: true
+    childrenCreated: 2
+    childrenExpected: 2
+    error: ''
+  phase6:
+    status: wired
+    method: layout-xml
+    error: ''
+- position: 9
+  componentName: PromoCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: a345ec4e-6c23-4881-b830-24a409e7acaa
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: rewired-existing
+    error: ''
+- position: 10
+  componentName: PromoCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 47c39689-57bc-45de-8b6d-0c18a8682fda
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: rewired-existing
+    error: ''
+- position: 11
+  componentName: HeadingCta
+  kind: simple
+  variant: Centered
+  phase3:
+    status: populated
+    itemId: 3d8a3dbf-2839-4033-b640-e285cff5fec3
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 12
+  componentName: FourColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: ffade06e-a8d7-4cd7-8a2e-1b2020f387d5
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 13
+  componentName: FourColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 25bffc2e-de9f-4cb5-a07b-9244e274d3dd
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 14
+  componentName: PromoCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: f5176c0b-67af-478d-b898-85477691c0fb
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: rewired-existing
+    error: ''
+- position: 15
+  componentName: PromoCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: ec211806-83d2-4ebe-8421-de9cafaca407
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 16
+  componentName: FourColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 8db11a43-c5e5-4dd8-821d-f5f581465c5b
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 17
+  componentName: PromoCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 70f58e1a-a776-4f00-b026-0229cb20c97a
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 18
+  componentName: HeadingCta
+  kind: simple
+  variant: Centered
+  phase3:
+    status: populated
+    itemId: d0f4404a-ffba-4baa-b2aa-a721469c29e6
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 19
+  componentName: TwoColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 1804e7fa-f769-4c18-8e52-35dcce7190d5
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: rewired-existing
+    error: ''
+- position: 20
+  componentName: HeadingCta
+  kind: simple
+  variant: Compact
+  phase3:
+    status: populated
+    itemId: bc009d98-69ce-4ac4-98d5-64f24ff797b6
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 21
+  componentName: HeadingCta
+  kind: simple
+  variant: Centered
+  phase3:
+    status: populated
+    itemId: cc88d858-325e-4b91-9da7-3123b51b1fd8
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 22
+  componentName: ThreeColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 8c6fa507-1044-45ee-baae-7544438cf6ae
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 23
+  componentName: HeadingCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: fd26f5d5-18a5-4499-af76-b232a946afbe
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 24
+  componentName: ThreeColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 6088f16d-68d0-42df-ad76-92346686295f
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 25
+  componentName: HeadingCta
+  kind: simple
+  variant: Centered
+  phase3:
+    status: populated
+    itemId: 8f5eb53c-2e6c-459c-9875-579c8c061372
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 26
+  componentName: FourColumnCta
+  kind: simple
+  variant: Default
+  phase3:
+    status: populated
+    itemId: 46e30d60-0a24-40cd-b9fc-43beaf0a3c32
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 27
+  componentName: HeadingCta
+  kind: simple
+  variant: Centered
+  phase3:
+    status: populated
+    itemId: 94d47fed-cbbf-4dd3-a6c1-ae3c22678798
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+- position: 28
+  componentName: Questions
+  kind: list
+  variant: SingleColumn
+  phase3:
+    status: populated
+    itemId: 641aa3c6058c4f3097d686290e82f254
+    fieldsPopulated: true
+    childrenCreated: 11
+    childrenExpected: 11
+    error: ''
+  phase6:
+    status: wired
+    method: layout-xml
+    error: ''
+- position: 29
+  componentName: HeadingCta
+  kind: simple
+  variant: Compact
+  phase3:
+    status: populated
+    itemId: 144a7586-d9d1-4f6e-94ee-61dee808d3b5
+    fieldsPopulated: true
+    childrenCreated: 0
+    childrenExpected: 0
+    error: ''
+  phase6:
+    status: wired
+    method: add_component_on_page
+    error: ''
+notes:
+- "2026-10-09T17:14:14Z \u2014 28 curated images uploaded to /sitecore/media library/Project/Financial/LogixFederalCreditUnion (upload/image-manifest.json)."
+- 'Testimonials/Questions branch templates missing (404 on add_component_on_page): datasources created via Authoring GraphQL, renderings added by editing __Final Renderings (v3).'
+- Variants + SXA styles set via layout XML (FieldNames/Styles); created Variant Definitions Heading CTA/Centered+Compact, Three Column CTA/WithIcons, Questions/SingleColumn.
+- 'Leftover Prospera components for manual removal: Carousel, Five Column CTA, Three Column CTA 1, Article List, Documents List, App Promo.'

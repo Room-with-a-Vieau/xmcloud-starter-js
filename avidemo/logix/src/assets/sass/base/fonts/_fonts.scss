@@ -1,0 +1,18 @@
+/* stylelint-disable value-keyword-case */
+// Font files are loaded by a <link> in src/app/layout.tsx (a Sass @import here is dropped by Next.js).
+
+.site-basic {
+  --font-family: 'Open Sans', Helvetica, Verdana, Tahoma, sans-serif;
+}
+
+.site-financial {
+  --font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+}
+
+.site-services {
+  --font-family: 'Epilogue', Helvetica, Arial, sans-serif;
+}
+
+.site-logix {
+  --font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}

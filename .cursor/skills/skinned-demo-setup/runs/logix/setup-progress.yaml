@@ -1,0 +1,101 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Logix Federal Credit Union"
+  systemName: "LogixFederalCreditUnion"            # <customer-system-name>
+  folder: "logix"                # <customer-folder> kebab-case
+  url: "https://www.logixbanking.com/"
+  screenshotPath: "/Users/andrewvieau/Downloads/logixbankingcom.png"        # path or attachment note — not binary
+  startedAt: "2026-10-09T16:32:55Z"
+  lastUpdatedAt: "2026-10-09T17:16:11Z"
+
+selection:
+  collectionMode: "existing"        # new | existing
+  customerCollection: "Financial"
+  collectionId: "856641099059459ba079f76e3fa09063"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: false           # true | false
+
+artifacts:
+  newSiteId: "51296006-95fc-4f03-a535-2c026620405c"
+  ehEnvironmentId: ""
+  cmEnvironmentId: ""       # authoring env id if editing host path used
+  renderingHostKey: "logix"
+
+steps:
+  inputs:
+    status: "complete"       # pending | complete
+
+  preflight_auth:
+    status: "complete"       # pending | complete | failed
+    sitesApiOk: true
+    marketerMcpOk: false
+    error: ""
+
+  collection_source_selection:
+    status: "complete"       # pending | complete
+
+  source_verification:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1a_collection:
+    status: "skipped"       # pending | complete | skipped
+    # skipped = existing collection reused
+
+  step1a_duplicate:
+    status: "complete"       # pending | complete | failed
+    tempSiteName: ""
+    error: ""
+
+  step1a_rename:
+    status: "skipped"       # pending | complete | failed
+    error: ""
+
+  step1a_move_notify:
+    status: "skipped"       # pending | complete | skipped
+    # skipped when needsMove is false
+
+  step1b_local_copy:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1c_env_local:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  move_verify:
+    status: "skipped"       # pending | complete | skipped | failed
+    error: ""
+
+  step1d_editing_host:
+    status: "skipped"       # pending | complete | skipped | failed
+    optedIn: false           # true | false
+    error: ""
+
+  step1_verification:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step2_build_demo:
+    status: "complete"       # pending | complete | failed | handed_off
+    # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
+    error: ""
+
+notes:
+  - "2026-10-09T16:33:08Z — Sites API authed (sites + collections 200). Waiting on user to auth Marketer MCP via /mcp."
+  - "2026-10-09T16:38:46Z — Marketer MCP authed (list_sites ok). Existing collection Financial; source ProsperaFinancial / avidemo/prospera; needsMove false."
+  - "2026-10-09T16:41:57Z — Copied ProsperaFinancial → LogixFederalCreditUnion (51296006…) directly in Financial; SiteName correct, get_site_information ok. avidemo/logix copied (node_modules/.next excluded); project.yaml → LogixFederalCreditUnion, manifest 38/38 react=ok; xmcloud.build.json renderingHosts.logix added. Waiting on .env.local approval + editing host decision."
+  - "2026-10-09T16:43:16Z — .env.local created (site name + edge/editing/search values from .env.automation.local). Editing host declined. Step 1 verified; handed off to avidemo/logix sitecore-build-demo."
+  - "2026-10-09T17:16:11Z — sitecore-build-demo complete (avidemo/logix/docs/ai/demos/logix/demo-summary.md). Manual: remove 6 leftover components, header/footer partials."
+# - "2026-09-25T15:00:00Z — Waiting on Content Editor move."

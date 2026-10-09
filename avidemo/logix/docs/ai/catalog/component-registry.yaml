@@ -1,0 +1,914 @@
+# GENERATED — edit component-keywords.yaml, then re-run: node docs/ai/scripts/generate-manifest.mjs
+# Used by the Site Analyzer (Phase 2) to match page sections to components.
+components:
+  - id: ArticleList
+    name: Article List
+    manifestName: ArticleList
+    kind: context-only
+    role: section
+    category: Articles
+    variants:
+      - Default
+      - ThreeColumn
+      - Simplified
+      - Grid
+    visualKeywords:
+      - news or insights cards
+      - latest articles grid
+      - blog post teasers
+    variantSelectionHints:
+      Default: article cards
+      ThreeColumn: three-column article cards
+      Simplified: compact article list
+      Grid: dense article grid
+    parentFields: []
+    childFields: []
+  - id: AuthorList
+    name: Author List
+    manifestName: AuthorList
+    kind: context-only
+    role: section
+    category: Articles
+    variants:
+      - Default
+      - Slider
+      - Simple
+    visualKeywords:
+      - team or people cards
+      - experts list
+      - author profiles
+    variantSelectionHints:
+      Default: author cards
+      Slider: author slider
+      Simple: simple author list
+    parentFields: []
+    childFields: []
+  - id: AuthorWidget
+    name: Author Widget
+    manifestName: AuthorWidget
+    kind: simple
+    role: section
+    category: Articles
+    variants:
+      - Default
+      - WithSocials
+    visualKeywords:
+      - single author byline card
+      - featured expert
+    variantSelectionHints:
+      Default: author card
+      WithSocials: author card with social links
+    parentFields:
+      - name: Name
+        type: Single-Line Text
+      - name: Position
+        type: Single-Line Text
+      - name: SocialLink1
+        type: General Link
+      - name: Photo
+        type: Image
+      - name: SocialIcon1
+        type: Image
+      - name: Bio
+        type: Rich Text
+      - name: SocialLink2
+        type: General Link
+      - name: BackgroundImage
+        type: Image
+      - name: SocialIcon2
+        type: Image
+      - name: SocialLink3
+        type: General Link
+      - name: SocialIcon3
+        type: Image
+    childFields: []
+  - id: Footer
+    name: Footer
+    manifestName: Footer
+    kind: simple
+    role: chrome
+    category: Navigation
+    variants:
+      - Default
+      - WithSocials
+    visualKeywords:
+      - site footer with link columns
+      - legal links and social icons
+    variantSelectionHints:
+      Default: footer
+      WithSocials: footer with social icons
+    parentFields:
+      - name: Title1
+        type: Single-Line Text
+      - name: Title2
+        type: Single-Line Text
+      - name: Title3
+        type: Single-Line Text
+      - name: Title4
+        type: Single-Line Text
+      - name: Copyright
+        type: Single-Line Text
+      - name: SocialsTitle
+        type: Single-Line Text
+      - name: Link1
+        type: General Link
+      - name: Text1
+        type: Rich Text
+      - name: Text2
+        type: Rich Text
+      - name: Text3
+        type: Rich Text
+      - name: Text4
+        type: Rich Text
+      - name: Link2
+        type: General Link
+      - name: SocialLink1
+        type: General Link
+      - name: Image1
+        type: Image
+      - name: SocialIcon1
+        type: Image
+      - name: SocialLink2
+        type: General Link
+      - name: SocialIcon2
+        type: Image
+      - name: SocialLink3
+        type: General Link
+      - name: SocialIcon3
+        type: Image
+    childFields: []
+  - id: Header
+    name: Header
+    manifestName: Header
+    kind: context-only
+    role: chrome
+    category: Navigation
+    variants:
+      - Default
+      - WithLogoImage
+    visualKeywords:
+      - logo with navigation links
+      - top header bar
+      - menu with search
+    variantSelectionHints:
+      Default: text logo header
+      WithLogoImage: image logo header
+    parentFields: []
+    childFields: []
+  - id: Accordion
+    name: Accordion
+    manifestName: Accordion
+    kind: list
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - expandable list
+      - collapsible sections with icons
+      - FAQ-style accordion
+    variantSelectionHints:
+      Default: accordion group
+    parentFields: []
+    childFields:
+      - name: Icon
+        type: Image
+      - name: Title
+        type: Single-Line Text
+      - name: Content
+        type: Rich Text
+  - id: AppPromo
+    name: App Promo
+    manifestName: AppPromo
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - mobile app promotion
+      - phone mockup with store badges
+      - download our app
+    variantSelectionHints:
+      Default: app promo with image
+    parentFields:
+      - name: Title
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Image
+        type: Image
+    childFields: []
+  - id: Carousel
+    name: Carousel
+    manifestName: Carousel
+    kind: list
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - full-width rotating hero
+      - image slider with side text panel
+      - slideshow with arrows or dots
+    variantSelectionHints:
+      Default: rotating hero slides
+    parentFields: []
+    childFields:
+      - name: Title
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Link
+        type: General Link
+      - name: Image
+        type: Image
+      - name: Video
+        type: Image
+  - id: Comparison
+    name: Comparison
+    manifestName: Comparison
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - side-by-side values comparison
+      - two numeric figures compared
+      - plan comparison
+    variantSelectionHints:
+      Default: two compared values
+    parentFields:
+      - name: Amount1
+        type: Single-Line Text
+      - name: Amount2
+        type: Single-Line Text
+      - name: Currency1
+        type: Single-Line Text
+      - name: Currency2
+        type: Single-Line Text
+      - name: Subtitle1
+        type: Single-Line Text
+      - name: Subtitle2
+        type: Single-Line Text
+      - name: Value1
+        type: Single-Line Text
+      - name: Title1
+        type: Single-Line Text
+    childFields: []
+  - id: CtaBanner
+    name: CTA Banner
+    manifestName: CtaBanner
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+      - LargeImage
+    visualKeywords:
+      - wide call-to-action band
+      - eyebrow + title + text + button beside image
+      - promotional strip
+    variantSelectionHints:
+      Default: standard image + text CTA band
+      LargeImage: image dominates the band
+    parentFields:
+      - name: Eyebrow
+        type: Single-Line Text
+      - name: Title
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Link
+        type: General Link
+      - name: Image
+        type: Image
+      - name: Icon
+        type: Image
+    childFields: []
+  - id: DocumentsList
+    name: Documents List
+    manifestName: DocumentsList
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - list of downloadable documents
+      - resources list with subtitles
+      - reports and PDFs
+    variantSelectionHints:
+      Default: document list
+    parentFields:
+      - name: Subtitle1
+        type: Single-Line Text
+      - name: Subtitle2
+        type: Single-Line Text
+      - name: Subtitle3
+        type: Single-Line Text
+      - name: Subtitle4
+        type: Single-Line Text
+      - name: Title1
+        type: Single-Line Text
+      - name: Link1
+        type: General Link
+      - name: Link2
+        type: General Link
+      - name: Link3
+        type: General Link
+      - name: Link4
+        type: General Link
+      - name: Image1
+        type: Image
+      - name: Image2
+        type: Image
+      - name: Image3
+        type: Image
+      - name: Image4
+        type: Image
+    childFields: []
+  - id: Features
+    name: Features
+    manifestName: Features
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - eyebrow + headline with two feature columns
+      - two image/text feature pairs
+      - product highlight pair
+    variantSelectionHints:
+      Default: two feature columns with images
+    parentFields:
+      - name: Eyebrow
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Link
+        type: General Link
+      - name: Image1
+        type: Image
+      - name: Image2
+        type: Image
+      - name: Title1
+        type: Single-Line Text
+      - name: Title2
+        type: Single-Line Text
+      - name: Text1
+        type: Single-Line Text
+      - name: Text2
+        type: Single-Line Text
+    childFields: []
+  - id: FiveColumnCta
+    name: Five Column CTA
+    manifestName: FiveColumnCta
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - five image tiles
+      - row of service categories with images
+      - horizontal strip of five links
+    variantSelectionHints:
+      Default: five image tiles
+    parentFields:
+      - name: Text1
+        type: Single-Line Text
+      - name: Text2
+        type: Single-Line Text
+      - name: Text3
+        type: Single-Line Text
+      - name: Text4
+        type: Single-Line Text
+      - name: Text5
+        type: Single-Line Text
+      - name: Link1
+        type: General Link
+      - name: Link2
+        type: General Link
+      - name: Link3
+        type: General Link
+      - name: Link4
+        type: General Link
+      - name: Link5
+        type: General Link
+      - name: Image1
+        type: Image
+      - name: Image2
+        type: Image
+      - name: Image3
+        type: Image
+      - name: Image4
+        type: Image
+      - name: Image5
+        type: Image
+    childFields: []
+  - id: FourColumnCta
+    name: Four Column CTA
+    manifestName: FourColumnCta
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - four tiles in a row
+      - four-up resource cards
+      - grid of four linked items
+    variantSelectionHints:
+      Default: four linked tiles
+    parentFields:
+      - name: Title1
+        type: Single-Line Text
+      - name: Title2
+        type: Single-Line Text
+      - name: Title3
+        type: Single-Line Text
+      - name: Title4
+        type: Single-Line Text
+      - name: Text1
+        type: Single-Line Text
+      - name: Text2
+        type: Single-Line Text
+      - name: Text3
+        type: Single-Line Text
+      - name: Text4
+        type: Single-Line Text
+      - name: Link1
+        type: General Link
+      - name: Link2
+        type: General Link
+      - name: Link3
+        type: General Link
+      - name: Link4
+        type: General Link
+      - name: Image1
+        type: Image
+      - name: Image2
+        type: Image
+      - name: Image3
+        type: Image
+      - name: Image4
+        type: Image
+    childFields: []
+  - id: HeadingCta
+    name: Heading CTA
+    manifestName: HeadingCta
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+      - Compact
+      - PageHeading
+      - Centered
+    visualKeywords:
+      - section heading with intro text and link
+      - page title block
+      - centered section intro
+    variantSelectionHints:
+      Default: heading left, text/CTA right
+      Compact: short heading strip
+      PageHeading: page-level title block
+      Centered: centered heading and text
+    parentFields:
+      - name: Eyebrow
+        type: Single-Line Text
+      - name: Heading
+        type: Single-Line Text
+      - name: Text
+        type: Multi-Line Text
+      - name: Link
+        type: General Link
+    childFields: []
+  - id: Hero
+    name: Hero
+    manifestName: Hero
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - large page-top hero
+      - big headline with intro text and one CTA
+      - full-bleed background image
+    variantSelectionHints:
+      Default: single static hero
+    parentFields:
+      - name: Title
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Image
+        type: Image
+      - name: Link
+        type: General Link
+    childFields: []
+  - id: HeroBanner
+    name: HeroBanner
+    manifestName: HeroBanner
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - split hero with eyebrow
+      - headline + text column beside an image
+      - hero with secondary content
+    variantSelectionHints:
+      Default: two-column hero banner
+    parentFields:
+      - name: Tagline
+        type: Single-Line Text
+      - name: Title
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Image
+        type: Image
+      - name: Cta1
+        type: General Link
+      - name: Cta2
+        type: General Link
+      - name: Icon
+        type: Image
+    childFields: []
+  - id: ImageGallery
+    name: Image Gallery
+    manifestName: ImageGallery
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - grid of images
+      - photo gallery
+      - image mosaic
+    variantSelectionHints:
+      Default: image grid
+    parentFields: []
+    childFields: []
+  - id: ParallaxBanner
+    name: Parallax Banner
+    manifestName: ParallaxBanner
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - full-width background image band
+      - centered large headline over image
+      - scrolling parallax strip
+    variantSelectionHints:
+      Default: centered text over fixed background image
+    parentFields:
+      - name: Title
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Link
+        type: General Link
+      - name: BackgroundImage
+        type: Image
+      - name: ForegroundImage
+        type: Image
+    childFields: []
+  - id: PromoCta
+    name: Promo CTA
+    manifestName: PromoCta
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+      - WithPlaceholderColumn
+      - WithBackgroundImage
+    visualKeywords:
+      - image and text side by side
+      - feature promo with eyebrow and button
+      - alternating media/text block
+    variantSelectionHints:
+      Default: image beside text
+      WithBackgroundImage: text panel over a background image
+      WithPlaceholderColumn: second column holds other components
+    parentFields:
+      - name: Eyebrow
+        type: Single-Line Text
+      - name: Title
+        type: Single-Line Text
+      - name: Subtitle
+        type: Single-Line Text
+      - name: Text
+        type: Rich Text
+      - name: Link
+        type: General Link
+      - name: Link2
+        type: General Link
+      - name: Image
+        type: Image
+    childFields: []
+  - id: Questions
+    name: Questions
+    manifestName: Questions
+    kind: list
+    role: section
+    category: Page Content
+    variants:
+      - Default
+      - SingleColumn
+    visualKeywords:
+      - FAQ list
+      - question and answer items
+      - frequently asked questions grid
+    variantSelectionHints:
+      Default: two-column FAQ
+      SingleColumn: single-column FAQ
+    parentFields: []
+    childFields:
+      - name: Question
+        type: Single-Line Text
+      - name: Answer
+        type: Rich Text
+  - id: Quote
+    name: Quote
+    manifestName: Quote
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+      - Simple
+    visualKeywords:
+      - single pull quote
+      - testimonial quote with author name and role
+      - large quotation mark
+    variantSelectionHints:
+      Default: quote with author
+      Simple: quote text only
+    parentFields:
+      - name: Quote
+        type: Multi-Line Text
+      - name: AuthorName
+        type: Single-Line Text
+      - name: AuthorPosition
+        type: Single-Line Text
+      - name: Image
+        type: Image
+    childFields: []
+  - id: StatsCounter
+    name: Stats Counter
+    manifestName: StatsCounter
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - row of big numbers with captions
+      - key figures
+      - statistics band with images
+    variantSelectionHints:
+      Default: three stats with side images
+    parentFields:
+      - name: Image1
+        type: Image
+      - name: Image2
+        type: Image
+      - name: Value1
+        type: Number
+      - name: Value2
+        type: Number
+      - name: Symbol1
+        type: Single-Line Text
+      - name: Symbol2
+        type: Single-Line Text
+      - name: Value3
+        type: Number
+      - name: Caption1
+        type: Single-Line Text
+      - name: Caption2
+        type: Single-Line Text
+      - name: Symbol3
+        type: Single-Line Text
+      - name: Caption3
+        type: Single-Line Text
+    childFields: []
+  - id: Testimonials
+    name: Testimonials
+    manifestName: Testimonials
+    kind: list
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - several customer reviews
+      - star ratings
+      - testimonial cards row
+    variantSelectionHints:
+      Default: testimonial cards with stars
+    parentFields: []
+    childFields:
+      - name: Rating
+        type: Number
+      - name: Content
+        type: Multi-Line Text
+      - name: AuthorName
+        type: Single-Line Text
+      - name: AuthorPosition
+        type: Single-Line Text
+      - name: AuthorImage
+        type: Image
+  - id: ThreeColumnCta
+    name: Three Column CTA
+    manifestName: ThreeColumnCta
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+      - WithIcons
+      - WithIconsCompact
+    visualKeywords:
+      - three cards in a row
+      - three-up service tiles
+      - three linked panels with icons or images
+    variantSelectionHints:
+      Default: three image cards
+      WithIcons: three icon cards
+      WithIconsCompact: small icon tiles
+    parentFields:
+      - name: Text1
+        type: Single-Line Text
+      - name: Text2
+        type: Single-Line Text
+      - name: Text3
+        type: Single-Line Text
+      - name: SubText1
+        type: Single-Line Text
+      - name: SubText2
+        type: Single-Line Text
+      - name: SubText3
+        type: Single-Line Text
+      - name: Link1
+        type: General Link
+      - name: Link2
+        type: General Link
+      - name: Link3
+        type: General Link
+      - name: Image1
+        type: Image
+      - name: Image2
+        type: Image
+      - name: Image3
+        type: Image
+    childFields: []
+  - id: TwoColumnCta
+    name: Two Column CTA
+    manifestName: TwoColumnCta
+    kind: simple
+    role: section
+    category: Page Content
+    variants:
+      - Default
+    visualKeywords:
+      - two cards side by side
+      - pair of promo tiles
+      - two-up linked panels
+    variantSelectionHints:
+      Default: two equal linked cards
+    parentFields:
+      - name: Title1
+        type: Single-Line Text
+      - name: Title2
+        type: Single-Line Text
+      - name: Text1
+        type: Single-Line Text
+      - name: Text2
+        type: Single-Line Text
+      - name: Link1
+        type: General Link
+      - name: Link2
+        type: General Link
+      - name: Image1
+        type: Image
+      - name: Image2
+        type: Image
+    childFields: []
+  - id: ProjectList
+    name: Project List
+    manifestName: ProjectList
+    kind: context-only
+    role: section
+    category: Projects
+    variants:
+      - Default
+      - Mosaic
+    visualKeywords:
+      - case studies grid
+      - project showcase
+      - portfolio mosaic
+    variantSelectionHints:
+      Default: project cards
+      Mosaic: mosaic layout
+    parentFields: []
+    childFields: []
+  - id: ApplicationForm
+    name: Application Form
+    manifestName: ApplicationForm
+    kind: simple
+    role: section
+    category: Utilities
+    variants:
+      - Default
+    visualKeywords:
+      - multi-field application form
+      - sign-up form
+    variantSelectionHints:
+      Default: application form
+    parentFields:
+      - name: Title
+        type: Single-Line Text
+      - name: Subtitle
+        type: Rich Text
+      - name: FullName
+        type: Single-Line Text
+      - name: IDNumber
+        type: Single-Line Text
+      - name: Email
+        type: Single-Line Text
+      - name: MobileNumber
+        type: Single-Line Text
+      - name: Footnote
+        type: Rich Text
+      - name: SubmitButton
+        type: General Link
+    childFields: []
+  - id: ContactForm
+    name: Contact Form
+    manifestName: ContactForm
+    kind: simple
+    role: section
+    category: Utilities
+    variants:
+      - Default
+    visualKeywords:
+      - contact us form
+      - inquiry form fields
+    variantSelectionHints:
+      Default: contact form
+    parentFields:
+      - name: Title
+        type: Single-Line Text
+      - name: EmailLabel
+        type: Single-Line Text
+      - name: SubjectLabel
+        type: Single-Line Text
+      - name: MessageLabel
+        type: Single-Line Text
+      - name: ButtonLabel
+        type: Single-Line Text
+      - name: BackgroundImage
+        type: Image
+    childFields: []
+  - id: LoanCalculator
+    name: Loan Calculator
+    manifestName: LoanCalculator
+    kind: simple
+    role: section
+    category: Utilities
+    variants:
+      - Default
+    visualKeywords:
+      - calculator with sliders
+      - estimate tool
+    variantSelectionHints:
+      Default: slider calculator
+    parentFields:
+      - name: MinAmount
+        type: Integer
+      - name: MaxAmount
+        type: Integer
+      - name: Currency
+        type: Single-Line Text
+      - name: MinTerm
+        type: Integer
+      - name: MaxTerm
+        type: Integer
+      - name: TermName
+        type: Single-Line Text
+      - name: InterestRate
+        type: Number
+      - name: BankFee
+        type: Number
+    childFields: []

@@ -1,0 +1,20 @@
+// Logix Federal Credit Union skinned-demo overrides (theme only — no component changes).
+
+// Prospera's base body style hard-codes 'Open Sans'; use the theme font instead.
+body.site-logix,
+.site-logix {
+  font-family: var(--font-family);
+}
+
+// Button tokens (Prospera defines these per theme class in base/links/_link-button.scss).
+// Logix CTAs are compact teal blocks with a 4px radius, not pills.
+.site-logix {
+  --button-main-color: #fff;
+  --button-main-bg-color: var(--bg-saturated);
+  --button-secondary-color: var(--text-colored);
+  --button-simple-color: var(--text-colored);
+  --button-padding: 10px 32px;
+  --button-roundness: 4px;
+  --button-font-weight: 500;
+  --button-font-size: 1rem;
+}

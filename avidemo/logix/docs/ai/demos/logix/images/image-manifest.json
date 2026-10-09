@@ -1,0 +1,852 @@
+[
+  {
+    "src": "https://www.logixbanking.com/-/media/images/logos/logix_logo.svg?iar=0&hash=7FF9CEFEE7DDCEEFE832A5AF60471227",
+    "alt": "Logix Federal Credit Union Logo",
+    "localFile": "section1-img1.svg",
+    "extension": "svg",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 6206,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/banners/homepage/auto-loan-3-3x.webp",
+    "alt": "",
+    "localFile": "section1-img2.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "background-unmatched",
+    "fileSize": 213036,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/care-to-join-us-section-background-image-v2.svg",
+    "alt": "",
+    "localFile": "section1-img3.svg",
+    "extension": "svg",
+    "sectionPosition": 1,
+    "type": "background-unmatched",
+    "fileSize": 1004,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/homepage-gray-background.svg",
+    "alt": "",
+    "localFile": "section1-img4.svg",
+    "extension": "svg",
+    "sectionPosition": 1,
+    "type": "background-unmatched",
+    "fileSize": 736,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/dwh-logix/images/common/gray-background.png",
+    "alt": "",
+    "localFile": "section1-img5.png",
+    "extension": "png",
+    "sectionPosition": 1,
+    "type": "background-unmatched",
+    "fileSize": 29914,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://tr-experiments-assets.sfo3.cdn.digitaloceanspaces.com/Logix/VWO%20%E2%80%93%20Mega%20menu/img-1.png",
+    "alt": "",
+    "localFile": "section2-img6.png",
+    "extension": "png",
+    "sectionPosition": 2,
+    "type": "list-item-bg",
+    "fileSize": 119819,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://tr-experiments-assets.sfo3.cdn.digitaloceanspaces.com/Logix/VWO%20%E2%80%93%20Mega%20menu/img-2.png",
+    "alt": "",
+    "localFile": "section2-img7.png",
+    "extension": "png",
+    "sectionPosition": 2,
+    "type": "list-item-bg",
+    "fileSize": 134901,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://tr-experiments-assets.sfo3.cdn.digitaloceanspaces.com/Logix/VWO%20%E2%80%93%20Mega%20menu/img-3.png",
+    "alt": "",
+    "localFile": "section2-img8.png",
+    "extension": "png",
+    "sectionPosition": 2,
+    "type": "list-item-bg",
+    "fileSize": 135131,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://tr-experiments-assets.sfo3.cdn.digitaloceanspaces.com/Logix/VWO%20%E2%80%93%20Mega%20menu/img-4.png",
+    "alt": "",
+    "localFile": "section2-img9.png",
+    "extension": "png",
+    "sectionPosition": 2,
+    "type": "list-item-bg",
+    "fileSize": 164581,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://tr-experiments-assets.sfo3.cdn.digitaloceanspaces.com/Logix/VWO%20%E2%80%93%20Mega%20menu/img-5.png",
+    "alt": "",
+    "localFile": "section2-img10.png",
+    "extension": "png",
+    "sectionPosition": 2,
+    "type": "list-item-bg",
+    "fileSize": 120856,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://tr-experiments-assets.sfo3.cdn.digitaloceanspaces.com/Logix/VWO%20%E2%80%93%20Mega%20menu/img-6.png",
+    "alt": "",
+    "localFile": "section2-img11.png",
+    "extension": "png",
+    "sectionPosition": 2,
+    "type": "list-item-bg",
+    "fileSize": 127623,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/banners/cards/uno-bg-orange.webp",
+    "alt": "",
+    "localFile": "section6-img12.webp",
+    "extension": "webp",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 2490,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/banners/cards/uno-bg-blue.webp",
+    "alt": "",
+    "localFile": "section6-img13.webp",
+    "extension": "webp",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 1852,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/rewards-asterisk-2x.png",
+    "alt": "",
+    "localFile": "section10-img14.png",
+    "extension": "png",
+    "sectionPosition": 10,
+    "type": "img",
+    "fileSize": 62196,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/rewards-asterisk-1x.png",
+    "alt": "",
+    "localFile": "section10-img15.png",
+    "extension": "png",
+    "sectionPosition": 10,
+    "type": "srcset",
+    "fileSize": 49116,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/surf.png",
+    "alt": "",
+    "localFile": "section11-img16.png",
+    "extension": "png",
+    "sectionPosition": 11,
+    "type": "img",
+    "fileSize": 333330,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/dollar.webp?iar=0&hash=6207A52625320C4EB4D7BC7705BE54EA",
+    "alt": "Dollar Icon",
+    "localFile": "section12-img17.webp",
+    "extension": "webp",
+    "sectionPosition": 12,
+    "type": "img",
+    "fileSize": 784,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/piggy-bank.svg?iar=0&hash=AFEAD44E07724488DCA2539BD293BB06",
+    "alt": "",
+    "localFile": "section12-img18.svg",
+    "extension": "svg",
+    "sectionPosition": 12,
+    "type": "img",
+    "fileSize": 1851,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/credit-card-lg.svg?iar=0&hash=3C7C4AD7420025799659C4A73CB44CD2",
+    "alt": "",
+    "localFile": "section12-img19.svg",
+    "extension": "svg",
+    "sectionPosition": 12,
+    "type": "img",
+    "fileSize": 804,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/car-lg.svg?iar=0&hash=8EF20E17C9DB2289477504E5089381DF",
+    "alt": "",
+    "localFile": "section12-img20.svg",
+    "extension": "svg",
+    "sectionPosition": 12,
+    "type": "img",
+    "fileSize": 1589,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/house.svg?iar=0&hash=6E58F2420B4D1F980D414E9D48CF9406",
+    "alt": "",
+    "localFile": "section12-img21.svg",
+    "extension": "svg",
+    "sectionPosition": 12,
+    "type": "img",
+    "fileSize": 1101,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/house-chimney-l.svg?iar=0&hash=E4EC7956CC6C0934746A64187A129DDE",
+    "alt": "",
+    "localFile": "section12-img22.svg",
+    "extension": "svg",
+    "sectionPosition": 12,
+    "type": "img",
+    "fileSize": 1216,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/rates.svg?iar=0&hash=6C49701A8FB15553AFBE73836ED73326",
+    "alt": "",
+    "localFile": "section12-img23.svg",
+    "extension": "svg",
+    "sectionPosition": 12,
+    "type": "img",
+    "fileSize": 1420,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/bouquet-canyon/bouquet-canyon-branch.png?h=480&iar=0&w=640&hash=1E607F73EFB52D466284C166E16B5761",
+    "alt": "",
+    "localFile": "section13-img24.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 50122,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/bridgeport/bridgeport-branch.png?h=481&iar=0&w=640&hash=97165EB366C34DBE1330D65E5569F0AF",
+    "alt": "",
+    "localFile": "section13-img25.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 288989,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/burbank/burbank-branch.png?h=481&iar=0&w=640&hash=B9F7EC1F573EEF090F6128B5B1DBEC3F",
+    "alt": "",
+    "localFile": "section13-img26.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 70824,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/calabasas/calabasas-branch.png?h=481&iar=0&w=640&hash=ACD0FEED7C6DA19C826C06D66438271C",
+    "alt": "",
+    "localFile": "section13-img27.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 36430,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/chatsworth/chatsworth-branch.png?h=480&iar=0&w=640&hash=A904CF4C6C905D4032042C8C9D809F1F",
+    "alt": "",
+    "localFile": "section13-img28.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 28368,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/golden-valley/golden-valley-branch.png?h=480&iar=0&w=640&hash=73EF9F711464F540E20DDEF0AC8FA09E",
+    "alt": "",
+    "localFile": "section13-img29.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 28890,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/newbury-park/newbury-park-branch.png?h=480&iar=0&w=640&hash=BF3D3286EBA9DA0ED742A0FE185C968A",
+    "alt": "",
+    "localFile": "section13-img30.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 51538,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/palmdale/palmdale-branch.png?h=480&iar=0&w=640&hash=DC956F4C8C98B62DABCEA6DBF54955A4",
+    "alt": "",
+    "localFile": "section13-img31.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 39616,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/pasadena/pasadena-branch.png?h=480&iar=0&w=640&hash=7BCCF259AFF6CDDBF738503B0A5858B4",
+    "alt": "",
+    "localFile": "section13-img32.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 38062,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/porter-ranch/porter-ranch-branch.png?h=480&iar=0&w=640&hash=17E93F3F2A20DFFFEAE70832854E25A7",
+    "alt": "",
+    "localFile": "section13-img33.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 35652,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/simi-valley-cochran/simi-cochran-branch.webp?h=480&iar=0&w=640&hash=CBA4B246A0CE82DDEC88FDD768A1764D",
+    "alt": "",
+    "localFile": "section13-img34.webp",
+    "extension": "webp",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 32480,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/simi-valley-tapo-canyon/simi-tapo-branch.webp?h=480&iar=0&w=640&hash=E9D849A6B644EBABBAC94A665604AA84",
+    "alt": "",
+    "localFile": "section13-img35.webp",
+    "extension": "webp",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 47076,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/stevenson-ranch/stevenson-ranch-branch.png?h=480&iar=0&w=640&hash=C8AEFE21FE8596A253A865C39E3AE7B5",
+    "alt": "",
+    "localFile": "section13-img36.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 30918,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/tarzana/tarzana-branch.png?h=480&iar=0&w=640&hash=227D20B0E85AD42695D02B0B37ECDEEA",
+    "alt": "",
+    "localFile": "section13-img37.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 53586,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/thousand-oaks/thousand-oaks-branch.png?h=480&iar=0&w=640&hash=49C96816ACF557D712FB63F113D2577C",
+    "alt": "",
+    "localFile": "section13-img38.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 44372,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/toluca-lake/toluca-lake-branch.png?h=480&iar=0&w=640&hash=2B17B847EB8F95A2D1116E811E2CE5CE",
+    "alt": "",
+    "localFile": "section13-img39.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 37788,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/westlake-village/westlake-village-branch.png?h=480&iar=0&w=640&hash=9ECD8D3726F4510BF65564628FB8D0F9",
+    "alt": "",
+    "localFile": "section13-img40.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 68726,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/woodland-hills/woodland-hills-branch.png?h=480&iar=0&w=640&hash=F94B5B13AE91001486F85BC8855DC999",
+    "alt": "",
+    "localFile": "section13-img41.png",
+    "extension": "png",
+    "sectionPosition": 13,
+    "type": "img",
+    "fileSize": 48874,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/home-rewards.webp",
+    "alt": "",
+    "localFile": "section14-img42.webp",
+    "extension": "webp",
+    "sectionPosition": 14,
+    "type": "img",
+    "fileSize": 18968,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/file.svg?iar=0&hash=14D9080FE9F1DF38325C765593B67787",
+    "alt": "",
+    "localFile": "section15-img43.svg",
+    "extension": "svg",
+    "sectionPosition": 15,
+    "type": "img",
+    "fileSize": 2211,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/house-o.svg?iar=0&hash=CD63A2CB99CD448E7D61D8EFE60ED777",
+    "alt": "",
+    "localFile": "section15-img44.svg",
+    "extension": "svg",
+    "sectionPosition": 15,
+    "type": "img",
+    "fileSize": 1134,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/umbrella-sm.svg?iar=0&hash=0115B5FD543ACFBAF9D7E5ADA9EBA261",
+    "alt": "",
+    "localFile": "section15-img45.svg",
+    "extension": "svg",
+    "sectionPosition": 15,
+    "type": "img",
+    "fileSize": 1854,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/building-score.svg",
+    "alt": "",
+    "localFile": "section16-img46.svg",
+    "extension": "svg",
+    "sectionPosition": 16,
+    "type": "img",
+    "fileSize": 108765,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/account.svg?iar=0&hash=B751D3F8F6CDEF0DA17F71D195E86970",
+    "alt": "image-img",
+    "localFile": "section17-img47.svg",
+    "extension": "svg",
+    "sectionPosition": 17,
+    "type": "img",
+    "fileSize": 65614,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/branch.svg?iar=0&hash=F6730AC56A4FF8491D47C93F8A0B53C8",
+    "alt": "image-img",
+    "localFile": "section17-img48.svg",
+    "extension": "svg",
+    "sectionPosition": 17,
+    "type": "img",
+    "fileSize": 67644,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/giving-back.png?h=237&iar=0&w=316&hash=041ED81479FCA10DF66A9BA51E04A0B2",
+    "alt": "",
+    "localFile": "section19-img49.png",
+    "extension": "png",
+    "sectionPosition": 19,
+    "type": "img",
+    "fileSize": 136060,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/sponsorships.png?h=237&iar=0&w=316&hash=433CE4E3AC74698157854F35812736EC",
+    "alt": "",
+    "localFile": "section19-img50.png",
+    "extension": "png",
+    "sectionPosition": 19,
+    "type": "img",
+    "fileSize": 151389,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/homepage/stars.png?h=237&iar=0&w=316&hash=7D30825743DF6078709B127421F9A7E1",
+    "alt": "",
+    "localFile": "section19-img51.png",
+    "extension": "png",
+    "sectionPosition": 19,
+    "type": "img",
+    "fileSize": 127331,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/bouquet-canyon/bouquet-canyon-branch.webp?iar=0&hash=F648E41F15CF13F402680756C437F562",
+    "alt": "",
+    "localFile": "section21-img52.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 50122,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/burbank/burbank-branch.webp?iar=0&hash=961CB1CDB672A86BA8EC3079201146E0",
+    "alt": "",
+    "localFile": "section21-img53.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 70824,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/calabasas/calabasas-branch.webp?iar=0&hash=FE575AC1B44FD965F46A6D0F00F5D4F2",
+    "alt": "",
+    "localFile": "section21-img54.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 36430,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/chatsworth/chatsworth-branch.webp?iar=0&hash=04FAD7340EEA0363ED5109DBC6B1165D",
+    "alt": "",
+    "localFile": "section21-img55.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 28368,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/golden-valley/golden-valley-branch.webp?iar=0&hash=8D4579A7341F574C0074714012963FB9",
+    "alt": "",
+    "localFile": "section21-img56.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 28890,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/newbury-park/newbury-park-branch.webp?iar=0&hash=A5ACF3406024662A842B5EEDA08DDBB2",
+    "alt": "",
+    "localFile": "section21-img57.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 51538,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/palmdale/palmdale-branch.webp?iar=0&hash=6B5CE3E1DA4FFBBF9AD9B970AD73DE17",
+    "alt": "",
+    "localFile": "section21-img58.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 39616,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/pasadena/pasadena-branch.webp?iar=0&hash=9257884A298D039405F22CEE9A885374",
+    "alt": "",
+    "localFile": "section21-img59.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 38062,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/porter-ranch/porter-ranch-branch.webp?iar=0&hash=291E0E95BFC9AF78764190112D384080",
+    "alt": "",
+    "localFile": "section21-img60.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 35652,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/simi-valley-cochran/simi-cochran-branch.webp?iar=0&hash=514F89743DA9A3031CC5717365408A75",
+    "alt": "",
+    "localFile": "section21-img61.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 32480,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/simi-valley-tapo-canyon/simi-tapo-branch.webp?iar=0&hash=AA76739B812E92C9023530A0DE8374DF",
+    "alt": "",
+    "localFile": "section21-img62.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 47076,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/stevenson-ranch/stevenson-ranch-branch.webp?iar=0&hash=C5399D9A1C79F4E6A5C5684508DB06F3",
+    "alt": "",
+    "localFile": "section21-img63.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 30918,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/tarzana/tarzana-branch.webp?iar=0&hash=05C747A06B3F577D690352AE5BF5D934",
+    "alt": "",
+    "localFile": "section21-img64.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 53586,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/thousand-oaks/thousand-oaks-branch.webp?iar=0&hash=0C54155BCC17FD1E08A4408D86F63AF3",
+    "alt": "",
+    "localFile": "section21-img65.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 44372,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/toluca-lake/toluca-lake-branch.webp?iar=0&hash=6143B781796FCA0ECA86CFE45091A041",
+    "alt": "",
+    "localFile": "section21-img66.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 37788,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/westlake-village/westlake-village-branch.webp?iar=0&hash=32FD6E642B0357C7D6DB53269D48E58C",
+    "alt": "",
+    "localFile": "section21-img67.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 68726,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/dwh/branches/woodland-hills/woodland-hills-branch.webp?iar=0&hash=FBD04E35210966667A7255EF32FB8257",
+    "alt": "",
+    "localFile": "section21-img68.webp",
+    "extension": "webp",
+    "sectionPosition": 21,
+    "type": "img",
+    "fileSize": 48874,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/phone.svg?iar=0&hash=0A448B2FF3C5FA30E482E801BABA8DA8",
+    "alt": "",
+    "localFile": "section22-img69.svg",
+    "extension": "svg",
+    "sectionPosition": 22,
+    "type": "img",
+    "fileSize": 1507,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/calendar.svg?iar=0&hash=A702A9D8BF6556B333AFD1A5A2ADC2A2",
+    "alt": "",
+    "localFile": "section22-img70.svg",
+    "extension": "svg",
+    "sectionPosition": 22,
+    "type": "img",
+    "fileSize": 1451,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/location.svg?iar=0&hash=C356B19D23374AB5E80D1CDA68A7749E",
+    "alt": "",
+    "localFile": "section22-img71.svg",
+    "extension": "svg",
+    "sectionPosition": 22,
+    "type": "img",
+    "fileSize": 1219,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/mail.svg?iar=0&hash=EA9BE0553AB4CA8D9B0EFCA39B268F58",
+    "alt": "",
+    "localFile": "section22-img72.svg",
+    "extension": "svg",
+    "sectionPosition": 22,
+    "type": "img",
+    "fileSize": 751,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/logos/logix_logo.svg?h=112&iar=0&w=131&hash=9B4BFDBE37551A7CA1CFB046D91948FC",
+    "alt": "footer-logo",
+    "localFile": "section24-img73.svg",
+    "extension": "svg",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 6206,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/facebook-icon.svg?iar=0&hash=C1EC345E175488DE7FDDFD3A2CF00B5F",
+    "alt": "meta img",
+    "localFile": "section24-img74.svg",
+    "extension": "svg",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 176265,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/dwh-logix/images/footer/footer-instagram.png?h=48&iar=0&w=48&sc_lang=en&hash=F47B4512E1ED396B6956F998D2ED9049",
+    "alt": "meta img",
+    "localFile": "section24-img75.png",
+    "extension": "png",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 4063,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/yelp-icon.svg?iar=0&hash=389DD3AAE4359B8B9715990308FED0F2",
+    "alt": "meta img",
+    "localFile": "section24-img76.svg",
+    "extension": "svg",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 35458,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/icons/dwh/youtube-icon.svg?iar=0&hash=4257DA373CB2B7E86E427DB53FBC195B",
+    "alt": "meta img",
+    "localFile": "section24-img77.svg",
+    "extension": "svg",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 21868,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/dwh-logix/images/footer/footer-info.webp?h=42&iar=0&w=42&sc_lang=en&hash=B90062BABAA6F2B126EDE6E5C6E2A8C9",
+    "alt": "Footer Info Icon",
+    "localFile": "section24-img78.webp",
+    "extension": "webp",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 1132,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/dwh-logix/images/footer/footer-questions.webp?h=42&iar=0&w=42&hash=6C28E04DB047BEAF355561C26A699681",
+    "alt": "Footer Question Icon",
+    "localFile": "section24-img79.webp",
+    "extension": "webp",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 1134,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/dwh-logix/images/footer/footer-member.webp?h=42&iar=0&w=42&hash=CD57DC091E3010A9DA3145054F8558C1",
+    "alt": "Footer Member Icon",
+    "localFile": "section24-img80.webp",
+    "extension": "webp",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 1026,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/dwh-logix/images/footer/footer-bank.webp?h=42&iar=0&w=42&hash=EE8B483C7821C3FCCD0F98D1EA9025B5",
+    "alt": "Footer Bank Icon",
+    "localFile": "section24-img81.webp",
+    "extension": "webp",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 1082,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/logos/logix-logo-white.png?h=58&iar=0&w=147&hash=6E9F7E99BCAC60BB73815620993B31FB",
+    "alt": "logo img",
+    "localFile": "section24-img82.png",
+    "extension": "png",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 2977,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/logos/equal-housing-white-small.webp?h=50&iar=0&w=42&hash=CC01410BA7F19AB47174DC3D23610CAC",
+    "alt": "footer img",
+    "localFile": "section24-img83.webp",
+    "extension": "webp",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 1406,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.logixbanking.com/-/media/images/logos/ncua-white-small.webp?h=50&iar=0&w=88&hash=ABF094A6E7C1B0170B29885DC36B4F4A",
+    "alt": "footer img",
+    "localFile": "section24-img84.webp",
+    "extension": "webp",
+    "sectionPosition": 24,
+    "type": "img",
+    "fileSize": 4808,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://survey-images.hotjar.com/survey-images/9bbfea3c64e31d83cccbe21bd41ba967_331a71424e0341e3be88a98df3be52cb_t",
+    "alt": "Digital with Heart",
+    "localFile": "section25-img85.jpg",
+    "extension": "jpg",
+    "sectionPosition": 25,
+    "type": "img",
+    "fileSize": 3178,
+    "status": "downloaded"
+  }
+]

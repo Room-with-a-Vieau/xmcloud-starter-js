@@ -1,0 +1,423 @@
+# Demo Build Plan
+client:
+  name: "Logix Federal Credit Union"
+  sourceUrl: "https://www.logixbanking.com/"
+  themeFile: "docs/ai/themes/logix.theme.yaml"
+  analyzedAt: "2026-10-09T17:05:00Z"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/demos/logix/homepage-screenshot.png"   # user-supplied (primary)
+    scraperDesktop: "docs/ai/themes/logix/screenshot-desktop.png"
+    mobile: "docs/ai/themes/logix/screenshot-mobile.png"
+    hero: "docs/ai/themes/logix/screenshot-hero.png"
+  totalSections: 30
+  templateMatches: 30
+  customRequired: 0
+  placedComponents: 28          # sections 1 and 30 are chrome (partial designs)
+
+# Existing Home page (copied from ProsperaFinancial): Carousel, PromoCta x3, FiveColumnCta,
+# ThreeColumnCta, TwoColumnCta, ArticleList, DocumentsList, AppPromo.
+# Reuse: PromoCta x3 (pos 9, 10, 14), ThreeColumnCta (pos 4), TwoColumnCta (pos 19).
+# Manual cleanup in Pages: Carousel, FiveColumnCta, ArticleList, DocumentsList, AppPromo.
+existingPageReuse:
+  - { position: 4,  component: "ThreeColumnCta" }
+  - { position: 9,  component: "PromoCta" }
+  - { position: 10, component: "PromoCta" }
+  - { position: 14, component: "PromoCta" }
+  - { position: 19, component: "TwoColumnCta" }
+manualCleanup: ["Carousel", "FiveColumnCta", "ArticleList", "DocumentsList", "AppPromo"]
+
+sections:
+  - position: 1
+    description: "White logo row with utility links + search, then solid orange category nav bar"
+    matchedComponent: { registryId: "Header", manifestName: "Header", variant: "WithLogoImage", matchType: "template", matchConfidence: "high" }
+    apiAddable: false
+    sectionBackground: "default"
+    content:
+      utilityLinks: ["Login", "Open Account", "Branches & ATMs", "Rates", "Contact Us", "About Us", "Make a Payment"]
+      navLinks: ["Checking & Savings", "Credit Cards", "Auto & Other Loans", "Mortgage & Home Equity", "Investments & Insurance", "Business"]
+    contentNotes: "Chrome — lives in the Header partial design. Logo + nav items set manually."
+    variantReason: "Image logo"
+
+  - position: 2
+    description: "Full-bleed photo (member with her truck) with headline on a dark translucent panel; online-banking login card overlaid on the right"
+    matchedComponent: { registryId: "Hero", manifestName: "Hero", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "dark"
+    content:
+      Title: "Auto Loan Rates as Low as 3.24% APR*"
+      Text: "Shawntalle M. — Member Since 2008"
+      Link: "Apply Now → https://www.logixbanking.com/auto-loans (no visible CTA on source; optional)"
+      Image: "hero photo (member beside black truck)"
+    contentNotes: "Login card (username/password/Sign Up) is not reproduced — no form component for it."
+    variantReason: "Static single hero, not rotating"
+
+  - position: 3
+    description: "Centered section intro above the product tabs"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Heading: "How Can You Bank Smarter Today?"
+      Text: "Select an option below to learn more."
+    contentNotes: "Featured / Personal / Business tab switcher is dropped — only the Featured tab's cards are built (pos 4)."
+    variantReason: "Centered heading and text"
+
+  - position: 4
+    description: "Three elevated cards, each with an orange-gradient icon tile, title, text and teal button"
+    matchedComponent: { registryId: "ThreeColumnCta", manifestName: "ThreeColumnCta", variant: "WithIcons", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    reuseExisting: true
+    sectionBackground: "default"
+    content:
+      cards:
+        - { Text: "Earn up to 3.50% APY on a High Rate Savings Account", SubText: "Enjoy higher returns than a traditional savings account, with the flexibility to deposit or withdraw funds anytime.", Link: "Learn More", Image: "piggy-bank icon tile" }
+        - { Text: "Lower Your Payment with an Adjustable Rate Mortgage", SubText: "Enjoy peace of mind with low starting rates of 5.750% and 6.45% APR on our 5/6 ARM. Unlock savings on your mortgage today!", Link: "View Rates", Image: "house icon tile" }
+        - { Text: "Personal Loans as low as 9.74% APR", SubText: "Get access to the funds you need to consolidate debt or fund life's important moments.", Link: "View Rates", Image: "dollar icon tile" }
+    variantReason: "Icon cards"
+
+  - position: 5
+    description: "Centered heading 'Better Rates to Help You Thrive' with View All Rates button below the rate row"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Heading: "Better Rates to Help You Thrive"
+      Link: "View All Rates → /rates"
+    contentNotes: "Source puts the button under the rates; HeadingCta puts it under the heading."
+    variantReason: "Centered heading"
+
+  - position: 6
+    description: "Four rate columns divided by thin rules: product name (teal), 'Rates as low as', big rate"
+    matchedComponent: { registryId: "FourColumnCta", manifestName: "FourColumnCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      tiles:
+        - { Title: "Mortgage Loans", Text: "Rates as low as 7.09% APR" }
+        - { Title: "Credit Cards", Text: "Rates as low as 11.99% APR" }
+        - { Title: "Auto Loans", Text: "Rates as low as 3.24% APR*" }
+        - { Title: "Certificates", Text: "Rates as high as 3.70% APY" }
+    contentNotes: "Big-number typography is lost (rates render as tile text). StatsCounter only holds 3 values with side images, so FourColumnCta is the closer fit."
+    variantReason: "Only variant"
+
+  - position: 7
+    description: "Gray band, left column: 'Why Members Choose Logix' heading, subtitle, paragraph and 4 orange-bullet points"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Eyebrow: "We're here to help you along the way."
+      Heading: "Why Members Choose Logix"
+      Text: "For more than 80 years, we have served members across Southern California and beyond. From Checking and Savings Accounts to Home and Auto Loans, more than 250,000 members choose Logix for great rates, low fees, and smarter banking that gives back to our local communities."
+    contentNotes: "Bullet list (not-for-profit, serve members, great rates, NCUA insured) folded into Text — HeadingCta Text is multi-line plain text."
+    variantReason: "Heading left, text right"
+
+  - position: 8
+    description: "Two review cards with orange quote marks, 5 stars, reviewer + 'on Yelp', title and quote"
+    matchedComponent: { registryId: "Testimonials", manifestName: "Testimonials", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      children:
+        - { Rating: 5, AuthorName: "Komal A.", AuthorPosition: "on Yelp", Content: "Great Loan Experience — \"...if you want a fast, hassle-free, headache-free, loan experience...the Logix team should be your only stop. I would recommend them to anyone!!!\"" }
+        - { Rating: 5, AuthorName: "Maria L.", AuthorPosition: "on Yelp", Content: "Highly recommend them — \"...they truly care and take care of your account and every way make you feel like you are very special, highly recommend them\"" }
+    contentNotes: "Branch-template rendering — if set_component_datasource 404s, write into the existing datasource (skill fallback). AuthorImage → Logix logo/mascot (no reviewer photos)."
+    variantReason: "Testimonial cards with stars"
+
+  - position: 9
+    description: "Relationship Rewards: eyebrow, title, intro, how-it-works, Gold Tier bullets, footnote, button; right side shows a balance-calculator graphic"
+    matchedComponent: { registryId: "PromoCta", manifestName: "PromoCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    reuseExisting: true
+    sectionBackground: "default"
+    content:
+      Eyebrow: "Relationship Rewards"
+      Title: "Unlock Exclusive Logix Benefits"
+      Text: "<p>The Logix Relationship Rewards Program gives you access to valuable perks and exclusive savings, just for being a member.</p><p><strong>Here's how it works:</strong> With your Logix Checking or Money Market Account and a combined household balance between $35,000 and $99,999, you'll automatically qualify for our Gold Tier Relationship Rewards.*</p><p><strong>As a Gold Tier Relationship Rewards Member, you'll enjoy:</strong></p><ul><li>0.10% Auto Loan Interest Rate Discount</li><li>$500 Mortgage Loan Fee Discount</li><li>2 Rewards Points for Each $1 Spent on Eligible Purchases Using Our World Rewards Mastercard®</li></ul><p>*Combined household balance includes any loan, mortgage, checking, money market and savings balances (excluding certificates) at Logix.</p>"
+      Link: "View More Benefits → /relationship-rewards"
+      Image: "crop of the $35,000 balance / Gold Tier graphic from the screenshot"
+    contentNotes: "The balance widget is HTML on the source; use a screenshot crop as the image."
+    variantReason: "Text left, image right (matches source)"
+
+  - position: 10
+    description: "Photo left (beach swimmer), 'Strengthen Your Financial Wellness' text + button right"
+    matchedComponent: { registryId: "PromoCta", manifestName: "PromoCta", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    reuseExisting: true
+    sxaStyle: "reverse"
+    sectionBackground: "default"
+    content:
+      Title: "Strengthen Your Financial Wellness"
+      Text: "<p>Logix exists to help our members thrive. Our Financial Wellness resources provide guidance on key financial topics, from budgeting and saving to borrowing and planning, so you can make smarter financial decisions with confidence.</p>"
+      Link: "Learn More → /financial-wellness"
+      Image: "beach swimmer with orange float"
+    variantReason: "Image left → Default + SXA style 'reverse' (set in Pages)"
+
+  - position: 11
+    description: "Centered heading + two-line intro for the product icon grid"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Heading: "Smarter Banking with Logix"
+      Text: "From everyday banking and high-yield savings to affordable car loans with low rates and flexible terms, discover smarter banking solutions with one of the leading credit unions in Southern California."
+    variantReason: "Centered heading and text"
+
+  - position: 12
+    description: "Product icon grid row 1: orange icon + teal link title + one-line text"
+    matchedComponent: { registryId: "FourColumnCta", manifestName: "FourColumnCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      tiles:
+        - { Title: "Checking Accounts", Text: "Everyday banking with extra benefits", Image: "cash icon" }
+        - { Title: "Certificate Accounts", Text: "Smart savings with great returns", Image: "piggy-bank icon" }
+        - { Title: "Credit Cards", Text: "Great rates that work for you", Image: "card icon" }
+        - { Title: "Auto Loans", Text: "Easy financing for your next ride", Image: "car icon" }
+    contentNotes: "Source is a 4x2 grid with icons left of text; split into two FourColumnCta rows."
+    variantReason: "Only variant"
+
+  - position: 13
+    description: "Product icon grid row 2"
+    matchedComponent: { registryId: "FourColumnCta", manifestName: "FourColumnCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      tiles:
+        - { Title: "Mortgage Loans", Text: "Home loans made easy", Image: "house icon" }
+        - { Title: "Home Equity Loans", Text: "Use your equity with flexible terms", Image: "house icon" }
+        - { Title: "Personal Loans", Text: "Financing that fits your needs", Image: "cash icon" }
+        - { Title: "View All Rates", Text: "", Image: "percent icon" }
+    variantReason: "Only variant"
+
+  - position: 14
+    description: "'Your Southern California Credit Union' text + Schedule Appointment button left; horizontal branch-card slider right"
+    matchedComponent: { registryId: "PromoCta", manifestName: "PromoCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    reuseExisting: true
+    sectionBackground: "default"
+    content:
+      Title: "Your Southern California Credit Union"
+      Subtitle: "Rooted in Member Trust"
+      Text: "<p>At Logix, we put people - not shareholders - first. Whether it's everyday banking or life's major milestones, we deliver personalized financial solutions and service designed to help you save more and reach your goals with confidence.</p>"
+      Link: "Schedule Appointment → /schedule-appointment"
+      Image: "Bouquet Canyon branch photo"
+    contentNotes: "Branch slider becomes a single branch photo (all three branches appear again at pos 24)."
+    variantReason: "Text left, image right"
+
+  - position: 15
+    description: "Family-moving-in photo left, 'Discover Home Rewards' text + button right"
+    matchedComponent: { registryId: "PromoCta", manifestName: "PromoCta", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sxaStyle: "reverse"
+    sectionBackground: "default"
+    content:
+      Title: "Discover Home Rewards"
+      Text: "<p>Planning on buying or selling a home? Logix Home Rewards offers exclusive benefits to home buyers and sellers.</p>"
+      Link: "Learn More → /home-rewards"
+      Image: "family moving in with boxes"
+    variantReason: "Image left → Default + SXA style 'reverse'"
+
+  - position: 16
+    description: "Four centered icon + bold-title benefits for Home Rewards"
+    matchedComponent: { registryId: "FourColumnCta", manifestName: "FourColumnCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      tiles:
+        - { Title: "Flat List Fee for Home Sellers", Image: "cash icon" }
+        - { Title: "Buyer's Agent Commission Rebate", Image: "clipboard-check icon" }
+        - { Title: "Access to All Listings in the SoCal MLS", Image: "house icon" }
+        - { Title: "Support from a Local Real Estate Agent", Image: "umbrella icon" }
+    variantReason: "Only variant"
+
+  - position: 17
+    description: "'Your Path to a Better Credit Score Starts Here' text + button left; robot mascot on credit-score gauge right"
+    matchedComponent: { registryId: "PromoCta", manifestName: "PromoCta", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Your Path to a Better Credit Score Starts Here"
+      Text: "<p>Do you want to build or repair your credit? The Logix Savings-Secured Mastercard® is a great Credit Card for those who are new to credit or starting over. Plus, Logix will routinely update and report your credit score, so you can see your progress.</p>"
+      Link: "Learn More → /credit-cards/savings-secured"
+      Image: "robot mascot on credit-score gauge"
+    variantReason: "Text left, image right"
+
+  - position: 18
+    description: "Pale-blue band: centered 'Want to Join the Logix Community?' heading + two-line intro"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "accent"
+    content:
+      Heading: "Want to Join the Logix Community? We'd Love That!"
+      Text: "Becoming a Logix member is as easy as it is rewarding. Join us by applying online or come visit us at one of our branches."
+    variantReason: "Centered heading and text"
+
+  - position: 19
+    description: "Two cards with orange-gradient icon tiles: Open an Account / Visit a Branch"
+    matchedComponent: { registryId: "TwoColumnCta", manifestName: "TwoColumnCta", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    reuseExisting: true
+    sectionBackground: "accent"
+    content:
+      Title1: "Open an Account"
+      Text1: "Apply online and open an account with us in just a few steps! Find out how easy it is."
+      Link1: "Open an Account → /open-account"
+      Image1: "person icon tile"
+      Title2: "Visit a Branch"
+      Text2: "Let's meet to talk about your financial needs. We're just around the corner!"
+      Link2: "Find the Nearest Branch → /locations"
+      Image2: "bank-building icon tile"
+    variantReason: "Two equal linked cards"
+
+  - position: 20
+    description: "White strip with orange checkmark: 'Become a Member' + one-sentence benefit"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Compact", matchType: "template", matchConfidence: "low" }
+    apiAddable: true
+    sectionBackground: "accent"
+    content:
+      Heading: "Become a Member"
+      Text: "Enjoy exclusive member benefits with Logix, like lower loan rates, higher savings yields, access to financial tools, and personalized service from a Credit Union that puts your goals first."
+    contentNotes: "Checkmark icon and card styling are lost."
+    variantReason: "Slim heading strip"
+
+  - position: 21
+    description: "Centered 'Smarter Banking, Fueled by Heart' heading + stat sentence"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Heading: "Smarter Banking, Fueled by Heart"
+      Text: "96% of our members say they would recommend us to their friends and 65% of our new business is referred.† We offer financial services like a bank, but we're not-for-profit, so we don't act like one."
+    variantReason: "Centered heading and text"
+
+  - position: 22
+    description: "Three photo cards with 'Logix Team' badge, title, text and outline button"
+    matchedComponent: { registryId: "ThreeColumnCta", manifestName: "ThreeColumnCta", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      cards:
+        - { Text: "Giving Back", SubText: "From sending care packages to troops overseas to supplying staff at fundraisers, the Logix team is ready to lend a hand.", Link: "Learn More", Image: "team volunteers photo" }
+        - { Text: "Community Sponsorships", SubText: "Looking for Logix to provide a donation or sponsorship? Let us know!", Link: "Request Support", Image: "community event photo" }
+        - { Text: "Community Stars Foundation", SubText: "Logix employees are so passionate about giving back to the community, they created their own nonprofit!", Link: "Visit Community Stars", Image: "staff group photo" }
+    contentNotes: "'Logix Team' badge not reproduced."
+    variantReason: "Three image cards"
+
+  - position: 23
+    description: "Left-aligned eyebrow + heading + line + two buttons (Find the Nearest Branch / Find an ATM)"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Eyebrow: "Visit Us Today"
+      Heading: "Serving You Across 18 Convenient Local Branches"
+      Text: "Plus, over 30,000 fee-free CO-OP ATMS."
+      Link: "Find the Nearest Branch → /locations"
+    contentNotes: "Second button (Find an ATM) dropped — HeadingCta has one link."
+    variantReason: "Heading left, text/CTA right"
+
+  - position: 24
+    description: "Three branch cards: photo, branch name, address, phone, See Branch Page button"
+    matchedComponent: { registryId: "ThreeColumnCta", manifestName: "ThreeColumnCta", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      cards:
+        - { Text: "Bouquet Canyon Branch", SubText: "26459 Bouquet Canyon Road, Santa Clarita, CA 91350 · (855) 564-4919", Link: "See Branch Page", Image: "Bouquet Canyon branch photo" }
+        - { Text: "Bridgeport Branch", SubText: "24003 Newhall Ranch Road, Santa Clarita, CA 91355 · (855) 564-4914", Link: "See Branch Page", Image: "Bridgeport branch photo" }
+        - { Text: "Burbank Branch", SubText: "100 N. First St., Ste 100, Burbank, CA 91502 · (866) 350-5328", Link: "See Branch Page", Image: "Burbank branch photo" }
+    variantReason: "Three image cards"
+
+  - position: 25
+    description: "Gray band: centered 'Questions? We're here for you!'"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Heading: "Questions? We're here for you!"
+    variantReason: "Centered heading"
+
+  - position: 26
+    description: "Four white contact cards with orange icons: Call Us / Appointment / Visit Us / Contact Us"
+    matchedComponent: { registryId: "FourColumnCta", manifestName: "FourColumnCta", variant: "Default", matchType: "template", matchConfidence: "medium" }
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      tiles:
+        - { Title: "Call Us", Text: "Have questions? Call us at (800) 328-5328!", Link: "tel:8003285328", Image: "phone icon" }
+        - { Title: "Appointment", Text: "Schedule an appointment with us!", Link: "/schedule-appointment", Image: "calendar icon" }
+        - { Title: "Visit Us", Text: "Come into one of our branches in person!", Link: "/locations", Image: "map-pin icon" }
+        - { Title: "Contact Us", Text: "Connect with our team online, by phone, or in person.", Link: "/contact-us", Image: "envelope icon" }
+    variantReason: "Only variant"
+
+  - position: 27
+    description: "Gray band: 'Frequently Asked Questions' heading"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Centered", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Heading: "Frequently Asked Questions"
+    contentNotes: "Source heading is left-aligned over a centered column; Centered is the closer visual."
+    variantReason: "Section heading over FAQ"
+
+  - position: 28
+    description: "Single-column FAQ accordion, 11 questions with teal chevrons"
+    matchedComponent: { registryId: "Questions", manifestName: "Questions", variant: "SingleColumn", matchType: "template", matchConfidence: "high" }
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      children:
+        - "What is a credit union and how does one work?"
+        - "What is the difference between a bank and a credit union?"
+        - "Are credit unions not-for-profit?"
+        - "What are the benefits of a credit union?"
+        - "How to get a loan from a credit union?"
+        - "How to refinance a car with a credit union?"
+        - "Who insures credit unions?"
+        - "How to get a car loan from a credit union?"
+        - "What is a share certificate at a credit union?"
+        - "What is a membership share account at a credit union?"
+        - "How do I join Logix Federal Credit Union?"
+    contentNotes: "Answers are collapsed in the screenshot — take them from the DOM in Phase 2.5. Branch-template rendering: if wiring 404s, write into the existing 'Questions 1' datasource."
+    variantReason: "Single-column FAQ"
+
+  - position: 29
+    description: "Disclosures heading + two small-print paragraphs"
+    matchedComponent: { registryId: "HeadingCta", manifestName: "HeadingCta", variant: "Compact", matchType: "template", matchConfidence: "low" }
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Heading: "Disclosures"
+      Text: "†Information is based on the results of Logix membership satisfaction surveys conducted between January 2024 and December 2024. Survey participants included randomly selected Logix members. Mastercard is a registered trademark of Mastercard International Incorporated."
+    contentNotes: "No small-print/rich-text component in the library; Compact HeadingCta is the nearest."
+    variantReason: "Slim heading strip"
+
+  - position: 30
+    description: "Footer: logo + social icons, 4 link columns + help contacts, legal links, orange 'Become a Logix Member' CTA, dark legal bar with NCUA/Equal Housing"
+    matchedComponent: { registryId: "Footer", manifestName: "Footer", variant: "Default", matchType: "template", matchConfidence: "high" }
+    apiAddable: false
+    sectionBackground: "muted"
+    content:
+      Title1: "Why Logix?"
+      Title2: "Our Services"
+      Title3: "Useful Links"
+      Title4: "Resources"
+      Copyright: "© 2026 Logix Federal Credit Union. All rights reserved. NMLS ID: 503781. Federally insured by NCUA."
+    contentNotes: "Chrome — lives in the Footer partial design. Default keeps all 4 columns (WithSocials renders only 2)."
+    variantReason: "4 link columns matter more than social icons"
+
+customComponents: []
+
+buildOrder:
+  phase1_sitecore: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+  phase2_theme: "site-logix class: tokens in _colors.scss, Roboto font, site-theme.ts map LogixFederalCreditUnion → site-logix"
+  phase3_custom: []
+
+manualTasks:
+  - "Header + Footer partial designs: Logix logo, nav labels, footer columns/copyright"
+  - "Remove leftover Prospera components: Carousel, FiveColumnCta, ArticleList, DocumentsList, AppPromo"
+  - "Set non-Default variants (see variant-checklist.md) and SXA style 'reverse' on PromoCta pos 10 and 15"
+  - "Create Variant Definitions if missing on the copied site (HeadingCta Centered/Compact, ThreeColumnCta WithIcons, Questions SingleColumn) — pipeline will create these"

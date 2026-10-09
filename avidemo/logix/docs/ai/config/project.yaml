@@ -1,0 +1,25 @@
+# Sitecore AI project configuration
+# Read by the AI agent at the start of every Sitecore task.
+# Commit this file to the repo. Update it when the project changes.
+#
+# siteCollection / siteName = the live site this app's demo content is written to.
+# skinned-demo-setup rewrites these two values in each customer copy (Step 1c).
+
+# XM Cloud site identity
+siteCollection: "Financial"
+siteName: "LogixFederalCreditUnion"
+
+# Sitecore SDK used by this repo's React components
+sdk: "@sitecore-content-sdk/nextjs"
+
+# Shared component library (serialized under authoring/items/prosperabank)
+renderingsRoot: "/sitecore/layout/Renderings/Project/Financial"
+projectTemplatesRoot: "/sitecore/templates/Project/Financial"
+
+# Serialized source site the component library ships with (used by generate-manifest.mjs)
+serializedSiteRoot: "/sitecore/content/Financial/ProsperaFinancial"
+
+# Theme: client tokens go in a .site-<client-kebab> block; see docs/ai/catalog/theme-component-mapping.md
+themeTokensFile: "src/assets/sass/abstracts/vars/_colors.scss"
+themeFontsFile: "src/assets/sass/base/fonts/_fonts.scss"
+siteThemeMap: "src/lib/site-theme.ts"

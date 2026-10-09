@@ -1,0 +1,773 @@
+# Content map — Logix Federal Credit Union (Phase 2.5)
+# Source: content-extractor DOM output + Playwright FAQ scrape; build-plan.yaml for structure.
+client:
+  name: Logix Federal Credit Union
+  sourceUrl: https://www.logixbanking.com/
+  createdAt: '2026-10-09T17:20:00Z'
+  contentSource: dom-extractor
+  language: en
+  targetParent: /sitecore/content/Financial/LogixFederalCreditUnion/Home/Data
+  imageManifest: docs/ai/demos/logix/upload/image-manifest.json
+chrome:
+  header:
+    logo: local:logix-logo.png
+    navLinks:
+    - Checking & Savings
+    - Credit Cards
+    - Auto & Other Loans
+    - Mortgage & Home Equity
+    - Investments & Insurance
+    - Business
+  footer:
+    Title1: Why Logix?
+    Title2: Our Services
+    Title3: Useful Links
+    Title4: Resources
+    Copyright: '© 2026 Logix Federal Credit Union. All rights reserved. NMLS ID: 503781. Federally insured by NCUA.'
+sections:
+- position: 2
+  componentName: Hero
+  manifestName: Hero
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Hero
+  fields:
+    Title: Auto Loan Rates as Low as 3.24% APR*
+    Text: <p>Finance your ride with Logix and get up to 125% financing on new, used, or electric vehicles.</p>
+    Link:
+      text: Learn More
+      href: https://www.logixbanking.com/rates/vehicle-loans
+  children: []
+  imageFields:
+  - field: Image
+    src: local:logix-hero-auto-loan.webp
+- position: 3
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Centered
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Bank Smarter
+  fields:
+    Eyebrow: ''
+    Heading: How Can We Help You Bank Smarter Today?
+    Text: Select an option below to learn more.
+    Link: ''
+  children: []
+  imageFields: []
+- position: 4
+  componentName: ThreeColumnCta
+  manifestName: ThreeColumnCta
+  kind: simple
+  variant: WithIcons
+  sxaStyle: ''
+  reuseExisting: true
+  datasourceItemName: Logix - Featured Offers
+  fields:
+    Text1: Earn up to 3.50% APY on a High Rate Savings Account
+    SubText1: Enjoy higher returns than a traditional savings account, with the flexibility to deposit or withdraw funds anytime.
+    Link1:
+      text: Learn More
+      href: https://www.logixbanking.com/promotions/high-rate-savings-account
+    Text2: Lower Your Payment with an Adjustable Rate Mortgage
+    SubText2: Enjoy peace of mind with low starting rates of 5.750% and 6.45% APR on our 5/6 ARM. Unlock savings on your mortgage today!
+    Link2:
+      text: View Rates
+      href: https://www.logixbanking.com/rates/mortgages#arm
+    Text3: Personal Loans as low as 9.74% APR
+    SubText3: Get access to the funds you need to consolidate debt or fund life's important moments.
+    Link3:
+      text: View Rates
+      href: https://www.logixbanking.com/rates/other-loans#other
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:icon-piggy-bank.png
+  - field: Image2
+    src: local:icon-house.png
+  - field: Image3
+    src: local:icon-cash.png
+- position: 5
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Centered
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Better Rates
+  fields:
+    Eyebrow: ''
+    Heading: Better Rates to Help You Thrive
+    Text: ''
+    Link:
+      text: View All Rates
+      href: https://www.logixbanking.com/rates
+  children: []
+  imageFields: []
+- position: 6
+  componentName: FourColumnCta
+  manifestName: FourColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Rates
+  fields:
+    Title1: Mortgage Loans
+    Text1: Rates as low as 7.09% APR
+    Link1:
+      text: Mortgage Loans
+      href: https://www.logixbanking.com/rates/mortgages
+    Title2: Credit Cards
+    Text2: Rates as low as 11.99% APR
+    Link2:
+      text: Credit Cards
+      href: https://www.logixbanking.com/rates/other-loans
+    Title3: Auto Loans
+    Text3: Rates as low as 3.24% APR*
+    Link3:
+      text: Auto Loans
+      href: https://www.logixbanking.com/rates/vehicle-loans
+    Title4: Certificates
+    Text4: Rates as high as 3.70% APY
+    Link4:
+      text: Certificates
+      href: https://www.logixbanking.com/rates/certificates
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:icon-house.png
+  - field: Image2
+    src: local:icon-credit-card.png
+  - field: Image3
+    src: local:icon-car.png
+  - field: Image4
+    src: local:icon-piggy-bank.png
+- position: 7
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Why Members
+  fields:
+    Eyebrow: We're here to help you along the way.
+    Heading: Why Members Choose Logix
+    Text: 'For more than 80 years, we have served members across Southern California and beyond. From Checking and Savings Accounts to Home and Auto Loans, more than 250,000 members choose Logix for great
+      rates, low fees, and smarter banking that gives back to our local communities.
+
+      We''re not-for-profit. We exist to serve our members, not shareholders. We offer great rates and low fees. We''re federally insured by the NCUA so your deposits are protected up to at least $250,000.'
+    Link: ''
+  children: []
+  imageFields: []
+- position: 8
+  componentName: Testimonials
+  manifestName: Testimonials
+  kind: list
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Testimonials
+  fields: {}
+  children:
+  - name: Logix - Review Komal A
+    fields:
+      Rating: '5'
+      Content: 'Great Loan Experience: "...if you want a fast, hassle-free, headache-free, loan experience...the Logix team should be your only stop. I would recommend them to anyone!!!"'
+      AuthorName: Komal A.
+      AuthorPosition: on Yelp
+    imageFields:
+    - field: AuthorImage
+      src: local:logix-logo.png
+  - name: Logix - Review Maria L
+    fields:
+      Rating: '5'
+      Content: 'Highly recommend them: "...they truly care and take care of your account and every way make you feel like you are very special, highly recommend them"'
+      AuthorName: Maria L.
+      AuthorPosition: on Yelp
+    imageFields:
+    - field: AuthorImage
+      src: local:logix-logo.png
+  imageFields: []
+- position: 9
+  componentName: PromoCta
+  manifestName: PromoCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: true
+  datasourceItemName: Logix - Promo Relationship Rewards
+  fields:
+    Eyebrow: Relationship Rewards
+    Title: Unlock Exclusive Logix Benefits
+    Subtitle: ''
+    Text: <p>The Logix Relationship Rewards Program gives you access to valuable perks and exclusive savings, just for being a member.</p><p><strong>Here's how it works:</strong> With your Logix Checking
+      or Money Market Account and a combined household balance between $35,000 and $99,999, you'll automatically qualify for our Gold Tier Relationship Rewards.*</p><p><strong>As a Gold Tier Relationship
+      Rewards Member, you'll enjoy:</strong></p><ul><li>0.10% Auto Loan Interest Rate Discount</li><li>$500 Mortgage Loan Fee Discount</li><li>2 Rewards Points for Each $1 Spent on Eligible Purchases Using
+      Our World Rewards Mastercard®</li></ul><p><small>*Combined household balance includes any loan, mortgage, checking, money market and savings balances (excluding certificates) at Logix.</small></p>
+    Link:
+      text: View More Benefits
+      href: https://www.logixbanking.com/banking/relationship-rewards
+    Link2: ''
+  children: []
+  imageFields:
+  - field: Image
+    src: local:logix-relationship-rewards.png
+- position: 10
+  componentName: PromoCta
+  manifestName: PromoCta
+  kind: simple
+  variant: Default
+  sxaStyle: reverse
+  reuseExisting: true
+  datasourceItemName: Logix - Promo Financial Wellness
+  fields:
+    Eyebrow: ''
+    Title: Strengthen Your Financial Wellness
+    Subtitle: ''
+    Text: <p>Logix exists to help our members thrive. Our Financial Wellness resources provide guidance on key financial topics, from budgeting and saving to borrowing and planning, so you can make smarter
+      financial decisions with confidence.</p>
+    Link:
+      text: Learn More
+      href: https://www.logixbanking.com/financial-wellness
+    Link2: ''
+  children: []
+  imageFields:
+  - field: Image
+    src: local:logix-financial-wellness.png
+- position: 11
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Centered
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Smarter Banking
+  fields:
+    Eyebrow: ''
+    Heading: Smarter Banking with Logix
+    Text: From everyday banking and high-yield savings to affordable car loans with low rates and flexible terms, discover smarter banking solutions with one of the leading credit unions in Southern California.
+    Link: ''
+  children: []
+  imageFields: []
+- position: 12
+  componentName: FourColumnCta
+  manifestName: FourColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Products Row 1
+  fields:
+    Title1: Checking Accounts
+    Text1: Everyday banking with extra benefits
+    Link1:
+      text: Checking Accounts
+      href: https://www.logixbanking.com/banking/checking
+    Title2: Certificate Accounts
+    Text2: Smart savings with great returns
+    Link2:
+      text: Certificate Accounts
+      href: https://www.logixbanking.com/banking/savings/certificate-accounts
+    Title3: Credit Cards
+    Text3: Great rates that work for you
+    Link3:
+      text: Credit Cards
+      href: https://www.logixbanking.com/credit-cards
+    Title4: Auto Loans
+    Text4: Easy financing for your next ride
+    Link4:
+      text: Auto Loans
+      href: https://www.logixbanking.com/loans/vehicle-loans
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:icon-cash.png
+  - field: Image2
+    src: local:icon-piggy-bank.png
+  - field: Image3
+    src: local:icon-credit-card.png
+  - field: Image4
+    src: local:icon-car.png
+- position: 13
+  componentName: FourColumnCta
+  manifestName: FourColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Products Row 2
+  fields:
+    Title1: Mortgage Loans
+    Text1: Home loans made easy
+    Link1:
+      text: Mortgage Loans
+      href: https://www.logixbanking.com/loans/mortgages
+    Title2: Home Equity Loans
+    Text2: Use your equity with flexible terms
+    Link2:
+      text: Home Equity Loans
+      href: https://www.logixbanking.com/loans/mortgages/home-equity-loans
+    Title3: Personal Loans
+    Text3: Financing that fits your needs
+    Link3:
+      text: Personal Loans
+      href: https://www.logixbanking.com/loans/other-loans/personal-loans
+    Title4: View All Rates
+    Text4: Compare rates on every account and loan
+    Link4:
+      text: View All Rates
+      href: https://www.logixbanking.com/rates
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:icon-house.png
+  - field: Image2
+    src: local:icon-house-chimney.png
+  - field: Image3
+    src: local:icon-cash.png
+  - field: Image4
+    src: local:icon-rates.png
+- position: 14
+  componentName: PromoCta
+  manifestName: PromoCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: true
+  datasourceItemName: Logix - Promo SoCal Credit Union
+  fields:
+    Eyebrow: ''
+    Title: Your Southern California Credit Union
+    Subtitle: Rooted in Member Trust
+    Text: <p>At Logix, we put people - not shareholders - first. Whether it's everyday banking or life's major milestones, we deliver personalized financial solutions and service designed to help you save
+      more and reach your goals with confidence.</p>
+    Link:
+      text: Schedule Appointment
+      href: https://logixfcu.coconutcalendar.com/
+    Link2: ''
+  children: []
+  imageFields:
+  - field: Image
+    src: local:branch-bouquet-canyon.webp
+- position: 15
+  componentName: PromoCta
+  manifestName: PromoCta
+  kind: simple
+  variant: Default
+  sxaStyle: reverse
+  reuseExisting: false
+  datasourceItemName: Logix - Promo Home Rewards
+  fields:
+    Eyebrow: ''
+    Title: Discover Home Rewards
+    Subtitle: ''
+    Text: <p>Planning on buying or selling a home? Logix Home Rewards offers exclusive benefits to home buyers and sellers.</p>
+    Link:
+      text: Learn More
+      href: https://www.logixbanking.com/loans/mortgages/home-rewards
+    Link2: ''
+  children: []
+  imageFields:
+  - field: Image
+    src: local:logix-home-rewards.webp
+- position: 16
+  componentName: FourColumnCta
+  manifestName: FourColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Home Rewards Benefits
+  fields:
+    Title1: Flat List Fee for Home Sellers
+    Text1: ''
+    Link1:
+      text: Learn More
+      href: https://www.logixbanking.com/loans/mortgages/home-rewards
+    Title2: Buyer's Agent Commission Rebate
+    Text2: ''
+    Link2:
+      text: Learn More
+      href: https://www.logixbanking.com/loans/mortgages/home-rewards
+    Title3: Access to All Listings in the SoCal MLS
+    Text3: ''
+    Link3:
+      text: Learn More
+      href: https://www.logixbanking.com/loans/mortgages/home-rewards
+    Title4: Support from a Local Real Estate Agent
+    Text4: ''
+    Link4:
+      text: Learn More
+      href: https://www.logixbanking.com/loans/mortgages/home-rewards
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:icon-cash.png
+  - field: Image2
+    src: local:icon-clipboard-check.png
+  - field: Image3
+    src: local:icon-house-outline.png
+  - field: Image4
+    src: local:icon-umbrella.png
+- position: 17
+  componentName: PromoCta
+  manifestName: PromoCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Promo Credit Score
+  fields:
+    Eyebrow: ''
+    Title: Your Path to a Better Credit Score Starts Here
+    Subtitle: ''
+    Text: <p>Do you want to build or repair your credit? The Logix Savings-Secured Mastercard® is a great Credit Card for those who are new to credit or starting over. Plus, Logix will routinely update
+      and report your credit score, so you can see your progress.</p>
+    Link:
+      text: Learn More
+      href: https://www.logixbanking.com/credit-cards/savings-secured-mastercard
+    Link2: ''
+  children: []
+  imageFields:
+  - field: Image
+    src: local:logix-credit-score.png
+- position: 18
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Centered
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Join Community
+  fields:
+    Eyebrow: ''
+    Heading: Want to Join the Logix Community? We'd Love That!
+    Text: Becoming a Logix member is as easy as it is rewarding. Join us by applying online or come visit us at one of our branches.
+    Link: ''
+  children: []
+  imageFields: []
+- position: 19
+  componentName: TwoColumnCta
+  manifestName: TwoColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: true
+  datasourceItemName: Logix - Join Cards
+  fields:
+    Title1: Open an Account
+    Text1: Apply online and open an account with us in just a few steps! Find out how easy it is.
+    Link1:
+      text: Open an Account
+      href: https://app.logixbanking.com/pos/logix_250212/daae54b0-afd6-4308-98ea-4947e6aba6c5/new
+    Title2: Visit a Branch
+    Text2: Let's meet to talk about your financial needs. We're just around the corner!
+    Link2:
+      text: Find the Nearest Branch
+      href: https://www.logixbanking.com/branches
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:tile-open-account.png
+  - field: Image2
+    src: local:tile-visit-branch.png
+- position: 20
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Compact
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Become Member
+  fields:
+    Eyebrow: ''
+    Heading: Become a Member
+    Text: Enjoy exclusive member benefits with Logix, like lower loan rates, higher savings yields, access to financial tools, and personalized service from a Credit Union that puts your goals first.
+    Link:
+      text: Become a Logix Member
+      href: https://www.logixbanking.com/about-us/become-a-member
+  children: []
+  imageFields: []
+- position: 21
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Centered
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Fueled by Heart
+  fields:
+    Eyebrow: ''
+    Heading: Smarter Banking, Fueled by Heart
+    Text: 96% of our members say they would recommend us to their friends and 65% of our new business is referred.† We offer financial services like a bank, but we're not-for-profit, so we don't act like
+      one.
+    Link: ''
+  children: []
+  imageFields: []
+- position: 22
+  componentName: ThreeColumnCta
+  manifestName: ThreeColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Community Cards
+  fields:
+    Text1: Giving Back
+    SubText1: From sending care packages to troops overseas to supplying staff at fundraisers, the Logix team is ready to lend a hand.
+    Link1:
+      text: Learn More
+      href: https://custars.org/
+    Text2: Community Sponsorships
+    SubText2: Looking for Logix to provide a donation or sponsorship? Let us know!
+    Link2:
+      text: Request Support
+      href: https://www.logixbanking.com/community-support-request-form
+    Text3: Community Stars Foundation
+    SubText3: Logix employees are so passionate about giving back to the community, they created their own nonprofit!
+    Link3:
+      text: Visit Community Stars
+      href: https://custars.org/
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:community-giving-back.png
+  - field: Image2
+    src: local:community-sponsorships.png
+  - field: Image3
+    src: local:community-stars.png
+- position: 23
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Branches
+  fields:
+    Eyebrow: Visit Us Today
+    Heading: Serving You Across 18 Convenient Local Branches
+    Text: Plus, over 30,000 fee-free CO-OP ATMS.
+    Link:
+      text: Find the Nearest Branch
+      href: https://www.logixbanking.com/branches
+  children: []
+  imageFields: []
+- position: 24
+  componentName: ThreeColumnCta
+  manifestName: ThreeColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Branch Cards
+  fields:
+    Text1: Bouquet Canyon Branch
+    SubText1: 26459 Bouquet Canyon Road, Santa Clarita, CA 91350 · (855) 564-4919
+    Link1:
+      text: See Branch Page
+      href: https://www.logixbanking.com/branches/bouquet-canyon
+    Text2: Bridgeport Branch
+    SubText2: 24003 Newhall Ranch Road, Santa Clarita, CA 91355 · (855) 564-4914
+    Link2:
+      text: See Branch Page
+      href: https://www.logixbanking.com/branches/bridgeport
+    Text3: Burbank Branch
+    SubText3: 100 N. First St., Ste 100, Burbank, CA 91502 · (866) 350-5328
+    Link3:
+      text: See Branch Page
+      href: https://www.logixbanking.com/branches/burbank
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:branch-bouquet-canyon.webp
+  - field: Image2
+    src: local:branch-bridgeport.png
+  - field: Image3
+    src: local:branch-burbank.webp
+- position: 25
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Centered
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Questions
+  fields:
+    Eyebrow: ''
+    Heading: Questions? We're here for you!
+    Text: ''
+    Link: ''
+  children: []
+  imageFields: []
+- position: 26
+  componentName: FourColumnCta
+  manifestName: FourColumnCta
+  kind: simple
+  variant: Default
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Contact Cards
+  fields:
+    Title1: Call Us
+    Text1: Have questions? Call us at (800) 328-5328!
+    Link1:
+      text: (800) 328-5328
+      href: tel:8003285328
+    Title2: Appointment
+    Text2: Schedule an appointment with us!
+    Link2:
+      text: Schedule an appointment
+      href: https://logixfcu.coconutcalendar.com/
+    Title3: Visit Us
+    Text3: Come into one of our branches in person!
+    Link3:
+      text: Find a branch
+      href: https://www.logixbanking.com/branches
+    Title4: Contact Us
+    Text4: Connect with our team online, by phone, or in person.
+    Link4:
+      text: Connect with our team
+      href: https://www.logixbanking.com/contact-us
+  children: []
+  imageFields:
+  - field: Image1
+    src: local:icon-phone.png
+  - field: Image2
+    src: local:icon-calendar.png
+  - field: Image3
+    src: local:icon-location.png
+  - field: Image4
+    src: local:icon-mail.png
+- position: 27
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Centered
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading FAQ
+  fields:
+    Eyebrow: ''
+    Heading: Frequently Asked Questions
+    Text: ''
+    Link: ''
+  children: []
+  imageFields: []
+- position: 28
+  componentName: Questions
+  manifestName: Questions
+  kind: list
+  variant: SingleColumn
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - FAQ
+  fields: {}
+  children:
+  - name: Logix - FAQ 01
+    fields:
+      Question: What is a credit union and how does one work?
+      Answer: <p>Imagine if the customers of a bank were also the owners of a bank. That's comparable to how a credit union operates. A credit union is a not-for-profit financial institution that operates
+        solely for the benefit of its membership. A Federal Credit Union, like Logix, is also regulated and supervised by the National Credit Union Administration (<a href="https://ncua.gov/" title="National
+        Credit Union Administration" target="_blank">NCUA</a>), which is similar to the Federal Deposit Insurance Corporation (<a href="https://www.fdic.gov/" title="Federal Deposit Insurance Corporation"
+        target="_blank">FDIC</a>) or traditional banks.</p>
+    imageFields: []
+  - name: Logix - FAQ 02
+    fields:
+      Question: What is the difference between a bank and a credit union?
+      Answer: <p>While credit unions and banks offer most of the same financial services, the most important difference is a profit motive. A bank operates with the motive to make a profit for its owners.
+        A credit union has no such motive because the people who use the financial services offered by a credit union, known as "members" instead of customers, are also the owners - each one with an owner
+        vote about the direction of the credit union. In practice, the lack of a profit motive results in better rates and lower fees, on average, than at banks.<br> <br> There are other differences, too.
+        For example, a credit union has a defined body of membership, is regulated by the <a href="https://ncua.gov/" title="National Credit Union Administration" target="_blank">NCUA</a>, and cannot sell
+        stock to raise capital.</p>
+    imageFields: []
+  - name: Logix - FAQ 03
+    fields:
+      Question: Are credit unions not-for-profit?
+      Answer: <p>Yes! While non-profits are usually found in the IRS tax code 501(c)3, state-chartered credit unions are 501(c)14, and federal credit unions, like Logix, are 501(c)1. Find out more on the
+        IRS website.</p>
+    imageFields: []
+  - name: Logix - FAQ 04
+    fields:
+      Question: What are the benefits of a credit union?
+      Answer: '<p>We encourage you to ask any search engine this question: "Do credit unions offer better rates and fees than banks?" Don''t take our word for it. Because credit unions do not need to make
+        an extra profit to pay stockholders, they offer better rates and lower fees, on average, than banks.<br> <br> Here''s what <a href="https://www.investopedia.com/credit-unions-vs-banks-4590218#:~:text=Key%20Takeaways,CO%2DOP%20Shared%20Branch%20network.#:~:text=Key%20Takeaways,CO%2DOP%20Shared%20Branch%20network.##"
+        title="Investopedia" target="_blank">Investopedia</a> says:<br> <br> <strong><em>"Credit unions tend to have lower interest rates for loans and lower fees."</em></strong></p>'
+    imageFields: []
+  - name: Logix - FAQ 05
+    fields:
+      Question: How to get a loan from a credit union?
+      Answer: <p>While all credit unions are different, the best way to get a loan from any credit union is to simply ask, whether in a branch, on the phone, or on their website. At Logix, we make it easy
+        to apply for a loan online and you'll find the application at the top of each loan page. This process will include the additional benefit of helping you become a Logix member with access to all
+        other benefits. Credit union membership is required to obtain a loan. The best way to be approved for a loan, whether at a bank or credit union, is to ensure you have maintained a history of responsibly
+        paying off loans on time and that you don't have too much debt compared to your ability to pay it off.<br> <br> There are other factors to consider as well which are detailed on our <a href="https://www.logixbanking.com/financial-wellness"
+        title="Financial Wellness">Financial Wellness Resource</a> page.</p>
+    imageFields: []
+  - name: Logix - FAQ 06
+    fields:
+      Question: How to refinance a car with a credit union?
+      Answer: <p>It's often true that refinancing an auto loan with a credit union like Logix can save you money on monthly payments or reduce your overall debt obligation. While all credit unions have
+        different policies and procedures related to refinancing an auto loan, Logix makes it easy. Just visit our <a href="https://www.logixbanking.com/loans/vehicle-loans/refinancing">auto loan refinancing
+        page</a> and click "Apply Now." Logix membership is required.</p>
+    imageFields: []
+  - name: Logix - FAQ 07
+    fields:
+      Question: Who insures credit unions?
+      Answer: <p>Your deposits in a credit union are federally insured by the National Credit Union Share Insurance Fund, an arm of the <a href="https://ncua.gov/" title="National Credit Union Administration"
+        target="_blank">NCUA</a>. This insurance is similar to coverage offered by the <a href="https://www.fdic.gov/" title="Federal Deposit Insurance Corporation" target="_blank">FDIC</a>, and both are
+        backed by the full faith and credit of the United States government.<br></p> <ul> <li>Your combined savings, money market, and checking balances are insured up to $250,000.</li> <li>Your combined
+        IRA balances are insured separately up to an additional $250,000.<br></li> </ul> <p>You may obtain additional coverage on multiple accounts you have with Logix if you have different ownership interests
+        or rights (and you properly complete account forms and applications).</p>
+    imageFields: []
+  - name: Logix - FAQ 08
+    fields:
+      Question: How to get a car loan from a credit union?
+      Answer: <p>While all credit unions are different, the best way to get a loan from any credit union is to simply ask, whether in a branch, on the phone, or on their website. At Logix, we make it easy
+        to apply for a loan online and you'll find the application at the top of each loan page. This process will include the additional benefit of helping you become a Logix member with access to all
+        other benefits. Credit union membership is required to obtain a loan.<br> <br> The best way to be approved for a loan, whether at a bank or credit union, is to ensure you have maintained a history
+        of responsibly paying off loans on-time and that you don't have too much debt compared to your ability to pay it off. There are other factors to consider as well, and they are detailed on our <a
+        href="https://www.logixbanking.com/financial-wellness">Financial Wellness Resource</a> page.</p>
+    imageFields: []
+  - name: Logix - FAQ 09
+    fields:
+      Question: What is a share certificate at a credit union?
+      Answer: <p>A share certificate at a credit union works similar to a certificate of deposit, or CD, at a bank.</p>
+    imageFields: []
+  - name: Logix - FAQ 10
+    fields:
+      Question: What is a membership share account at a credit union?
+      Answer: <p>A membership share account is the basic savings account at a credit union that is the ownership stake for every member. This savings account, which must contain a minimum of $5, guarantees
+        members the voting rights and other benefits of credit union membership.</p>
+    imageFields: []
+  - name: Logix - FAQ 11
+    fields:
+      Question: How do I join Logix Federal Credit Union?
+      Answer: <p>We're glad you asked! While one of the great things about credit unions is access to exclusive, member-only benefits, we want the process of becoming a member to be intuitive and easy.
+        To see if you qualify for membership and all the benefits that come with it, please <a href="https://www.logixbanking.com/about-us/become-a-member">click here</a>. You can also simply start a <a
+        href="https://app.logixbanking.com/pos/logix_250212/daae54b0-afd6-4308-98ea-4947e6aba6c5/new" title="Join Logix">membership application</a> or loan application and we'll guide you along.</p>
+    imageFields: []
+  imageFields: []
+- position: 29
+  componentName: HeadingCta
+  manifestName: HeadingCta
+  kind: simple
+  variant: Compact
+  sxaStyle: ''
+  reuseExisting: false
+  datasourceItemName: Logix - Heading Disclosures
+  fields:
+    Eyebrow: ''
+    Heading: Disclosures
+    Text: '†Information is based on the results of Logix membership satisfaction surveys conducted between January 2024 and December 2024. Survey participants included randomly selected Logix members.
+
+      Mastercard is a registered trademark of Mastercard International Incorporated.'
+    Link: ''
+  children: []
+  imageFields: []
+datasourceItems: []
+manualVideoTasks: []
