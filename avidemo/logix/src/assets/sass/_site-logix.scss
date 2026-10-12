@@ -18,3 +18,88 @@ body.site-logix,
   --button-font-weight: 500;
   --button-font-size: 1rem;
 }
+
+// Hero: white text on a slate gradient laid over the image, so the copy stays readable on any photo.
+// Text is held to the side of the hero where the gradient is at least 75% opaque; white on that
+// slate is above 4.5:1 contrast even over a pure-white image.
+.site-logix .hero {
+  color: #fff;
+
+  picture {
+    display: block;
+    position: relative;
+    height: 100%;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(
+        to right,
+        rgb(43 53 62 / 85%) 0%,
+        rgb(43 53 62 / 75%) 55%,
+        rgb(43 53 62 / 0%) 85%
+      );
+    }
+  }
+
+  &.rounded-corners picture::after {
+    border-radius: var(--roundness);
+  }
+
+  // Title, subtitle and button sit together as one group instead of top/bottom of the hero.
+  .content-container {
+    justify-content: center;
+
+    .top-layout,
+    .bottom-layout {
+      max-width: 50%;
+    }
+
+    .title,
+    .subtitle,
+    .subtitle * {
+      color: inherit;
+      text-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+    }
+
+    .title {
+      font-size: clamp(32px, 4vw, 50px);
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      margin-top: 12px;
+      font-size: clamp(16px, 1.5vw, 20px);
+      line-height: 1.5;
+    }
+
+    .bottom-layout {
+      margin-top: 8px;
+    }
+  }
+
+  // Phones: gradient rises from the bottom and the text group sits at the bottom, full width.
+  @media only screen and (max-width: 767px) {
+    picture::after {
+      background: linear-gradient(
+        to top,
+        rgb(43 53 62 / 85%) 0%,
+        rgb(43 53 62 / 75%) 65%,
+        rgb(43 53 62 / 0%) 95%
+      );
+    }
+
+    .content-container {
+      justify-content: flex-end;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .top-layout,
+      .bottom-layout {
+        max-width: none;
+      }
+    }
+  }
+}

@@ -128,6 +128,20 @@
     }
   }
 
+  &.wide-text {
+    // The image column runs the full height of the text so the image can stay beside it.
+    .main-content {
+      align-items: stretch;
+    }
+
+    @media (width >= 992px) {
+      .image-wrapper {
+        position: sticky;
+        top: 2rem;
+      }
+    }
+  }
+
   &.with-placeholder-column {
     .image-wrapper {
       margin: 0;
