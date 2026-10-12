@@ -10,6 +10,22 @@ Custom Sitecore XM Cloud head applications built in this fork for demos and clie
 4. **Wire it into deployment when it's ready** by adding a `renderingHosts` entry for it in [xmcloud.build.json](../xmcloud.build.json), following the pattern of the existing entries. 
 5. **Regenerate the component map** after adding or renaming sidecar props files: `npm run sitecore-tools:generate-map` from within the demo's folder.
 
+## Choosing which sites deploy
+
+By default a deploy installs only Prospera, the template site. Every other site's items stay in `authoring/items/` (so `ser pull` and `ser validate` still cover them) but are left out of the deploy. To turn a site on, make both edits in [xmcloud.build.json](../xmcloud.build.json), commit, redeploy, then publish the site to Edge:
+
+| Site | Editing host — set `"enabled": true` | Add to `deployItems.modules` |
+| --- | --- | --- |
+| guidestone | `guidestone` | `"guidestone"` |
+| Logix Federal Credit Union | `logix` | `"logix"` |
+| Cooley (Legal collection) | `cooley` | `"cooley"` |
+| Brooks Running (Fitness collection) | `brooks-running` | `"brooks-running"` |
+| Example kits (Solterra, Alaris, SYNC, Skate Park, basic) | `nextjsstarter`, `kit-nextjs-article-starter`, `kit-nextjs-location-starter`, `kit-nextjs-product-starter`, `basic-nextjs` | `"Project.click-click-launch"` |
+
+The example-kit module holds only the kits' templates, renderings, settings, media and Click Click Launch scripts — none of their site content is serialized, so turning it on doesn't create those sites by itself.
+
+Always keep `system`, `nextjs-starter` and `prosperabank` in `deployItems.modules`; every other site depends on `prosperabank`. Items deployed this way are items as resources (IAR): authors can edit them, but deleting one doesn't stick — remove its `.yml` from the repo and redeploy instead. If you push a site's module with `dotnet sitecore ser push` instead, don't also list it in `deployItems`.
+
 ## Before sharing a demo with a client
 
 - Remove or genericize any references to other clients (comments, sample content, commit history in copied files, screenshots).
