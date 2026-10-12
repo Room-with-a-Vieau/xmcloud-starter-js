@@ -1,0 +1,51 @@
+﻿---
+ID: "5697275a-cef5-44f1-8967-c41770fe9cc4"
+Parent: "415e4f00-7ff5-4997-9740-78292f5757ee"
+Template: "fa136527-6302-471d-83ab-e66fc72bda99"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/running-shoes/Data/Run_Happy_placeholder"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "2ab0d9b4-2f0f-4466-b8ed-313dd6452224"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Run Happy Promise
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230938Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f00a5d3-05ce-4adf-b553-e0a2ad3c2bf8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "bbd90ce3-fdf4-425e-844b-63c5b3db8916"
+      Hint: Text
+      Value: If you're not happy, we're not happy.
+    - ID: "be9c7836-a932-4e3b-a4a0-c7d5aa869337"
+      Hint: Link
+      Value: |
+        <link text="Run Happy Promise" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/run-happy-promise/" />
+    - ID: "cef85d28-d6bc-4204-a2e4-8706c80d8a3c"
+      Hint: Heading
+      Value: "Take it for a 90-day trial run."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T153951Z
+    - ID: "ee323ed7-4732-4a64-a008-18df97dc0737"
+      Hint: Eyebrow
+      Value: 

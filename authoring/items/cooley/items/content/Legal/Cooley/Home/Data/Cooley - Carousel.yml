@@ -1,0 +1,31 @@
+﻿---
+ID: "f98f9b3f-6e88-4628-8e0a-173a4b3e442b"
+Parent: "792702e7-48af-4976-aae6-35fe4a9742d4"
+Template: "c7b8468f-4290-400f-93bb-d46c5f8db126"
+Path: "/sitecore/content/Legal/Cooley/Home/Data/Cooley - Carousel"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261005T033454Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3e5c8a2-88df-4624-9e7c-8882f480940a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261005T033454Z

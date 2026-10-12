@@ -1,0 +1,82 @@
+﻿---
+ID: "f5c5d799-b671-4a17-b19c-f7c92e704053"
+Parent: "792702e7-48af-4976-aae6-35fe4a9742d4"
+Template: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+Path: "/sitecore/content/Legal/Cooley/Home/Data/Cooley - Latest Insights"
+SharedFields:
+- ID: "0bba1dd8-0978-4359-b817-15b65886ba06"
+  Hint: Image2
+  Value: |
+    <image mediaid="{9E601873-C63A-48F4-9518-3F3ED00EBA5A}" alt="" />
+- ID: "1a120861-bc28-4699-adef-abbdfb67bf05"
+  Hint: Image1
+  Value: |
+    <image mediaid="{9E601873-C63A-48F4-9518-3F3ED00EBA5A}" alt="" />
+- ID: "8afcdc7d-211b-4136-94f5-f158a0fd0fd9"
+  Hint: Image3
+  Value: |
+    <image mediaid="{9E601873-C63A-48F4-9518-3F3ED00EBA5A}" alt="" />
+- ID: "c6019204-c52e-4650-8875-b19e2482cd76"
+  Hint: Image4
+  Value: |
+    <image mediaid="{9E601873-C63A-48F4-9518-3F3ED00EBA5A}" alt="" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1ea15294-cfa4-4a25-8983-c045e0a34140"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22ed4827-cc6b-4a00-a358-0ccfadbea4eb"
+      Hint: Link3
+      Value: |
+        <link text="Cooley Maintains Top Rankings in Global M&amp;A and Private Equity" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.cooley.com/news/coverage/2026/2026-10-01-cooley-maintains-top-rankings-in-global-ma-and-private-equity" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261005T050342Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "67fdca76-8a62-4424-a499-236787bd226c"
+      Hint: Subtitle2
+      Value: Press Release · October 1, 2026
+    - ID: "742e047d-3a1f-4643-ae1e-c78847a8b700"
+      Hint: Subtitle1
+      Value: Press Mention · October 2, 2026
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ce331be-c08d-4c17-ae77-5717edcd2fbc"
+    - ID: "926c0ca9-eaa5-468e-919e-de8c15876439"
+      Hint: Subtitle3
+      Value: Press Release · October 1, 2026
+    - ID: "95989e20-ee37-47bf-bae1-1dedf4d57a1a"
+      Hint: Link4
+      Value: |
+        <link text="Cooley Bolsters Securities Litigation Practice in New York" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.cooley.com/news/coverage/2026/2026-10-01-cooley-bolsters-securities-litigation-practice-in-new-york" />
+    - ID: "b2d03f41-06ad-4238-bcf2-7055674ea2a6"
+      Hint: Subtitle4
+      Value: Press Release · October 1, 2026
+    - ID: "b39d2c2c-ff8b-49f4-9856-03c1d163decf"
+      Hint: Link2
+      Value: |
+        <link text="Armadin Raises $255.5 Million Series B" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.cooley.com/news/coverage/2026/2026-10-01-armadin-raises-$255-5-million-series-b" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be4d4a97-19b9-4d92-a28e-38e5b09c2bc4"
+      Hint: Link1
+      Value: |
+        <link text="San Diego Cooley Office Settles for Gold" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.cooley.com/news/coverage/2026/2026-10-02-san-diego-cooley-office-settles-for-gold" />
+    - ID: "c02be9a2-0c6f-47a8-b6c8-2c35f1946946"
+      Hint: Title1
+      Value: Latest insights
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261005T050343Z

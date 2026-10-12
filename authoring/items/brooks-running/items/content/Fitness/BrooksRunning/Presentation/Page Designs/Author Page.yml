@@ -1,0 +1,59 @@
+﻿---
+ID: "55da2c28-9cea-4dd0-be47-71dd16d7736d"
+Parent: "5684933e-2c41-4c47-8b48-b4c806f81ee1"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/Fitness/BrooksRunning/Presentation/Page Designs/Author Page
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{42B61271-A4E5-457B-85A2-66958A27CC5A}|{2B2E453B-E531-42A8-B4CB-4F861ADB7E06}|{68D582B2-9012-416C-989A-0D3B0361BA74}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{56371DE7-0895-4925-A7A1-86742C639627}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8c2cdbfd-8faf-4d03-93e8-9079b54e2623"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204618Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a6f5175-e137-4276-9860-aa311c36c8af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204824Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204719Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9d4a6e2-e0aa-463f-9a8a-f353c0439772"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204824Z

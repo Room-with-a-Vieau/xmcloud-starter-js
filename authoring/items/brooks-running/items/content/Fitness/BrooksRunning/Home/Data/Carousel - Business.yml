@@ -1,0 +1,42 @@
+﻿---
+ID: "b012660f-3a9c-4f7b-a5a1-5e3af2fae389"
+Parent: "93fa77b5-d1e4-4676-b7c0-3862b26b91f7"
+Template: "c7b8468f-4290-400f-93bb-d46c5f8db126"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/Data/Carousel - Business"
+BranchID: "ce40209e-3961-4d15-871f-d959ef53797e"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{CE777CFB-34F8-4D8B-8623-F9D696202E1F}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "13f66b33-9588-48af-8233-ecef9131bfd2"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Carousel - Run Community"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204552Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb84c6b3-012c-4bd5-bc6c-0ee5ab8846bd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T153948Z

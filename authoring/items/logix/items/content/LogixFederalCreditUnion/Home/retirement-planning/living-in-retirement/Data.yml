@@ -1,0 +1,60 @@
+﻿---
+ID: "1c87604a-a4d2-4f11-88f7-850dec6140a8"
+Parent: "5e1e45de-1235-4c10-93ce-133847710dce"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/retirement-planning/living-in-retirement/Data"
+BranchID: "f4216084-ae14-4cbb-adf1-22292083f63c"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c6f90a06-5eb4-4a8d-a4c4-c5e20d68d196"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{7137BF2E-6700-41F2-8386-5F89183CEFE4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T163858Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc5f12f8-2af3-4419-a961-324da7c4deac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T163959Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: データ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T163959Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8aa4b873-7722-4629-bb41-2c697e44a73b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T163959Z

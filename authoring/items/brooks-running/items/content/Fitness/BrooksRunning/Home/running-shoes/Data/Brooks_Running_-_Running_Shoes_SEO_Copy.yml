@@ -1,0 +1,34 @@
+﻿---
+ID: "c18e9251-412e-4ea1-afc9-b3958adf8a8c"
+Parent: "415e4f00-7ff5-4997-9740-78292f5757ee"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/running-shoes/Data/Brooks_Running_-_Running_Shoes_SEO_Copy"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230935Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>Brooks men's and women's running shoes</h2><p>You move your way. So, find running shoes made right for walkers, runners, trailblazers, and all kinds of movers. Whether you're after speed, support, comfort, or control — you can step into your perfect running shoe at Brooks.</p><h3>Road running shoes</h3><p>Men's road running shoes and women's road running shoes pump up your running power on any pavement. For extra cushion to keep things soft, explore the Ghost shoe collection designed with DNA LOFT tech to cradle each step you take. And for superior speed, our lightweight Launch shoe collection and Hyperion shoe collection will have you ready for take-off.</p><h3>Cushion running shoes</h3><p>Brooks women's cushion running shoes and men's cushion running shoes are all about balancing the perfect soft-to-smooth ratio for your stride. Float through mile after mile with the Glycerin shoe collection, using our DNA LOFT v3 technology for a plusher and more responsive ride. Or keep things smooth with the Adrenaline GTS shoes, made to soften impact and support your every step. With great support plus our latest super soft cushioning technology, our cushion running shoes will make you feel like you're walking on air.</p><h3>Trail running and hiking shoes</h3><p>When your adventure takes you off-road, women's trail running shoes and men's trail running shoes help you handle any obstacle on your path. For hikers and trail runners, chase new summits at top speed with the Catamount shoe collection. Designed with a responsive SkyVault propulsion plate in the sole, forge any trail with the power to push yourself up and over tricky terrains. If you are logging serious miles on lengthy trails, the Caldera shoe collection has the cushioning you need to last. And when you need extra traction on your trek, the Cascadia shoe collection can help you handle even the most technical trails.</p><h3>Walking shoes</h3><p>Constantly on the move? Then you need all-day comfort from your shoes. Do your feet a favor with Brooks men's walking shoes and women's walking shoes that are no-slip, solidly supportive, and available in specialty widths for the perfect fit. With excellent arch support and extra room for orthotics if you use them, these shoes lighten the toll of a long day on your feet.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a59e671f-8611-4b35-b127-3c8a823b6f4c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T230954Z

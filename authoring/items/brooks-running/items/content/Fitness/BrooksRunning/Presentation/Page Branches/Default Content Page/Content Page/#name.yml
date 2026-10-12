@@ -1,0 +1,126 @@
+﻿---
+ID: "7796d3b7-08ff-40c1-b351-1dd5631b297d"
+Parent: "46327ca7-8369-485a-ae77-98e0b267a334"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: /sitecore/content/Fitness/BrooksRunning/Presentation/Page Branches/Default Content Page/Content Page/$name
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CA23B34D-4FEB-4D78-89EC-3DC402D2178A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d16d05e2-2c34-4be1-9a8f-7c166bbbdbeb"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{C810AB14-DAEF-47B8-B765-CAEC5717F835}" alt="Runner on an open road" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{32D7E704-0C8F-461F-B5DD-1F6E4C88F9BC}"
+          p:before="*"
+          s:ds="local:/Data/Rich text"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{AF0BD10B-B5A0-4668-9D81-D4CCE4D7FCD6}"
+          p:after="r[@uid='{32D7E704-0C8F-461F-B5DD-1F6E4C88F9BC}']"
+          s:ds="local:/Data/Tagline"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles=%7BC2E7E4B9-00F8-4C45-84EA-7CA75344A76B%7D%7C%7BE0FA50C4-EA10-4C14-96C4-07F860750C65%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{A5308299-7AB6-4AB9-91C3-767C15AA1C67}"
+          p:after="*[1=2]"
+          s:ds="{30A8ACAC-9544-4125-8039-94479212E6C4}"
+          s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204616Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Gear, guidance and stories to help you run happy.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f63856c-d710-4d18-8e3c-98250b0446cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T152229Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204716Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "faa092cf-259e-4b99-ba9f-d90c39e9160e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204822Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204716Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30ceea65-f533-4818-a4ec-6efcc67642bb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204822Z

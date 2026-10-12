@@ -1,0 +1,115 @@
+﻿---
+ID: "73d7e5eb-b2d4-41c9-a78e-44fc7889cb11"
+Parent: "9418d526-7dc2-401e-8de8-c0506e47c4fc"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/retirement-planning/Data/Promo CTA 2"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 275
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3e07f1d2-add0-4a52-8fe8-51aa34bf0333"
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="{B2E0A368-292E-4708-9045-FB683212694B}" alt="Brooks shoe on a wooden surface" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Make the most of your rest days
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204601Z
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: Recovery
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: |
+        <link text="Ask an expert" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{9C0F5D69-4742-4869-B945-CC84FF0FDB84}" />
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link text="Recovery tips" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{01DD35C0-62D9-4599-9910-DEF387266DCB}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b97f7faa-3f30-4298-bee1-dc92cd07a2f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Easy days, sleep and mobility work help your body adapt so you come back stronger.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003449Z
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: Recovery is training too.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: "Profitez au maximum de votre espace inutilisé dans votre compte d'épargne-retraite"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204811Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d57a5a7-fe57-4b23-a6a7-0595d77fb89f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "<p>Assurez-vous de profiter des contributions à la retraite tant que vous le pouvez !</p>"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204811Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: 未使用の退職金口座を最大限に活用する
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204811Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2bdaf015-1634-4747-abfb-3ccdb8874280"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>今のうちに退職金の恩恵にあずかろう！</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204811Z

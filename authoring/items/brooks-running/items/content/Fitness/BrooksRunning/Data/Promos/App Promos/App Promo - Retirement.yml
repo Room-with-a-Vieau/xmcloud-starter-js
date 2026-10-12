@@ -1,0 +1,127 @@
+﻿---
+ID: "c388dd31-3583-4582-9001-5eba01134996"
+Parent: "3ce4da95-ebb1-4728-9fe6-1cae619b2f15"
+Template: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+Path: "/sitecore/content/Fitness/BrooksRunning/Data/Promos/App Promos/App Promo - Retirement"
+SharedFields:
+- ID: "23fec4a6-1e53-4d30-8bb4-1a08632f3545"
+  Hint: Image
+  Value: |
+    <image mediaid="{5DDFDD58-14A8-4B83-9B97-AAAEF2B11790}" alt="Runner stretching against a wall" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3169ff1c-4309-4fa3-a846-ae23116cf8d0"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a90f6443-7fc1-40fc-86e6-fed944a49bb4"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "App Promo - Training"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19611527-1e31-4490-8042-482e61e3ce84"
+      Hint: Text
+      Value: Guided plans, recovery tips and progress tracking to keep you running happy.
+    - ID: "1f0455dc-9254-4487-b94d-6c66f103e7bf"
+      Hint: Title
+      Value: Stick to your training plan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204609Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67aea5c6-7535-458d-a694-69fe494b5c63"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T153948Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19611527-1e31-4490-8042-482e61e3ce84"
+      Hint: Text
+      Value: |
+        <p>Voici votre nouveau compagnon financier pour vous aider au quotidien avec des conseils en temps r&eacute;el sur les d&eacute;penses, les investissements et pour vous maintenir sur la bonne voie.</p>
+        <div class="container">
+        <div class="row  row-gap-3">
+        <div class="col-sm">
+        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="" src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=46&amp;w=150" style="height: 46px; width: 150px;" /></a></div>
+        <div class="col-sm">
+        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="Google Play" src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=46&amp;w=150" style="height: 46px; width: 150px;" /></a></div>
+        <div class="col-sm">
+        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="" src="-/media/3FB814AFD8E846FF9BFD4312B2213EC4.ashx?h=44&amp;w=150" style="height: 44px; width: 150px;" /></a></div>
+        </div>
+        </div>
+    - ID: "1f0455dc-9254-4487-b94d-6c66f103e7bf"
+      Hint: Title
+      Value: Respectez votre plan de retraite avec notre application mobile facile à utiliser.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204820Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07494f9e-194f-4915-9111-eb3544871cdd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204820Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19611527-1e31-4490-8042-482e61e3ce84"
+      Hint: Text
+      Value: |
+        <p>リアルタイムの支出アドバイス、投資、軌道修正など、毎日をサポートする新しいファイナンシャル・コンパニオンをご紹介します。</p>
+        <div class="container">
+        <div class="row  row-gap-3">
+        <div class="col-sm">
+        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="" src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=46&amp;w=150" style="height: 46px; width: 150px;" /></a></div>
+        <div class="col-sm">
+        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="Google Play" src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=46&amp;w=150" style="height: 46px; width: 150px;" /></a></div>
+        <div class="col-sm">
+        <a rel="noopener noreferrer" href="http://www.sitecore.com" target="_blank"><img alt="" src="-/media/3FB814AFD8E846FF9BFD4312B2213EC4.ashx?h=44&amp;w=150" style="height: 44px; width: 150px;" /></a></div>
+        </div>
+        </div>
+    - ID: "1f0455dc-9254-4487-b94d-6c66f103e7bf"
+      Hint: Title
+      Value: 使いやすいモバイルコンパニオンアプリでリタイアメントプランに忠実な生活を
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204820Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8c43fdb-2f8a-4375-b6f8-dc605312875e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204820Z

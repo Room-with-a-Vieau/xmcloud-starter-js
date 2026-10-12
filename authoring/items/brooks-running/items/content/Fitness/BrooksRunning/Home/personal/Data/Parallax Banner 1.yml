@@ -1,0 +1,127 @@
+﻿---
+ID: "37a2e237-1822-41a7-ad47-d874e81635dc"
+Parent: "0d40d46f-a460-4b52-be6d-724e6ec269d2"
+Template: "28b7f396-dc4a-4116-8c93-3b7909cbeb0e"
+Path: /sitecore/content/Fitness/BrooksRunning/Home/personal/Data/Parallax Banner 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: Whether you are chasing a personal best or your first finish line, we have the shoes, apparel and advice to get you there.
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image mediaid="{9499E49A-2035-4BAC-BD08-8EC2598279E7}" alt="Brooks racing shoes" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165635Z
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link text="Read training tips" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{3D4FE300-851B-4D44-970B-FC6CAE770250}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9148c1c5-b023-4fb0-8ed8-d00d76ac7d2f"
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{90DE0498-9C24-45B2-9C5F-6A42FB6992C6}" alt="Brooks shoes on a rock" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003429Z
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: Gear up for race day
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: Que vous économisiez pour un événement majeur de la vie
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image mediaid="{ECB464C3-3EAD-4DB8-AA1A-FBCBD91248B8}" alt="Plante sur comptoir" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165635Z
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link class="" id="{3D4FE300-851B-4D44-970B-FC6CAE770250}" querystring="" anchor="" target="" title="" linktype="internal" text="En savoir plus" url="/Fitness/BrooksRunning/Home/articles" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27b8e0fe-8a27-48a5-a5f6-593fbb3e5514"
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{E20133BF-FB74-4DD3-BE2B-40DC9BE82334}" alt="Background texture" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205713Z
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: banque au quotidien
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: 人生の一大イベントのための貯蓄、退職後の生活設計、あるいは単に経済的な余裕を築きたいなど、どのような場合でも、私どもの専門アドバイザーがあらゆるステップでお客様をご案内いたします。
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image mediaid="{ECB464C3-3EAD-4DB8-AA1A-FBCBD91248B8}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165635Z
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link class="" id="{3D4FE300-851B-4D44-970B-FC6CAE770250}" querystring="" anchor="" target="" title="" linktype="internal" text="さらに詳しく" url="/Fitness/BrooksRunning/Home/articles" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a78ace0-54e8-4ddb-8883-f13edb6dff62"
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{E20133BF-FB74-4DD3-BE2B-40DC9BE82334}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205713Z
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: 私たちと一緒に貯蓄を増やしましょう！

@@ -1,0 +1,44 @@
+﻿---
+ID: "061e46c2-8b88-4027-bac1-fef283a34ae6"
+Parent: "415e4f00-7ff5-4997-9740-78292f5757ee"
+Template: "7c195eaa-2255-4953-b6c3-7f9ebfa0cdfc"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/running-shoes/Data/Brooks Running - Product Grid"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230728Z
+    - ID: "3c9f29c0-0f5e-4cea-8acc-5f4102506b62"
+      Hint: Intro
+      Value: "<p>Whether you're a long-time runner or new to the sport, find road or trail running shoes that are perfect for your journey.</p>"
+    - ID: "3dd8f48b-a4be-4091-a009-751772762674"
+      Hint: CalloutLink
+      Value: |
+        <link text="Try Shoe Finder" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/shoe-finder/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5b8843b5-1cb3-443f-888f-4ab1a8eb6af5"
+      Hint: CalloutText
+      Value: Find the perfect shoe for you.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10998752-f695-4310-969c-df4cf1cd0b12"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T230728Z
+    - ID: "e1a6e7a7-5869-48d7-ad7e-265b12820a8d"
+      Hint: Title
+      Value: Running shoes

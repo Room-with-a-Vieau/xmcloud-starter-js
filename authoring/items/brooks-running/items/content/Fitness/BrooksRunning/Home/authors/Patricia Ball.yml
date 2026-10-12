@@ -1,0 +1,145 @@
+﻿---
+ID: "223b767e-277c-44ff-8f08-460647da81e6"
+Parent: "9c0f5d69-4742-4869-b945-cc84ff0fdb84"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: /sitecore/content/Fitness/BrooksRunning/Home/authors/Patricia Ball
+SharedFields:
+- ID: "2404bb97-b42a-439a-be76-de66213cb281"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{2833AC20-5725-4AAE-807C-DA21C4953B2C}" alt="Author Paper" height="" width="" hspace="" vspace="" />
+- ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
+  Hint: Photo
+  Value: |
+    <image mediaid="{6AD460FA-669A-4CD0-BC14-3DCDD98922A4}" alt="Patricia Bio Image" height="" width="" hspace="" vspace="" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9E5DCD12-7BBF-41D1-BD45-90F666A2806F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e0ba0e5a-888e-4f00-a3c1-20518a9b64c9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: Patricia Ball, Community & Events Manager | Brooks Running
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204816Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Patricia Ball
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Community & Events Manager
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b50bf530-7265-4be6-aecd-763ff53bc97e"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>Patricia organizes group runs, race expos and Community Hero programs that bring runners together.</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Patricia Ball
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: Patricia Ball, Community & Events Manager | Brooks Running
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003518Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204816Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Patricia Ball
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Responsable marketing digital
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "577546cd-5618-4ab0-9b42-4a75111f39ec"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Patricia est une spécialiste expérimentée en marketing digital, passionnée par l'obtention de résultats grâce à des stratégies numériques innovantes. Avec une expérience en publicité numérique, en gestion des réseaux sociaux et en marketing de contenu, elle excelle dans la création de campagnes captivantes qui engagent les audiences et génèrent des conversions.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Patricia Ball
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204816Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: パトリシア・ボール
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204816Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: パトリシア・ボール
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: デジタルマーケター
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0fdae49-48a3-478a-aab2-dbc61168519a"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>パトリシアは、革新的なデジタル戦略で成果を上げることに情熱を注ぐベテランのデジタルマーケター。 デジタル広告、ソーシャルメディア管理、コンテンツマーケティングのバックグラウンドを持ち、オーディエンスを惹きつけ、コンバージョンを促進する魅力的なキャンペーン作りを得意とする。</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: パトリシア・ボール
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204816Z

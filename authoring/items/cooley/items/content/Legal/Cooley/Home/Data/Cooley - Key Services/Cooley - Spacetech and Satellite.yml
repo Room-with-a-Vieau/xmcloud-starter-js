@@ -1,0 +1,45 @@
+﻿---
+ID: "5f9ada83-8f06-4cfc-aea4-1013e8bd69ba"
+Parent: "1ba048a8-0134-4557-8917-b870783dc908"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Legal/Cooley/Home/Data/Cooley - Key Services/Cooley - Spacetech and Satellite"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6a3ed449-1993-4714-a146-60bcff2fe740"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261005T050405Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aabe8bf6-d171-4815-b3b2-0ca296779dae"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: Spacetech and Satellite
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261005T050614Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: |
+        <p>Industry — <a href="https://www.cooley.com/services/industry/spacetech-satellite" target="_blank">Explore Spacetech and Satellite</a></p>

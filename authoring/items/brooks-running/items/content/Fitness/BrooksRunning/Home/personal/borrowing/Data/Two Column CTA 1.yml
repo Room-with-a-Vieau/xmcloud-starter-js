@@ -1,0 +1,147 @@
+﻿---
+ID: "83a69562-c605-403f-ad71-b565babb3f46"
+Parent: "ee4de292-33a4-42aa-8b2c-7db97415b696"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: /sitecore/content/Fitness/BrooksRunning/Home/personal/borrowing/Data/Two Column CTA 1
+SharedFields:
+- ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+  Hint: Image1
+  Value: |
+    <image mediaid="{0B121026-5124-49C0-9A68-118EE0590334}" alt="Man in a Brooks running jacket" />
+- ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+  Hint: Image2
+  Value: |
+    <image mediaid="{8EB983BC-1ED4-4595-98CE-97B159C72B21}" alt="Runner in a Brooks thermal vest" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-100"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a83f2f22-59a5-489a-a5e4-3235aa4797b1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165631Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="Shop tops" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{42367C1C-6297-42F0-AE76-6371AFFCBD7B}" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Tops & jackets
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="Shop bottoms" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{EF670E3F-324D-4337-8A8D-7CBC8F4B8BD8}" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Bras & bottoms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: Breathable layers for every season and every distance.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b48a536c-5808-49f5-9ab4-7bcd89169909"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003434Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: Supportive bras, shorts and tights designed for runners.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165631Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link class="" id="{42367C1C-6297-42F0-AE76-6371AFFCBD7B}" querystring="" anchor="" target="" title="" linktype="internal" text="Abonnez-vous" url="/Fitness/BrooksRunning/Home/personal/borrowing/credit-cards" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Cartes de crédit
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link class="" id="{EF670E3F-324D-4337-8A8D-7CBC8F4B8BD8}" querystring="" anchor="" target="" title="" linktype="internal" text="Faites votre demande" url="/Fitness/BrooksRunning/Home/personal/borrowing/line-of-credit" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Ligne de crédit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: Débloquez un monde de possibilités dès aujourd'hui avec nos offres de cartes de crédit premium.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "642be402-72b1-40f3-9d25-c080f8f3083f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205710Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: Accédez à des fonds quand vous en avez besoin avec notre ligne de crédit personnelle polyvalente.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165631Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link class="" id="{42367C1C-6297-42F0-AE76-6371AFFCBD7B}" querystring="" anchor="" target="" title="" linktype="internal" text="今すぐ登録" url="/Fitness/BrooksRunning/Home/personal/borrowing/credit-cards" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: クレジットカード
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link class="" id="{EF670E3F-324D-4337-8A8D-7CBC8F4B8BD8}" querystring="" anchor="" target="" title="" linktype="internal" text="今すぐ申し込む" url="/Fitness/BrooksRunning/Home/personal/borrowing/line-of-credit" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: 信用枠
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: プレミアム・クレジットカードで、今すぐ可能性の扉を開きましょう。
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47212ae1-b278-4e65-8985-a70bf7a447ce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205710Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: 多目的にご利用いただける個人向け融資枠で、必要なときにいつでも資金をご利用いただけます。

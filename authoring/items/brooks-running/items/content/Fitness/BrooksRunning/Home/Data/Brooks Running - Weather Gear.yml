@@ -1,0 +1,63 @@
+﻿---
+ID: "c91bdc3b-8bf8-4dff-b9df-0ec15cb5021c"
+Parent: "93fa77b5-d1e4-4676-b7c0-3862b26b91f7"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/Data/Brooks Running - Weather Gear"
+SharedFields:
+- ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+  Hint: Image1
+  Value: |
+    <image mediaid="{8EB983BC-1ED4-4595-98CE-97B159C72B21}" alt="Runner in a Brooks thermal vest" />
+- ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+  Hint: Image2
+  Value: |
+    <image mediaid="{98789337-8358-4E81-B171-E5F142388229}" alt="Brooks shoe splashing through water" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ccf41c90-509d-4b01-b59d-020a07393d82"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T215830Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="Cold-weather gear" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/cold-weather-running-gear/" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: "Cold-weather gear"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="Wet-weather gear" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/wet-weather-running-gear/" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: "Wet-weather gear"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee475de7-ddad-49a4-86d5-1d1eab91cce3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T215831Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: 

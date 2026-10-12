@@ -1,0 +1,87 @@
+﻿---
+ID: "043cd941-6bdf-4053-bfec-7f94b8ea37b8"
+Parent: "d1fd0ab0-07cc-4699-9e1b-8fd1dc611fda"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: "/sitecore/content/Financial/guidestone/Home/articles/recruiting-and-hiring-best-practices-for-churches"
+SharedFields:
+- ID: "1fce966b-b8dc-46f1-8ceb-6ff6816a88f0"
+  Hint: baseOgType
+  Value: article
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="62ffbba4-eccb-42cf-9dd7-b38fc06c6595" />
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="0fc0b466-8d6a-495a-bdf3-9d97fc6d90ef" alt="People reviewing financial documents together at a table" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F0A3633A-0A77-4F0C-9107-C2746B0BD8B2}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5f38092c-3824-45f0-b561-da021307ded0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Your church staff is at the heart of your ministry. They are the hands and feet that help carry out your mission. That is why it is vital to understand best practices for safely recruiting new staff members. Consider these steps to align your team and help safeguard your ministry.</p><h2>1. Develop a Clear Role Description</h2><p>Before you start recruiting new staff members, specify the roles and responsibilities of each position. Consider the following:</p><ul><li>Reporting structure</li><li>Location</li><li>Responsibilities</li><li>How responsibilities align with your mission</li><li>Church membership requirements</li><li>Prior experience</li><li>Relevant skills</li><li>References</li></ul><h2>2. Conduct Thorough Background Checks</h2><p>Choose a reputable firm to conduct background screenings on both new and current staff. It is a best practice to perform background checks on your entire team once a year to help protect your people and your ministry. The screening should cover the entire United States and be broad enough to pick up close matches, such as similarly spelled names or transposed Social Security numbers. It should include federal, state and county court records.</p><h3>Background Check Considerations</h3><ul><li>Establish reasonable care by requiring applicants to complete an application for each position.</li><li>Make screening criteria dependent on anticipated job duties; not all positions have the same needs.</li><li>Keep candidate background information confidential and provide it only to people with an operational need for it.</li></ul><h3>Fair Credit Reporting Act (FCRA) Requirements</h3><ul><li>Use a company that specializes in background checks to help ensure quality information and FCRA compliance.</li><li>Notify the candidate that a background check will be conducted and obtain written authorization.</li><li>Provide a summary of consumer rights to the applicant.</li><li>Notify the candidate in writing if they are not chosen based on eligibility for the position, including if they are not hired, demoted or transferred.</li></ul><h3>Candidate and Worker Rights</h3><p>When employers use background check information to decline employment, they must provide in writing the name, address and phone number of the agency that reported the information. Candidates and workers can request and obtain information provided to the employer. Candidates who receive written notice that they did not get a job because of negative credit history can request a free copy of their credit report within 60 days.</p><h2>3. Find the Right Candidate</h2><p>When looking for the right candidate to support your ministry, use all the resources at your disposal. In addition to background checks, references can help your hiring team gain a clearer picture of a candidate's experience, work ethic and character.</p><p>Also consider how well a candidate aligns with your church's mission. Skills and experience are important, but finding someone who shares your vision can strengthen the team in the long term.</p><h2>4. Provide Ongoing Training</h2><p>Invest in your team by onboarding staff with details about their work, the people they will serve and how their service fits within the overall mission of your church or ministry.</p><p>Make ongoing training part of your church management plan. It can reinforce existing procedures, address new concerns and help protect all people involved, especially children, youth and vulnerable adults. A training program also lends credibility to your ministry and guides workers toward a common goal.</p><h2>Reduce Risks in All Areas of Church Management</h2><p>Church hiring and recruiting is one of many administrative tasks, and each carries its own risk. Consider whether your ministry is mitigating risks related to crime, employees and conflicts of interest. You do not have to do it alone. GuideStone can help you understand property and casualty insurance and protect your ministry.</p><p><em>This article is for informational purposes only and is not intended to be construed as legal advice. Use it as a tool, along with best judgment and any applicable terms or conditions, to determine appropriate policies and procedures for your church's risk management program.</em></p></div>
+    - ID: "0e6f1e47-ee05-42b5-8480-7994d21209b3"
+      Hint: baseOgDescription
+      Value: Practical guidance for churches on recruiting, background screening, hiring and ongoing staff training.
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: Recruiting and Hiring Best Practices for Churches
+    - ID: "2569d76b-a34e-48bd-9fb5-505f5f170c51"
+      Hint: baseMetadataDescription
+      Value: Learn practical recruiting, background screening, hiring and training practices that can help churches safeguard their ministry.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260917T033753Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Practical steps to help churches recruit, screen, hire and train staff while supporting a safer ministry.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Recruiting and Hiring Best Practices
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa29855a-4ea7-407f-a893-487233975a2d"
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: Recruiting and Hiring Best Practices for Churches | GuideStone
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "cb3deb57-fa16-43de-a76b-9704e6620c24"
+      Hint: baseMetadataKeywords
+      Value: church hiring, church recruiting, background checks, staff training, church risk management
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260917T034320Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Recruiting and Hiring Best Practices for Churches

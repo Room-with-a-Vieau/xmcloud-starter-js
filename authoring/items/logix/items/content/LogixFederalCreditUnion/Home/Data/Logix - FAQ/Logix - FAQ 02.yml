@@ -1,0 +1,45 @@
+﻿---
+ID: "2955f2cf-32f3-4278-b5a8-18523edd23fd"
+Parent: "641aa3c6-058c-4f30-97d6-86290e82f254"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - FAQ/Logix - FAQ 02"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "96dc4d46-b7d0-4ebd-9907-05d183540945"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171228Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0b1e54af-2a0d-4db5-bd37-688b50922d0d"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "What is the difference between a bank and a credit union?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171228Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: |
+        <p>While credit unions and banks offer most of the same financial services, the most important difference is a profit motive. A bank operates with the motive to make a profit for its owners. A credit union has no such motive because the people who use the financial services offered by a credit union, known as "members" instead of customers, are also the owners - each one with an owner vote about the direction of the credit union. In practice, the lack of a profit motive results in better rates and lower fees, on average, than at banks.<br> <br> There are other differences, too. For example, a credit union has a defined body of membership, is regulated by the <a href="https://ncua.gov/" title="National Credit Union Administration" target="_blank">NCUA</a>, and cannot sell stock to raise capital.</p>

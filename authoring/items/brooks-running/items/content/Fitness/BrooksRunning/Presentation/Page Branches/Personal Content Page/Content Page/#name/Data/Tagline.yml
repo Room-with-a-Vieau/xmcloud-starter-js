@@ -1,0 +1,53 @@
+﻿---
+ID: "d4ce0b25-9527-4412-8d34-8ae2c4548dc4"
+Parent: "8aba717e-105b-449a-97a4-e4d1174dac46"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Fitness/BrooksRunning/Presentation/Page Branches/Personal Content Page/Content Page/$name/Data/Tagline
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204617Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>There's always <em style="color: var(--bg-accent);">another run to look forward to.</em> That means&nbsp;<em style="color: var(--bg-accent);">more miles to love.</em></h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6fcac85c-f280-4693-b0b0-67d1f652a27f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T152230Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Il y a toujours quelque chose <em style="color: var(--bg-accent);">d'excitant à planifier.</em> Cela signifie&nbsp;<em style="color: var(--bg-accent);">plus de services bancaires quotidiens à apprécier.</em></h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "91636854-86e0-4b6c-92ae-0f496061716e"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>常に何か<em style="color: var(--bg-accent);">エキサイティングな計画</em> がある。 それはつまり、<em style="color: var(--bg-accent);">愛すべき日常の銀行が増えるということだ</em>。</h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9230dd46-a996-471e-b1c5-19222dec5e04"

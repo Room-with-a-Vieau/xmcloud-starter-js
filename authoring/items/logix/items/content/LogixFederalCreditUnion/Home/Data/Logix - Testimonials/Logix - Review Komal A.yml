@@ -1,0 +1,52 @@
+﻿---
+ID: "ae28833e-1a97-4566-b0d7-55caf1c9bb89"
+Parent: "eda0dd66-01f4-4b08-93d3-28fed281831b"
+Template: "40472280-0a67-4c52-a06b-79e327af9f44"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - Testimonials/Logix - Review Komal A"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0f8a5bac-7c0b-4a34-ad55-1b6f42b2b7d6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171226Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "68135ba0-9f86-45d8-8744-a22ed6f2e82f"
+      Hint: AuthorPosition
+      Value: on Yelp
+    - ID: "89aa75c0-8a07-43ce-b0be-989877ace891"
+      Hint: Content
+      Value: |
+        Great Loan Experience: "...if you want a fast, hassle-free, headache-free, loan experience...the Logix team should be your only stop. I would recommend them to anyone!!!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "987a12df-2ef5-40e2-8d83-cbebc36a98f9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171226Z
+    - ID: "f89cca04-3f6d-4d2d-8dc2-10dcf0981d8b"
+      Hint: AuthorImage
+      Value: |
+        <image mediaid="{43A35882-AD8C-4C20-88C5-D13B35BC6468}" alt="Logix Federal Credit Union" />
+    - ID: "f8bed196-3478-41ea-9487-254ee08b2e2e"
+      Hint: AuthorName
+      Value: Komal A.

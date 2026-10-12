@@ -1,0 +1,31 @@
+﻿---
+ID: "ab681c68-2c11-4a55-9c14-6c1aa1258d2e"
+Parent: "2be7e42f-f9f1-4624-ac19-65adedbacc34"
+Template: "0da7aa52-0c24-4721-9b6c-f6d8d9faaaa0"
+Path: /sitecore/content/Legal/Cooley/Presentation/Partial Designs/Header/Data/Header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bf1334e-9153-4310-89f7-3cd8c5bbf927"
+      Hint: LogoImage
+      Value: |
+        <image mediaid="{32623380-E41C-4779-A5CD-598DF94EF63A}" alt="Cooley" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223339Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b9caa86-24a3-4f14-9c9d-fb4143e72080"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261005T041202Z

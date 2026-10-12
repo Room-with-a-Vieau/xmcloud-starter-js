@@ -1,0 +1,44 @@
+﻿---
+ID: "6a755b1e-fd0e-4234-ae30-8ad4cf9c02b7"
+Parent: "641aa3c6-058c-4f30-97d6-86290e82f254"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - FAQ/Logix - FAQ 03"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "42c8165c-3c01-4167-9f85-f9f1d10523d8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171228Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56f581dd-6f2a-4c2b-ad1c-1556f238d365"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Are credit unions not-for-profit?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171228Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: "<p>Yes! While non-profits are usually found in the IRS tax code 501(c)3, state-chartered credit unions are 501(c)14, and federal credit unions, like Logix, are 501(c)1. Find out more on the IRS website.</p>"

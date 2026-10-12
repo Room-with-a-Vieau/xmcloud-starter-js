@@ -1,0 +1,136 @@
+﻿---
+ID: "aa4291e9-fbed-45f9-a4c6-690517110009"
+Parent: "89fcbb96-72d3-491b-aa1d-f4e726c7fcf6"
+Template: "fbc802e5-4b9e-480f-93da-3f2a80cae5cb"
+Path: /sitecore/content/Fitness/BrooksRunning/Presentation/Page Branches/Default Content Page
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "bb3391dd-f8be-4b2e-ae9f-47bb63c166ce"
+  Hint: Rule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{8C8DE469-540C-4410-B109-583B8951B468}">
+        <conditions>
+          <and
+            uid="F5CEC1E956A1482C90CA6ED0B7A33622">
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="2DEC1D095877488B92952D70064537E4"
+              itemid="{CF033256-33FE-41F9-AA53-8D465360EC98}" />
+            <and
+              uid="391E23DE4F9640119366D39536A697D9">
+              <condition
+                id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                uid="1A54C42B142C478197BD59BD2F74F038"
+                except="true"
+                itemid="{ECC05F45-9162-4591-BCB9-AD13346FE676}" />
+              <and
+                uid="492C9A417DA0486283034F6AFB0970C2">
+                <condition
+                  id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                  uid="5E0B6418E58A400EAC85B8A58F5423CD"
+                  except="true"
+                  itemid="{46A982EE-5707-41FD-B696-F3336B1C3B3D}" />
+                <and
+                  uid="FBE8FAE465074812932B210ED5437846">
+                  <condition
+                    id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                    uid="241C42921F804BDF9E7373544A79E9FB"
+                    except="true"
+                    itemid="{633AD763-12C9-4F38-8E2B-F6E159DD6942}" />
+                  <and
+                    uid="C8B8E46987DB4410967CC564F850B38B">
+                    <condition
+                      id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                      uid="F4E576622445425E954ED733A3E407AB"
+                      except="true"
+                      itemid="{3D4FE300-851B-4D44-970B-FC6CAE770250}" />
+                    <condition
+                      id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                      uid="96B170E9A8424F21A2EE397E6B597E9E"
+                      except="true"
+                      itemid="{9C0F5D69-4742-4869-B945-CC84FF0FDB84}" />
+                  </and>
+                </and>
+              </and>
+            </and>
+          </and>
+        </conditions>
+        <actions>
+          <action
+            id="{D46EC8E5-7B46-47DE-B44A-4C5C30EF48D1}"
+            uid="5756E57FF81043F28781CB0228669C48"
+            PageBranchId="{46327CA7-8369-485A-AE77-98E0B267A334}" />
+        </actions>
+      </rule>
+    </ruleset>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "378e5bc4-37d3-46bb-8ed4-e762fda6c556"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204616Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "adf0c819-0147-48aa-90ff-16aab398ac32"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204715Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204715Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "557c3cba-0ba0-4ac2-b7dc-a7ccd9bcd9ac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204716Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204716Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43e045aa-2aa8-40c1-9586-204d413c0f98"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204716Z

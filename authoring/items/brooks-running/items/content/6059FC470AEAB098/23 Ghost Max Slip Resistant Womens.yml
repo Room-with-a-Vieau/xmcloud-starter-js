@@ -1,0 +1,67 @@
+﻿---
+ID: "99f999fc-6188-4339-9ff9-f9704f4561f7"
+Parent: "061e46c2-8b88-4027-bac1-fef283a34ae6"
+Template: "0a873bab-31d1-445a-ac16-14d62ab62c98"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/running-shoes/Data/Brooks Running - Product Grid/23 Ghost Max Slip Resistant Womens"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2fdff3f1-7255-4ce3-8956-631c6ebbaca4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e6f4231-da40-4a8a-a6ad-a3a4616cd858"
+      Hint: Link
+      Value: |
+        <link text="Ghost Max Slip Resistant" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/search?q=Ghost%20Max%20Slip%20Resistant" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230829Z
+    - ID: "48edfe74-268b-4a89-b238-b1401159aafb"
+      Hint: ProductName
+      Value: Ghost Max Slip Resistant
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5aaccafb-62d5-48fe-a348-1b2c94ecdaf9"
+      Hint: Gender
+      Value: Women
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5e702db1-cded-48d5-88ef-5ebffc8237d7"
+      Hint: Sizes
+      Value: 5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12
+    - ID: "61f01c5e-f5d3-4dab-be60-8b983a0eec45"
+      Hint: Activity
+      Value: Walking
+    - ID: "63399694-0b65-4e9a-9fd1-6d4dc99a54ba"
+      Hint: Badge
+      Value: New Style
+    - ID: "7953b41c-76cb-45a0-8c16-0d8c81b9653d"
+      Hint: Image
+      Value: |
+        <image mediaid="{7F9D57A6-0AED-41E2-A966-D994090E13D2}" alt="Brooks Ghost Max Slip Resistant Womens" />
+    - ID: "83d6a66c-e89b-4c7f-8980-cb478d717459"
+      Hint: PriceValue
+      Value: 175
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f40e2244-9f47-4a1b-b784-48f6d2c346b5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d56cc334-374e-48ab-9007-5d5a646b759f"
+      Hint: PriceText
+      Value: $175.00
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T230829Z

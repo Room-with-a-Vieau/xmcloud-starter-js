@@ -1,0 +1,55 @@
+﻿---
+ID: "fa3a12c3-f648-4193-b3a0-79f0d1b1b5eb"
+Parent: "061e46c2-8b88-4027-bac1-fef283a34ae6"
+Template: "1c27be3b-b357-4a8f-9998-b0a7af829fc1"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/running-shoes/Data/Brooks Running - Product Grid/12 Promo - Hyperion Elite 6"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "dcf778c8-3bc8-44b8-bda9-8e129f415628"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c095bf9-1750-40cf-893a-7085f2f7a32a"
+      Hint: IsDark
+      Value: 1
+    - ID: "1bdf407a-17bd-464d-b1d8-47046d5962dc"
+      Hint: PromoImage
+      Value: |
+        <image mediaid="{EDB27102-1059-4DBE-9F02-53F6F0E1B923}" alt="Brooks Hyperion Elite 6" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230824Z
+    - ID: "261fcdc9-e616-42fd-ad24-6521818996c2"
+      Hint: PromoTitle
+      Value: Shine under pressure
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "723d7975-481e-4417-bed2-36001661e462"
+      Hint: PromoLink
+      Value: |
+        <link text="Shop Hyperion Elite 6" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/hyperion-elite-6/" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "960b5d76-fa0c-40e2-bbc0-b726ab417484"
+    - ID: "b66b9a60-616e-43a9-b739-bebd0a207476"
+      Hint: PromoText
+      Value: "<p>Turn pressure into power in the ultra-propulsive Hyperion Elite 6.</p>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T230824Z

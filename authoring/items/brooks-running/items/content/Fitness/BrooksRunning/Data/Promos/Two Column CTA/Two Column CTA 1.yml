@@ -1,0 +1,154 @@
+﻿---
+ID: "19a8cc9c-03b2-48b7-bd73-aff4bcdc550c"
+Parent: "595309b1-75b2-4afa-b131-e4e79f59e11f"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: /sitecore/content/Fitness/BrooksRunning/Data/Promos/Two Column CTA/Two Column CTA 1
+SharedFields:
+- ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+  Hint: Image1
+  Value: |
+    <image mediaid="{9499E49A-2035-4BAC-BD08-8EC2598279E7}" alt="Brooks racing shoes" />
+- ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+  Hint: Image2
+  Value: |
+    <image mediaid="{FB3AA619-8FCF-41FA-8702-70736CEA58E8}" alt="Brooks shoes on a rock" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1600
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6cbc8fdb-61c5-4c49-87fe-51262830fd57"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "06b8be2e-527a-4885-b975-b8545d56106f"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Two Column CTA - Run Now, Pay Later"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165636Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="See payment plans" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{20DFC881-1637-427B-8FC0-57FABFE22DBC}" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Run now, pay later
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="Get started" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{20DFC881-1637-427B-8FC0-57FABFE22DBC}" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Flexible payment options
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: Spread the cost of your next pair with our payment plan calculator.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9594d3c-7607-4ed4-9ef4-6b562f3fc61b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T153955Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: Choose a plan length that fits your training schedule.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165636Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link class="" querystring="" id="20DFC881-1637-427B-8FC0-57FABFE22DBC" anchor="" target="" title="" linktype="internal" text="Obtenez un prêt" url="/Fitness/BrooksRunning/Home/get-a-loan" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Découvrez notre calculatrice de prêt
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link class="" querystring="" id="20DFC881-1637-427B-8FC0-57FABFE22DBC" anchor="" target="" title="" linktype="internal" text="Obtenez un prêt" url="/Fitness/BrooksRunning/Home/get-a-loan" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Options de paiement et échéancier flexibles
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: "Découvrez tous les détails avec notre calculatrice de prêt en libre-service."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d9af8ac-4ede-41f8-a354-062fe1f490ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205713Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: Trouvez une durée de prêt qui vous convient avec notre calculatrice de prêt.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165636Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link class="" id="{20DFC881-1637-427B-8FC0-57FABFE22DBC}" querystring="" anchor="" target="|Custom" title="" linktype="internal" text="" url="/Fitness/BrooksRunning/Home/get-a-loan" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: ローン計算機をチェック
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link class="" id="{20DFC881-1637-427B-8FC0-57FABFE22DBC}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/Fitness/BrooksRunning/Home/get-a-loan" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: 柔軟な支払い方法と期間
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: セルフサービスのローン計算機で詳細をご確認ください。
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "177515ef-9bc7-4c17-903e-06107a7b6e0f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205713Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: ローン計算機で自分に合ったローン期間を見つけよう。

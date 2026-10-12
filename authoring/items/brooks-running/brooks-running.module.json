@@ -2,7 +2,8 @@
   "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
   "namespace": "brooks-running",
   "references": [
-    "system"
+    "system",
+    "prosperabank"
   ],
   "items": {
     "includes": [
@@ -15,6 +16,54 @@
       {
         "name": "layout",
         "path": "/sitecore/layout/Renderings/Project/BrooksRunning",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tenant-templates",
+        "path": "/sitecore/templates/Project/Fitness",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tenant-branches",
+        "path": "/sitecore/templates/Branches/Project/Fitness",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tenant-layout",
+        "path": "/sitecore/layout/Renderings/Project/Fitness",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tenant-placeholder-settings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/Fitness",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tenant-settings",
+        "path": "/sitecore/system/Settings/Project/Fitness",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/Fitness",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/Fitness",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "site-media",
+        "path": "/sitecore/media library/Project/Financial/BrooksRunning",
         "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }

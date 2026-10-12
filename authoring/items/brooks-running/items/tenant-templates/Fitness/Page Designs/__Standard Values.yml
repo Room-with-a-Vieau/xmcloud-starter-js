@@ -1,0 +1,40 @@
+﻿---
+ID: "2903f17b-31d5-4010-8b46-bff02a9bcfdf"
+Parent: "1e17f023-e9f7-43c3-b12d-2991da4c2c8a"
+Template: "1e17f023-e9f7-43c3-b12d-2991da4c2c8a"
+Path: /sitecore/templates/Project/Fitness/Page Designs/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {7C9A7634-9FEF-4701-BB00-D5F5D24D4D9A}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bfeedf0e-6c49-4200-943c-bee2b7ce2776"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204534Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c26f0f4-abb7-43bd-8ebf-5c2e07c7cf71"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204537Z

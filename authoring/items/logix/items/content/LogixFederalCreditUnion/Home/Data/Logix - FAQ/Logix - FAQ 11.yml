@@ -1,0 +1,45 @@
+﻿---
+ID: "262d233c-e7b0-467c-9086-5c224e373584"
+Parent: "641aa3c6-058c-4f30-97d6-86290e82f254"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - FAQ/Logix - FAQ 11"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "dd20e996-d9f9-4da1-8a0a-0647761e5345"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171230Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c125ac8c-41eb-43c9-ada5-98fff507b986"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How do I join Logix Federal Credit Union?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171231Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: |
+        <p>We're glad you asked! While one of the great things about credit unions is access to exclusive, member-only benefits, we want the process of becoming a member to be intuitive and easy. To see if you qualify for membership and all the benefits that come with it, please <a href="https://www.logixbanking.com/about-us/become-a-member">click here</a>. You can also simply start a <a href="https://app.logixbanking.com/pos/logix_250212/daae54b0-afd6-4308-98ea-4947e6aba6c5/new" title="Join Logix">membership application</a> or loan application and we'll guide you along.</p>

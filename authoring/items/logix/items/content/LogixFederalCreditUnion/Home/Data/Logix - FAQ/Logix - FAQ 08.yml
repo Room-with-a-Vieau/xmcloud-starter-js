@@ -1,0 +1,45 @@
+﻿---
+ID: "64c02251-9412-4c18-8908-a6a275b82e95"
+Parent: "641aa3c6-058c-4f30-97d6-86290e82f254"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - FAQ/Logix - FAQ 08"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3c41a29b-5240-4bc4-a198-54767b778f4d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171229Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f09d92fd-ce49-4275-b097-2c713acbda63"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How to get a car loan from a credit union?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171230Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: |
+        <p>While all credit unions are different, the best way to get a loan from any credit union is to simply ask, whether in a branch, on the phone, or on their website. At Logix, we make it easy to apply for a loan online and you'll find the application at the top of each loan page. This process will include the additional benefit of helping you become a Logix member with access to all other benefits. Credit union membership is required to obtain a loan.<br> <br> The best way to be approved for a loan, whether at a bank or credit union, is to ensure you have maintained a history of responsibly paying off loans on-time and that you don't have too much debt compared to your ability to pay it off. There are other factors to consider as well, and they are detailed on our <a href="https://www.logixbanking.com/financial-wellness">Financial Wellness Resource</a> page.</p>

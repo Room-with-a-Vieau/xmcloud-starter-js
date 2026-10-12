@@ -1,0 +1,126 @@
+﻿---
+ID: "62d89589-cdf4-4b3b-8272-012117635caf"
+Parent: "2ab7800a-3fef-4fad-9bf7-3639bf76d100"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: /sitecore/content/Legal/Cooley/Presentation/Page Branches/Default Content Page/Content Page/$name
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CC653A0D-8B55-4F5A-BB24-1A9CC174811C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fc4a6fae-dcee-4efc-a291-caad34ddce92"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{643B1FA0-87B1-4D1C-8217-558FE8704F88}" alt="Man walking with briefcase" height="" width="" hspace="" vspace="" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{32D7E704-0C8F-461F-B5DD-1F6E4C88F9BC}"
+          p:before="*"
+          s:ds="local:/Data/Rich text"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{AF0BD10B-B5A0-4668-9D81-D4CCE4D7FCD6}"
+          p:after="r[@uid='{32D7E704-0C8F-461F-B5DD-1F6E4C88F9BC}']"
+          s:ds="local:/Data/Tagline"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles=%7B1B6BBF9D-45D0-44CD-B066-98A899BC4EA2%7D%7C%7BB8095030-38D2-43E0-ADC4-5F5438026C90%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{A5308299-7AB6-4AB9-91C3-767C15AA1C67}"
+          p:after="*[1=2]"
+          s:ds="{C3DA0135-A504-4C87-81E6-06E5B346FCE1}"
+          s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223336Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2ea5d63-93b9-4a77-b01e-d7d3de3c3f74"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223611Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223453Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5ad1b26-b808-4b84-a53c-e7e01269881f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223611Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223453Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dcd67c4b-fa49-4f1a-b4b9-124c1fb4a0f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223612Z

@@ -1,0 +1,77 @@
+﻿---
+ID: "334e8db2-6eeb-46fd-a7e1-2f7f753dcfec"
+Parent: "792702e7-48af-4976-aae6-35fe4a9742d4"
+Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+Path: "/sitecore/content/Legal/Cooley/Home/Data/Cooley - Resources"
+SharedFields:
+- ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
+  Hint: Image3
+  Value: |
+    <image mediaid="{C133CF92-A44B-45A2-899E-5891C363D9E0}" alt="Cooley GO" />
+- ID: "39fe4fb3-3794-4b9a-a584-ff877e93e33b"
+  Hint: Image2
+  Value: |
+    <image mediaid="{780552CB-7113-4EF6-BAB4-88F256CD70F3}" alt="IPO GO" />
+- ID: "c511247c-fec1-4690-81d6-ce791da18d4a"
+  Hint: Image1
+  Value: |
+    <image mediaid="{72FC0AEF-2E71-4337-8D08-01A2B7142B4F}" alt="Public Company Resource Hub" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c48e547f-12a7-4558-810a-896d51b1993b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link text="Learn more" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://ipogo.cooley.com/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261005T033457Z
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: Guidance and resources for companies on the path to going public
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link text="Let's go" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.cooleygo.com/" />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: IPO GO
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: "Resources for forward-thinking board members and leaders of US-listed public companies"
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: Public Company Resource Hub
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: Cooley GO
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link text="Learn more" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.cooley.com/hub/pubco" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c986c515-6670-4976-a705-7d48c80261d9"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: Start and build your business
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261005T050449Z

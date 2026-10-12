@@ -1,0 +1,113 @@
+﻿---
+ID: "4c41d046-1d10-4747-a81a-0ad032690e32"
+Parent: "f49cf002-80a5-4c23-8cbb-d5534547e674"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/Data/Carousel - Retirement planning/Item 1"
+SharedFields:
+- ID: "afea6373-024f-4b89-a68b-83115e3701d8"
+  Hint: Video
+  Value: 
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{68C793F7-F853-4932-85A2-522838864F3C}" alt="Runner in reflective Brooks gear" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e26623c4-9ab4-4949-9881-3e592ad81186"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{321B71A6-169C-4A12-905A-0BF5F5CCD7E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165634Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Train smarter, run longer
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Explore training" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{633AD763-12C9-4F38-8E2B-F6E159DD6942}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9beda7a3-a025-4390-ad84-3cf2fc1b5205"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Expert advice to keep you running happy for years to come.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003421Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165634Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Planifiez aujourd'hui, prospérez demain
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" id="{633AD763-12C9-4F38-8E2B-F6E159DD6942}" querystring="" anchor="" target="" title="" linktype="internal" text="Sécurisez votre avenir" url="/Fitness/BrooksRunning/Home/retirement-planning" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8777063d-d916-4f6f-978f-bd9b80343928"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Prenez soin de votre patrimoine, prenez soin de votre famille.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205712Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165634Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: 今日の計画、明日の繁栄
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" id="{633AD763-12C9-4F38-8E2B-F6E159DD6942}" querystring="" anchor="" target="" title="" linktype="internal" text="未来を守る" url="/Fitness/BrooksRunning/Home/retirement-planning" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b62ff60-4e1b-4f7e-9ff8-8f26f6771215"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>財産を大切にし、家族を大切にする。</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205712Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "5684933e-2c41-4c47-8b48-b4c806f81ee1"
+Parent: "1c45a292-42b3-464d-99b1-b2d2b54cf720"
+Template: "609a79ac-e186-41e2-a3fa-771e95c26815"
+Path: /sitecore/content/Fitness/BrooksRunning/Presentation/Page Designs
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b4AD644A8-7CDB-4574-8DF1-D01C3BB7B624%7d%3d%257B44CA4FA3-A7C9-42F6-81CA-DC2504C3C0DC%257D%26%7bF83CCEFD-FC41-4A60-9882-8F7EA5CF41A8%7d%3d%257B72D2D1FC-4915-47FE-960E-BF6373B4AE13%257D%26%7b1226C3C7-2D1F-48F5-87B4-C1DA459F05E5%7d%3d%257B0496436B-C72A-4F8C-BDD7-B1511B1DF2C2%257D%26%7b5282D418-6C18-46EB-85AF-9116CDE9E6EB%7d%3d%257B44CA4FA3-A7C9-42F6-81CA-DC2504C3C0DC%257D%26%7b14431DCE-508D-4D54-9D04-C22ABBDC8F83%7d%3d%257B44CA4FA3-A7C9-42F6-81CA-DC2504C3C0DC%257D%26%7bAAD350F5-9331-4D71-A942-E3643653C028%7d%3d%257B55DA2C28-9CEA-4DD0-BE47-71DD16D7736D%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f397da66-9acb-4aa3-bcaf-4dcdc1255386"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204618Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c8ddf45-bf82-41df-b484-3fc6ff818f3f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204719Z

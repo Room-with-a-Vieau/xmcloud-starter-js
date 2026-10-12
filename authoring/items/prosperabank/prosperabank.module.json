@@ -33,6 +33,10 @@
           {
             "path": "/guidestone",
             "scope": "ignored"
+          },
+          {
+            "path": "/LogixFederalCreditUnion",
+            "scope": "ignored"
           }
         ]
       },
@@ -44,6 +48,18 @@
         "rules": [
           {
             "path": "/guidestone",
+            "scope": "ignored"
+          },
+          {
+            "path": "/LogixFederalCreditUnion",
+            "scope": "ignored"
+          },
+          {
+            "path": "/Cooley",
+            "scope": "ignored"
+          },
+          {
+            "path": "/BrooksRunning",
             "scope": "ignored"
           }
         ]

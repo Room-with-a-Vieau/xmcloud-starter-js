@@ -1,0 +1,25 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "logix",
+  "description": "Logix Federal Credit Union demo site. Owns only the site-specific content tree and media under the Financial site collection. The shared Financial scaffolding (collection root, project templates, renderings, placeholder settings) is owned by the prosperabank module.",
+  "references": [
+    "system",
+    "prosperabank"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "content",
+        "path": "/sitecore/content/Financial/LogixFederalCreditUnion",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/Financial/LogixFederalCreditUnion",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

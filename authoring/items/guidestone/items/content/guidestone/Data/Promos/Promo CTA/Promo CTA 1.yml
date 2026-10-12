@@ -6,11 +6,11 @@ Path: /sitecore/content/Financial/guidestone/Data/Promos/Promo CTA/Promo CTA 1
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "689dc884-cd17-4c4d-b1de-afdd79e675d9"
+  Value: "2b0ae169-f9b4-494d-89e2-b5613e39128a"
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image
   Value: |
-    <image mediaid="{1EA0FB14-9069-457E-8DB7-F580A238D1FA}" alt="close-up-young-businesswoman" height="" width="" hspace="" vspace="" />
+    <Image src="https://guidestone.sitecoresandbox.cloud/api/public/content/91ebe899cfc8464598b65c04478d5c55?v=da0d2d8b" dam-id="z73ZMXKxQC2iMp-wT3aMfg" width="1030" height="637" dam-content-type="Image" thumbnailsrc="https://guidestone.sitecoresandbox.cloud/api/gateway/40900/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -38,17 +38,18 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "687505db-5adf-465a-9665-b7ae85bfaf2f"
+      Value: "54f6334d-4e7d-47f4-84a1-70e0445ab60a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
-      Value: GuideStone provides churches, ministries, and Christian households with financial solutions that support shared biblical values.
+      Value: |
+        <div class="ck-content"><p>GuideStone provides churches, ministries, and Christian households with financial solutions that support shared biblical values.</p></div>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260903T235248Z
+      Value: 20260917T160225Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: Retirement, insurance, and investments

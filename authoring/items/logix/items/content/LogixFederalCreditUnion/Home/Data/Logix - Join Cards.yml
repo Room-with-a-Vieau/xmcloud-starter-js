@@ -1,0 +1,63 @@
+﻿---
+ID: "1804e7fa-f769-4c18-8e52-35dcce7190d5"
+Parent: "85b5f8ec-2d2c-4849-8157-e8056e4caa6f"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - Join Cards"
+SharedFields:
+- ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+  Hint: Image1
+  Value: |
+    <image mediaid="{CE28E9C9-DF7E-4AB7-BEAA-36526019737C}" alt="Open an account" />
+- ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+  Hint: Image2
+  Value: |
+    <image mediaid="{F131FA9D-76D2-4371-81E3-BE6805751DD1}" alt="Visit a branch" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "85db85fe-523b-4b46-a700-d8c4f80acddf"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171007Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="Open an Account" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://app.logixbanking.com/pos/logix_250212/daae54b0-afd6-4308-98ea-4947e6aba6c5/new" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Open an Account
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="Find the Nearest Branch" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.logixbanking.com/branches" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Visit a Branch
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: "Apply online and open an account with us in just a few steps! Find out how easy it is."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c765e66-9ab1-4337-8211-024728a0e89f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171105Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: "Let's meet to talk about your financial needs. We're just around the corner!"

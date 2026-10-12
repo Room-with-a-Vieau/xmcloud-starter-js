@@ -1,0 +1,91 @@
+﻿---
+ID: "f0cf021b-50e1-4a2c-96f5-652a097e1fe1"
+Parent: "415e4f00-7ff5-4997-9740-78292f5757ee"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/running-shoes/Data/Brooks_Running_-_Series_Tiles"
+SharedFields:
+- ID: "23f621dd-d403-49df-93f6-391a1757feb3"
+  Hint: Image4
+  Value: |
+    <image mediaid="{07D311ED-2081-4CB0-8F56-0B960C84E75A}" alt="Brooks best sellers" />
+- ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
+  Hint: Image1
+  Value: |
+    <image mediaid="{DA702CAC-BB4C-44BE-B49B-3233157C9908}" alt="Brooks Ghost" />
+- ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
+  Hint: Image3
+  Value: |
+    <image mediaid="{6ACC20E2-432B-4109-936E-46299D1E82CB}" alt="Brooks Adrenaline GTS" />
+- ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
+  Hint: Image2
+  Value: |
+    <image mediaid="{968D6618-4165-4C2D-AA9D-CD831043A261}" alt="Brooks Glycerin" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4a46499a-5cca-4f29-ba2c-84adbac040cf"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f3e30f-8075-4c1b-912e-e27fffeda904"
+      Hint: Text1
+      Value: 
+    - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
+      Hint: Text4
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230701Z
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: Adrenaline GTS
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: Best sellers
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43cc2253-0820-415e-97b1-9a8158fad7ba"
+    - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
+      Hint: Text3
+      Value: 
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: Glycerin
+    - ID: "b1b9e108-7c50-4a04-8e7a-37f30c6a784c"
+      Hint: Link3
+      Value: |
+        <link text="Adrenaline GTS" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/adrenaline-gts/" />
+    - ID: "b2befdd5-351d-4c5e-85fd-2402e3ff96bf"
+      Hint: Link1
+      Value: |
+        <link text="Ghost" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/ghost/" />
+    - ID: "ba2af883-e3bb-43cf-8c97-ab5c97edc09d"
+      Hint: Link4
+      Value: |
+        <link text="Best sellers" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/best-sellers/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: Ghost
+    - ID: "c24d6ca7-49ab-4f08-9dae-e5a844d79139"
+      Hint: Text2
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T230713Z
+    - ID: "df548755-6a31-445f-bb84-c704698d6048"
+      Hint: Link2
+      Value: |
+        <link text="Glycerin" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/glycerin/" />

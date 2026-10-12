@@ -1,0 +1,113 @@
+﻿---
+ID: "def6570c-8f25-4384-92df-be13f126fdaa"
+Parent: "7418c01f-cabb-4237-9f99-82b09475fc7b"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: /sitecore/content/Legal/Cooley/Presentation/Page Branches/Personal Content Page/Content Page/$name
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{22B057E5-E4E3-42FD-875C-ABA6F9ED353D}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cd607c31-e4c0-45ee-a04d-1bfcdec2aff2"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{A828B8BD-E8D1-4205-B8C8-FD0C5EC2E070}" alt="Background image - House key and items on a table" height="" width="" hspace="" vspace="" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{AF0BD10B-B5A0-4668-9D81-D4CCE4D7FCD6}"
+          p:before="*"
+          s:ds="local:/Data/Tagline"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles=%7B1B6BBF9D-45D0-44CD-B066-98A899BC4EA2%7D%7C%7BB8095030-38D2-43E0-ADC4-5F5438026C90%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{A5308299-7AB6-4AB9-91C3-767C15AA1C67}"
+          p:after="*[1=2]"
+          s:ds="{C3DA0135-A504-4C87-81E6-06E5B346FCE1}"
+          s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223336Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e5602c7-b2fd-4ed6-9ccc-da6f2893a46a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223612Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223454Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58bd92d0-13d2-4914-a995-10b4d7f7d698"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223612Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223454Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b08c60ba-358b-4c70-88d8-7a3fbf354a22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223612Z

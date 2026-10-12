@@ -64,10 +64,10 @@ Languages:
     - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
       Hint: Link1
       Value: |
-        <link linktype="internal" id="b3070f73d2a14d9ea33c223b897a3cce" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
+        <link linktype="internal" id="8c60beab-2d80-4dfb-9627-25eed7a0323e" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "267ab42e-ba74-4672-9fd4-8a3d52c59109"
+      Value: "6cb7bb4e-520b-47dd-b00f-e0558d44a2f7"
     - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
       Hint: SubText3
       Value: Designed to protect business assets and operations, for organizations only
@@ -77,7 +77,7 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260915T184842Z
+      Value: 20260917T135442Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

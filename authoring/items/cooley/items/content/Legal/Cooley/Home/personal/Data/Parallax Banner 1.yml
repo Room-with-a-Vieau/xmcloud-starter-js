@@ -1,0 +1,127 @@
+﻿---
+ID: "7842a3ff-9e2c-409d-9764-b180deebeb19"
+Parent: "8f3e3b4e-09eb-4513-b400-590387add00f"
+Template: "28b7f396-dc4a-4116-8c93-3b7909cbeb0e"
+Path: /sitecore/content/Legal/Cooley/Home/personal/Data/Parallax Banner 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: Whether you're saving for a major life event, planning for retirement, or simply looking to build a robust financial cushion, our expert advisors are here to guide you every step of the way.
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image mediaid="{A75849F7-F4A0-4375-AAD8-870338B157B3}" alt="Plant on counter" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165635Z
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{69CB1E97-B79C-4C11-AB47-186EF5B0769A}" anchor="" target="" title="" linktype="internal" text="Learn more" url="/Legal/Cooley/Home/articles" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83e34ded-b504-4630-9d5f-371d2fd580ff"
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{AFBA9D74-271A-4321-BECE-A389AA21CA03}" alt="Background texture" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T224648Z
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: "Grow your savings with us!"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: Que vous économisiez pour un événement majeur de la vie
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image mediaid="{A75849F7-F4A0-4375-AAD8-870338B157B3}" alt="Plante sur comptoir" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165635Z
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{69CB1E97-B79C-4C11-AB47-186EF5B0769A}" anchor="" target="" title="" linktype="internal" text="En savoir plus" url="/Legal/Cooley/Home/articles" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b01ba97-9326-48ea-acf6-42558336e357"
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{AFBA9D74-271A-4321-BECE-A389AA21CA03}" alt="Background texture" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T224648Z
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: banque au quotidien
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: 人生の一大イベントのための貯蓄、退職後の生活設計、あるいは単に経済的な余裕を築きたいなど、どのような場合でも、私どもの専門アドバイザーがあらゆるステップでお客様をご案内いたします。
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image mediaid="{A75849F7-F4A0-4375-AAD8-870338B157B3}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165635Z
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{69CB1E97-B79C-4C11-AB47-186EF5B0769A}" anchor="" target="" title="" linktype="internal" text="さらに詳しく" url="/Legal/Cooley/Home/articles" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33d41c74-a36b-4980-84df-59375b447897"
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{AFBA9D74-271A-4321-BECE-A389AA21CA03}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T224648Z
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: 私たちと一緒に貯蓄を増やしましょう！

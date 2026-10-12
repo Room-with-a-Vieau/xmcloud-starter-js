@@ -1,0 +1,136 @@
+﻿---
+ID: "ffb82e74-8868-48ac-b801-82a96bc79d0c"
+Parent: "d931dd5b-c41c-4267-a1a2-eace9588a799"
+Template: "fbc802e5-4b9e-480f-93da-3f2a80cae5cb"
+Path: /sitecore/content/Legal/Cooley/Presentation/Page Branches/Default Content Page
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "bb3391dd-f8be-4b2e-ae9f-47bb63c166ce"
+  Hint: Rule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{8C8DE469-540C-4410-B109-583B8951B468}">
+        <conditions>
+          <and
+            uid="F5CEC1E956A1482C90CA6ED0B7A33622">
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="2DEC1D095877488B92952D70064537E4"
+              itemid="{D143F98D-F55C-4163-93E6-C5A4A867D493}" />
+            <and
+              uid="391E23DE4F9640119366D39536A697D9">
+              <condition
+                id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                uid="1A54C42B142C478197BD59BD2F74F038"
+                except="true"
+                itemid="{B700261F-B1E6-4AEB-8C5F-3702391FED2A}" />
+              <and
+                uid="492C9A417DA0486283034F6AFB0970C2">
+                <condition
+                  id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                  uid="5E0B6418E58A400EAC85B8A58F5423CD"
+                  except="true"
+                  itemid="{A64D6101-8C50-43C3-A500-E1EF97C75500}" />
+                <and
+                  uid="FBE8FAE465074812932B210ED5437846">
+                  <condition
+                    id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                    uid="241C42921F804BDF9E7373544A79E9FB"
+                    except="true"
+                    itemid="{B45D865D-7B11-4821-AA09-A4128209FA9C}" />
+                  <and
+                    uid="C8B8E46987DB4410967CC564F850B38B">
+                    <condition
+                      id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                      uid="F4E576622445425E954ED733A3E407AB"
+                      except="true"
+                      itemid="{69CB1E97-B79C-4C11-AB47-186EF5B0769A}" />
+                    <condition
+                      id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                      uid="96B170E9A8424F21A2EE397E6B597E9E"
+                      except="true"
+                      itemid="{5B349AEE-E744-42CB-ACE7-C9865C1DBC79}" />
+                  </and>
+                </and>
+              </and>
+            </and>
+          </and>
+        </conditions>
+        <actions>
+          <action
+            id="{D46EC8E5-7B46-47DE-B44A-4C5C30EF48D1}"
+            uid="5756E57FF81043F28781CB0228669C48"
+            PageBranchId="{2AB7800A-3FEF-4FAD-9BF7-3639BF76D100}" />
+        </actions>
+      </rule>
+    </ruleset>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ad1b4884-85df-4154-8b28-bffce5ae49ac"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223336Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "655173e3-ac53-4081-b08d-a9acbf6d39ce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223451Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223452Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f48873eb-122a-4d5f-b556-7d4233dc4a96"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223452Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261002T223452Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a045255e-41ca-43d1-91ad-962a79f787a7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T223453Z

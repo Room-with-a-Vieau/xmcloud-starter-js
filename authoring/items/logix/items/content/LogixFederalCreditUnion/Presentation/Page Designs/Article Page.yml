@@ -1,0 +1,38 @@
+﻿---
+ID: "9f85e455-d9f7-4ee6-82dd-7d75ece16e15"
+Parent: "e24a2c4d-063e-4b46-83a6-a461999750ca"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/Financial/LogixFederalCreditUnion/Presentation/Page Designs/Article Page
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{F66203DA-D7C0-4B56-BDED-27102305FC2B}|{DCE52C54-CC77-4ACA-8195-0E1A9F1ABAE4}|{3BA2933D-04A7-4536-832E-37CEBB803DA7}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6DE06E7D-F4B7-4AF0-BDCD-403B6F29BA00}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "951a03ad-70dc-482a-bb92-27a4dc700fd9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T163913Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e71e657b-8e54-4109-9212-b4540ae33ee8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T164130Z

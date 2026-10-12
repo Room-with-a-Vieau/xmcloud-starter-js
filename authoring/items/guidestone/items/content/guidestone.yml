@@ -32,13 +32,16 @@ SharedFields:
   Value: "{75AE5EB4-BBAB-4A27-8B94-BC8411D6BF94}"
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
-  Value: Guidestone
+  Value: GSF
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 10
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
-  Value: "<image mediaid='d0d3084a-907d-40b7-aff3-94027addcbf1' />"
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8fc110c4-575a-455c-b263-77575fe35d8b"
+  Value: "e3b222e9-5cc9-4f1f-ab4f-f81600901133"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{A0EECF65-09AD-4A10-AE46-7DF70106CFE6}"
@@ -47,10 +50,10 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "e33f13ad-6a45-4070-8165-65ff3ed7de7e"
+    Value: "8aef4304-1d29-4af3-b6ac-2b7ffabb490c"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Guidestone
+    Value: 
   Versions:
   - Version: 1
     Fields:
@@ -63,14 +66,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c4334666-a939-4a0a-8bbc-3061f9b76cb6"
+      Value: "ca8b71f6-1f39-4f6b-ad80-4a58a66f93f4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260904T002101Z
+      Value: 20260925T162601Z
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

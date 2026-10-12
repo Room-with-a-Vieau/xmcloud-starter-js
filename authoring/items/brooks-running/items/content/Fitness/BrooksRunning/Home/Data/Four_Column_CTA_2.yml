@@ -1,0 +1,31 @@
+﻿---
+ID: "0e09dd07-1f11-4bc4-8387-c47beda13d41"
+Parent: "93fa77b5-d1e4-4676-b7c0-3862b26b91f7"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: /sitecore/content/Fitness/BrooksRunning/Home/Data/Four_Column_CTA_2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T220148Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68b7a764-78aa-4fcd-ab48-5d700933421e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T220148Z

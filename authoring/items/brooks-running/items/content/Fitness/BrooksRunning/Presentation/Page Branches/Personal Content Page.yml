@@ -1,0 +1,58 @@
+﻿---
+ID: "e3a621fc-5522-4c6a-a88d-45fe3ccb2bd2"
+Parent: "89fcbb96-72d3-491b-aa1d-f4e726c7fcf6"
+Template: "fbc802e5-4b9e-480f-93da-3f2a80cae5cb"
+Path: /sitecore/content/Fitness/BrooksRunning/Presentation/Page Branches/Personal Content Page
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "bb3391dd-f8be-4b2e-ae9f-47bb63c166ce"
+  Hint: Rule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{8C8DE469-540C-4410-B109-583B8951B468}">
+        <conditions>
+          <condition
+            id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+            uid="2DEC1D095877488B92952D70064537E4"
+            itemid="{ECC05F45-9162-4591-BCB9-AD13346FE676}" />
+        </conditions>
+        <actions>
+          <action
+            id="{D46EC8E5-7B46-47DE-B44A-4C5C30EF48D1}"
+            uid="5756E57FF81043F28781CB0228669C48"
+            PageBranchId="{3BDB1A95-D3E3-41DF-9D9A-491B6FCA2265}" />
+        </actions>
+      </rule>
+    </ruleset>
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BF29D405-F085-466B-B009-42EB6AA74C73}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "885a650f-9300-44a9-8b56-39a547b12450"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204616Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f51e3ff-51fb-48ee-9a3e-29d9be74ddb7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204822Z

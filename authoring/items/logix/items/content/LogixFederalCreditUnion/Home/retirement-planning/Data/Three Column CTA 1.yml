@@ -1,0 +1,178 @@
+﻿---
+ID: "299f31a6-b85e-4cae-8092-511ebf44ba13"
+Parent: "fc1976e3-4acf-40b4-8856-f1ad5953893c"
+Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/retirement-planning/Data/Three Column CTA 1"
+SharedFields:
+- ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
+  Hint: Image3
+  Value: |
+    <image mediaid="{DFA0CDAB-BE89-4ACB-9719-CF04946F8FE6}" alt="Woman on beach looking at sunset" height="" width="" hspace="" vspace="" />
+- ID: "39fe4fb3-3794-4b9a-a584-ff877e93e33b"
+  Hint: Image2
+  Value: |
+    <image mediaid="{7A9D9C03-2F8E-45C2-983A-10D3790CFED4}" alt="Multiple flowers lined up to signify growth" height="" width="" hspace="" vspace="" />
+- ID: "c511247c-fec1-4690-81d6-ce791da18d4a"
+  Hint: Image1
+  Value: |
+    <image mediaid="{D179F0E1-0A78-4FF9-8819-D3EA90FF443C}" alt="Woman ironing" height="" width="" hspace="" vspace="" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "099ccb1c-c176-48e1-b5aa-91f6fcc0a232"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link class="" id="1BB8555B-12EC-43EA-994B-7EED66C56552" querystring="" anchor="" target="" title="" linktype="internal" text="Get started" url="/Financial/ProsperaBank/Home/retirement-planning/building-wealth" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165634Z
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: Investing doesn't stop at retirement. We'll help you invest responsibly in retirement.
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link class="" id="04A19F7F-B047-4A2C-A11C-0509F20B5885" querystring="" anchor="" target="" title="" linktype="internal" text="Get started" url="/Financial/ProsperaBank/Home/retirement-planning/estate-planning" />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: Building wealth
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: It is important to develop a retirement strategy to live on the money you have saved.
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: Living in retirement
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: Estate planning
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link class="" id="5E1E45DE-1235-4C10-93CE-133847710DCE" querystring="" anchor="" target="" title="" linktype="internal" text="Get started" url="/Financial/ProsperaBank/Home/retirement-planning/living-in-retirement" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c4d89f8-4d6e-42c5-b058-1ebd97cd9f4b"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: Being prepared is important for you and your family. At any stage of life, a proper estate plan can be a great investment.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T164115Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link class="" id="1BB8555B-12EC-43EA-994B-7EED66C56552" querystring="" anchor="" target="" title="" linktype="internal" text="Commencez" url="/Financial/ProsperaBank/Home/retirement-planning/building-wealth" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165634Z
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: L'investissement ne s'arrête pas à la retraite. Nous vous aiderons à investir de manière responsable pendant votre retraite.
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link class="" id="04A19F7F-B047-4A2C-A11C-0509F20B5885" querystring="" anchor="" target="" title="" linktype="internal" text="Commencez" url="/Financial/ProsperaBank/Home/retirement-planning/estate-planning" />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: Bâtir son patrimoine
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: Il est important de développer une stratégie de retraite pour vivre de l'argent que vous avez épargné.
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: Vivre à la retraite
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: Planification de la succession
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link class="" id="5E1E45DE-1235-4C10-93CE-133847710DCE" querystring="" anchor="" target="" title="" linktype="internal" text="Commencez" url="/Financial/ProsperaBank/Home/retirement-planning/living-in-retirement" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5adfa090-6a06-43ea-bffa-74c7577770cd"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: Être préparé est important pour vous et votre famille. À n'importe quel stade de la vie, un plan successoral approprié peut être un excellent investissement.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T164115Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link class="" querystring="" id="{1BB8555B-12EC-43EA-994B-7EED66C56552}" anchor="" target="" title="" linktype="internal" text="はじめる" url="/Financial/ProsperaBank/Home/retirement-planning/building-wealth" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165634Z
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: 投資は定年退職後に終わりではない。 退職後も責任ある投資をお手伝いします。
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link class="" querystring="" id="{04A19F7F-B047-4A2C-A11C-0509F20B5885}" anchor="" target="" title="" linktype="internal" text="はじめる" url="/Financial/ProsperaBank/Home/retirement-planning/estate-planning" />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: 資産を作る
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: 貯めたお金で生活していくためには、退職後の戦略を立てることが重要である。
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: 引退後の生活
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: 遺産計画
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link class="" querystring="" id="{5E1E45DE-1235-4C10-93CE-133847710DCE}" anchor="" target="" title="" linktype="internal" text="はじめる" url="/Financial/ProsperaBank/Home/retirement-planning/living-in-retirement" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22c248d3-e729-4e38-9758-ed095f33b18d"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: 備えあれば憂いなし。 人生のどの段階においても、適切な財産設計は大きな投資となる。
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T164115Z

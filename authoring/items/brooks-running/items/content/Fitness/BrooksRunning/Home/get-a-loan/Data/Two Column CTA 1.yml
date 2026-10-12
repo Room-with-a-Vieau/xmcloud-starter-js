@@ -1,0 +1,104 @@
+﻿---
+ID: "73180238-8c18-4bfa-a1e4-8e13ba444ccb"
+Parent: "9235bec3-782e-4e72-b839-5bcfc10e73df"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/get-a-loan/Data/Two Column CTA 1"
+SharedFields:
+- ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+  Hint: Image1
+  Value: |
+    <image mediaid="{9499E49A-2035-4BAC-BD08-8EC2598279E7}" alt="Brooks racing shoes" />
+- ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+  Hint: Image2
+  Value: |
+    <image mediaid="{FB3AA619-8FCF-41FA-8702-70736CEA58E8}" alt="Brooks shoes on a rock" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "82605991-450f-4c19-a1d9-6fb38e0dee15"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204606Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="Shop now" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{6085032B-F701-4196-85BB-EF2867B8AA3D}" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Spread the cost
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="Read the FAQs" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{C926F03E-24CC-4F87-9094-6518A228F99A}" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: No surprises
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: Split your order into easy monthly payments.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "493586d7-d132-4e9f-ad07-c8b123870a49"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003458Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: Clear terms, with no hidden fees.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5f2a941-5531-4d50-b79b-6e25e1ed1bce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204818Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1304ccc-89ae-47d1-a5ac-b78b6320751e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204818Z

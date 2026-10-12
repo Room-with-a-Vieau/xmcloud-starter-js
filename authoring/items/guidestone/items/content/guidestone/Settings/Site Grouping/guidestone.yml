@@ -21,7 +21,7 @@ SharedFields:
   Value: 
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "https://avdemo-prod-guidestone.vercel.app"
+  Value: "avdemo-prod-guidestone.vercel.app"
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: "en=guidestone-financial&fr-CA=guidestone-financial&ja-JP=guidestone-financial&es-MX=guidestone-financial"
@@ -33,7 +33,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "640e6f27-7026-4647-9517-b53d8103dbb6"
+  Value: "cc4b633e-eb5e-4d10-9d7e-614862fdd3d5"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: guidestone
@@ -55,14 +55,14 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e9e86522-4bd5-4921-b32a-fd94a3d8b311"
+      Value: "11cf37ab-3de9-453d-a164-230a515fada6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260916T002058Z
+      Value: 20260924T161709Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

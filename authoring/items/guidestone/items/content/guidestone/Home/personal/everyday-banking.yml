@@ -81,7 +81,8 @@ Languages:
       Value: 20260903T235339Z
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
-      Value: "Move to and through retirement with purpose — faith-based investing, trusted service, and personalized advice."
+      Value: |
+        <div class="ck-content"><p>Move to and through retirement with purpose — faith-based investing, trusted service, and personalized advice.</p></div>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Retirement
@@ -95,7 +96,7 @@ Languages:
         sitecore\andrew.vieau@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "07f90572-686e-4386-a75f-872b8caffd0e"
+      Value: "d49cbedf-816b-43c6-9128-69170c1ac531"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -105,7 +106,7 @@ Languages:
       Value: 20260903T235339Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260915T192612Z
+      Value: 20260917T040535Z
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

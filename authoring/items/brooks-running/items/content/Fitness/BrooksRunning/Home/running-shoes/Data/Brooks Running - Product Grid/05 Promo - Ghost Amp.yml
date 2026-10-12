@@ -1,0 +1,56 @@
+﻿---
+ID: "f364c9fe-86b6-4484-9a0e-d166325aef38"
+Parent: "061e46c2-8b88-4027-bac1-fef283a34ae6"
+Template: "1c27be3b-b357-4a8f-9998-b0a7af829fc1"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/running-shoes/Data/Brooks Running - Product Grid/05 Promo - Ghost Amp"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5b2576f6-06fb-4e43-bdc3-9d400b129bdd"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bdf407a-17bd-464d-b1d8-47046d5962dc"
+      Hint: PromoImage
+      Value: |
+        <image mediaid="{218B320E-69B8-4C54-80FE-9E7A5C7E63E5}" alt="Brooks Ghost Amp" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230820Z
+    - ID: "261fcdc9-e616-42fd-ad24-6521818996c2"
+      Hint: PromoTitle
+      Value: Turn it up in the Ghost Amp
+    - ID: "306886f1-fa37-4f02-a663-251dffc6b618"
+      Hint: PromoLink2
+      Value: |
+        <link text="Shop men" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/ghost-amp/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "723d7975-481e-4417-bed2-36001661e462"
+      Hint: PromoLink
+      Value: |
+        <link text="Shop women" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/ghost-amp/" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "05e7222a-eebc-48bd-a271-32b3d59dc6ce"
+    - ID: "b66b9a60-616e-43a9-b739-bebd0a207476"
+      Hint: PromoText
+      Value: <p>Amplify your run in the Ghost Amp. The propulsive forefoot pop of the SpringRamp™ injects energy into every stride, while the seamless design delivers a fun, fluid feel.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T230820Z

@@ -18,6 +18,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F286246E-E000-4A71-A547-138F6D09B14F}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "2df3e8a8-2ef7-49fd-913c-ec3d94588d1a"
@@ -58,6 +62,82 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20260903T231617Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260917T153517Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Josephine Baxter
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Investment Specialist
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69a0b4c9-45e6-4d61-b11e-3b274c8346ed"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>Josephine specializes in helping clients grow and protect their wealth through strategic investment planning. With a background in asset management and financial advisory services, she provides clients with personalized investment strategies and guidance to navigate today's complex financial markets.</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Josephine Baxter
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260917T153517Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260917T153517Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260917T153518Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Josephine Baxter
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Investment Specialist
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e69279d-9b8b-4502-be40-2fc6d4033734"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>Josephine specializes in helping clients grow and protect their wealth through strategic investment planning. With a background in asset management and financial advisory services, she provides clients with personalized investment strategies and guidance to navigate today's complex financial markets.</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Josephine Baxter
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260917T153518Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260917T153518Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

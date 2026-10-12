@@ -1,0 +1,110 @@
+﻿---
+ID: "6570e5f3-c937-4057-b871-1453d9c405cb"
+Parent: "b012660f-3a9c-4f7b-a5a1-5e3af2fae389"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/Data/Carousel - Business/Item 2"
+SharedFields:
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{BB959BE0-2F16-4E11-951C-924258475F49}" alt="Runners racing through the city" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "806ff689-af75-40c7-922f-0a4883f1c68a"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{321B71A6-169C-4A12-905A-0BF5F5CCD7E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165633Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Races and events near you
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Find an event" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{43DA2991-4D3A-42CC-9342-262CFDFAD625}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8084fb65-3fbe-4e3d-a898-3589edad5f53"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>From fun runs to marathons, find your next start line.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003421Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165633Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Vous connecter à des opportunités mondiales
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" id="{43DA2991-4D3A-42CC-9342-262CFDFAD625}" querystring="" anchor="" target="" title="" linktype="internal" text="Commencez en ligne" url="/Fitness/BrooksRunning/Home/business/international-banking" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8af1ef39-b461-4167-964e-df85d6b6220a"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Débloquez le potentiel de la finance mondiale avec notre gamme de services bancaires internationaux.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205711Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165633Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: 世界中のビジネスチャンスにつながる
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" id="{43DA2991-4D3A-42CC-9342-262CFDFAD625}" querystring="" anchor="" target="" title="" linktype="internal" text="オンラインで始める" url="/Fitness/BrooksRunning/Home/business/international-banking" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2499a76e-eb8e-40ac-b938-71032f6abe7d"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>国際的なバンキング・サービスで、グローバル・ファイナンスのパワーを引き出しましょう。</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205711Z

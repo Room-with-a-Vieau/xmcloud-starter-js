@@ -1,0 +1,194 @@
+﻿---
+ID: "633ad763-12c9-4f38-8e2b-f6e159dd6942"
+Parent: "cf033256-33fe-41f9-aa53-8d465360ec98"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/retirement-planning"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C9A4056C-627B-471A-A134-8F4C5D8F2B1A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "eaf29a32-1ca2-4ff5-a754-289f3f39e86b"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{68C793F7-F853-4932-85A2-522838864F3C}" alt="Runner in reflective Brooks gear" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{FA3AF3E9-7260-4835-9970-36524246AD28}"
+          p:before="*"
+          s:ds="local:/Data/Three Column CTA 1"
+          s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{E25AB7CC-356F-4A00-A1EB-CEEFBE5578BB}"
+          p:after="r[@uid='{FA3AF3E9-7260-4835-9970-36524246AD28}']"
+          s:ds="local:/Data/Promo CTA 1"
+          s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B95767681-E528-4E8F-94E1-354A81A5B6CE%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=6"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{2F983DB6-9A36-4A3E-90B6-86E5BF533E37}"
+          p:after="r[@uid='{E25AB7CC-356F-4A00-A1EB-CEEFBE5578BB}']"
+          s:ds="local:/Data/Promo CTA 2"
+          s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7BDBB5C16E-0B44-438A-B2B0-C17FE253DBA0%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{63DF3333-CECD-4865-B2BA-A97063A9718E}"
+          p:after="r[@uid='{2F983DB6-9A36-4A3E-90B6-86E5BF533E37}']"
+          s:ds="local:/Data/Questions 1"
+          s:id="{75464A5E-CBB7-4F96-BBBC-104AFE57923A}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7BE0FA50C4-EA10-4C14-96C4-07F860750C65%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=7"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{668594D0-1879-467B-89BF-B7AF1689CDC8}"
+          p:after="r[@uid='{63DF3333-CECD-4865-B2BA-A97063A9718E}']"
+          s:ds="local:/Data/Tagline"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BBA762942-E4BB-4E33-ADF5-4E80ECE1BCF4%7D&amp;Styles=%7BE0FA50C4-EA10-4C14-96C4-07F860750C65%7D%7C%7BC2E7E4B9-00F8-4C45-84EA-7CA75344A76B%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{07924449-E37A-440B-B7D7-8F3C05F6398D}"
+          p:after="*[1=2]"
+          s:ds="{C388DD31-3583-4582-9001-5EBA01134996}"
+          s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "d1217f36-1bf2-4f9c-913f-56cde2b28ada"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Training
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: Training & Wellness | Brooks Running
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Training & Wellness
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204658Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Train smart. Run happy.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Training
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a66107d5-024c-410e-a6cb-48f6a2d30a1d"
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: Training & Wellness | Brooks Running
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003447Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Planification de la retraite
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Planification de la retraite
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204659Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: |
+        
+        <p>Planifiez aujourd'hui. Prospérez demain.</p>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Planification de la retraite
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c034d15-a548-4eec-9489-d96c93dd449b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204810Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 年金運用プラン
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: 年金運用プラン
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204659Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: <p>今日の計画、 明日成功しよう。</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 年金運用プラン
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5242eff8-6e30-47a6-b3c5-219f4926be2d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204810Z

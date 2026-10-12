@@ -34,7 +34,7 @@ Languages:
       Value: "This 403(b) retirement plan is for employees (both ministers and non-ministers) of eligible organizations, including churches, schools, associations, universities, hospitals, retirement or children's homes, mission-sending organizations, etc. "
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fc0e426a-57a3-4bff-a129-641712cffdda"
+      Value: "2bc11321-e15e-4021-b680-0521f0f9da7c"
     - ID: "926c0ca9-eaa5-468e-919e-de8c15876439"
       Hint: Subtitle3
       Value: "An individual retirement account is for anyone and is frequently opened in addition to — or in the absence of — an employer-sponsored retirement plan. "
@@ -56,13 +56,13 @@ Languages:
     - ID: "be4d4a97-19b9-4d92-a28e-38e5b09c2bc4"
       Hint: Link1
       Value: |
-        <link linktype="external" url="#" target="" text="Employer-Sponsored Retirement Plan" title="" class=""/>
+        <link linktype="internal" id="6d6443d0db3b47a881ea878d34ba6b0a" anchor="" querystring="" target="" class="" text="Employer-Sponsored Retirement Plan" title=""/>
     - ID: "c02be9a2-0c6f-47a8-b6c8-2c35f1946946"
       Hint: Title1
       Value: "What are you interested in?"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260915T185321Z
+      Value: 20260917T024241Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

@@ -1,0 +1,107 @@
+﻿---
+ID: "907768f1-f849-4223-a8ed-8ea43380e0ef"
+Parent: "a90a1144-1a40-49b9-b99c-b57603c0e32c"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Legal/Cooley/Home/Data/Carousel - Default/Item 3"
+SharedFields:
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{BF233BCC-7667-4633-AB16-E6F29EEA2821}" alt="Cooley office lobby" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "68082cef-5bab-49e9-9118-86e498f4c259"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165631Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Cooley Maintains Top Rankings in Global M&A and Private Equity
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Read more" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.cooley.com/news/coverage/2026/2026-07-01-cooley-maintains-top-rankings-in-global-ma-and-private-equity" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78fd2d41-b2d9-46c2-95f0-dfdc280e9bc0"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261005T040924Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165631Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Emprunter intelligemment pour un avenir solide
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{39932C65-2CC0-45E0-A319-B1E9AE35C44C}" anchor="" target="" title="" linktype="internal" text="Faites votre demande" url="/Legal/Cooley/Home/personal/borrowing" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "241c732c-24f3-458d-8787-7bec9cf6c2c4"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Faites en sorte que chaque décision d'emprunt compte en privilégiant des pratiques responsables et en sécurisant votre avenir financier.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T224644Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165631Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: 健全な未来のための賢い借入
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{39932C65-2CC0-45E0-A319-B1E9AE35C44C}" anchor="" target="" title="" linktype="internal" text="今すぐ申し込む" url="/Legal/Cooley/Home/personal/borrowing" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d15475b-e1d6-4529-ae3f-98ebfaa9a6a6"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>責任ある実務を優先し、経済的な将来を確保することで、借り入れの決断一つひとつを大切にしましょう。</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261002T224644Z

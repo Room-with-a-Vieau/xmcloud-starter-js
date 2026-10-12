@@ -1,0 +1,147 @@
+﻿---
+ID: "81c196ee-cdd8-477a-bd40-bf52c934de0d"
+Parent: "9c0f5d69-4742-4869-b945-cc84ff0fdb84"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: /sitecore/content/Fitness/BrooksRunning/Home/authors/Thomas Kamin
+SharedFields:
+- ID: "2404bb97-b42a-439a-be76-de66213cb281"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{2833AC20-5725-4AAE-807C-DA21C4953B2C}" alt="Author Paper" height="" width="" hspace="" vspace="" />
+- ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
+  Hint: Photo
+  Value: |
+    <image mediaid="{B33B4A87-6E44-43EF-8FCB-2A6275A02B96}" alt="Thomas Author Bio" height="" width="" hspace="" vspace="" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EABC66A2-7335-4FA6-BDB9-C2C70D4E7652}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "451f3273-fdba-43ea-8311-b8776e31ec31"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: Thomas Kamin, Director of Run Science | Brooks Running
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204816Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Thomas Kamin
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Director of Run Science
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbed0f76-540c-414c-b7e9-d84a9b7ff65f"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>Thomas leads our research team, combining two decades of sports science experience with a lifelong love of running.</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Thomas Kamin
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: Thomas Kamin, Director of Run Science | Brooks Running
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003519Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204816Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Thomas Kamin
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Directeur des investissements
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f14d9fe1-a2b5-4bb0-801c-ce1df26895a1"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Avec plus de deux décennies d'expérience en finance et en comptabilité, Thomas dirige notre équipe d'investissement avec précision et expertise. Sa vision stratégique et ses compétences analytiques pointues guident nos processus de planification financière et de prise de décision, garantissant que PLAY! Finance reste financièrement solide et résilient dans le marché dynamique d'aujourd'hui.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Thomas Kamin
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204816Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: トーマス・チムニー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204816Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: トーマス・チムニー
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: チーフ・インベストメント・オフィサー
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "375c83a6-e471-4520-aa72-57ad5380fdec"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>財務および会計の分野で20年以上の経験を持つトーマスは、正確かつ専門的な知識で私たちの投資チームを率いています。 彼の戦略的ビジョンと鋭い分析能力は、当社の財務計画と意思決定プロセスを推進し、PLAYを確実なものにしています！ ファイナンスは、今日のダイナミックな市場において、財務的な強さと弾力性を維持しています。</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: トーマス・チムニー
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204816Z

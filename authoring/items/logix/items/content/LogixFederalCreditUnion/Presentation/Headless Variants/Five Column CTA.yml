@@ -1,0 +1,31 @@
+﻿---
+ID: "f8dc2450-de31-4b21-adc6-0c9aec496fe8"
+Parent: "d14ffb67-01c3-48af-aafe-144974d91d5f"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/Financial/LogixFederalCreditUnion/Presentation/Headless Variants/Five Column CTA
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260707T195232Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cf1fecd-2568-4cff-a283-b395e4d7d6c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T163908Z

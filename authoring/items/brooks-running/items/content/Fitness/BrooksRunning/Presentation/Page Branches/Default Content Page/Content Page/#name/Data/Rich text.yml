@@ -1,0 +1,50 @@
+﻿---
+ID: "d88518ca-a2c6-491f-a0c4-2c45d3d4fe43"
+Parent: "3aef080e-da13-4408-a455-ebaddf55b037"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Fitness/BrooksRunning/Presentation/Page Branches/Default Content Page/Content Page/$name/Data/Rich text
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204616Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<p>Brooks believes running has the power to change lives, and we want every runner to feel that, from a first mile to a hundredth marathon. We're not just a shoe company; we're a running company, focused on helping you run happy.</p><h2>Our Mission</h2><p>Inspire everyone to run and be active by building the best gear for every stride. Through biomechanics research and runner feedback, we design shoes and apparel that feel good from the first step, so you can focus on the run itself.</p><h2>Who We Are</h2><p>A team of runners, designers and scientists based in Seattle. We pair lab testing with miles on real roads and trails, and every product goes through both before it reaches you.</p><h2>What Sets Us Apart</h2><p>No two runners are the same. That's why we offer cushioned, supportive and fast options for road, trail and track, plus apparel for every season. Whether you're training for a 5K, chasing a PR or getting back out after time off, there's a fit for you.</p><h2>Our Commitment to You</h2><p>Runners come first. We stand behind our gear with a 90-day trial and back it with fit guidance, training content and a community that shows up for each other on every run.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c0961a2-454a-4249-ac6f-97b738e3fd21"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T152230Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<p>Chez PLAY! financier, nous croyons que gérer vos finances devrait être aussi agréable qu'essentiel. Nous ne sommes pas simplement une banque; nous sommes votre partenaire financier, engagé à rendre l'expérience bancaire fluide et gratifiante.</p><h2>Notre Mission</h2><p>Notre mission est de permettre à nos clients d'atteindre leurs objectifs et leurs rêves financiers en offrant des solutions bancaires innovantes et un service personnalisé. Nous nous efforçons de créer une expérience bancaire simple, pratique et agréable, vous permettant de vous concentrer sur ce qui compte le plus - vivre votre meilleure vie.</p><h2>Qui Nous Sommes</h2><p>PLAY! Finance est une institution financière dynamique et tournée vers l'avenir, dédiée à réimaginer la banque pour le monde moderne. Nous combinons une technologie de pointe avec une touche humaine pour offrir des solutions financières personnalisées qui répondent aux besoins uniques de notre clientèle diversifiée.</p><h2>Ce Qui Nous Distingue</h2><p>Chez PLAY! Finance, nous comprenons qu'une solution unique ne convient pas à tous en matière de banque. C'est pourquoi nous offrons une large gamme de produits et services conçus pour répondre aux besoins des individus, des familles et des entreprises de toutes tailles. Que vous épargniez pour des vacances de rêve, achetiez votre première maison ou développiez votre entreprise, nous avons les outils et l'expertise pour vous aider à réussir.</p><h2>Notre Engagement Envers Vous</h2><p>Au cœur de PLAY! Finance se trouve un engagement à mettre nos clients en premier. Nous croyons en la transparence, l'intégrité et la responsabilité dans tout ce que nous faisons. Notre équipe de professionnels bancaires expérimentés est dédiée à fournir un service et des conseils exceptionnels à chaque étape, en veillant à ce que vous ayez le soutien nécessaire pour prendre des décisions financières éclairées.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d8cc21b-5931-4031-ab5c-3bad9031450a"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<p>PLAY！ ファイナンスでは、財務管理は必要不可欠であると同時に楽しいものであるべきだと考えています。 PLAY!Financeは単なる銀行ではなく、お客様のファイナンシャル・パートナーとして、シームレスでやりがいのあるバンキング体験をお約束します。</p><h2>私たちの使命</h2><p>当行の使命は、革新的なバンキング・ソリューションとお客さま一人ひとりに合ったサービスを提供することにより、お客さまが金融面での目標や夢を達成できるようお手伝いすることです。 シンプルで便利、そして楽しいバンキング体験を提供することで、お客様が最も重要なこと、つまり最高の人生を送ることに集中できるよう、努めています。</p><h2>会社概要</h2><p>PLAY！ ファイナンスは、ダイナミックで先進的な金融機関です。 最先端のテクノロジーとヒューマン・タッチを融合させ、多様なお客様のニーズに合わせた金融ソリューションを提供しています。</p><h2>他社との違い</h2><p>PLAY！ Financeでは、銀行業務に関して1つのサイズがすべてにフィットするわけではないことを理解しています。 PLAY!Financeでは、個人、家族、企業など、あらゆる規模のお客様にご利用いただけるよう、幅広い商品とサービスをご用意しています。 夢のバケーションのための貯蓄、初めてのマイホームの購入、ビジネスの成長など、お客様の成功をサポートするツールと専門知識をご用意しています。</p><h2>お客様へのコミットメント</h2><p>PLAYの核心！ ファイナンスの核心は、お客様を第一に考えるというコミットメントです。 私たちは、透明性、誠実さ、説明責任を信条としています。 経験豊富なバンキング・プロフェッショナル・チームが、卓越したサービスとガイダンスをあらゆるステップでご提供し、お客様が十分な情報に基づいた財務上の意思決定を行うために必要なサポートをお約束します。</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9129721b-ee36-4141-a3ad-98bb2fd2bb66"

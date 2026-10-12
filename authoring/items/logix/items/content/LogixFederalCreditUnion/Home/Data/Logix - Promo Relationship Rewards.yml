@@ -1,0 +1,64 @@
+﻿---
+ID: "a345ec4e-6c23-4881-b830-24a409e7acaa"
+Parent: "85b5f8ec-2d2c-4849-8157-e8056e4caa6f"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - Promo Relationship Rewards"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e92474ea-cdb5-42c6-9f76-de793422e13e"
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="{A0BAB258-766D-4933-8FD0-843EB3125C7F}" alt="Combined household balance qualifies for Gold Tier Relationship Rewards" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Unlock Exclusive Logix Benefits
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171004Z
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: Relationship Rewards
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link text="View More Benefits" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.logixbanking.com/banking/relationship-rewards" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e4d7940-7e9c-449b-aed8-d9d3638e243d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "<p>The Logix Relationship Rewards Program gives you access to valuable perks and exclusive savings, just for being a member.</p><p><strong>Here's how it works:</strong> With your Logix Checking or Money Market Account and a combined household balance between $35,000 and $99,999, you'll automatically qualify for our Gold Tier Relationship Rewards.*</p><p><strong>As a Gold Tier Relationship Rewards Member, you'll enjoy:</strong></p><ul><li>0.10% Auto Loan Interest Rate Discount</li><li>$500 Mortgage Loan Fee Discount</li><li>2 Rewards Points for Each $1 Spent on Eligible Purchases Using Our World Rewards Mastercard®</li></ul><p><small>*Combined household balance includes any loan, mortgage, checking, money market and savings balances (excluding certificates) at Logix.</small></p>"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171103Z
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: 

@@ -1,0 +1,91 @@
+﻿---
+ID: "2a20b4d7-187d-440e-a9c8-c6c7772a1408"
+Parent: "93fa77b5-d1e4-4676-b7c0-3862b26b91f7"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/Data/Brooks Running - Category Tiles"
+SharedFields:
+- ID: "23f621dd-d403-49df-93f6-391a1757feb3"
+  Hint: Image4
+  Value: |
+    <image mediaid="{0B121026-5124-49C0-9A68-118EE0590334}" alt="Man in a Brooks running jacket" />
+- ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
+  Hint: Image1
+  Value: |
+    <image mediaid="{C638F2A8-0B2A-4B0E-BBC7-546170686577}" alt="Women's Brooks running shoes" />
+- ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
+  Hint: Image3
+  Value: |
+    <image mediaid="{F80A921B-D22A-4D68-BCF3-88E900F99915}" alt="Men's Brooks running shoes" />
+- ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
+  Hint: Image2
+  Value: |
+    <image mediaid="{AC84089C-B171-4B6B-9446-CF6A79A35EA5}" alt="Woman running in Brooks apparel" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b9c89032-277a-43b7-ac15-dda7a19941c5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f3e30f-8075-4c1b-912e-e27fffeda904"
+      Hint: Text1
+      Value: 
+    - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
+      Hint: Text4
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T215828Z
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: Men's shoes
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: Men's apparel
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f28cabc-0fd6-4a85-a53e-205bf6ade6ae"
+    - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
+      Hint: Text3
+      Value: 
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: Women's apparel
+    - ID: "b1b9e108-7c50-4a04-8e7a-37f30c6a784c"
+      Hint: Link3
+      Value: |
+        <link text="Men's shoes" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/mens/shoes/" />
+    - ID: "b2befdd5-351d-4c5e-85fd-2402e3ff96bf"
+      Hint: Link1
+      Value: |
+        <link text="Women's shoes" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/womens/shoes/" />
+    - ID: "ba2af883-e3bb-43cf-8c97-ab5c97edc09d"
+      Hint: Link4
+      Value: |
+        <link text="Men's apparel" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/mens/apparel/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: Women's shoes
+    - ID: "c24d6ca7-49ab-4f08-9dae-e5a844d79139"
+      Hint: Text2
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T215828Z
+    - ID: "df548755-6a31-445f-bb84-c704698d6048"
+      Hint: Link2
+      Value: |
+        <link text="Women's apparel" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.brooksrunning.com/en_us/womens/apparel/" />

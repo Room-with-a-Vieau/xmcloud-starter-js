@@ -1,0 +1,45 @@
+﻿---
+ID: "6f719aba-ce34-4761-ae55-7e2fbd832dc8"
+Parent: "641aa3c6-058c-4f30-97d6-86290e82f254"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Financial/LogixFederalCreditUnion/Home/Data/Logix - FAQ/Logix - FAQ 06"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8626001c-6872-4845-9d4e-2811002e58c3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T171229Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1aec91c-da25-43dc-8ff7-8a9079d29119"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How to refinance a car with a credit union?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T171229Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: |
+        <p>It's often true that refinancing an auto loan with a credit union like Logix can save you money on monthly payments or reduce your overall debt obligation. While all credit unions have different policies and procedures related to refinancing an auto loan, Logix makes it easy. Just visit our <a href="https://www.logixbanking.com/loans/vehicle-loans/refinancing">auto loan refinancing page</a> and click "Apply Now." Logix membership is required.</p>

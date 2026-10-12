@@ -1,0 +1,61 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "cooley",
+  "description": "Cooley demo site. Owns the Legal site collection (collection root, its project folders and media) and the Cooley site media, which lives under the Financial media folder. Page and component templates come from the prosperabank module.",
+  "references": [
+    "system",
+    "prosperabank"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/Legal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "branches",
+        "path": "/sitecore/templates/Branches/Project/Legal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "layout",
+        "path": "/sitecore/layout/Renderings/Project/Legal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "placeholder-settings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/Legal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "settings",
+        "path": "/sitecore/system/Settings/Project/Legal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/Legal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/Legal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "site-media",
+        "path": "/sitecore/media library/Project/Financial/Cooley",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

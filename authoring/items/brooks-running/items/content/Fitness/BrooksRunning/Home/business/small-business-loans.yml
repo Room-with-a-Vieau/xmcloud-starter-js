@@ -1,0 +1,178 @@
+﻿---
+ID: "c1502880-5e60-4c69-8b05-dea1d2563791"
+Parent: "46a982ee-5707-41fd-b696-f3336b1c3b3d"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/business/small-business-loans"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{30DBB6CB-331D-4E33-836E-C90B207258C5}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a2a04931-58ae-4d07-a7f2-bd2a5ee9721d"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{62E35848-6DC7-4AF4-95AD-C1DB09FDE49B}" alt="Two Brooks Run Club runners" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D02B5C3C-2108-48A5-B039-2995232D4B94}"
+          p:before="*"
+          s:ds="F2649653-58E5-4FED-9CFE-E81B11FBB027"
+          s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B02602BA3-DF11-45EA-B60F-D2FA6C577DA0%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{2638AB2C-966D-49D7-A3A0-8BDC67EA53C3}"
+          p:after="r[@uid='{D02B5C3C-2108-48A5-B039-2995232D4B94}']"
+          s:ds="B2BCF467-0E64-4A9F-8A87-80AEF5E964DA"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BBA762942-E4BB-4E33-ADF5-4E80ECE1BCF4%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{AF0BD10B-B5A0-4668-9D81-D4CCE4D7FCD6}"
+          p:after="r[@uid='{2638AB2C-966D-49D7-A3A0-8BDC67EA53C3}']"
+          s:ds="local:/Data/Tagline"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles=%7BC2E7E4B9-00F8-4C45-84EA-7CA75344A76B%7D%7C%7BE0FA50C4-EA10-4C14-96C4-07F860750C65%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{A5308299-7AB6-4AB9-91C3-767C15AA1C67}"
+          p:after="*[1=2]"
+          s:ds="{D0FD27C2-CD24-4D52-AC10-B2E567D0A817}"
+          s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BF5B5197-2F32-4A42-89A3-3907E9AC91FA}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a0fd73a1-9220-4208-93ba-ff711e344f8b"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Run Club
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: Brooks Run Club | Brooks Running
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Brooks Run Club
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204655Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Free to join. Built to reward every mile.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Run Club
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6a4a5a2-3084-4fe2-a469-c50b0a84e45f"
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: Brooks Run Club | Brooks Running
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003442Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Prêts pour PME
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Prêts pour PME
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204656Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lancez votre entreprise. Une évidence.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Prêts pour PME
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8f1a6ac-04e2-4e83-bc51-bdadef17e5ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204809Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 中小企業向けローン
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: 中小企業向けローン
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204656Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: 間違いのないビジネスを始める 。
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 中小企業向けローン
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74ad7f3b-2788-4b52-bd3b-d369069a68e4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204809Z

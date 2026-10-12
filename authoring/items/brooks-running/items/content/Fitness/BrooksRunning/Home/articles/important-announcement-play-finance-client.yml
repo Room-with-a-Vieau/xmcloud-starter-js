@@ -1,0 +1,207 @@
+﻿---
+ID: "c5bea121-b2e2-45d4-8461-efe915e21cbe"
+Parent: "3d4fe300-851b-4d44-970b-fc6cae770250"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/articles/important-announcement-play-finance-client"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{FCD340F6-E6ED-4DCA-B231-1ECB250DEF2C}" alt="Runners climbing a hill" />
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{62E35848-6DC7-4AF4-95AD-C1DB09FDE49B}" alt="Two Brooks Run Club runners" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9ACACFE6-7095-44A1-A3BF-3DE946E4E279}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "db227d8b-ef03-4b9f-bc9b-bb581dd3c17f"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}">
+          <p:d />
+        </r>
+        <r
+          uid="{496CB0BE-20D1-48E1-A256-375D05D07129}"
+          s:ds="974A4FA1-D9B3-4351-B364-CAE2431ADB07"
+          s:id="{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-article-content/article-meta-0-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "0193a7c3-57a0-4db2-bad5-f0a646d518fe"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: An important update for Brooks Run Club members
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: "<p>We are excited to share a series of updates to Brooks Run Club, designed to reward every mile.</p><h3>New rewards</h3><p>Earn points on every purchase and every logged run.</p><h3>Members-only events</h3><p>Join exclusive group runs, product previews and race-weekend meetups.</p><h3>Early access</h3><p>Shop new releases before anyone else.</p>"
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: An important update for Brooks Run Club members | Brooks Running
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204705Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "We are expanding Run Club with new rewards, members-only events and early access to our most anticipated releases."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: An important update for Brooks Run Club members
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e12ac7d9-2c4d-47bf-a2ee-4a899f0dda9f"
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: An important update for Brooks Run Club members | Brooks Running
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003512Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: An important update for Brooks Run Club members
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Une annonce importante pour nos clients
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Finance, un fournisseur leader de services financiers de pointe, est heureux de partager une mise à jour excitante avec ses clients précieux.
+        <br />
+        <br />
+        Arthur Spannos, PDG de PLAY! Finance, a exprimé, "<strong><em>Nous sommes ravis d'annoncer une étape importante dans notre engagement continu à permettre à nos clients d'atteindre le bien-être financier.</em></strong>"
+        Les points forts de l'annonce incluent :</p>
+        <ul>
+            <li><strong>Expérience utilisateur améliorée :</strong> Introduction de nouvelles fonctionnalités et améliorations pour simplifier l'expérience utilisateur et rendre la gestion des finances encore plus intuitive et pratique.</li>
+            <li><strong>Offres de produits élargies :</strong> Introduction de nouveaux produits et services financiers pour répondre aux besoins évolutifs de nos clients et leur offrir encore plus de moyens d'atteindre leurs objectifs financiers.</li>
+            <li><strong>Concentration continue sur la sécurité :</strong> Maintien des normes les plus élevées en matière de sécurité et de confidentialité pour garantir que nos clients puissent nous faire confiance avec leurs informations financières sensibles.</li>
+            <li><strong>Engagement envers la satisfaction client :</strong> Redoublement d'efforts pour fournir un service client et un support exceptionnels, en veillant à ce que nos clients reçoivent l'assistance dont ils ont besoin, quand ils en ont besoin.</li>
+        </ul>
+        <p>"<strong><em>Nous sommes dédiés à la réussite de nos clients, et cette annonce représente notre engagement continu à offrir des solutions innovantes qui leur permettent de prendre le contrôle de leur avenir financier.</em></strong>", a ajouté Arthur Spannos.</p>
+        <p>Pour plus d'informations sur ces mises à jour passionnantes et comment elles bénéficieront aux clients de PLAY! Finance, visitez le site web de PLAY! Finance ou votre agence locale.</p>
+        <p><strong>À propos de PLAY! Finance</strong><br />
+        PLAY! Finance est un fournisseur leader de solutions financières innovantes, dédié à permettre aux individus d'atteindre le bien-être financier. Grâce à une technologie avancée et des outils personnalisés, PLAY! Finance redéfinit la façon dont les consommateurs interagissent avec leurs finances, rendant la gestion financière accessible, engageante et gratifiante pour tous.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204705Z
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "PLAY! Finance annonce une série d'améliorations et d'extensions visant à optimiser l'expérience client et à renforcer l'autonomisation financière."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Une annonce importante pour nos clients
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c6ec381-9b31-4d08-ac19-2611952edadb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204814Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Une annonce importante pour nos clients
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: お客様へ重要なお知らせ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Financeは、最先端の金融サービスを提供するリーディングプロバイダーとして、価値ある顧客の皆様にエキサイティングな最新情報をお届けいたします。</p>
+        <br />
+        <p>PLAY! FinanceのCEOであるアーサー・スパノス氏は、「<strong><em>お客様が財務的な健康を達成するための支援に向けた取り組みの一環として、重要なマイルストーンを達成できたことに興奮しています。</em></strong>」と述べています。</p>
+        
+        <p>今回の発表の主要なハイライトは以下の通りです:</p>
+        <ul>
+            <li><strong>ユーザーエクスペリエンスの強化:</strong> 新機能や改善により、ユーザーがより直感的で便利に資産管理を行えるようにします。</li>
+            <li><strong>製品ラインアップの拡充:</strong> 顧客のニーズに応えるために、新しい金融商品やサービスを提供し、財務目標達成の選択肢をさらに広げます。</li>
+            <li><strong>セキュリティへの継続的な注力:</strong> 高いセキュリティとプライバシーの基準を維持し、顧客の機密財務情報を安全に取り扱います。</li>
+            <li><strong>顧客満足度へのコミットメント:</strong> 卓越したカスタマーサービスとサポートを提供し、必要なときに適切な支援を受けられるよう努めます。</li>
+        </ul>
+        
+        <p>さらにアーサー・スパノス氏は、「<strong><em>私たちはお客様の成功に尽力しており、この発表はお客様が財務的未来を管理できるよう革新的なソリューションを提供し続けることへのコミットメントを表しています。</em></strong>」と述べています。</p>
+        
+        <p>これらのエキサイティングなアップデートやPLAY! Financeのお客様へのメリットについて、詳細はPLAY! Financeのウェブサイトまたはお近くの支店をご覧ください。</p>
+        
+        <p><strong>PLAY! Financeについて</strong><br />
+        PLAY! Financeは、革新的な金融ソリューションを提供するリーディングプロバイダーとして、個人が財務的な健康を達成できるよう支援しています。先端技術と個別対応のツールを通じて、PLAY! Financeは顧客が財務管理を身近に、魅力的に、そして有意義に感じられるよう再定義しています。</p>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204705Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: プレーする！ ファイナンスは、顧客体験の最適化と金融エンパワーメントの促進を目的とした一連の機能強化と拡張を発表した。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: お客様へ重要なお知らせ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf320020-7e37-462e-8f2d-1afe781ac2e9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204815Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: お客様へ重要なお知らせ

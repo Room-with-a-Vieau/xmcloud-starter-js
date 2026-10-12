@@ -1,0 +1,145 @@
+﻿---
+ID: "bf0bbb89-10a1-4864-9b72-988416dcca70"
+Parent: "9c0f5d69-4742-4869-b945-cc84ff0fdb84"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: /sitecore/content/Fitness/BrooksRunning/Home/authors/Alex Adams
+SharedFields:
+- ID: "2404bb97-b42a-439a-be76-de66213cb281"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{2833AC20-5725-4AAE-807C-DA21C4953B2C}" alt="Newspaper image" height="" width="" hspace="" vspace="" />
+- ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
+  Hint: Photo
+  Value: |
+    <image mediaid="{2F2B7CBE-7DA9-4965-96ED-1B7D13EEA532}" alt="Alex Bio Image" height="" width="" hspace="" vspace="" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0944892B-6087-4429-B8C0-7D076B7C32CA}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5a7b01d1-03f4-4537-9509-2bfe45a891de"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: Alex Adams, Certified Shoe Fit Specialist | Brooks Running
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204816Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Alex Adams
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Certified Shoe Fit Specialist
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0135486-1445-4e23-8c39-2b24908a60eb"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>Alex helps runners find their perfect pair, answering fit questions through our Ask a Guru service.</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Alex Adams
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: Alex Adams, Certified Shoe Fit Specialist | Brooks Running
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003520Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204817Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Alex Adams
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Conseiller financier
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fffd5a16-6aac-445b-ba19-16dd6efef103"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        Conseiller financier<div class="ck-content"><p>Alex se consacre à aider nos clients à atteindre leurs objectifs et leurs aspirations financiers. Avec une passion pour le service personnalisé et une compréhension approfondie des stratégies de gestion de patrimoine, il travaille en étroite collaboration avec les clients pour développer des plans financiers adaptés à leurs besoins et objectifs uniques.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Alex Adams
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204817Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: アレックス・アダムス
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204817Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: アレックス・アダムス
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cea71570-4931-426c-843e-31bfc79c313f"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>アレックスは、お客様の財務上の目標や希望を達成するための支援に専念しています。 個別サービスに対する情熱と資産管理戦略に対する深い理解を持ち、顧客と緊密に連携して、顧客固有のニーズと目的に沿ったファイナンシャル・プランを策定しています。</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: アレックス・アダムス
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T204817Z

@@ -1,0 +1,60 @@
+﻿---
+ID: "4a5b662f-3083-46d9-8af5-0457152de1ad"
+Parent: "1fc01f59-edad-4d49-ba54-8099a466cc26"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Financial/LogixFederalCreditUnion/icon-cash"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/4A5B662F308346D98AF50457152DE1AD.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 48
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "19c20485-2810-4cb8-8681-0f5b8c4eea5b"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 3147
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 48 x 48
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9b3d8d9d-ad0c-4fd0-a21f-42c015e178e2"
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 48
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261009T170538Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5f7fd6f-db8b-49c9-9136-ca80ca7ff1b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261009T170538Z

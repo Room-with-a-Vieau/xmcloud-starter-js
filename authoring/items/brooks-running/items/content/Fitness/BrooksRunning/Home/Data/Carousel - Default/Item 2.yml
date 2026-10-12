@@ -1,0 +1,110 @@
+﻿---
+ID: "dfc56268-d483-4b04-8033-12e953fa79c9"
+Parent: "b21a9b95-66a7-4923-824d-79b03013fa8d"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/Data/Carousel - Default/Item 2"
+SharedFields:
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{CA17000F-63FD-4971-BAF3-520712B66830}" alt="Trail runner on a forest path" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8f7c8718-5bf9-4b67-a20b-757bc89da6ad"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{321B71A6-169C-4A12-905A-0BF5F5CCD7E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165630Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: "Take it off-road"
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Shop trail running" linktype="internal" class="" title="" target="" querystring="" anchor="" id="{329456B6-5C25-47AD-841B-A5B77C858681}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "809a380f-dec6-453a-aa92-964696c0e2e2"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Grip, protection and cushioning for every trail.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261008T003420Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165630Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Faites croître votre patrimoine en toute confiance
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" id="{329456B6-5C25-47AD-841B-A5B77C858681}" querystring="" anchor="" target="" title="" linktype="internal" text="Commencez en ligne" url="/Fitness/BrooksRunning/Home/personal/investing" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7bfe3f3-b674-4868-af41-2b6329c29e9c"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Gestion de patrimoine simplifiée.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205709Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165630Z
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: 自信を持って資産を増やす
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link class="" id="{329456B6-5C25-47AD-841B-A5B77C858681}" querystring="" anchor="" target="" title="" linktype="internal" text="オンラインで始める" url="/Fitness/BrooksRunning/Home/personal/investing" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "998ceda5-b6ad-4aa5-a2df-625654d22019"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>資産管理をシンプルに。</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261007T205709Z
