@@ -1,0 +1,29 @@
+// Navigation "Vertical" variant (Brooks Running demo): sidebar menu with a full-width highlight on the current page.
+.navigation.navigation-vertical {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li a {
+    display: block;
+    padding: 1.25rem 2rem;
+    color: var(--text-body);
+    font-size: 1.125rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  li.active a {
+    background: var(--bg-saturated);
+    color: var(--text-body-inverted);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "localFile": "cascadia-8-mens.jpg",
+    "alt": "Men's Brooks Cascadia 8 trail running shoe",
+    "mediaItemId": "{BD2E2547-5782-4FD1-8D23-0B9DE5630ED3}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/My Account/cascadia-8-mens",
+    "imageFieldXml": "<image mediaid=\"{BD2E2547-5782-4FD1-8D23-0B9DE5630ED3}\" alt=\"Men's Brooks Cascadia 8 trail running shoe\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "cascadia-11-mens.jpg",
+    "alt": "Men's Brooks Cascadia 11 trail running shoe",
+    "mediaItemId": "{B2154AE7-6015-455B-AFB4-902E9795F3B6}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/My Account/cascadia-11-mens",
+    "imageFieldXml": "<image mediaid=\"{B2154AE7-6015-455B-AFB4-902E9795F3B6}\" alt=\"Men's Brooks Cascadia 11 trail running shoe\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "cascadia-14-mens.jpg",
+    "alt": "Men's Brooks Cascadia 14 trail running shoe",
+    "mediaItemId": "{A8AB1C5F-2D58-4130-B6D3-B0E1371C7191}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/My Account/cascadia-14-mens",
+    "imageFieldXml": "<image mediaid=\"{A8AB1C5F-2D58-4130-B6D3-B0E1371C7191}\" alt=\"Men's Brooks Cascadia 14 trail running shoe\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "cascadia-16-mens.jpg",
+    "alt": "Men's Brooks Cascadia 16 trail running shoe",
+    "mediaItemId": "{FDB1B5EB-0A57-4E66-A37A-14E824161ED6}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/My Account/cascadia-16-mens",
+    "imageFieldXml": "<image mediaid=\"{FDB1B5EB-0A57-4E66-A37A-14E824161ED6}\" alt=\"Men's Brooks Cascadia 16 trail running shoe\" />",
+    "uploadStatus": "uploaded-media-library"
+  }
+]

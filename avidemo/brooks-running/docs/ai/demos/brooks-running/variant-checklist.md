@@ -11,3 +11,7 @@ Open **Home** (BrooksRunning site) in Pages and set these variants. Default-vari
 
 Steps per component: click it on the canvas → right pane **Design** tab → pick the variant.
 Estimated time: ~2 minutes.
+
+## My Account pages (`/my-account` and children)
+
+Nothing to do. The variants were set through Authoring GraphQL (`FieldNames`): page headings → PageHeading {4B26F8A9-6246-41B3-8BB1-DC3ED5067B08} (created 2026-10-26), sidebar Navigation → Vertical {270A2E00-7397-4EE0-9D50-BE819B4E321C} (created 2026-10-26; needs the code deploy), and Run Happy → Compact.

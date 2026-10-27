@@ -63,3 +63,17 @@ See `manual-tasks.md` and `variant-checklist.md`.
 **New component:** `src/components/pagecontent/ProductGrid.tsx` + `_component-product-grid.scss`. Sitecore templates `Product Grid`, `Product Grid Product`, `Product Grid Promo` and rendering `Product Grid` live in the new `authoring/items/brooks-running` module (`/sitecore/templates/Project/BrooksRunning`, `/sitecore/layout/Renderings/Project/BrooksRunning`). The rendering uses a GraphQL ComponentQuery (datasource fields + children). Registered in the site's Available Renderings → Custom Demo, with a Default headless variant.
 
 **Images:** 30 selected from the user's mass download (`images/category-selected/`), uploaded to `Project/Fitness/BrooksRunning/Running Shoes`. Sizes are invented demo data (women 5–12, men 7–15, unisex 5–15).
+
+## My Account section — /my-account (added 2026-10-26)
+
+| Page | Main column |
+|---|---|
+| Dashboard (`/my-account`) | Heading CTA (PageHeading) "Welcome / Hi, Andrew" · Promo CTA "Your Cascadias have put in the miles" (Cascadia 20) · Three Column CTA (Run Club perks, membership, Shoe Finder) |
+| Order history | Heading CTA (PageHeading) · Four Column CTA with men's Cascadia 16/14/11/8 orders from 2022/2019/2016/2013, size 10.5 |
+| Gear recommendations | Heading CTA (PageHeading) · Promo CTA "Recommended for you: Cascadia 20" · Promo CTA "Find the perfect shoe for you" |
+| Addresses / Payment methods / Settings | Heading CTA (PageHeading) · Rich Text demo details |
+
+Every page: a Column Splitter (3/9, gray sidebar) holding the shared "My Account / Log out" Rich Text and **Navigation → Vertical (new variant)**, with Run Happy (Compact) below.
+
+**Code:** a `Vertical` export in `src/components/navigation/Navigation.tsx` and `src/assets/sass/components/_component-navigation-vertical.scss`.
+**Images:** `images/my-account/` (4 photos) uploaded to `Project/Fitness/BrooksRunning/My Account`.

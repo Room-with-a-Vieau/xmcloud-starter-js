@@ -161,6 +161,58 @@ export const Default = (props: NavigationProps): JSX.Element => {
   );
 };
 
+// DEMO TEAM CUSTOMIZATION: sidebar menu (e.g. My Account). Renders the root and its children as one
+// vertical list and highlights the item for the current page.
+const normalizeId = (id?: string) => (id ?? '').replace(/[{}-]/g, '').toLowerCase();
+
+const flattenNavigation = (items: Fields[]): Fields[] =>
+  items.flatMap((item) => [item, ...flattenNavigation(item.Children ?? [])]);
+
+export const Vertical = (props: NavigationProps): JSX.Element => {
+  const { page } = useSitecore();
+  const styles =
+    props.params != null
+      ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
+      : '';
+  const id = props.params != null ? props.params.RenderingIdentifier : null;
+  const items = flattenNavigation(Object.values(props.fields ?? {}).filter((element) => element));
+  const currentId = normalizeId(page?.layout?.sitecore?.route?.itemId);
+
+  if (!items.length) {
+    return (
+      <div className={`component navigation navigation-vertical ${styles}`} id={id ? id : undefined}>
+        <div className="component-content">[Navigation]</div>
+      </div>
+    );
+  }
+
+  return (
+    <div className={`component navigation navigation-vertical ${styles}`} id={id ? id : undefined}>
+      <div className="component-content">
+        <nav aria-label={props.params?.AriaLabel || 'Section navigation'}>
+          <ul>
+            {items.map((item) => {
+              const itemProps = { ...props, fields: item };
+              const isActive = normalizeId(item.Id) === currentId;
+              return (
+                <li key={item.Id} className={isActive ? 'active' : undefined}>
+                  <Link
+                    field={getLinkField(itemProps)}
+                    editable={page.mode.isEditing}
+                    aria-current={isActive ? 'page' : undefined}
+                  >
+                    {getNavigationText(itemProps)}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  );
+};
+
 const NavigationList = (props: NavigationProps) => {
   const { page } = useSitecore();
   const [active, setActive] = useState(false);
