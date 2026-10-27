@@ -32,6 +32,40 @@ Create extra datasources in Home/Data named `Brooks Running - <Component> - <Seg
 - The Breadcrumb reads the page tree (Home / Running shoes); Brooks shows "Home / Running".
 - `images/category/` holds the raw 200-file download (third-party retailer images) — keep it out of git; only `images/category-selected/` is needed.
 
+## It's Your Run page (`/its-your-run`, built 2026-10-23)
+
+Source: https://www.brooksrunning.com/en_us/its-your-run/. All copy, links and metadata are in place. Datasources are under `its-your-run/Data` (`IYR_-_*`).
+
+### 1. Images (all image fields are empty)
+Without images the three Heroes render as blank bands, and their titles can't be seen.
+brooksrunning.com returns 403 to curl, and no `SITECORE_AUTOMATION_CLIENT_*` credentials were available to run `upload-to-media-library.mjs`.
+The two video posters are already in `images/its-your-run/`. Save the rest there, then upload them to `Project/Fitness/BrooksRunning/Its Your Run`.
+Base URL: `https://www.brooksrunning.com/on/demandware.static/-/Sites/default/<dw-id>/cms-content/Project/Brooks-Running/Landing/2023/Spring-2023/its-your-run/<file>`
+
+| Field | File (dw-id) | Alt text |
+|---|---|---|
+| Hero "It's your run." → Image | `IYR-01-hero-poster.jpg` (downloaded) | Runner on a city street |
+| Hero "Your run is your run." → Image | `IYR-02-your-run-poster.jpg` (downloaded) | Runners showing up for their run |
+| Promo CTA "It's our promise." → Image | `S23-BRcom-LP-IYR-03-XL-v2.png` (dw5bdf57c2) | Runner high-fiving next to Brooks gear |
+| Two Column CTA → Image1 | `S23-BRcom-LP-IYR-04a-XL.jpg` (dw13730eff) | Runner lacing up Brooks shoes |
+| Two Column CTA → Image2 | `S23-BRcom-LP-IYR-04b-XL.jpg` (dw454cee77) | Women laughing on a run in Brooks bras |
+| Hero "It doesn't have to be serious." → Image | `S23-BRcom-LP-IYR--06-XL-v3.jpg` (dw736425e0) | "It's your run" lettering over a runner lying in the grass |
+| Three Column CTA → Image1 | `S23-BRcom-LP-IYR-07-XL.png` (dw8b724f3b) | Illustration of a map with a Brooks pin in the middle |
+| Three Column CTA → Image2 | `S23-BRcom-LP-IYR-08-XL.png` (dw2bde806b) | Illustrated running shoe with arrows pointing at it |
+| Three Column CTA → Image3 | `S23-BRcom-LP-IYR-09-XL.png` (dw3caf3a69) | Illustrated Brooks newspaper |
+
+### 2. Variants
+See `variant-checklist.md` → It's Your Run: Three Column CTA → WithIcons, Heading CTA → Compact.
+
+### 3. Unused datasource
+`its-your-run/Data/IYR_-_Run_Happy_Placeholder` was auto-created and is unused. The Run Happy strip uses the shared Home item `Brooks Running - Run Happy Promise`.
+
+### 4. Navigation
+Because the page sits under Home, the header nav now shows "It's Your Run" first. To hide it, set NavigationFilter on the page, or move the page.
+
+### Not reproduced
+Background video (still posters instead), the yellow "your" in the headline, the two-photo collage and blue band in "It's our promise", the oversized finder headlines, and the Pixlee UGC gallery.
+
 ## My Account section (`/my-account`, built 2026-10-26)
 
 Plan: `my-account-plan.md`. Pages: Dashboard (`/my-account`) plus order-history, gear-recommendations, addresses, payment-methods and settings. Every page uses a Column Splitter (3/9, gray sidebar). The sidebar holds the shared Rich Text `my-account/Data/MA_-_Sidebar_Header` and a Navigation rendering (root `my-account`, AddRoot, level 1, Flattened). The Run Happy strip at the bottom uses the shared `Brooks Running - Run Happy Promise` item with the Compact variant. Layouts, variants and styles were all set through Authoring GraphQL, so nothing has to be done in Pages.
@@ -57,3 +91,4 @@ The Run Club badge beside "Welcome", the membership QR code, and the light-aqua 
 **Update 2026-10-26:** the images are done. The user supplied AVIFs, which were converted to JPEG/PNG and uploaded to `Project/Fitness/BrooksRunning/Its Your Run` (IDs in `images/its-your-run/image-manifest.json`), then assigned to all fields. Section 1 above is complete.
 The 3rd Hero's title overlapped the lettering in its photo. The caption now lives in a new Heading CTA under it (`IYR_-_Heading_Not_Serious`), and that Hero's Title is blank.
 Variants (section 2) are still open.
+**Update 2026-10-26 (later):** variants are done (see `variant-checklist.md`). What's left: publish the page (with subitems and related items) and the `Its Your Run` media folder in Pages, and revoke the automation credential that was pasted into chat.

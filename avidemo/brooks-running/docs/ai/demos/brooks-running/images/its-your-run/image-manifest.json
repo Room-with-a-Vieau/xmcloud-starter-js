@@ -1,0 +1,83 @@
+[
+  {
+    "localFile": "IYR-01-hero-poster.jpg",
+    "alt": "Runner on a city street",
+    "target": "IYR_-_Hero_Its_Your_Run.Image",
+    "mediaItemId": "{26F1AA03-1951-4126-ADE6-559765C283BC}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/IYR-01-hero-poster",
+    "imageFieldXml": "<image mediaid=\"{26F1AA03-1951-4126-ADE6-559765C283BC}\" alt=\"Runner on a city street\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "IYR-02-your-run-poster.jpg",
+    "alt": "Runners showing up for their run",
+    "target": "IYR_-_Hero_Your_Run_Is_Your_Run.Image",
+    "mediaItemId": "{653033AD-3856-4208-ADF0-A09EE6588632}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/IYR-02-your-run-poster",
+    "imageFieldXml": "<image mediaid=\"{653033AD-3856-4208-ADF0-A09EE6588632}\" alt=\"Runners showing up for their run\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "S23-BRcom-LP-IYR-03-XL-v2.png",
+    "alt": "Runner high-fiving next to Brooks gear",
+    "target": "IYR_-_Promo_Our_Promise.Image",
+    "mediaItemId": "{A9117B5A-FEA9-4FA9-8BD2-F9075F6AA024}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/S23-BRcom-LP-IYR-03-XL-v2",
+    "imageFieldXml": "<image mediaid=\"{A9117B5A-FEA9-4FA9-8BD2-F9075F6AA024}\" alt=\"Runner high-fiving next to Brooks gear\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "S23-BRcom-LP-IYR-04a-XL.jpg",
+    "alt": "Runner lacing up Brooks shoes",
+    "target": "IYR_-_Finder_Tiles.Image1",
+    "mediaItemId": "{F0AF1FCF-3166-4803-927F-49E4601F65B0}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/S23-BRcom-LP-IYR-04a-XL",
+    "imageFieldXml": "<image mediaid=\"{F0AF1FCF-3166-4803-927F-49E4601F65B0}\" alt=\"Runner lacing up Brooks shoes\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "S23-BRcom-LP-IYR-04b-XL.jpg",
+    "alt": "Women laughing on a run in Brooks bras",
+    "target": "IYR_-_Finder_Tiles.Image2",
+    "mediaItemId": "{DAF879DB-352C-4E61-8243-C1FC3912048C}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/S23-BRcom-LP-IYR-04b-XL",
+    "imageFieldXml": "<image mediaid=\"{DAF879DB-352C-4E61-8243-C1FC3912048C}\" alt=\"Women laughing on a run in Brooks bras\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "S23-BRcom-LP-IYR--06-XL-v3.jpg",
+    "alt": "It's your run lettering over a runner lying in the grass",
+    "target": "IYR_-_Hero_Not_Serious.Image",
+    "mediaItemId": "{540D498E-672A-42B4-B953-5F984CBEB249}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/S23-BRcom-LP-IYR--06-XL-v3",
+    "imageFieldXml": "<image mediaid=\"{540D498E-672A-42B4-B953-5F984CBEB249}\" alt=\"It's your run lettering over a runner lying in the grass\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "S23-BRcom-LP-IYR-07-XL.png",
+    "alt": "Illustration of a map with a Brooks pin in the middle",
+    "target": "IYR_-_Explore_Links.Image1",
+    "mediaItemId": "{F6E8672A-3738-4041-AAC0-C0641F2303F2}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/S23-BRcom-LP-IYR-07-XL",
+    "imageFieldXml": "<image mediaid=\"{F6E8672A-3738-4041-AAC0-C0641F2303F2}\" alt=\"Illustration of a map with a Brooks pin in the middle\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "S23-BRcom-LP-IYR-08-XL.png",
+    "alt": "Illustrated running shoe with arrows pointing at it",
+    "target": "IYR_-_Explore_Links.Image2",
+    "mediaItemId": "{5D456C70-8F39-4D42-9468-40019692171B}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/S23-BRcom-LP-IYR-08-XL",
+    "imageFieldXml": "<image mediaid=\"{5D456C70-8F39-4D42-9468-40019692171B}\" alt=\"Illustrated running shoe with arrows pointing at it\" />",
+    "uploadStatus": "uploaded-media-library"
+  },
+  {
+    "localFile": "S23-BRcom-LP-IYR-09-XL.png",
+    "alt": "Illustrated Brooks newspaper",
+    "target": "IYR_-_Explore_Links.Image3",
+    "mediaItemId": "{3AA5F6B1-4AD7-4383-8517-A035B68BBCB1}",
+    "mediaItemPath": "/sitecore/media library/Project/Fitness/BrooksRunning/Its Your Run/S23-BRcom-LP-IYR-09-XL",
+    "imageFieldXml": "<image mediaid=\"{3AA5F6B1-4AD7-4383-8517-A035B68BBCB1}\" alt=\"Illustrated Brooks newspaper\" />",
+    "uploadStatus": "uploaded-media-library"
+  }
+]
