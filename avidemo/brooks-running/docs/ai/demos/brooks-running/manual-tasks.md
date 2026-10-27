@@ -70,19 +70,16 @@ Background video (still posters instead), the yellow "your" in the headline, the
 
 Plan: `my-account-plan.md`. Pages: Dashboard (`/my-account`) plus order-history, gear-recommendations, addresses, payment-methods and settings. Every page uses a Column Splitter (3/9, gray sidebar). The sidebar holds the shared Rich Text `my-account/Data/MA_-_Sidebar_Header` and a Navigation rendering (root `my-account`, AddRoot, level 1, Flattened). The Run Happy strip at the bottom uses the shared `Brooks Running - Run Happy Promise` item with the Compact variant. Layouts, variants and styles were all set through Authoring GraphQL, so nothing has to be done in Pages.
 
-### 1. Deploy the rendering host (required)
-The sidebar uses the new **Navigation → Vertical** variant (`src/components/navigation/Navigation.tsx` + `_component-navigation-vertical.scss`). Until the `brooks-running` rendering host is redeployed, Pages and the live site show an orange "missing React implementation" box in its place.
+### 1. Deploy and publish ✅ (done 2026-10-26)
+The `brooks-running` editing host was redeployed from `main` (commit 65008a10, which set `"enabled": true` for brooks-running in `xmcloud.build.json`), and the Vertical sidebar renders in Pages. The 6 pages and their Data, the `My Account` media folder, and the Navigation/Vertical and Heading CTA/PageHeading variant definitions were published to Experience Edge.
 
-### 2. Publish
-Nothing is published yet: the 6 pages, their `Data` folders, the 2 new variant definitions (`Headless Variants/Navigation/Vertical`, `Headless Variants/Heading CTA/PageHeading`) and the 4 images in `Project/Fitness/BrooksRunning/My Account`.
-
-### 3. Header account icon
+### 2. Header account icon
 The header has no account icon. To link to My Account, add a link to `/my-account` in the Header partial design. My Account has NavigationFilter set, so it stays out of the top nav.
 
-### 4. Link check
+### 3. Link check
 "Shop Cascadia 20" points to `https://www.brooksrunning.com/en_us/cascadia-20-mens-trail-running-shoe/`, which is a best guess. The Run Club, events and Shoe Finder links are also guesses. "Log out" goes to Home.
 
-### 5. Local preview
+### 4. Local preview
 `.env.local` has empty values for `SITECORE_EDGE_CONTEXT_ID` and `SITECORE_EDITING_SECRET`, so `npm run dev` fails with MV-007. The pages were checked with Pages screenshots instead.
 
 ### Not reproduced
