@@ -1,0 +1,354 @@
+{
+  "url": "https://boothuc.ca/",
+  "extractedAt": "2026-10-28T15:57:05.123Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 3,
+  "totalImages": 13,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 0,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 0
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "div",
+      "classHint": "content_width_container",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Close",
+          "href": "#",
+          "target": ""
+        }
+      ],
+      "images": []
+    },
+    {
+      "position": 2,
+      "tagName": "div",
+      "classHint": "TMv_PageContentRendering",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Your Path to a Better World"
+        },
+        {
+          "tag": "h3",
+          "text": "Undergraduate Studies"
+        },
+        {
+          "tag": "h3",
+          "text": "Continuing Studies"
+        },
+        {
+          "tag": "h2",
+          "text": "Academics"
+        },
+        {
+          "tag": "h2",
+          "text": "Recent News"
+        },
+        {
+          "tag": "h3",
+          "text": "Territorial Commander Invites Salvation Army Communities to Support Booth UC Sunday"
+        },
+        {
+          "tag": "h3",
+          "text": "Fall hours in the library"
+        },
+        {
+          "tag": "h3",
+          "text": "Library closed Monday September 7, 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "PAMELA SAN DIEGO - Valedictorian, Class of 2026 on The Quiet Power of Showing Up."
+        },
+        {
+          "tag": "h3",
+          "text": "Booth University College Celebrates Record-Breaking 44th Convocation with Visit from International Leaders of The Salvation Army"
+        },
+        {
+          "tag": "h2",
+          "text": "Upcoming Events"
+        }
+      ],
+      "paragraphs": [
+        "Average Class Size",
+        "Student-Faculty Ratio",
+        "Programs Delivered",
+        "How do you change the world? Start with an education that's anchored in academic excellence and based on a vision of social justice, hope, and mercy for all.",
+        "An undergraduate degree at Booth UC includes our core curriculum, your disciplinary major, and elective courses of your choice.",
+        "Flexible, professional training in leadership, chaplaincy, and theological studies, through a range of certificate and degree programs.",
+        "Be prepared to tackle the issues of tomorrow with hope and confidence. An education at Booth University College combines academic excellence, Christian faith, and service.",
+        "School of Business",
+        "School of Social Work",
+        "School of Humanities and Social Sciences",
+        "School for Continuing Studies",
+        "School of Graduate Studies",
+        "Booth University College Sunday Returns October 18, 2026 : Every third Sunday in October, something special and important happens across The Salvation Army Canada and Bermuda Territory, and that is Booth University College Sunday. It is a day set aside to celebrate Booth UC, share its mission wi…",
+        "Sept 1- Dec 16 : Monday – Thursday: 8:00am – 7:30pm Friday: 8:00am - 7:30pm Saturday: 12:00pm - 4:00pm Sunday: Closed Reading Week : October 13-16: 8:00am – 4:00pm CLOSED : Labour Day: Sept 7th Day of Truth & Reconciliation: Sept 30 Thanksgiving Day: Oct 12 …",
+        "The library is closed Monday September 7, 2026. We will reopen at 8:00am on Tuesday September 8th.",
+        "PAMELA SAN DIEGO - Valedictorian, Class of 2026 on The Quiet Power of Showing Up. When Pamela San Diego first arrived at Booth University College, she called it a \"leap of faith.\" By the time she took the podium as the Class of 2026 Valedictorian, that leap had transformed into a masterclass …",
+        "WINNIPEG, MB — Booth University College (Booth UC) marked a historic milestone on April 25, 2026, as it held its 44th Annual Spring Convocation — conferring degrees, associate degrees, and certificates upon its largest graduating class in institutional history. The celebrations spanned a Baccala…"
+      ],
+      "links": [
+        {
+          "text": "Why Booth UC?",
+          "href": "https://boothuc.ca/admissions/why-booth-uc/",
+          "target": ""
+        },
+        {
+          "text": "Explore Programs",
+          "href": "https://boothuc.ca/programs/explore-programs/",
+          "target": ""
+        },
+        {
+          "text": "School of Business",
+          "href": "https://boothuc.ca/programs/our-schools/view-school/1/school-of-business/",
+          "target": ""
+        },
+        {
+          "text": "School of Social Work",
+          "href": "https://boothuc.ca/programs/our-schools/view-school/2/school-of-social-work/",
+          "target": ""
+        },
+        {
+          "text": "School of Humanities and Social Sciences",
+          "href": "https://boothuc.ca/programs/our-schools/view-school/3/school-of-humanities-and-social-sciences/",
+          "target": ""
+        },
+        {
+          "text": "School for Continuing Studies",
+          "href": "https://boothuc.ca/programs/our-schools/view-school/5/school-for-continuing-studies/",
+          "target": ""
+        },
+        {
+          "text": "Salvationist Students",
+          "href": "https://boothuc.ca/admissions/why-booth-uc/salvationist-students/",
+          "target": ""
+        },
+        {
+          "text": "Continuing Studies Applicants",
+          "href": "https://boothuc.ca/admissions/how-to-apply/continuing-studies-applicants/",
+          "target": ""
+        },
+        {
+          "text": "School of Social WorkSocial WorkSocial Work – After Degree",
+          "href": "https://boothuc.ca/programs/our-schools/view-school/2/school-of-social-work/",
+          "target": ""
+        },
+        {
+          "text": "School of Graduate StudiesMaster of Business Administration",
+          "href": "https://boothuc.ca/programs/view-program/31/master-of-business-administration/",
+          "target": ""
+        },
+        {
+          "text": "Territorial Commander Invites Salvation Army Communities to Support Booth UC Sunday",
+          "href": "https://boothuc.ca/news-and-events/news/view-news-post/242/territorial-commander-invites-salvation-army-communities-to-support-booth-uc-sunday/",
+          "target": ""
+        },
+        {
+          "text": "Fall hours in the library",
+          "href": "https://boothuc.ca/news-and-events/news/view-news-post/241/fall-hours-in-the-library/",
+          "target": ""
+        },
+        {
+          "text": "Library closed Monday September 7, 2026",
+          "href": "https://boothuc.ca/news-and-events/news/view-news-post/240/library-closed-monday-september-7-2026/",
+          "target": ""
+        },
+        {
+          "text": "PAMELA SAN DIEGO - Valedictorian, Class of 2026 on The Quiet Power of Showing Up.",
+          "href": "https://boothuc.ca/news-and-events/news/view-news-post/239/pamela-san-diego-valedictorian-class-of-2026-on-the-quiet-power-of-showing-up/",
+          "target": ""
+        },
+        {
+          "text": "Read All News",
+          "href": "https://boothuc.ca/news-and-events/news/",
+          "target": ""
+        },
+        {
+          "text": "View All Events",
+          "href": "https://boothuc.ca/news-and-events/events/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://boothuc.ca/assets/pages/DSCF3076-2.jpg",
+          "alt": "Students sitting at a desk with their laptop computers, laughing together.",
+          "type": "img",
+          "width": 364,
+          "height": 218
+        },
+        {
+          "src": "https://boothuc.ca/assets/pages/Booth_Programs_6-2.jpg",
+          "alt": "Woman looking at laptop computer with notebooks on the desk beside her.",
+          "type": "img",
+          "width": 364,
+          "height": 243
+        },
+        {
+          "src": "https://boothuc.ca/assets/schools/DD5_8231.JPG",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 499
+        },
+        {
+          "src": "https://boothuc.ca/assets/schools/Booth_Schools_2.jpg",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 499
+        },
+        {
+          "src": "https://boothuc.ca/assets/schools/IMG_8999.JPG",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 499
+        },
+        {
+          "src": "https://boothuc.ca/assets/schools/Booth_Schools_8.jpg",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 499
+        },
+        {
+          "src": "https://boothuc.ca/assets/schools/syful-islam-peF9JiJUCa8-unsplash.jpg",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 499
+        },
+        {
+          "src": "https://boothuc.ca/assets/news/BoothUC_Catalogue_2026-010.jpg",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 379
+        },
+        {
+          "src": "https://boothuc.ca/assets/news/Fall_Library_Hours-2.png",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 379
+        },
+        {
+          "src": "https://boothuc.ca/assets/news/Closed.png",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 379
+        },
+        {
+          "src": "https://boothuc.ca/assets/news/Copy_of_Copy_of_Copy_of_BUC_Alumni_Quote_of_the_Week_1280_x_720_px.png",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 379
+        },
+        {
+          "src": "https://boothuc.ca/assets/news/BoothUC_Grad_Preview-25.jpg",
+          "alt": "",
+          "type": "img",
+          "width": 379,
+          "height": 379
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Average Class Size",
+          "description": "Average Class Size",
+          "badge": "18"
+        },
+        {
+          "title": "Student-Faculty Ratio",
+          "description": "Student-Faculty Ratio",
+          "badge": "14:1"
+        },
+        {
+          "title": "Programs Delivered",
+          "description": "Programs Delivered",
+          "badge": "20+"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "footer",
+      "classHint": "dark",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "© 2026 Booth University College",
+        "Booth University College is authorized to grant degrees, diplomas, and certificates of standing by the Province of Manitoba through The Degree Granting Act and The Salvation Army William and Catherine Booth University College Incorporation Act."
+      ],
+      "links": [
+        {
+          "text": "Contact Us",
+          "href": "https://boothuc.ca/about/our-people/contact-us/",
+          "target": ""
+        },
+        {
+          "text": "Land Acknowledgement",
+          "href": "https://boothuc.ca/about/our-story/land-acknowledgement/",
+          "target": ""
+        },
+        {
+          "text": "Unsubscribe",
+          "href": "https://boothuc.ca/news-and-events/news/unsubscribe/",
+          "target": ""
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/BoothUC/",
+          "target": "_blank"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/booth_uc/",
+          "target": "_blank"
+        },
+        {
+          "text": "Youtube",
+          "href": "https://www.youtube.com/@BoothUC",
+          "target": "_blank"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/school/booth-university-college",
+          "target": "_blank"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://boothuc.ca/privacy-policy/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://boothuc.ca/admin/booth/classes/themes/TMv_BoothUC_Theme/images/white-letter-logo.svg",
+          "alt": "Booth University College",
+          "type": "img",
+          "width": 189,
+          "height": 77
+        }
+      ]
+    }
+  ]
+}

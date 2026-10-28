@@ -1,0 +1,233 @@
+# Demo Build Plan
+client:
+  name: "Booth University College"
+  sourceUrl: "https://boothuc.ca/"
+  themeFile: "docs/ai/themes/booth-uc.theme.yaml"
+  analyzedAt: "2026-10-28"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/booth-uc/screenshot-desktop.png"
+    mobile: "docs/ai/themes/booth-uc/screenshot-mobile.png"
+    hero: "docs/ai/themes/booth-uc/screenshot-hero.png"
+    userProvided: "docs/ai/demos/booth-uc/homepage-screenshot.webp"
+  totalSections: 9
+  templateMatches: 9
+  customRequired: 0
+  ignored:
+    - "Cookie consent banner (overlay, not page content)"
+
+# Home already holds Prospera components; FiveColumnCta is reused (rewired), the rest are not in this plan.
+existingOnPage:
+  reuse:
+    - componentName: "Five Column CTA"
+      instanceId: "b882746c-c313-4283-8f58-b9402bcf9c6a"
+      forSection: 6
+  notInPlan:   # remove in Pages (or via remove_component_on_page with SE approval)
+    - { componentName: "Carousel", instanceId: "124106de-fb02-4b43-a521-a309fc75a5bc" }
+    - { componentName: "Promo CTA", instanceId: "d49a8931-f041-4988-9cc3-f2400e6422d0" }
+    - { componentName: "Three Column CTA", instanceId: "d54d53b4-1aa4-4998-9bdf-eb934c32cfb6" }
+    - { componentName: "Promo CTA", instanceId: "633506e7-54d0-4410-9051-72fb4c9fecb4" }
+    - { componentName: "Promo CTA", instanceId: "1a516b9b-cc7b-49c9-a8eb-5be281a98612" }
+    - { componentName: "Two Column CTA", instanceId: "0ed2d2c2-e9ef-4e40-b040-6289cb174e03" }
+    - { componentName: "Article List", instanceId: "854de8ce-208f-494d-b7c8-c1162d00144f" }
+    - { componentName: "Documents List", instanceId: "251b0936-4659-4127-9952-52ca5140d803" }
+    - { componentName: "App Promo", instanceId: "7ebe6f29-1c6f-4138-8bf9-287acf0cd530" }
+
+sections:
+  - position: 1
+    description: "Crest logo left, utility links (Alums | Apply, Visit, Donate | Log In, search) and a six-item main nav, white text over the hero photo."
+    matchedComponent:
+      registryId: "Header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      Logo: "Booth University College crest + wordmark (white)"
+      NavItems: ["About", "Admissions", "Programs", "Students", "Library", "News and Events"]
+      UtilityLinks: ["Alums", "Apply", "Visit", "Donate", "Log In"]
+    contentNotes: "Chrome — lives in the header partial design. Prospera nav is driven by the site's page tree (Personal, Business, …); renaming/adding pages to match is a manual task."
+    variantReason: "Image logo (crest) rather than a text logo."
+
+  - position: 2
+    description: "Full-bleed campus photo with a navy overlay, large serif headline, wide search box and an 'Explore Programs' arrow link; curved white wave at the bottom."
+    matchedComponent:
+      registryId: "Hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "dark"
+    content:
+      Title: "Education for a Better World"
+      Text: ""
+      Link: { text: "Explore Programs", href: "https://boothuc.ca/programs" }
+      Image: "Students chatting on campus steps (hero background)"
+    contentNotes: "Search box and wave divider are not part of Hero — lost unless a custom variant is built (Phase 5.5)."
+    variantReason: "Static page-top hero with headline + single CTA over a full-bleed image (tone.heroStyle full-bleed-image, not rotating)."
+
+  - position: 3
+    description: "Three crest-shaped badges (red, gold, blue) holding big numbers with captions beneath, then an outlined 'Why Booth UC?' pill button."
+    matchedComponent:
+      registryId: "StatsCounter"
+      manifestName: "StatsCounter"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Value1: 18
+      Symbol1: ""
+      Caption1: "Average Class Size"
+      Value2: 14
+      Symbol2: ":1"
+      Caption2: "Student-Faculty Ratio"
+      Value3: 20
+      Symbol3: "+"
+      Caption3: "Programs Delivered"
+    contentNotes: "StatsCounter has no button field — 'Why Booth UC?' is dropped (or added as a HeadingCta link). Crest-badge shapes need a custom variant; Default shows plain numbers. '14:1' is split into Value 14 + Symbol ':1'."
+    variantReason: "Only variant; row of big numbers with captions."
+
+  - position: 4
+    description: "Light-gray band: 'Your Path to a Better World' serif heading and intro sentence, then two rows each with a photo, a heading, a short paragraph and a vertical list of program links."
+    matchedComponent:
+      registryId: "Features"
+      manifestName: "Features"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Eyebrow: "Your Path to a Better World"
+      Text: "How do you change the world? Start with an education that's anchored in academic excellence and based on a vision of social justice, hope, and mercy for all."
+      Link: { text: "Explore Programs", href: "https://boothuc.ca/programs" }
+      Title1: "Undergraduate Studies"
+      Text1: "An undergraduate degree at Booth UC includes our core curriculum, your disciplinary major, and elective courses of your choice."
+      Image1: "Students working together at laptops in a classroom"
+      Title2: "Continuing Studies"
+      Text2: "Flexible, professional training in leadership, chaplaincy, and theological studies, through a range of certificate and degree programs."
+      Image2: "Smiling student studying on a laptop at home"
+    contentNotes: "Features = eyebrow/headline + two image/text pairs, which is this section. The per-row link lists (School of Business, School of Social Work, …) have no fields — only one shared Link. Text1/Text2 are single-line fields."
+    variantReason: "Only variant."
+
+  - position: 5
+    description: "'Academics' serif heading with a one-line intro paragraph, left-aligned on white."
+    matchedComponent:
+      registryId: "HeadingCta"
+      manifestName: "HeadingCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Eyebrow: ""
+      Heading: "Academics"
+      Text: "Be prepared to tackle the issues of tomorrow with hope and confidence. An education at Booth University College combines academic excellence, Christian faith, and service."
+      Link: null
+    contentNotes: "Section intro for the five school tiles below."
+    variantReason: "Left-aligned heading + intro (not centered, not a page title)."
+
+  - position: 6
+    description: "Five portrait photo tiles with a navy tint and uppercase school names at the bottom (3 + 2 grid)."
+    matchedComponent:
+      registryId: "FiveColumnCta"
+      manifestName: "FiveColumnCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      reuseInstanceId: "b882746c-c313-4283-8f58-b9402bcf9c6a"
+    sectionBackground: "default"
+    content:
+      Text1: "School of Business"
+      Link1: "https://boothuc.ca/academics/school-of-business"
+      Text2: "School of Social Work"
+      Link2: "https://boothuc.ca/academics/school-of-social-work"
+      Text3: "School of Humanities and Social Sciences"
+      Link3: "https://boothuc.ca/academics/school-of-humanities-and-social-sciences"
+      Text4: "School for Continuing Studies"
+      Link4: "https://boothuc.ca/academics/school-for-continuing-studies"
+      Text5: "School of Graduate Studies"
+      Link5: "https://boothuc.ca/academics/school-of-graduate-studies"
+    contentNotes: "Exactly five image tiles with captions and links. Link URLs are best guesses — confirmed against the DOM in Phase 2.5. Prospera renders them in one row rather than 3 + 2."
+    variantReason: "Only variant."
+
+  - position: 7
+    description: "Crest-red band: 'Recent News' heading, a news headline, date and summary on the left, a photo on the right, slider dots, and a 'Read All News' pill button."
+    matchedComponent:
+      registryId: "CtaBanner"
+      manifestName: "CtaBanner"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "accent"
+    content:
+      Eyebrow: "Recent News"
+      Title: "Library closed Monday September 7, 2026"
+      Text: "July 29, 2026 — The library is closed Monday September 7, 2026. We will reopen at 8:00am on Tuesday September 8th."
+      Link: { text: "Read All News", href: "https://boothuc.ca/news" }
+      Image: "'Sorry we're closed' sign (current news item image)"
+    contentNotes: "On the live site this is a rotating news slider; CtaBanner shows one item. Alternative: Carousel (rotates, but uses a branch template that may 404 when wiring — see build-demo fallback). Red background depends on the Phase 4 theme (--bg-accent)."
+    variantReason: "Eyebrow + title + text + button beside an image; image does not dominate the band."
+
+  - position: 8
+    description: "'Upcoming Events' serif heading with a centered outlined 'View All Events' button and no event cards visible."
+    matchedComponent:
+      registryId: "HeadingCta"
+      manifestName: "HeadingCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Eyebrow: ""
+      Heading: "Upcoming Events"
+      Text: ""
+      Link: { text: "View All Events", href: "https://boothuc.ca/events" }
+    contentNotes: "The live events list was empty when captured. If events appear in Phase 2.5 they could go in an ArticleList-style block, but Prospera's ArticleList reads the site's articles, not events."
+    variantReason: "Heading + single link."
+
+  - position: 9
+    description: "Navy footer: crest logo, street address, Contact Us / Land Acknowledgement / Unsubscribe links, social icons, privacy policy, copyright and a degree-granting statement."
+    matchedComponent:
+      registryId: "Footer"
+      manifestName: "Footer"
+      variant: "WithSocials"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      Text1: "290 Vaughan Street, Winnipeg, Manitoba R3B 2N8 CANADA"
+      Text2: "Contact Us · Land Acknowledgement · Unsubscribe"
+      Copyright: "© 2026 Booth University College"
+      Text4: "Booth University College is authorized to grant degrees, diplomas, and certificates of standing by the Province of Manitoba through The Degree Granting Act and The Salvation Army William and Catherine Booth University College Incorporation Act."
+      Socials: ["Facebook", "Instagram", "YouTube", "LinkedIn"]
+    contentNotes: "Chrome — footer partial design. Its datasource is shared site content; update manually in Pages/Content Editor (or via update_fields_on_item on the footer datasource with SE approval)."
+    variantReason: "Footer shows social icons."
+
+customComponents: []
+
+buildOrder:
+  phase1_sitecore:
+    - "Hero"
+    - "StatsCounter"
+    - "Features"
+    - "HeadingCta (Academics)"
+    - "FiveColumnCta (reuse existing instance)"
+    - "CtaBanner (Recent News)"
+    - "HeadingCta (Upcoming Events)"
+  phase2_theme: "docs/ai/themes/booth-uc.theme.yaml → .site-booth-uc"
+  phase3_custom: []
+  manual:
+    - "Header (WithLogoImage) — partial design"
+    - "Footer (WithSocials) — partial design"

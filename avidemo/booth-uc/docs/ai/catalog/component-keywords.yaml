@@ -1,0 +1,125 @@
+# Hand-maintained matching hints for the Site Analyzer (Phase 2).
+# Merged with the generated manifest into component-registry.yaml by
+#   node docs/ai/scripts/generate-manifest.mjs
+#
+# Keys are rendering componentNames. `placeable: false` keeps a component out of
+# section matching (page plumbing, detail pages, utilities).
+
+Carousel:
+  visualKeywords: [full-width rotating hero, image slider with side text panel, slideshow with arrows or dots]
+  variantSelectionHints: { Default: "rotating hero slides" }
+Hero:
+  visualKeywords: [large page-top hero, big headline with intro text and one CTA, full-bleed background image]
+  variantSelectionHints: { Default: "single static hero" }
+HeroBanner:
+  visualKeywords: [split hero with eyebrow, headline + text column beside an image, hero with secondary content]
+  variantSelectionHints: { Default: "two-column hero banner" }
+ParallaxBanner:
+  visualKeywords: [full-width background image band, centered large headline over image, scrolling parallax strip]
+  variantSelectionHints: { Default: "centered text over fixed background image" }
+CtaBanner:
+  visualKeywords: [wide call-to-action band, eyebrow + title + text + button beside image, promotional strip]
+  variantSelectionHints: { Default: "standard image + text CTA band", LargeImage: "image dominates the band" }
+PromoCta:
+  visualKeywords: [image and text side by side, feature promo with eyebrow and button, alternating media/text block]
+  variantSelectionHints:
+    Default: "image beside text"
+    WithBackgroundImage: "text panel over a background image"
+    WithPlaceholderColumn: "second column holds other components"
+HeadingCta:
+  visualKeywords: [section heading with intro text and link, page title block, centered section intro]
+  variantSelectionHints:
+    Default: "heading left, text/CTA right"
+    Compact: "short heading strip"
+    PageHeading: "page-level title block"
+    Centered: "centered heading and text"
+Features:
+  visualKeywords: [eyebrow + headline with two feature columns, two image/text feature pairs, product highlight pair]
+  variantSelectionHints: { Default: "two feature columns with images" }
+TwoColumnCta:
+  visualKeywords: [two cards side by side, pair of promo tiles, two-up linked panels]
+  variantSelectionHints: { Default: "two equal linked cards" }
+ThreeColumnCta:
+  visualKeywords: [three cards in a row, three-up service tiles, three linked panels with icons or images]
+  variantSelectionHints:
+    Default: "three image cards"
+    WithIcons: "three icon cards"
+    WithIconsCompact: "small icon tiles"
+FourColumnCta:
+  visualKeywords: [four tiles in a row, four-up resource cards, grid of four linked items]
+  variantSelectionHints: { Default: "four linked tiles" }
+FiveColumnCta:
+  visualKeywords: [five image tiles, row of service categories with images, horizontal strip of five links]
+  variantSelectionHints: { Default: "five image tiles" }
+StatsCounter:
+  visualKeywords: [row of big numbers with captions, key figures, statistics band with images]
+  variantSelectionHints: { Default: "three stats with side images" }
+Comparison:
+  visualKeywords: [side-by-side values comparison, two numeric figures compared, plan comparison]
+  variantSelectionHints: { Default: "two compared values" }
+Quote:
+  visualKeywords: [single pull quote, testimonial quote with author name and role, large quotation mark]
+  variantSelectionHints: { Default: "quote with author", Simple: "quote text only" }
+Testimonials:
+  visualKeywords: [several customer reviews, star ratings, testimonial cards row]
+  variantSelectionHints: { Default: "testimonial cards with stars" }
+Accordion:
+  visualKeywords: [expandable list, collapsible sections with icons, FAQ-style accordion]
+  variantSelectionHints: { Default: "accordion group" }
+Questions:
+  visualKeywords: [FAQ list, question and answer items, frequently asked questions grid]
+  variantSelectionHints: { Default: "two-column FAQ", SingleColumn: "single-column FAQ" }
+ImageGallery:
+  visualKeywords: [grid of images, photo gallery, image mosaic]
+  variantSelectionHints: { Default: "image grid" }
+DocumentsList:
+  visualKeywords: [list of downloadable documents, resources list with subtitles, reports and PDFs]
+  variantSelectionHints: { Default: "document list" }
+AppPromo:
+  visualKeywords: [mobile app promotion, phone mockup with store badges, download our app]
+  variantSelectionHints: { Default: "app promo with image" }
+ArticleList:
+  visualKeywords: [news or insights cards, latest articles grid, blog post teasers]
+  variantSelectionHints:
+    Default: "article cards"
+    ThreeColumn: "three-column article cards"
+    Simplified: "compact article list"
+    Grid: "dense article grid"
+AuthorList:
+  visualKeywords: [team or people cards, experts list, author profiles]
+  variantSelectionHints: { Default: "author cards", Slider: "author slider", Simple: "simple author list" }
+ProjectList:
+  visualKeywords: [case studies grid, project showcase, portfolio mosaic]
+  variantSelectionHints: { Default: "project cards", Mosaic: "mosaic layout" }
+AuthorWidget:
+  visualKeywords: [single author byline card, featured expert]
+  variantSelectionHints: { Default: "author card", WithSocials: "author card with social links" }
+ContactForm:
+  visualKeywords: [contact us form, inquiry form fields]
+  variantSelectionHints: { Default: "contact form" }
+ApplicationForm:
+  visualKeywords: [multi-field application form, sign-up form]
+  variantSelectionHints: { Default: "application form" }
+LoanCalculator:
+  visualKeywords: [calculator with sliders, estimate tool]
+  variantSelectionHints: { Default: "slider calculator" }
+
+# Site chrome — matched to the header/footer of the screenshot, edited in partial designs.
+Header:
+  role: chrome
+  visualKeywords: [logo with navigation links, top header bar, menu with search]
+  variantSelectionHints: { Default: "text logo header", WithLogoImage: "image logo header" }
+Footer:
+  role: chrome
+  visualKeywords: [site footer with link columns, legal links and social icons]
+  variantSelectionHints: { Default: "footer", WithSocials: "footer with social icons" }
+
+# Not matched to page sections.
+ArticleDetails: { placeable: false }
+AuthorDetails: { placeable: false }
+ProjectDetails: { placeable: false }
+Breadcrumb: { placeable: false }
+Eyebrow: { placeable: false }
+PageBackground: { placeable: false }
+LanguageSwitcher: { placeable: false }
+ThemeSwitcher: { placeable: false }

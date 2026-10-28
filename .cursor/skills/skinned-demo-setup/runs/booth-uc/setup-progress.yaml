@@ -1,0 +1,103 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Booth University College"
+  systemName: "BoothUniversityCollege"            # <customer-system-name>
+  folder: "booth-uc"                # <customer-folder> kebab-case
+  url: "https://boothuc.ca/"
+  screenshotPath: ".cursor/skills/skinned-demo-setup/runs/booth-uc/homepage-screenshot.webp"        # path or attachment note — not binary
+  startedAt: "2026-10-28T15:22:19Z"
+  lastUpdatedAt: "2026-10-28T15:44:21Z"
+
+selection:
+  collectionMode: "new"        # new | existing
+  customerCollection: "Education"
+  collectionId: "428ec761bdfe45f48b927522d94d9319"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: true           # true | false
+
+artifacts:
+  newSiteId: "a57ae737-a30c-44c6-8b68-a76047690f5e"
+  ehEnvironmentId: ""
+  cmEnvironmentId: ""       # authoring env id if editing host path used
+  renderingHostKey: "booth-uc"
+
+steps:
+  inputs:
+    status: "complete"       # pending | complete
+
+  preflight_auth:
+    status: "complete"       # pending | complete | failed
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"       # pending | complete
+
+  source_verification:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1a_collection:
+    status: "complete"       # pending | complete | skipped
+    # skipped = existing collection reused
+
+  step1a_duplicate:
+    status: "complete"       # pending | complete | failed
+    tempSiteName: ""
+    error: ""
+
+  step1a_rename:
+    status: "skipped"       # pending | complete | failed
+    error: ""
+
+  step1a_move_notify:
+    status: "complete"       # pending | complete | skipped
+    # skipped when needsMove is false
+
+  step1b_local_copy:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1c_env_local:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  move_verify:
+    status: "complete"       # pending | complete | skipped | failed
+    error: ""
+
+  step1d_editing_host:
+    status: "skipped"       # pending | complete | skipped | failed
+    optedIn: false           # true | false
+    error: ""
+
+  step1_verification:
+    status: "complete"       # pending | complete | failed
+    error: ""
+
+  step2_build_demo:
+    status: "complete"       # pending | complete | failed | handed_off
+    # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
+    error: ""
+
+notes:
+  - "2026-10-28T15:22:19Z — Sites API authed (sites + collections 200). New collection Education; source ProsperaFinancial / avidemo/prospera; needsMove true. Waiting on user to connect Marketer MCP."
+# - "2026-09-25T15:00:00Z — Waiting on Content Editor move."
+  - "2026-10-28T15:26:31Z — Marketer MCP ok. Education collection 428ec761…; copied ProsperaFinancial → BoothUniversityCollege (a57ae737…) in Financial; SiteName ok, get_site_information ok. avidemo/booth-uc copied (no node_modules/.next); project.yaml → Education/BoothUniversityCollege, manifest 38/38 react=ok; renderingHosts.booth-uc added. Waiting on Content Editor move to Education, .env.local approval, editing host decision."
+  - "2026-10-28T15:42:06Z — .env.local created (site name + edge/editing/search from .env.automation.local). Editing host declined."
+  - "2026-10-28T15:44:21Z — Move verified (Education lists BoothUniversityCollege; rootPath /sitecore/content/Education/BoothUniversityCollege). Step 1 verified; handed off to avidemo/booth-uc sitecore-build-demo."
+  - "2026-10-28T15:46:27Z — sitecore-build-demo: Phase 0/0.5 complete; Phase 1 theme written, awaiting user review."
+  - "2026-10-28 — build-demo Phases 2.5–4 done (11 media items, 7 datasources, .site-booth-uc theme). Phase 6 blocked: Agent API add_component_on_page / set_component_datasource fail with CM GraphQL error (renderings field missing). Waiting on user decision."
+  - "2026-10-28 — sitecore-build-demo finished except page assembly: SE assembling Home in Pages (manual-tasks.md). Summary: avidemo/booth-uc/docs/ai/demos/booth-uc/demo-summary.md."

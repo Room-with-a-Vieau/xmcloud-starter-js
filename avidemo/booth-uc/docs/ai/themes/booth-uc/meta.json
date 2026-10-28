@@ -1,0 +1,72 @@
+{
+  "title": "Homepage - Booth University College",
+  "themeColor": null,
+  "msColor": null,
+  "ogTitle": "Homepage",
+  "ogDescription": "Booth University College provides Education for a Better World. Located in Winnipeg, Canada, we are The Salvation Army's only degree-granting institution.",
+  "ogImage": null,
+  "ogSiteName": "Booth University College",
+  "favicon": "https://boothuc.ca/admin/booth/classes/themes/TMv_BoothUC_Theme/images/favicon.png",
+  "googleFontsLinks": [],
+  "fontFaces": [
+    {
+      "family": "Crimson Pro",
+      "src": "url(\"CrimsonPro-SemiBold.ttf\") format(\"truetype\")",
+      "weight": "600"
+    },
+    {
+      "family": "Crimson Pro",
+      "src": "url(\"CrimsonPro-SemiBold.ttf\") format(\"truetype\")",
+      "weight": "bold"
+    },
+    {
+      "family": "Crimson Pro",
+      "src": "url(\"CrimsonPro-SemiBoldItalic.ttf\") format(\"truetype\")",
+      "weight": "600"
+    },
+    {
+      "family": "Crimson Pro",
+      "src": "url(\"CrimsonPro-SemiBoldItalic.ttf\") format(\"truetype\")",
+      "weight": "bold"
+    },
+    {
+      "family": "Crimson Pro",
+      "src": "url(\"CrimsonPro-Medium.ttf\") format(\"truetype\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Crimson Pro",
+      "src": "url(\"CrimsonPro-Medium.ttf\") format(\"truetype\")",
+      "weight": "500"
+    },
+    {
+      "family": "Helvetica Neue BUC",
+      "src": "url(\"HelveticaNeue-Thin.woff2\") format(\"woff2\"), url(\"HelveticaNeue-Thin.woff\") format(\"woff\")",
+      "weight": "100"
+    },
+    {
+      "family": "Helvetica Neue BUC",
+      "src": "url(\"HelveticaNeue-Light.woff2\") format(\"woff2\"), url(\"HelveticaNeue-Light.woff\") format(\"woff\")",
+      "weight": "300"
+    },
+    {
+      "family": "Helvetica Neue BUC",
+      "src": "url(\"HelveticaNeue.woff2\") format(\"woff2\"), url(\"HelveticaNeue.woff\") format(\"woff\")",
+      "weight": "400"
+    },
+    {
+      "family": "Helvetica Neue BUC",
+      "src": "url(\"HelveticaNeue-Medium.woff2\") format(\"woff2\"), url(\"HelveticaNeue-Medium.woff\") format(\"woff\")",
+      "weight": "500"
+    },
+    {
+      "family": "Helvetica Neue BUC",
+      "src": "url(\"HelveticaNeue-Bold.woff2\") format(\"woff2\"), url(\"HelveticaNeue-Bold.woff\") format(\"woff\")",
+      "weight": "700"
+    }
+  ],
+  "logoCandidates": [
+    "https://boothuc.ca/admin/booth/classes/themes/TMv_BoothUC_Theme/images/white-letter-logo.svg"
+  ],
+  "heroBgImage": null
+}

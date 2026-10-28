@@ -1,0 +1,246 @@
+client:
+  name: "Booth University College"
+  sourceUrl: "https://boothuc.ca/"
+  sourceLanguage: "en"
+  targetLanguage: "en"
+  translationApplied: false
+  extractedAt: "2026-10-28"
+  mappedAt: "2026-10-28"
+
+# Item names use the short client label "Booth UC" (matches the brand's own usage).
+sections:
+  - position: 1
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Partial design. Manual: WithLogoImage variant, Booth crest logo (images/section3-img13.svg), nav pages About/Admissions/Programs/Students/Library/News and Events."
+
+  - position: 2
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Booth UC - Hero"
+    apiAddable: true
+    fields:
+      Title: "Education for a Better World"
+      Text: ""
+      Link:
+        text: "Explore Programs"
+        href: "https://boothuc.ca/programs/explore-programs/"
+        target: ""
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://boothuc.ca/admin/booth/classes/themes/TMv_BoothUC_Theme/images/homepage-header-group.jpg"
+        alt: "Booth UC students talking on the campus steps"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 3
+    componentName: "StatsCounter"
+    manifestName: "StatsCounter"
+    kind: "simple"
+    datasourceItemName: "Booth UC - Stats Counter"
+    apiAddable: true
+    fields:
+      Value1: "18"
+      Symbol1: ""
+      Caption1: "Average Class Size"
+      Value2: "14"
+      Symbol2: ":1"
+      Caption2: "Student-Faculty Ratio"
+      Value3: "20"
+      Symbol3: "+"
+      Caption3: "Programs Delivered"
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://boothuc.ca/assets/news/BoothUC_Grad_Preview-25.jpg"
+        alt: "Booth UC convocation celebration"
+      - field: "Image2"
+        src: "https://boothuc.ca/assets/schools/DD5_8231.JPG"
+        alt: "Booth UC student"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Source shows 18 / 14:1 / 20+. 'Why Booth UC?' (https://boothuc.ca/admissions/why-booth-uc/) has no field. Image1/Image2 are Prospera's flanking decorative photos; the client has none, so use brand photos."
+
+  - position: 4
+    componentName: "Features"
+    manifestName: "Features"
+    kind: "simple"
+    datasourceItemName: "Booth UC - Features"
+    apiAddable: true
+    fields:
+      Eyebrow: "Your Path to a Better World"
+      Text: "<p>How do you change the world? Start with an education that's anchored in academic excellence and based on a vision of social justice, hope, and mercy for all.</p>"
+      Link:
+        text: "Explore Programs"
+        href: "https://boothuc.ca/programs/explore-programs/"
+        target: ""
+      Title1: "Undergraduate Studies"
+      Text1: "An undergraduate degree at Booth UC includes our core curriculum, your disciplinary major, and elective courses of your choice."
+      Title2: "Continuing Studies"
+      Text2: "Flexible, professional training in leadership, chaplaincy, and theological studies, through a range of certificate and degree programs."
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://boothuc.ca/assets/pages/DSCF3076-2.jpg"
+        alt: "Students sitting at a desk with their laptop computers, laughing together."
+      - field: "Image2"
+        src: "https://boothuc.ca/assets/pages/Booth_Programs_6-2.jpg"
+        alt: "Woman looking at laptop computer with notebooks on the desk beside her."
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Per-row link lists dropped (School of Business, School of Social Work, School of Humanities and Social Sciences, School for Continuing Studies, Salvationist Students, Continuing Studies Applicants)."
+
+  - position: 5
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Booth UC - Heading CTA - Academics"
+    apiAddable: true
+    fields:
+      Eyebrow: ""
+      Heading: "Academics"
+      Text: "Be prepared to tackle the issues of tomorrow with hope and confidence. An education at Booth University College combines academic excellence, Christian faith, and service."
+      Link:
+        text: ""
+        href: ""
+        target: ""
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 6
+    componentName: "FiveColumnCta"
+    manifestName: "FiveColumnCta"
+    kind: "simple"
+    datasourceItemName: "Booth UC - Five Column CTA"
+    apiAddable: true
+    reuseInstanceId: "b882746c-c313-4283-8f58-b9402bcf9c6a"
+    fields:
+      Text1: "School of Business"
+      Link1:
+        text: "School of Business"
+        href: "https://boothuc.ca/programs/our-schools/view-school/1/school-of-business/"
+        target: ""
+      Text2: "School of Social Work"
+      Link2:
+        text: "School of Social Work"
+        href: "https://boothuc.ca/programs/our-schools/view-school/2/school-of-social-work/"
+        target: ""
+      Text3: "School of Humanities and Social Sciences"
+      Link3:
+        text: "School of Humanities and Social Sciences"
+        href: "https://boothuc.ca/programs/our-schools/view-school/3/school-of-humanities-and-social-sciences/"
+        target: ""
+      Text4: "School for Continuing Studies"
+      Link4:
+        text: "School for Continuing Studies"
+        href: "https://boothuc.ca/programs/our-schools/view-school/5/school-for-continuing-studies/"
+        target: ""
+      Text5: "School of Graduate Studies"
+      Link5:
+        text: "School of Graduate Studies"
+        href: "https://boothuc.ca/programs/view-program/31/master-of-business-administration/"
+        target: ""
+    children: []
+    imageFields:
+      - { field: "Image1", src: "https://boothuc.ca/assets/schools/DD5_8231.JPG", alt: "School of Business" }
+      - { field: "Image2", src: "https://boothuc.ca/assets/schools/Booth_Schools_2.jpg", alt: "School of Social Work" }
+      - { field: "Image3", src: "https://boothuc.ca/assets/schools/IMG_8999.JPG", alt: "School of Humanities and Social Sciences" }
+      - { field: "Image4", src: "https://boothuc.ca/assets/schools/Booth_Schools_8.jpg", alt: "School for Continuing Studies" }
+      - { field: "Image5", src: "https://boothuc.ca/assets/schools/syful-islam-peF9JiJUCa8-unsplash.jpg", alt: "School of Graduate Studies" }
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Graduate Studies tile links to the MBA program page on the live site."
+
+  - position: 7
+    componentName: "CtaBanner"
+    manifestName: "CtaBanner"
+    kind: "simple"
+    datasourceItemName: "Booth UC - CTA Banner - Recent News"
+    apiAddable: true
+    fields:
+      Eyebrow: "Recent News"
+      Title: "Territorial Commander Invites Salvation Army Communities to Support Booth UC Sunday"
+      Text: "<p>Booth University College Sunday returns October 18, 2026. Every third Sunday in October, The Salvation Army Canada and Bermuda Territory sets aside a day to celebrate Booth UC and share its mission.</p>"
+      Link:
+        text: "Read All News"
+        href: "https://boothuc.ca/news-and-events/news/"
+        target: ""
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://boothuc.ca/assets/news/BoothUC_Catalogue_2026-010.jpg"
+        alt: "Booth University College banner on the campus building"
+      - field: "Icon"
+        src: "https://boothuc.ca/admin/booth/classes/themes/TMv_BoothUC_Theme/images/white-letter-logo.svg"
+        alt: "Booth University College"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Uses the first (lead) news slide rather than the 'Library closed' slide visible in the screenshot. Other slides: Fall hours in the library; Library closed Sept 7; Pamela San Diego valedictorian; 44th Convocation."
+
+  - position: 8
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Booth UC - Heading CTA - Upcoming Events"
+    apiAddable: true
+    fields:
+      Eyebrow: ""
+      Heading: "Upcoming Events"
+      Text: ""
+      Link:
+        text: "View All Events"
+        href: "https://boothuc.ca/news-and-events/events/"
+        target: ""
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 9
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"   # chrome: footer partial design, shared datasource — manual
+    datasourceItemName: ""
+    apiAddable: false
+    fields:
+      Text1: "<p>290 Vaughan Street<br />Winnipeg, Manitoba<br />R3B 2N8 CANADA</p>"
+      Text2: "<p><a href=\"https://boothuc.ca/about/our-people/contact-us/\">Contact Us</a><br /><a href=\"https://boothuc.ca/about/our-story/land-acknowledgement/\">Land Acknowledgement</a><br /><a href=\"https://boothuc.ca/news-and-events/news/unsubscribe/\">Unsubscribe</a></p>"
+      Copyright: "© 2026 Booth University College"
+      Text4: "<p>Booth University College is authorized to grant degrees, diplomas, and certificates of standing by the Province of Manitoba through The Degree Granting Act and The Salvation Army William and Catherine Booth University College Incorporation Act.</p>"
+      SocialLink1: { text: "Facebook", href: "https://www.facebook.com/BoothUC/", target: "_blank" }
+      SocialLink2: { text: "Instagram", href: "https://www.instagram.com/booth_uc/", target: "_blank" }
+      SocialLink3: { text: "LinkedIn", href: "https://www.linkedin.com/school/booth-university-college", target: "_blank" }
+    children: []
+    imageFields:
+      - { field: "Image1", src: "https://boothuc.ca/admin/booth/classes/themes/TMv_BoothUC_Theme/images/white-letter-logo.svg", alt: "Booth University College" }
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Reference values for the manual footer update. Only three social slots; YouTube (https://www.youtube.com/@BoothUC) is dropped."
+
+summary:
+  totalSections: 9
+  apiSections: 7
+  manualSections: 2
+  imagesMapped: 12
+  videos: 0
+
+datasourceItems:
+  - { position: 2, componentName: "Hero", itemName: "Booth UC - Hero", itemId: "{E704B084-C0F2-4654-B1BC-1C5939D174E0}", parentFolder: "{9F98E7D1-8D95-4EDA-8A8F-D092E32042D7}", imageFieldsPending: [] }
+  - { position: 3, componentName: "StatsCounter", itemName: "Booth UC - Stats Counter", itemId: "{4EF63C56-DDC7-4896-9821-09F50AB56301}", parentFolder: "{9F98E7D1-8D95-4EDA-8A8F-D092E32042D7}", imageFieldsPending: [] }
+  - { position: 4, componentName: "Features", itemName: "Booth UC - Features", itemId: "{B4148795-AACF-44EC-B3D0-9A39BCC933DD}", parentFolder: "{9F98E7D1-8D95-4EDA-8A8F-D092E32042D7}", imageFieldsPending: [] }
+  - { position: 5, componentName: "HeadingCta", itemName: "Booth UC - Heading CTA - Academics", itemId: "{F4A29241-849D-484A-9FD6-AB359D0909E8}", parentFolder: "{9F98E7D1-8D95-4EDA-8A8F-D092E32042D7}", imageFieldsPending: [] }
+  - { position: 6, componentName: "FiveColumnCta", itemName: "Booth UC - Five Column CTA", itemId: "{429E7A34-F4CE-44AD-A084-F2AE65588A7A}", parentFolder: "{9F98E7D1-8D95-4EDA-8A8F-D092E32042D7}", imageFieldsPending: [] }
+  - { position: 7, componentName: "CtaBanner", itemName: "Booth UC - CTA Banner - Recent News", itemId: "{A8C5381E-85CC-4B09-847E-D0ED72712122}", parentFolder: "{9F98E7D1-8D95-4EDA-8A8F-D092E32042D7}", imageFieldsPending: [] }
+  - { position: 8, componentName: "HeadingCta", itemName: "Booth UC - Heading CTA - Upcoming Events", itemId: "{F1039B28-6A53-4349-AA60-EDADA4191CF3}", parentFolder: "{9F98E7D1-8D95-4EDA-8A8F-D092E32042D7}", imageFieldsPending: [] }

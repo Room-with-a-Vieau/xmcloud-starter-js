@@ -1,0 +1,28 @@
+/* stylelint-disable value-keyword-case */
+@import 'https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400..700;1,400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap';
+
+.site-basic {
+  --font-family: 'Open Sans', Helvetica, Verdana, Tahoma, sans-serif;
+}
+
+.site-financial {
+  --font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+}
+
+.site-services {
+  --font-family: 'Epilogue', Helvetica, Arial, sans-serif;
+}
+
+// Booth UC: Helvetica Neue body (system font), Crimson Pro serif headings
+.site-booth-uc {
+  --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  }
+}
