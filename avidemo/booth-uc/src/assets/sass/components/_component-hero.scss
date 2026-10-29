@@ -56,3 +56,40 @@
     }
   }
 }
+
+// Booth UC: navy-tinted photo with a large white serif headline
+.site-booth-uc .hero {
+  position: relative;
+  color: #fff;
+
+  picture {
+    position: relative;
+    display: block;
+    height: 100%;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgb(3 29 51 / 65%);
+    }
+  }
+
+  .content-container {
+    z-index: 1;
+
+    .title {
+      font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+      font-size: clamp(3rem, 7vw, 5.75rem);
+      line-height: 1.1;
+      font-weight: 500;
+      max-width: 14ch;
+    }
+  }
+
+  a {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+}

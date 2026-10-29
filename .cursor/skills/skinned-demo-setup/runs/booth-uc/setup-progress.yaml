@@ -24,8 +24,8 @@ selection:
 
 artifacts:
   newSiteId: "a57ae737-a30c-44c6-8b68-a76047690f5e"
-  ehEnvironmentId: ""
-  cmEnvironmentId: ""       # authoring env id if editing host path used
+  ehEnvironmentId: "43IjmyjoHZ2nxqYcduegZH"
+  cmEnvironmentId: "1X53QJOQ0rj7vn7cjMZ8De"       # authoring env id if editing host path used
   renderingHostKey: "booth-uc"
 
 steps:
@@ -79,8 +79,8 @@ steps:
     error: ""
 
   step1d_editing_host:
-    status: "skipped"       # pending | complete | skipped | failed
-    optedIn: false           # true | false
+    status: "complete"       # pending | complete | skipped | failed
+    optedIn: true           # true | false
     error: ""
 
   step1_verification:
@@ -101,3 +101,4 @@ notes:
   - "2026-10-28T15:46:27Z — sitecore-build-demo: Phase 0/0.5 complete; Phase 1 theme written, awaiting user review."
   - "2026-10-28 — build-demo Phases 2.5–4 done (11 media items, 7 datasources, .site-booth-uc theme). Phase 6 blocked: Agent API add_component_on_page / set_component_datasource fail with CM GraphQL error (renderings field missing). Waiting on user decision."
   - "2026-10-28 — sitecore-build-demo finished except page assembly: SE assembling Home in Pages (manual-tasks.md). Summary: avidemo/booth-uc/docs/ai/demos/booth-uc/demo-summary.md."
+  - "2026-10-28 — User created booth-uc EH (43IjmyjoHZ2nxqYcduegZH) outside the skill; Pages 500 from missing NEXT_PUBLIC_SEARCH_* (discoverDomainId). Upserted the 4 vars (--target EH, verified) and redeployed."

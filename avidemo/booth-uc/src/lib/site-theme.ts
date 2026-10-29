@@ -1,10 +1,11 @@
 const SITE_THEME_CLASS_MAP: Record<string, string> = {
   Financial: 'site-financial',
   Services: 'site-services',
-  BoothUniversityCollege: 'site-booth-uc',
+  // Component styles are scoped to .site-financial; .site-booth-uc only overrides tokens and fonts
+  BoothUniversityCollege: 'site-financial site-booth-uc',
 };
 
-const DEFAULT_SITE_THEME_CLASS = 'site-booth-uc';
+const DEFAULT_SITE_THEME_CLASS = 'site-financial site-booth-uc';
 
 export function getSiteThemeClass(siteName: string | undefined): string {
   if (!siteName) {
