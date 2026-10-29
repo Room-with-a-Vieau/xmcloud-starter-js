@@ -4,14 +4,41 @@
     {
       "name": "demo-snapshot",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8765", "--bind", "127.0.0.1", "--directory", "/private/tmp/claude-501/-Users-andrewvieau-dev-xmcloud-starter-js/5578e2bb-9009-4d73-bd01-0df5b9a11a6e/scratchpad/render"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "/private/tmp/claude-501/-Users-andrewvieau-dev-xmcloud-starter-js/5578e2bb-9009-4d73-bd01-0df5b9a11a6e/scratchpad/render"
+      ],
       "port": 8765
     },
     {
       "name": "brooks-running",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "avidemo/brooks-running", "run", "dev"],
+      "runtimeArgs": [
+        "--prefix",
+        "avidemo/brooks-running",
+        "run",
+        "dev"
+      ],
       "port": 3000
+    },
+    {
+      "name": "booth-uc-prod",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "avidemo/booth-uc",
+        "run",
+        "next:start",
+        "--",
+        "-p",
+        "3010"
+      ],
+      "port": 3010
     }
   ]
 }
