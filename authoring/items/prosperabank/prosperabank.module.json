@@ -63,6 +63,18 @@
             "scope": "ignored"
           }
         ]
+      },
+      {
+        "name": "site-template",
+        "path": "/sitecore/system/Settings/Project/Prospera Site Template",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "site-template-scripts",
+        "path": "/sitecore/system/Modules/PowerShell/Script Library/Prospera Site Template",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       }
     ]
   }

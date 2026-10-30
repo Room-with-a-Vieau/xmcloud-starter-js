@@ -1,0 +1,13 @@
+---
+ID: "c6c0b57f-1f25-4a57-a6aa-9c7be42108c1"
+Parent: "f361b379-fe67-44b5-9314-1e8e5045c48e"
+Template: "bed31d6f-d968-45a9-b54e-12d7f977d861"
+Path: "/sitecore/system/Settings/Project/Prospera Site Template/Prospera Setup"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: Prospera
