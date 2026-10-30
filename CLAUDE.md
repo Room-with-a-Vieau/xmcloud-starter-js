@@ -18,6 +18,8 @@ A working fork of the Sitecore **XM Cloud Front End Application Starter Kits**, 
 
 `guidestone` & `cooley` are the other two custom head apps, both based on prospera. Each is a Content SDK App Router app using `next-intl`, and each ships its own `CLAUDE.md` → `AGENTS.md`, `.cursor/rules/`, `Skills.md`, and `.agents/skills/`. `avidemo/README.md` covers adding a new demo and the checklist before sharing one with a client.
 
+`healthcare` (rendering host `healthcare`, Sitecore site `nova-medical`) is **not** based on prospera. It was ported from the FY27 industry verticals repo (https://github.com/Room-with-a-Vieau/FY27-verticals) onto the `examples/basic-nextjs` App Router shell. Its items live in `authoring/items/industry-verticals/` (modules `Project.IndustryVerticals`, `Project.Healthcare-Content`, `Project.Healthcare-Media`) and don't depend on `prosperabank`. See `avidemo/healthcare/README.md`.
+
 **Reference starters (`/examples`):**
 - `basic-nextjs` — Minimal Next.js starter
 - `basic-nextjs-pages-router` — Pages Router variant (deploy disabled)

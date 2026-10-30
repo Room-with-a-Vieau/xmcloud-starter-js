@@ -113,17 +113,33 @@
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "next:start"
+    },
+    "healthcare": {
+      "path": "./avidemo/healthcare",
+      "nodeVersion": "24.14.1",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
     }
   },
   "deployItems": {
     "modules": [
       "system",
       "nextjs-starter",
-      "prosperabank"
+      "prosperabank",
+      "Project.IndustryVerticals"
     ]
   },
   "postActions": {
     "actions": {
+      "scsModules": {
+        "modules": [
+          "Project.Healthcare-Content",
+          "Project.Healthcare-Media"
+        ]
+      },
       "warmUpCm": {
         "urls": [
           "/sitecore/shell",
