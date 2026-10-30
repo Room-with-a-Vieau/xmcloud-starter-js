@@ -20,7 +20,6 @@ By default a deploy installs only Prospera, the template site. Every other site'
 | Logix Federal Credit Union | `logix` | `"logix"` |
 | Cooley (Legal collection) | `cooley` | `"cooley"` |
 | Brooks Running (Fitness collection) | `brooks-running` | `"brooks-running"` |
-| Healthcare / Nova Medical (industry-verticals collection) | `healthcare` | `"Project.IndustryVerticals"`, plus `"Project.Healthcare-Content"` and `"Project.Healthcare-Media"` under `postActions.actions.scsModules` |
 | Example kits (Solterra, Alaris, SYNC, Skate Park, basic) | `nextjsstarter`, `kit-nextjs-article-starter`, `kit-nextjs-location-starter`, `kit-nextjs-product-starter`, `basic-nextjs` | `"Project.click-click-launch"` |
 
 The example-kit module holds only the kits' templates, renderings, settings, media and Click Click Launch scripts — none of their site content is serialized, so turning it on doesn't create those sites by itself.
