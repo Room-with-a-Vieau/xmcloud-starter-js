@@ -20,6 +20,7 @@ selection:
   sourceSiteId: ""
   sourceCollectionId: ""
   sourceFolder: ""
+  baseProfile: ""           # prospera | healthcare
   needsMove: null           # true | false
 
 artifacts:
@@ -27,6 +28,7 @@ artifacts:
   ehEnvironmentId: ""
   cmEnvironmentId: ""       # authoring env id if editing host path used
   renderingHostKey: ""
+  themeSettingsId: ""       # healthcare: the copy's Settings/Theme Settings item id
 
 steps:
   inputs:
@@ -58,6 +60,11 @@ steps:
     status: "pending"       # pending | complete | failed
     error: ""
 
+  step1a_theme_datasource:
+    status: "pending"       # pending | complete | skipped | failed
+    # skipped for the prospera profile; healthcare: ThemeEditor datasource = themeSettingsId
+    error: ""
+
   step1a_move_notify:
     status: "pending"       # pending | complete | skipped
     # skipped when needsMove is false
@@ -68,6 +75,11 @@ steps:
 
   step1c_env_local:
     status: "pending"       # pending | complete | failed
+    error: ""
+
+  step1c_demo_kit:
+    status: "pending"       # pending | complete | skipped | failed
+    # skipped for the healthcare profile (no docs/ai kit)
     error: ""
 
   step1c_xmcloud_build:
@@ -90,6 +102,16 @@ steps:
   step2_build_demo:
     status: "pending"       # pending | complete | failed | handed_off
     # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
+    # skipped for the healthcare profile (see step2_theme_skin)
+    error: ""
+
+  step2_theme_skin:
+    status: "pending"       # pending | complete | skipped | failed
+    # skipped for the prospera profile
+    brandConfirmed: false   # palette + fonts confirmed with the user
+    themeWritten: false     # CustomCSS (and FontOptions if needed) written
+    contentSwaps: []        # e.g. "header logo", "hero image", "hero headline"
+    notes: []               # font substitutions, gaps needing code
     error: ""
 
 notes: []

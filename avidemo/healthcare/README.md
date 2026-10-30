@@ -32,6 +32,10 @@ Serialized items live in [`authoring/items/industry-verticals`](../../authoring/
 
 The tenant templates and renderings are shared by every FY27 vertical. The other verticals' site roots were trimmed out, so adding one later means restoring its `sites-*` include and media rule in `common.module.json`.
 
+## New demos based on Nova Medical
+
+Run the `skinned-demo-setup` skill (`.claude/skills/skinned-demo-setup/SKILL.md`) and choose `nova-medical` as the base site. It copies the site with the Sites API and this folder to `avidemo/<customer>`, then skins the copy through its `Settings/Theme Settings` item (Step 2H). There's no `docs/ai` demo kit here, so Prospera's `sitecore-build-demo` step doesn't apply.
+
 ## Porting notes
 
 - Every Sitecore component is a client component (`'use client'`), the same as Prospera. This keeps `useSitecore`, `withDatasourceCheck` and nested `Placeholder` working unchanged. `PartialDesignDynamicPlaceholder` stays a server component and uses `AppPlaceholder`.
