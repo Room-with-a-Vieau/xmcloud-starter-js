@@ -1,16 +1,16 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository. This file was read and updated by a human on Wednesday, Oct 7, 2026. Or at least, everything above "Architecture."
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository. This file was read and updated by a human on Friday, Oct 30, 2026. Or at least, everything above "Architecture."
 
 ## Repository Overview
 
-A working fork of the Sitecore **XM Cloud Front End Application Starter Kits**, used to build and demo custom XM Cloud head applications for client work. XM Cloud is not SitecoreAI CMS.
+A working fork of the Sitecore **XM Cloud Front End Application Starter Kits**, used to build and demo custom XM Cloud head applications for client work. XM Cloud is now called SitecoreAI CMS. Treat XM Cloud and SitecoreAI as the same thing.
 
 - `/avidemo/` — Custom head apps for demos and client work. **New head apps go here.**
 - `/examples/` — Reference starters this fork was seeded from; kept as-is for reference and copying. Treat a new head app under `/examples` as misplaced, not out-of-scope.
 - `/authoring/` — Serialized Sitecore items (`authoring/items/**/*.module.json`, one module per site) and platform code
-- `/local-containers/` — Docker setup for a local Sitecore CM. Not used as of last human edit to this file.
 - `xmcloud.build.json` — XM Cloud deploy config: one `renderingHosts` entry per app, toggled with `enabled`
+- **Split deployment is always enabled.** Editing hosts are deployed separately from the authoring environment and never affect authoring deploys.
 - `sitecore.json` — Sitecore CLI root config (serialization modules, plugins)
 
 **Custom head apps (`/avidemo`):** 
@@ -18,7 +18,7 @@ A working fork of the Sitecore **XM Cloud Front End Application Starter Kits**, 
 
 `guidestone` & `cooley` are the other two custom head apps, both based on prospera. Each is a Content SDK App Router app using `next-intl`, and each ships its own `CLAUDE.md` → `AGENTS.md`, `.cursor/rules/`, `Skills.md`, and `.agents/skills/`. `avidemo/README.md` covers adding a new demo and the checklist before sharing one with a client.
 
-`healthcare` (rendering host `healthcare`, Sitecore site `nova-medical`) is **not** based on prospera. It was ported from the FY27 industry verticals repo (https://github.com/Room-with-a-Vieau/FY27-verticals) onto the `examples/basic-nextjs` App Router shell. Its items live in `authoring/items/industry-verticals/` (modules `Project.IndustryVerticals`, `Project.Healthcare-Content`, `Project.Healthcare-Media`) and don't depend on `prosperabank`. See `avidemo/healthcare/README.md`.
+`healthcare` (rendering host `healthcare`, Sitecore site `nova-medical`) is **not** based on prospera. It was ported from the FY27 industry verticals repo (https://github.com/Room-with-a-Vieau/FY27-verticals) onto the `examples/basic-nextjs` App Router shell. Its items live in `authoring/items/industry-verticals/` (modules `Project.IndustryVerticals`, `Project.Healthcare-Content`, `Project.Healthcare-Media`) and don't depend on `prosperabank`. See `avidemo/healthcare/README.md`. It is intended to be a new template for future apps & sites, if Claude can get its act together.
 
 **Reference starters (`/examples`):**
 - `basic-nextjs` — Minimal Next.js starter
