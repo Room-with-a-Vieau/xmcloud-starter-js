@@ -13,8 +13,12 @@
   --font-family: 'Epilogue', Helvetica, Arial, sans-serif;
 }
 
+// Prospera's base body style hard-codes its own font, so apply the theme font explicitly
+body.site-kelsey-seybold,
 .site-kelsey-seybold {
   --font-family: 'Lato', Helvetica, Arial, sans-serif;
+
+  font-family: var(--font-family);
 
   h1,
   h2,
