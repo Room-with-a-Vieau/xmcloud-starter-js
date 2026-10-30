@@ -1,45 +1,20 @@
 ---
 name: skinned-demo-setup
 description: >-
-  Sets up a skinned Sitecore demo from ProsperaFinancial, the Nova Medical
-  healthcare site (nova-medical), or another chosen base site: selects or creates
-  a Site Collection, duplicates a Site via Sites API, prompts Content Editor move
-  when needed while copying an avidemo source folder to a customer-named folder,
-  wires .env.local and xmcloud.build.json, optionally creates an XM Cloud editing
-  host, then skins the demo (Prospera: hands off to sitecore-build-demo; Nova
-  Medical: themes the copy through its Theme Settings item). Tracks progress in
-  setup-progress.yaml for resume. Use when the user asks for Skinned Demo Setup,
-  a skinned demo, Prospera skin, a healthcare / Nova Medical skin, to scaffold a
-  customer demo from ProsperaFinancial or nova-medical, or to resume a stalled
-  skinned demo setup.
+  Sets up a skinned Sitecore demo from ProsperaFinancial (or another chosen base
+  site): selects or creates a Site Collection, duplicates a Site via Sites
+  API, prompts Content Editor move when needed while copying an avidemo
+  source folder to a customer-named folder, wires .env.local and xmcloud.build.json,
+  optionally creates an XM Cloud editing host, then hands off to sitecore-build-demo.
+  Tracks progress in setup-progress.yaml for resume. Use when the user asks for
+  Skinned Demo Setup, a skinned demo, Prospera skin, to scaffold a customer demo
+  from ProsperaFinancial, or to resume a stalled skinned demo setup.
 disable-model-invocation: true
 ---
 
 # Skinned Demo Setup
 
 Scaffold a customer skinned demo from a base XM Cloud site (default **ProsperaFinancial**) and its matching **`avidemo/<source-folder>`** codebase (default **`prospera`**).
-
-## Base profiles
-
-The base site decides which steps run. Resolve `<base-profile>` when the source site is chosen (see **Resolve `<source-folder>`**) and record it in `selection.baseProfile`.
-
-| | `prospera` (default) | `healthcare` |
-|---|---|---|
-| Source site | `ProsperaFinancial` | `nova-medical` |
-| Source folder | `avidemo/prospera` | `avidemo/healthcare` |
-| Source collection | wherever ProsperaFinancial lives | `industry-verticals` |
-| Demo kit (`docs/ai`) | yes | **no** |
-| Step 1c §2 (demo kit target) | run | **skip** (`step1c_demo_kit: skipped`) |
-| Step 1a §3 extra check | — | ThemeEditor datasource points at the copy's own Theme Settings |
-| Step 2 | hand off to `sitecore-build-demo` | **Step 2H — Theme skin** (this file) |
-
-**Healthcare profile notes:**
-
-- `nova-medical` exists only after an XM Cloud deploy that includes `Project.IndustryVerticals` and the `Project.Healthcare-*` post-action modules (see `avidemo/healthcare/README.md`). If source verification can't find it, stop and tell the user to deploy first.
-- Recommend `existing` collection → `industry-verticals`. The copy then stays beside the tenant's templates, renderings and page designs, and no Content Editor move is needed. A new collection works the same way as for Prospera (`<needs-move>` = true), but no healthcare demo has been moved out of `industry-verticals` yet, so call that out when the user picks it.
-- The copy keeps referencing Nova Medical's media under `/sitecore/media library/Project/industry-verticals/nova-medical`. Don't delete or rename those media items.
-- Only `nova-medical` is serialized. The copied site lives only in the environment, the same as Prospera copies.
-- **Every redeploy re-pushes Nova Medical's content and media** (`postActions.scsModules`). The copy isn't affected, but tell the user never to skin Nova Medical itself.
 
 ## Progress file (source of truth)
 
@@ -56,7 +31,7 @@ Mirror the Prospera `demo-progress.yaml` pattern:
 2. **Update** after every meaningful step: set the step’s `status`, IDs under `selection` / `artifacts`, and `customer.lastUpdatedAt` (ISO-8601). Append a short line to `notes` when waiting on the user or recovering from failure.
 3. **Never store secrets** (JWTs, client secrets, passwords). IDs, names, paths, and statuses only.
 4. **Do not re-run** steps with `status: "complete"` or `"skipped"` unless the user explicitly asks to redo them.
-5. On Step 2 handoff (prospera profile), set `steps.step2_build_demo.status: "handed_off"`. Further resume of the demo build uses the customer app’s `docs/ai/demos/<client-kebab>/demo-progress.yaml` from `sitecore-build-demo`. The healthcare profile has no handoff: Step 2H runs here and is tracked in `steps.step2_theme_skin`.
+5. On Step 2 handoff, set `steps.step2_build_demo.status: "handed_off"`. Further resume of the demo build uses the customer app’s `docs/ai/demos/<client-kebab>/demo-progress.yaml` from `sitecore-build-demo`.
 
 ### Running plan / summary (chat)
 
@@ -83,15 +58,15 @@ If the user says **"resume skinned demo"**, **"continue setup"**, **"pick up whe
 5. Show the running plan summary (Done / Next / Blocked) and confirm before continuing.
 6. **Do not re-run completed steps.** Re-auth (Sites API / Marketer MCP) if tokens may have expired, even when `preflight_auth` was complete.
 
-If Step 2 is `handed_off` or `complete`, resume inside the customer folder via `sitecore-build-demo` and its `demo-progress.yaml`, not by redoing Step 1. For the healthcare profile, resume Step 2H at the first unchecked sub-step recorded in `steps.step2_theme_skin`.
+If Step 2 is `handed_off` or `complete`, resume inside the customer folder via `sitecore-build-demo` and its `demo-progress.yaml`, not by redoing Step 1.
 
 ## Inputs (required)
 
 Collect before any work:
 
 1. **Customer name** — used for Site name, optional new Site Collection name, local folder name, and Step 2 demo build
-2. **Customer URL** — passed to Step 2 (`sitecore-build-demo` or Step 2H) for content extraction and theme scraping
-3. **Screenshot of the customer’s homepage** — required; passed to Step 2 as the primary visual reference. Accept an attached image, a local file path, or ask the user to upload one. Do not proceed without a screenshot.
+2. **Customer URL** — passed to Step 2 / `sitecore-build-demo` (content extraction and theme scraping)
+3. **Screenshot of the customer’s homepage** — required; passed to Step 2 / `sitecore-build-demo` as the primary visual reference. Accept an attached image, a local file path, or ask the user to upload one. Do not proceed without a screenshot.
 
 Derive names:
 
@@ -120,7 +95,6 @@ Resolve these before Step 1a and persist them into `selection` in the progress f
 | `<source-site-id>` | Id of source site | From Sites API / MCP |
 | `<source-collection-id>` | Collection that currently owns the source site | From Sites API |
 | `<source-folder>` | Local codebase under `avidemo/` | `prospera` |
-| `<base-profile>` | `prospera` or `healthcare` (see **Base profiles**) | `prospera` |
 | `<needs-move>` | `true` if `<source-collection-id>` ≠ `<collectionId>` | Computed |
 
 ## Progress checklist
@@ -137,16 +111,15 @@ Skinned Demo Setup
 - [ ] Source site and avidemo/<source-folder> verified
 - [ ] Step 1a: Target collection ready (created or selected)
 - [ ] Step 1a: Site duplicated from <source-site-name>
-- [ ] Step 1a: Site definition checked (`SiteName` = customer system name; healthcare: ThemeEditor datasource)
+- [ ] Step 1a: Site definition checked (`SiteName` = customer system name)
 - [ ] User notified of Content Editor move if <needs-move> — continue without waiting
 - [ ] Step 1b: Local folder copied from <source-folder>
 - [ ] Step 1c: NEXT_PUBLIC_DEFAULT_SITE_NAME set in customer .env.local
-- [ ] Step 1c: Demo kit pointed at customer site (prospera) / skipped (healthcare)
 - [ ] Step 1c: xmcloud.build.json renderingHosts entry added
 - [ ] Move verified (or skipped if !<needs-move>)
 - [ ] Step 1d: Editing host (skipped or created)
 - [ ] Step 1 verification complete
-- [ ] Step 2: Invoked sitecore-build-demo in customer folder (prospera) / Step 2H theme skin applied (healthcare)
+- [ ] Step 2: Invoked sitecore-build-demo in customer folder
 ```
 
 After each checklist item completes, update the matching `steps.*` entry in `setup-progress.yaml`.
@@ -206,7 +179,6 @@ Ask the user:
 2. Set `<customer-collection>` to the derived collection system name from the customer name (confirm with user).
 3. Ask which site to use as the copy base:
    - **Default:** ProsperaFinancial
-   - **Healthcare:** nova-medical (Nova Medical). A new collection means a Content Editor move out of `industry-verticals`; see **Base profiles**.
    - Or list sites via Sites API `GET /api/v1/sites` / Marketer MCP `list_sites` and let them pick another
 4. Resolve `<source-site-name>` / `<source-site-id>` / `<source-collection-id>` from that choice.
 
@@ -217,17 +189,16 @@ Ask the user:
 3. Record `<collectionId>` and `<customer-collection>` (system name) from the choice.
 4. `GET /api/v1/collections/{collectionId}/sites` — list sites in that collection.
 5. Ask which site to use as the copy base:
-   - One of the sites in that collection (for `industry-verticals`, that's **nova-medical**), **or**
+   - One of the sites in that collection, **or**
    - The default **ProsperaFinancial** (even if it lives in another collection)
 6. Resolve `<source-site-name>` / `<source-site-id>` / `<source-collection-id>`.
 
 ### Resolve `<source-folder>`
 
-| Source site | Local folder | `<base-profile>` |
-|---|---|---|
-| `ProsperaFinancial` (default) | `avidemo/prospera` → `<source-folder>` = `prospera` | `prospera` |
-| `nova-medical` | `avidemo/healthcare` → `<source-folder>` = `healthcare` | `healthcare` |
-| Any other site | Map to a folder under `avidemo/`. List directories there, suggest a kebab/lowercase match to the site name, and **confirm with the user** before continuing. | `prospera` if the folder has `docs/ai/skills/sitecore-build-demo.md`; otherwise ask the user how Step 2 should skin it, and stop if there's no answer |
+| Source site | Local folder |
+|---|---|
+| `ProsperaFinancial` (default) | `avidemo/prospera` → `<source-folder>` = `prospera` |
+| Any other site | Map to a folder under `avidemo/`. List directories there, suggest a kebab/lowercase match to the site name, and **confirm with the user** before continuing. |
 
 ### Source verification
 
@@ -244,7 +215,7 @@ Stop if the source site or source folder is missing.
 Confirm the plan with the user once:
 
 > Target collection: `<customer-collection>` (`new`/`existing`)  
-> Source site: `<source-site-name>` (profile: `<base-profile>`)  
+> Source site: `<source-site-name>`  
 > Source code folder: `avidemo/<source-folder>`  
 > New site / folder: `<customer-system-name>` / `avidemo/<customer-folder>`
 
@@ -306,13 +277,6 @@ Read `/sitecore/content/<source-collection>/<customer-system-name>/Settings/Site
 
 Confirm with Marketer MCP `get_site_information(newSiteId)` — it must succeed. Mark `step1a_rename` as `skipped` (no rename needed).
 
-**Healthcare profile — ThemeEditor datasource.** Nova Medical's theme comes from the **ThemeEditor** rendering in `Presentation/Partial Designs/Header`. Its datasource is the site's `Settings/Theme Settings` item, stored as an **item ID** (Nova Medical's is `{312D7C17-815F-4020-8EEA-8CF721EE2418}`). Before Step 2H writes any theme values:
-
-1. Read `/sitecore/content/<source-collection>/<customer-system-name>/Settings/Theme Settings` and record its ID as `artifacts.themeSettingsId`.
-2. Read `/sitecore/content/<source-collection>/<customer-system-name>/Presentation/Partial Designs/Header` and find the ThemeEditor rendering's datasource in `__Renderings` / `__Final Renderings` (rendering ID `{95A4BE1D-049A-40E1-A9E8-9D90AEA233E7}`).
-3. If it equals `artifacts.themeSettingsId`, the copy remapped it — continue.
-4. If it still points at Nova Medical's item, **stop and fix it before Step 2H**. Otherwise skinning the copy would rewrite Nova Medical's theme. Repoint it with Marketer MCP if a tool accepts the partial design item. If not, ask the user to change the rendering's datasource in Content Editor or Pages (Header partial design → ThemeEditor → datasource → the copy's `Settings/Theme Settings`), then re-check. Record the outcome in `steps.step1a_theme_datasource`.
-
 ### 4. Notify — Content Editor move (only if `<needs-move>`)
 
 **If `<needs-move>` is false** (duplicate already in the target collection): skip this notify. Continue to Step 1b.
@@ -366,9 +330,7 @@ Only change this variable (and create the file if needed). Do not invent or comm
 
 ### 2. Point the demo kit at the customer site
 
-**Healthcare profile:** skip this section. `avidemo/healthcare` has no `docs/ai` demo kit. Set `steps.step1c_demo_kit.status: "skipped"` and continue to §3.
-
-**Prospera profile:** in `avidemo/<customer-folder>/docs/ai/config/project.yaml`, set:
+In `avidemo/<customer-folder>/docs/ai/config/project.yaml`, set:
 
 ```yaml
 siteCollection: "<customer-collection>"
@@ -381,7 +343,7 @@ Leave the library roots (`renderingsRoot`, `projectTemplatesRoot`, `serializedSi
 node docs/ai/scripts/generate-manifest.mjs
 ```
 
-It must report every component `react=ok`. Set `steps.step1c_demo_kit.status: "complete"`.
+It must report every component `react=ok`.
 
 ### 3. Register rendering host in `xmcloud.build.json`
 
@@ -394,7 +356,6 @@ Edit the repo-root **`xmcloud.build.json`**.
 5. Leave other fields from the source host unchanged unless the user asks otherwise.
 6. Do **not** modify or remove the original source host entry.
 7. Record this key in progress as `artifacts.renderingHostKey` (= `<customer-folder>`).
-8. **Healthcare profile:** change only `renderingHosts`. Don't copy or add `deployItems` / `postActions.scsModules` entries for the customer: `Project.IndustryVerticals` and `Project.Healthcare-*` belong to Nova Medical, and the copy has no serialization module.
 
 **Name consistency:** The `renderingHosts` key, the editing host `--name` (Step 1d), and `<customer-folder>` must be the **same lowercase** string.
 
@@ -493,8 +454,7 @@ Confirm all artifacts:
 | Site Collection | `GET /api/v1/collections` — `<customer-collection>` / `<collectionId>` present |
 | Site | `GET /api/v1/sites` — `<customer-system-name>` present |
 | Site definition | `SiteName` = `<customer-system-name>`; Marketer MCP `get_site_information(newSiteId)` succeeds |
-| Demo kit target (prospera) | customer `docs/ai/config/project.yaml` has the customer collection/site; `generate-manifest.mjs` reports all `react=ok` |
-| Theme datasource (healthcare) | Header partial design's ThemeEditor datasource = `artifacts.themeSettingsId` (the copy's own `Settings/Theme Settings`) |
+| Demo kit target | customer `docs/ai/config/project.yaml` has the customer collection/site; `generate-manifest.mjs` reports all `react=ok` |
 | Site in target collection | `GET /api/v1/collections/{collectionId}/sites` — site listed (required; if `<needs-move>` was false this should already be true) |
 | Local folder | `avidemo/<customer-folder>` exists (copied from `<source-folder>`) |
 | `.env.local` site name | `NEXT_PUBLIC_DEFAULT_SITE_NAME` equals `<customer-system-name>` |
@@ -508,9 +468,7 @@ Then continue immediately to **Step 2** (do not wait for an extra “continue”
 
 ---
 
-## Step 2 — Invoke sitecore-build-demo (prospera profile)
-
-**Healthcare profile:** skip to **Step 2H — Theme skin**.
+## Step 2 — Invoke sitecore-build-demo
 
 Treat this as if the user prompted: **“build a demo for \<customer name\>”**.
 
@@ -574,90 +532,6 @@ Set `steps.step2_build_demo.status: "handed_off"` in `setup-progress.yaml` befor
 
 ---
 
-## Step 2H — Theme skin (healthcare profile)
-
-Nova Medical is skinned through **content**, not code. The ThemeEditor rendering reads CSS custom properties from the `CustomCSS` field of the site's `Settings/Theme Settings` item. It applies them over the defaults in `src/assets/base/variables.css` and loads any Google fonts they name from the `FontOptions` field. Set `steps.step2_build_demo.status: "skipped"` and track this step in `steps.step2_theme_skin`.
-
-### Hard scope
-
-| Change type | Target |
-|---|---|
-| **Content changes** | `/sitecore/content/<customer-collection>/<customer-site>` only (in practice, `Settings/Theme Settings` and the pages under `Home`) |
-| **Code changes** | none by default; if needed, `avidemo/<customer-folder>/` only, after asking |
-
-Never write to `nova-medical` or to the `industry-verticals` templates or renderings.
-
-### 1. Extract the brand
-
-From the homepage screenshot (primary) and the customer URL (fetch the page and its stylesheets for exact hex values and `font-family` names), derive:
-
-- Page background, a light secondary surface, a stronger tertiary surface, body text color
-- An accent color (buttons, highlights) and a muted accent
-- Heading and body fonts
-- Corner rounding (sharp, slightly rounded, pill)
-
-Show the user the palette and fonts as a short table and confirm before writing.
-
-### 2. Map to the theme variables
-
-Write one declaration per line. Use exactly these names; the components only read these:
-
-| Variable | Role |
-|---|---|
-| `--color-background` | page background |
-| `--color-background-secondary` | light section background |
-| `--color-background-tertiary` | stronger section / card background |
-| `--color-foreground` | body and heading text |
-| `--color-background-dark` | dark-mode page background |
-| `--color-background-secondary-dark` | dark-mode section background |
-| `--color-background-tertiary-dark` | dark-mode card background |
-| `--color-foreground-dark` | dark-mode text |
-| `--color-foreground-secondary-dark` | dark-mode secondary text |
-| `--color-accent` | buttons, highlights |
-| `--color-accent-muted` | hover / softer accent |
-| `--color-background-input` | form field background |
-| `--color-disabled` / `--color-disabled-dark` | disabled controls |
-| `--color-border` | borders and dividers |
-| `--font-heading` / `--font-body` | `'<Font Name>', sans-serif` (or `serif`) |
-| `--radius-base` | e.g. `0rem`, `0.5rem`, `1.5rem` |
-
-Nova Medical's own values are the `ThemeDefaults` field of its `Settings/Theme Settings`; read them for the format. Keep text on each background at WCAG AA contrast (4.5:1). Derive the `-dark` values from the brand too; don't leave Nova Medical's teal in dark mode.
-
-### 3. Fonts
-
-ThemeEditor only loads a font whose name appears in the copy's `FontOptions` JSON (`[{ label, suffix, fonts: [{ name, link }] }]`). If a customer font isn't listed:
-
-- If it's on Google Fonts, add `{ "name": "<Font Name>", "link": "https://fonts.googleapis.com/css2?family=<Font+Name>:wght@...&display=swap" }` to the matching group in the copy's `FontOptions`.
-- If it isn't (a licensed or custom font), pick the closest Google font, tell the user, and note it in `steps.step2_theme_skin.notes`.
-
-### 4. Write the theme
-
-With Marketer MCP `update_fields_on_item` on `artifacts.themeSettingsId` (re-check Step 1a's datasource check first):
-
-- `CustomCSS` ← the declarations from §2
-- `FontOptions` ← updated JSON from §3 (only if changed)
-
-Leave `ThemeDefaults` unchanged. Set `steps.step2_theme_skin.themeWritten: true`.
-
-### 5. Brand content (ask first)
-
-Offer, and do only what the user agrees to:
-
-- Swap the header and footer logo and the hero image for customer assets (Marketer MCP `search_assets` / `update_fields_on_item`; if the asset isn't in the media library or Content Hub yet, ask the user to upload it).
-- Update obvious brand text on the home page (site name, hero headline, footer copyright) with `update_content` / `update_fields_on_item`.
-
-Healthcare-specific content (doctors, specialties, reviews) stays as Nova Medical demo content unless the user asks.
-
-### 6. Verify
-
-1. Publish isn't needed for Pages. Take Marketer MCP `get_page_screenshot` of the copy's home page, or open it in Pages, and compare it with the customer screenshot.
-2. Check light and dark mode (ThemeSwitcher), the hero form, buttons and the doctors carousel.
-3. If a visual gap can't be closed with the variables (a layout or shape difference, say), list it for the user and ask before changing code in `avidemo/<customer-folder>/src`. Prefer content and theme changes first.
-
-Set `steps.step2_theme_skin.status: "complete"` and report the theme values, any font substitutions, content swaps, and remaining gaps.
-
----
-
 ## Stop conditions
 
 - Missing homepage screenshot (or user declines to provide one)
@@ -669,10 +543,8 @@ Set `steps.step2_theme_skin.status: "complete"` and report the theme values, any
 - User declines overwrite of an existing local customer folder
 - User declines overwrite of an existing `xmcloud.build.json` renderingHosts key
 - User opts into editing host but declines a required tooling install, or CLI create/upsert/verify fails
-- Customer folder missing `docs/ai/skills/sitecore-build-demo.md` (prospera profile)
+- Customer folder missing `docs/ai/skills/sitecore-build-demo.md`
 - Stop conditions defined inside `sitecore-build-demo` (apply during Step 2)
-- Healthcare profile: `nova-medical` not found (not deployed yet)
-- Healthcare profile: the copy's ThemeEditor datasource still points at Nova Medical's Theme Settings and can't be repointed
 
 ## References
 
@@ -681,8 +553,7 @@ Set `steps.step2_theme_skin.status: "complete"` and report the theme values, any
 - [sites-api-reference.md](sites-api-reference.md) — endpoints, auth, job polling
 - [setup-progress.template.yaml](setup-progress.template.yaml) — progress / resume template
 - Per-run progress: `.cursor/skills/skinned-demo-setup/runs/<customer-folder>/setup-progress.yaml`
-- Customer app after Step 1b: `avidemo/<customer-folder>/docs/ai/skills/sitecore-build-demo.md` (prospera profile)
-- Healthcare base: `avidemo/healthcare/README.md`, theme defaults in `avidemo/healthcare/src/assets/base/variables.css`, ThemeEditor in `avidemo/healthcare/src/components/theme-editor/ThemeEditor.tsx`
+- Customer app after Step 1b: `avidemo/<customer-folder>/docs/ai/skills/sitecore-build-demo.md`
 
 ### Sitecore CLI
 
