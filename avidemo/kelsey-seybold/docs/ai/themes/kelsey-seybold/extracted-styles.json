@@ -1,0 +1,43 @@
+{
+  "colors": {
+    "bodyBackground": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(35, 40, 42)",
+    "headerBackground": "rgb(255, 255, 255)",
+    "headerColor": "rgb(35, 40, 42)",
+    "footerBackground": "rgb(255, 255, 255)",
+    "footerColor": "rgb(35, 40, 42)",
+    "heroBackground": null,
+    "primaryButtonBackground": "rgb(171, 0, 50)",
+    "primaryButtonColor": "rgb(255, 255, 255)",
+    "primaryButtonBorderRadius": "999px",
+    "linkColor": "rgb(0, 120, 153)"
+  },
+  "typography": {
+    "bodyFontFamily": "Lato, sans-serif",
+    "bodyFontSize": "17px",
+    "bodyFontWeight": "400",
+    "bodyLineHeight": "25.5px",
+    "h1FontFamily": "Roboto, sans-serif",
+    "h1FontSize": "34px",
+    "h1FontWeight": "700",
+    "h1LetterSpacing": "normal",
+    "h1TextTransform": "none",
+    "h2FontFamily": "Roboto, serif",
+    "h2FontSize": "28.05px",
+    "h2FontWeight": "700",
+    "h3FontFamily": "Roboto, serif",
+    "h3FontSize": "25px",
+    "h3FontWeight": "700",
+    "pFontSize": "17px",
+    "pLineHeight": "25.5px"
+  },
+  "shape": {
+    "imgBorderRadius": "0px"
+  },
+  "spacing": {
+    "heroMinHeight": "1px",
+    "heroPadding": "0px",
+    "containerMaxWidth": "100%"
+  },
+  "cssVariables": {}
+}

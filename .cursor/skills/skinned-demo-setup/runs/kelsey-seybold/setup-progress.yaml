@@ -10,7 +10,7 @@ customer:
   url: "https://www.kelsey-seybold.com/"
   screenshotPath: "avidemo/kelsey-seybold/docs/ai/demos/kelsey-seybold/homepage-screenshot.webp"        # path or attachment note — not binary
   startedAt: "2026-10-30T21:05:06Z"
-  lastUpdatedAt: "2026-10-30T21:11:27Z"
+  lastUpdatedAt: "2026-10-30T21:22:52Z"
 
 selection:
   collectionMode: "existing"        # new | existing
@@ -67,7 +67,7 @@ steps:
     error: ""
 
   step1c_env_local:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   step1c_xmcloud_build:
@@ -75,20 +75,20 @@ steps:
     error: ""
 
   move_verify:
-    status: "pending"       # pending | complete | skipped | failed
+    status: "complete"       # pending | complete | skipped | failed
     error: ""
 
   step1d_editing_host:
-    status: "pending"       # pending | complete | skipped | failed
+    status: "skipped"       # pending | complete | skipped | failed
     optedIn: false   # user will create it manually; tell them when           # true | false
     error: ""
 
   step1_verification:
-    status: "pending"       # pending | complete | failed
+    status: "complete"       # pending | complete | failed
     error: ""
 
   step2_build_demo:
-    status: "pending"       # pending | complete | failed | handed_off
+    status: "handed_off"       # pending | complete | failed | handed_off
     # handed_off = sitecore-build-demo started; further resume is that skill’s demo-progress.yaml
     error: ""
 
@@ -97,3 +97,5 @@ notes:
 # - "2026-09-25T15:00:00Z — Waiting on Content Editor move."
   - "2026-10-30T21:05:19Z — Marketer MCP list_sites OK; ProsperaFinancial found; no existing Kelsey-Seybold site. Sites API blocked on missing env vars."
   - "2026-10-30T21:11:27Z — Sites API auth OK (creds from gitignored .env.automation.local). Reused empty existing collection healthcare (3d12f4a2…) instead of creating Healthcare. Copied ProsperaFinancial → Kelsey-Seybold (7c357ba7…), SiteName OK, still under Financial. avidemo/kelsey-seybold copied, project.yaml → healthcare/Kelsey-Seybold, manifest all react=ok, renderingHosts.kelsey-seybold added. Waiting: user Content Editor move; approval to create .env.local."
+  - "2026-10-30T21:22:38Z — .env.local created from avidemo/cooley/.env.local (user choice), NEXT_PUBLIC_DEFAULT_SITE_NAME=Kelsey-Seybold."
+  - "2026-10-30T21:22:52Z — Move verified (rootPath /sitecore/content/healthcare/Kelsey-Seybold, SiteName OK). Editing host skipped here; user creates manually as kelsey-seybold, then sets RenderingHost. Step 2 handed off to avidemo/kelsey-seybold sitecore-build-demo."

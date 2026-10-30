@@ -74,6 +74,26 @@ body.site-services.dark,
   --roundness: 0.375rem;
 }
 
+// Kelsey-Seybold Clinic
+body.site-kelsey-seybold,
+.site-kelsey-seybold {
+  --text-body: #23282a;
+  --text-body-inverted: #fff;
+  --text-colored: #007899;
+  --text-footer: #23282a;
+  --text-accent: #007fa3;
+  --bg-body: #fff;
+  --bg-footer: #fff;
+  --bg-main: #f4f4f4;
+  --bg-main-alt: #f4f4f4;
+  --bg-color: #dff3f9;
+  --bg-saturated: #007899;
+  --bg-accent: #ab0032;
+  --border-color: #ededed;
+  --hr-color: #fff;
+  --roundness: 0.25rem;
+}
+
 // Backgrounds colors
 $bg-transparent: transparent !default;
 $bg-basic-color: var(--bg-body) !default;

@@ -1,0 +1,232 @@
+[
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=22297EB453FD500D8A3931799A85C6EC",
+    "alt": "Kelsey-Seybold Clinic",
+    "localFile": "section1-img1.png",
+    "extension": "png",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 13623,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Icons/phone-icon.png?w=15&h=15&hash=BFBC582E1C79145D529E0BE75FCDA2FB",
+    "alt": "phone",
+    "localFile": "section1-img2.png",
+    "extension": "png",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 428,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Home-Hero-Banners/dxo-102826.jpg?h=495&iar=0&w=800&hash=E659E827BFC2566FB8D7D32CDB49A0E2",
+    "alt": "NEW! Virtual Specialty CareNOW",
+    "localFile": "section2-img3.jpg",
+    "extension": "jpg",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 43372,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Make-An-Appointment/Virtual-Health/virtualcareNOW-specialty-long-nobg.png",
+    "alt": "Virtual CareNow",
+    "localFile": "section2-img4.png",
+    "extension": "png",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 9831,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-calendar.svg",
+    "alt": "Same-Day Care",
+    "localFile": "section2-img5.svg",
+    "extension": "svg",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 877,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-stethoscope.svg",
+    "alt": "Adult Primary Care",
+    "localFile": "section2-img6.svg",
+    "extension": "svg",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 944,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-brain.svg",
+    "alt": "Specialty Care",
+    "localFile": "section2-img7.svg",
+    "extension": "svg",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 3302,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-figure.svg",
+    "alt": "Pediatrics",
+    "localFile": "section2-img8.svg",
+    "extension": "svg",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 1226,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-vuc3.png?h=256&w=265&hash=EFF3E861F9E45678AB8A3122523B7806",
+    "alt": "Start Urgent Care Visit",
+    "localFile": "section5-img9.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 3959,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-call-to-schedule.png?h=265&iar=0&w=265&hash=CF0C47C2DCD84C13D2F9638AC84E3921",
+    "alt": "Call to Schedule",
+    "localFile": "section5-img10.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 7003,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-find-a-doctor.png?h=265&iar=0&w=265&hash=0725B076029D7CC5D5678D872402A5B0",
+    "alt": "Find a Doctor",
+    "localFile": "section5-img11.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 5904,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-find-a-location.png?h=265&iar=0&w=265&hash=4E89705D87FEB0C27E40615D34C6E46E",
+    "alt": "Find a Location",
+    "localFile": "section5-img12.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 5754,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/specialties-cta-short.jpg?h=auto&w=100%25&hash=C20648A78B5EA3FA384B293451DE637D",
+    "alt": "Specialty Care at Kelsey-Seybold Clinic",
+    "localFile": "section6-img13.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 53690,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Hero-Banners/KelseyForSeniors_Banner_111325.jpg",
+    "alt": "Kelsey-Seybold for Seniors",
+    "localFile": "section6-img14.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 30222,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Blog-Images/2026/why-everyone-is-talking-about-perimenopause-card2.jpg?h=193&iar=0&w=343&hash=A6C33FC423368D473A59A404316E7F9B",
+    "alt": "Why Everyone’s Talking About Perimenopause",
+    "localFile": "section6-img15.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 19975,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Blog-Images/2026/living-well-through-menopause-card.jpg?h=193&iar=0&w=343&hash=A98563820FC3F28DED069208685E73B7",
+    "alt": "Living Well Through Menopause: Healthy Habits for Every Stage of the Journey",
+    "localFile": "section6-img16.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 21268,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Blog-Images/2026/schedule-mammogram-banner-10022026.jpg?h=591&iar=0&w=1052&hash=098481A1021123C39E69DD9BB85F4829",
+    "alt": "Mammogram Screening: A Simple Step That Saves Lives",
+    "localFile": "section6-img17.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 85244,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Newsroom-Images/towne-lake-opening-feature.jpg?h=380&iar=0&w=986&hash=E60094C8B426F7A8A0F79E8F431BF603",
+    "alt": "Kelsey-Seybold Clinic Opens New Location in Towne Lake",
+    "localFile": "section6-img18.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 356117,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Newsroom-Images/towne-lake-opening-card.jpg?h=193&iar=0&w=343&hash=78CEEEB1FDE0B9D68D51576561DFDCAC",
+    "alt": "Kelsey-Seybold Clinic Opens New Location in Towne Lake",
+    "localFile": "section6-img19.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 81327,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Logo/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=9E176AF330028477354B22F95D22D610",
+    "alt": "Kelsey-Seybold Clinic",
+    "localFile": "section9-img20.png",
+    "extension": "png",
+    "sectionPosition": 9,
+    "type": "img",
+    "fileSize": 13623,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Icons/fax-icon-blk.png?h=15&w=15&hash=7F1A4EC2605B195AB477CEF9A4B7E0B0",
+    "alt": "TTY",
+    "localFile": "section9-img21.png",
+    "extension": "png",
+    "sectionPosition": 9,
+    "type": "img",
+    "fileSize": 537,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Shell-Images/icon-apple-app-store.png?h=34&w=101&hash=EA6C53190214F913FDE9DF87AEC082E9",
+    "alt": "apple store icon",
+    "localFile": "section9-img22.png",
+    "extension": "png",
+    "sectionPosition": 9,
+    "type": "img",
+    "fileSize": 1602,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Shell-Images/icon-google-play.png?h=34&w=113&hash=4F351C8AEBC5B9A00DD7FD859555FDD9",
+    "alt": "google play icons",
+    "localFile": "section9-img23.png",
+    "extension": "png",
+    "sectionPosition": 9,
+    "type": "img",
+    "fileSize": 2099,
+    "status": "downloaded"
+  }
+]

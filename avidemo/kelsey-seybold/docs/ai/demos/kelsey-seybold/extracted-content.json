@@ -1,0 +1,962 @@
+{
+  "url": "https://www.kelsey-seybold.com/",
+  "extractedAt": "2026-10-30T21:31:02.753Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 9,
+  "totalImages": 23,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 0,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 0
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "header",
+      "classHint": "",
+      "backgroundHint": "light",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Call",
+          "href": "tel:7134420427",
+          "target": ""
+        },
+        {
+          "text": "713-442-0427",
+          "href": "tel:7134420427",
+          "target": ""
+        },
+        {
+          "text": "Appointments",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment",
+          "target": ""
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://www.kelsey-seybold.com/find-a-houston-doctor",
+          "target": ""
+        },
+        {
+          "text": "Pharmacy",
+          "href": "https://www.kelsey-seybold.com/pharmacy",
+          "target": ""
+        },
+        {
+          "text": "En Español",
+          "href": "https://www.kelsey-seybold.com/clinica-de-kelsey",
+          "target": ""
+        },
+        {
+          "text": "Pay My Bill",
+          "href": "https://www.mykelseyonline.com/MyChart/billing/guestpay/payasguest",
+          "target": "_blank"
+        },
+        {
+          "text": "MyKelseyOnline",
+          "href": "https://www.mykelseyonline.com/MyChart/Authentication/Login?",
+          "target": "_blank"
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.kelsey-seybold.com/find-a-location",
+          "target": ""
+        },
+        {
+          "text": "Campuses & Clinics",
+          "href": "https://www.kelsey-seybold.com/find-a-location",
+          "target": ""
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/virtual-care",
+          "target": ""
+        },
+        {
+          "text": "After Hours & Saturdays",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/saturday-clinic",
+          "target": ""
+        },
+        {
+          "text": "Pharmacies",
+          "href": "https://www.kelsey-seybold.com/pharmacy",
+          "target": ""
+        },
+        {
+          "text": "Surgical Centers",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties/surgery/surgery-center",
+          "target": ""
+        },
+        {
+          "text": "Cancer Centers",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties/cancer-center",
+          "target": ""
+        },
+        {
+          "text": "Specialties",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties",
+          "target": ""
+        },
+        {
+          "text": "All Specialties",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties",
+          "target": ""
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.kelsey-seybold.com/why-kelsey-seybold",
+          "target": ""
+        },
+        {
+          "text": "In the Community",
+          "href": "https://www.kelsey-seybold.com/why-kelsey-seybold/in-the-community",
+          "target": ""
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.kelsey-seybold.com/your-health-resources/blog",
+          "target": ""
+        },
+        {
+          "text": "Patient Stories",
+          "href": "https://www.kelsey-seybold.com/why-kelsey-seybold/patient-stories",
+          "target": ""
+        },
+        {
+          "text": "Webinar Wednesday",
+          "href": "https://www.kelsey-seybold.com/your-health-resources/webinars",
+          "target": ""
+        },
+        {
+          "text": "Video Hub",
+          "href": "https://video.kelsey-seybold.com/",
+          "target": ""
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.kelsey-seybold.com/newsroom-landing",
+          "target": ""
+        },
+        {
+          "text": "Your Health Resources",
+          "href": "https://www.kelsey-seybold.com/your-health-resources",
+          "target": ""
+        },
+        {
+          "text": "Medicare Advantage",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/medicare-advantage-plans",
+          "target": ""
+        },
+        {
+          "text": "Plans Accepted",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/medicare-advantage-plans",
+          "target": ""
+        },
+        {
+          "text": "KelseyCare Advantage",
+          "href": "https://www.kelseycareadvantage.com/",
+          "target": ""
+        },
+        {
+          "text": "Health Plans",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/insurance-accepted?sc_trk=Health-Plans",
+          "target": ""
+        },
+        {
+          "text": "All Insurance Plans",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/insurance-accepted?sc_trk=Health-Plans-IA",
+          "target": ""
+        },
+        {
+          "text": "Medicare Advantage Plans",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/medicare-advantage-plans?sc_trk=Health-Plans-MA",
+          "target": ""
+        },
+        {
+          "text": "KelseyCare Health Plans",
+          "href": "https://www.kelseycare.com/",
+          "target": ""
+        },
+        {
+          "text": "Marketplace Plans",
+          "href": "https://www.kelsey-seybold.com/plans/marketplace-plans?sc_trk=Health-Plans-MP",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=22297EB453FD500D8A3931799A85C6EC",
+          "alt": "Kelsey-Seybold Clinic",
+          "type": "img",
+          "width": 1065,
+          "height": 121
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Icons/phone-icon.png?w=15&h=15&hash=BFBC582E1C79145D529E0BE75FCDA2FB",
+          "alt": "phone",
+          "type": "img",
+          "width": 15,
+          "height": 15
+        }
+      ],
+      "listItems": [
+        {
+          "description": "713-442-0427",
+          "link": {
+            "text": "",
+            "href": "https://www.kelsey-seybold.com/"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=22297EB453FD500D8A3931799A85C6EC",
+            "alt": "Kelsey-Seybold Clinic"
+          }
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "section",
+      "classHint": "component section-container col-12",
+      "backgroundHint": "light",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "NEW! Virtual Specialty CareNOW"
+        },
+        {
+          "tag": "h1",
+          "text": "Book an Appointment"
+        }
+      ],
+      "paragraphs": [
+        "Connect now by video with Kelsey-Seybold specialists. No appointment or referral needed.",
+        "By closing this window you will lose any progress. Do you still wish to close the scheduling window?"
+      ],
+      "links": [
+        {
+          "text": "ConnectNOW",
+          "href": "https://www.mykelseyonline.com/mychart/app/on-demand-video-visits",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Home-Hero-Banners/dxo-102826.jpg?h=495&iar=0&w=800&hash=E659E827BFC2566FB8D7D32CDB49A0E2",
+          "alt": "NEW! Virtual Specialty CareNOW",
+          "type": "img",
+          "width": 800,
+          "height": 495
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Make-An-Appointment/Virtual-Health/virtualcareNOW-specialty-long-nobg.png",
+          "alt": "Virtual CareNow",
+          "type": "img",
+          "width": 810,
+          "height": 121
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-calendar.svg",
+          "alt": "Same-Day Care",
+          "type": "img",
+          "width": 34,
+          "height": 36
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-stethoscope.svg",
+          "alt": "Adult Primary Care",
+          "type": "img",
+          "width": 39,
+          "height": 41
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-brain.svg",
+          "alt": "Specialty Care",
+          "type": "img",
+          "width": 36,
+          "height": 39
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Development/dxo-sadt-hero-figure.svg",
+          "alt": "Pediatrics",
+          "type": "img",
+          "width": 24,
+          "height": 39
+        }
+      ],
+      "listItems": [
+        {
+          "title": "NEW! Virtual Specialty CareNOW",
+          "description": "Connect now by video with Kelsey-Seybold specialists. No appointment or referral needed.",
+          "link": {
+            "text": "ConnectNOW",
+            "href": "https://www.mykelseyonline.com/mychart/app/on-demand-video-visits"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Home-Hero-Banners/dxo-102826.jpg?h=495&iar=0&w=800&hash=E659E827BFC2566FB8D7D32CDB49A0E2",
+            "alt": "NEW! Virtual Specialty CareNOW"
+          }
+        },
+        {
+          "description": "By closing this window you will lose any progress. Do you still wish to close the scheduling window?"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "div",
+      "classHint": "component plain-html col-12",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "position": 4,
+      "tagName": "div",
+      "classHint": "component plain-html col-12",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "position": 5,
+      "tagName": "section",
+      "classHint": "component section-container col-12",
+      "backgroundHint": "light",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Virtual Urgent Care"
+        },
+        {
+          "tag": "h3",
+          "text": "Call to Schedule"
+        },
+        {
+          "tag": "h2",
+          "text": "Find a Doctor"
+        },
+        {
+          "tag": "h2",
+          "text": "Find a Location"
+        }
+      ],
+      "paragraphs": [
+        "/* Start Virtual Urgent Care button only */ a.vc-red-btn, a.vc-red-btn:link, a.vc-red-btn:visited { background: rgb(171, 0, 50) !important; color: #ffffff !important; border: 2px solid rgb(171, 0, 50) !important; border-radius: 999px !important; font-family: Lato, sans-serif !important; font-size: 17px !important; font-weight: 400 !important; text-decoration: none !important; transition: background-color .25s ease !important; } /* Hover state */ a.vc-red-btn:hover, a.vc-red-btn:focus, a.vc-red-btn:active { background: rgb(228, 0, 0) !important; color: #ffffff !important; border: 2px solid rgb(228, 0, 0) !important; } /* Mobile heading size */ @media (max-width: 767px) { .itd-title { font-size: 21px !important; } } Virtual Urgent Care Start Virtual Urgent Care",
+        "Start Virtual Urgent Care",
+        "Call to Schedule Call 713-442-0427",
+        "Call 713-442-0427",
+        "Find a Doctor View Doctors Near Me",
+        "View Doctors Near Me",
+        "Find a Location View Locations Near Me",
+        "View Locations Near Me"
+      ],
+      "links": [
+        {
+          "text": "Start Virtual Urgent Care",
+          "href": "https://www.mykelseyonline.com/mychart/app/on-demand-video-visits",
+          "target": ""
+        },
+        {
+          "text": "Call 713-442-0427",
+          "href": "tel:7134420427",
+          "target": ""
+        },
+        {
+          "text": "View Doctors Near Me",
+          "href": "https://www.kelsey-seybold.com/find-a-houston-doctor",
+          "target": ""
+        },
+        {
+          "text": "View Locations Near Me",
+          "href": "https://www.kelsey-seybold.com/find-a-location",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-vuc3.png?h=256&w=265&hash=EFF3E861F9E45678AB8A3122523B7806",
+          "alt": "Start Urgent Care Visit",
+          "type": "img",
+          "width": 265,
+          "height": 256
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-call-to-schedule.png?h=265&iar=0&w=265&hash=CF0C47C2DCD84C13D2F9638AC84E3921",
+          "alt": "Call to Schedule",
+          "type": "img",
+          "width": 265,
+          "height": 265
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-find-a-doctor.png?h=265&iar=0&w=265&hash=0725B076029D7CC5D5678D872402A5B0",
+          "alt": "Find a Doctor",
+          "type": "img",
+          "width": 265,
+          "height": 265
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-find-a-location.png?h=265&iar=0&w=265&hash=4E89705D87FEB0C27E40615D34C6E46E",
+          "alt": "Find a Location",
+          "type": "img",
+          "width": 265,
+          "height": 265
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Virtual Urgent Care",
+          "description": "/* Start Virtual Urgent Care button only */ a.vc-red-btn, a.vc-red-btn:link, a.vc-red-btn:visited { background: rgb(171, 0, 50) !important; color: #ffffff !important; border: 2px solid rgb(171, 0, 50) !important; border-radius: 999px !important; font-family: Lato, sans-serif !important; font-size: 17px !important; font-weight: 400 !important; text-decoration: none !important; transition: background-color .25s ease !important; } /* Hover state */ a.vc-red-btn:hover, a.vc-red-btn:focus, a.vc-red-btn:active { background: rgb(228, 0, 0) !important; color: #ffffff !important; border: 2px solid rgb(228, 0, 0) !important; } /* Mobile heading size */ @media (max-width: 767px) { .itd-title { font-size: 21px !important; } } Virtual Urgent Care Start Virtual Urgent Care",
+          "link": {
+            "text": "Start Virtual Urgent Care",
+            "href": "https://www.mykelseyonline.com/mychart/app/on-demand-video-visits"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-vuc3.png?h=256&w=265&hash=EFF3E861F9E45678AB8A3122523B7806",
+            "alt": "Start Urgent Care Visit"
+          }
+        },
+        {
+          "title": "Call to Schedule",
+          "description": "Call to Schedule Call 713-442-0427",
+          "link": {
+            "text": "Call 713-442-0427",
+            "href": "tel:7134420427"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-call-to-schedule.png?h=265&iar=0&w=265&hash=CF0C47C2DCD84C13D2F9638AC84E3921",
+            "alt": "Call to Schedule"
+          }
+        },
+        {
+          "title": "Find a Doctor",
+          "description": "Find a Doctor View Doctors Near Me",
+          "link": {
+            "text": "View Doctors Near Me",
+            "href": "https://www.kelsey-seybold.com/find-a-houston-doctor"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-find-a-doctor.png?h=265&iar=0&w=265&hash=0725B076029D7CC5D5678D872402A5B0",
+            "alt": "Find a Doctor"
+          }
+        },
+        {
+          "title": "Find a Location",
+          "description": "Find a Location View Locations Near Me",
+          "link": {
+            "text": "View Locations Near Me",
+            "href": "https://www.kelsey-seybold.com/find-a-location"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/Homepage-CTAs/ksc-icon-find-a-location.png?h=265&iar=0&w=265&hash=4E89705D87FEB0C27E40615D34C6E46E",
+            "alt": "Find a Location"
+          }
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "tagName": "section",
+      "classHint": "component section-container col-12",
+      "backgroundHint": "light",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Specialty Care at Kelsey-Seybold Clinic"
+        },
+        {
+          "tag": "h3",
+          "text": "Kelsey-Seybold for Seniors"
+        },
+        {
+          "tag": "h2",
+          "text": "Healthy Living Resources"
+        },
+        {
+          "tag": "h2",
+          "text": "Keep Up with Kelsey!"
+        }
+      ],
+      "paragraphs": [
+        "Get personalized care from Kelsey-Seybold specialists who are all connected to each other and to you. 65+ medical specialties across more than 40 convenient locations!",
+        "Kelsey-Seybold Clinic accepts many of the nation’s top Medicare Advantage plans. Explore your Medicare plan options this enrollment period.",
+        "In-Network With 50+ Insurance Plans Including BlueCross BlueShield.",
+        "Explore trusted health articles and resources from Kelsey-Seybold experts.",
+        "Stay informed with the latest news and updates from Kelsey-Seybold Clinic."
+      ],
+      "links": [
+        {
+          "text": "Kelsey-Seybold specialists",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties",
+          "target": ""
+        },
+        {
+          "text": "Get Specialty Care",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties",
+          "target": ""
+        },
+        {
+          "text": "Kelsey-Seybold for Seniors",
+          "href": "https://seniors.kelsey-seybold.com/",
+          "target": ""
+        },
+        {
+          "text": "View accepted insurance plans",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/insurance-accepted",
+          "target": ""
+        },
+        {
+          "text": "Visit Healthy Living Resources",
+          "href": "https://www.kelsey-seybold.com/your-health-resources/blog",
+          "target": ""
+        },
+        {
+          "text": "Why Everyone’s Talking About Perimenopause",
+          "href": "https://www.kelsey-seybold.com/your-health-resources/blog/why-everyone-is-talking-about-perimenopause",
+          "target": ""
+        },
+        {
+          "text": "Living Well Through Menopause: Healthy Habits for Every Stage of the Journey",
+          "href": "https://www.kelsey-seybold.com/your-health-resources/blog/living-well-through-menopause",
+          "target": ""
+        },
+        {
+          "text": "Mammogram Screening: A Simple Step That Saves Lives",
+          "href": "https://www.kelsey-seybold.com/your-health-resources/blog/mammogram-screening-a-simple-step-that-saves-lives",
+          "target": ""
+        },
+        {
+          "text": "Visit Our Newsroom",
+          "href": "https://www.kelsey-seybold.com/newsroom-landing",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.kelsey-seybold.com/newsroom-landing/archive/kelsey-seybold-clinic-opens-new-location-in-towne-lake",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/specialties-cta-short.jpg?h=auto&w=100%25&hash=C20648A78B5EA3FA384B293451DE637D",
+          "alt": "Specialty Care at Kelsey-Seybold Clinic",
+          "type": "img",
+          "width": 700,
+          "height": 215
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Hero-Banners/KelseyForSeniors_Banner_111325.jpg",
+          "alt": "Kelsey-Seybold for Seniors",
+          "type": "img",
+          "width": 700,
+          "height": 215
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Blog-Images/2026/why-everyone-is-talking-about-perimenopause-card2.jpg?h=193&iar=0&w=343&hash=A6C33FC423368D473A59A404316E7F9B",
+          "alt": "Why Everyone’s Talking About Perimenopause",
+          "type": "img",
+          "width": 343,
+          "height": 193
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Blog-Images/2026/living-well-through-menopause-card.jpg?h=193&iar=0&w=343&hash=A98563820FC3F28DED069208685E73B7",
+          "alt": "Living Well Through Menopause: Healthy Habits for Every Stage of the Journey",
+          "type": "img",
+          "width": 343,
+          "height": 193
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Blog-Images/2026/schedule-mammogram-banner-10022026.jpg?h=591&iar=0&w=1052&hash=098481A1021123C39E69DD9BB85F4829",
+          "alt": "Mammogram Screening: A Simple Step That Saves Lives",
+          "type": "img",
+          "width": 1052,
+          "height": 591
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Newsroom-Images/towne-lake-opening-feature.jpg?h=380&iar=0&w=986&hash=E60094C8B426F7A8A0F79E8F431BF603",
+          "alt": "Kelsey-Seybold Clinic Opens New Location in Towne Lake",
+          "type": "img",
+          "width": 986,
+          "height": 380
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Newsroom-Images/towne-lake-opening-card.jpg?h=193&iar=0&w=343&hash=78CEEEB1FDE0B9D68D51576561DFDCAC",
+          "alt": "Kelsey-Seybold Clinic Opens New Location in Towne Lake",
+          "type": "img",
+          "width": 343,
+          "height": 193
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Specialty Care at Kelsey-Seybold Clinic",
+          "description": ".specialties_cta { background: #007899; margin: 18px 0px; padding: 0; overflow: hidden; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; } .specialties_cta .specialties_cta_content { position: relative; padding: 18px 18px 36px 18px; text-align: center; } .specialties_cta .specialties_cta_content:before { content: \"\"; position: absolute; top: -6px; left: 0; height: 6px; width: 100%; background: linear-gradient(to right,#e96e01 13%,#69aa4f 13%,#69aa4f 28%,#3899b4 28%,#3899b4 100%); } .specialties_cta .specialties_cta_content p, .specialties_cta .specialties_cta_content h1, .specialties_cta .specialties_cta_content h2, .specialties_cta .specialties_cta_content h3, .specialties_cta .specialties_cta_content h4, .specialties_cta .specialties_cta_content h5, .specialties_cta .specialties_cta_content h6 { color: #FFFFFF !important; } .specialties_cta small { font-size: 72%; } /*@media screen and (max-width: 792px) { .specialties_cta { display: none; } }*/ .specialties_cta .link.button a { padding: 0 18px; } .rich-text .specialties_cta * { max-width: unset; } .specialties_cta p a { color: #FFFFFF; text-decoration: underline; font-weight: 400; } .specialties_cta p a:hover, .specialties_cta p a:focus { color: #FFFFFF; text-decoration: none; } Specialty Care at Kelsey-Seybold Clinic Get personalized care from Kelsey-Seybold specialists who are all connected to each other and to you. 65+ medical specialties across more than 40 convenient locations! Get Specialty Care",
+          "link": {
+            "text": "Kelsey-Seybold specialists",
+            "href": "https://www.kelsey-seybold.com/medical-services-and-specialties"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Homepage/specialties-cta-short.jpg?h=auto&w=100%25&hash=C20648A78B5EA3FA384B293451DE637D",
+            "alt": "Specialty Care at Kelsey-Seybold Clinic"
+          }
+        },
+        {
+          "title": "Kelsey-Seybold for Seniors",
+          "description": ".appointment_cta { background: #007899; margin: 18px 0px; padding: 0; overflow: hidden; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; } .appointment_cta .appointment_cta_content { position: relative; padding: 18px 18px 36px 18px; text-align: center; } .appointment_cta .appointment_cta_content:before { content: \"\"; position: absolute; top: -6px; left: 0; height: 6px; width: 100%; background: linear-gradient(to right,#e96e01 13%,#69aa4f 13%,#69aa4f 28%,#3899b4 28%,#3899b4 100%); } .appointment_cta .appointment_cta_content p, .appointment_cta .appointment_cta_content h1, .appointment_cta .appointment_cta_content h2, .appointment_cta .appointment_cta_content h3, .appointment_cta .appointment_cta_content h4, .appointment_cta .appointment_cta_content h5, .appointment_cta .appointment_cta_content h6 { color: #FFFFFF !important; } .appointment_cta small { font-size: 72%; } .appointment_cta .appointment_cta_content h3, .appointment_cta .appointment_cta_content h3 strong { color: #FFFFFF !important; } /* Mobile-specific overrides */ @media screen and (max-width: 768px) { .appointment_cta .appointment_cta_content { padding: 12px 12px 24px 12px; } .appointment_cta h3 { padding-bottom: 4px !important; } .appointment_cta p { padding-bottom: 24px !important; } .appointment_cta .link.button { padding-bottom: 36px !important; } }*/ Kelsey-Seybold for Seniors Kelsey-Seybold Clinic accepts many of the nation’s top Medicare Advantage plans. Explore your Medicare plan options this enrollment period. Kelsey-Seybold for Seniors",
+          "link": {
+            "text": "Kelsey-Seybold for Seniors",
+            "href": "https://seniors.kelsey-seybold.com/"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Hero-Banners/KelseyForSeniors_Banner_111325.jpg",
+            "alt": "Kelsey-Seybold for Seniors"
+          }
+        },
+        {
+          "description": "In-Network With 50+ Insurance Plans Including BlueCross BlueShield.",
+          "link": {
+            "text": "View accepted insurance plans",
+            "href": "https://www.kelsey-seybold.com/make-an-appointment/insurance-accepted"
+          }
+        },
+        {
+          "title": "Healthy Living Resources",
+          "description": "Healthy Living Resources Explore trusted health articles and resources from Kelsey-Seybold experts.",
+          "link": {
+            "text": "Visit Healthy Living Resources",
+            "href": "https://www.kelsey-seybold.com/your-health-resources/blog"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Blog-Images/2026/why-everyone-is-talking-about-perimenopause-card2.jpg?h=193&iar=0&w=343&hash=A6C33FC423368D473A59A404316E7F9B",
+            "alt": "Why Everyone’s Talking About Perimenopause"
+          }
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "tagName": "div",
+      "classHint": "component container col-12 col-xl-8 indent-bottom-large blog-slider",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "position": 8,
+      "tagName": "div",
+      "classHint": "component extended-promo promo-full-width-multiple-cta col-12",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Kelsey-Seybold Clinic"
+        }
+      ],
+      "paragraphs": [
+        ".extended-promo.promo-full-width-3-white-cta {margin-bottom: 25px;} .extended-promo.promo-full-width-3-white-cta .component-content {box-shadow:none !important; padding-bottom: 0px !important;} .extended-promo.promo-full-width-3-white-cta h2 {padding-bottom: 35px !important;font-weight: 700 !important;} .extended-promo.promo-full-width-3-white-cta .component-content:before {background:none;} .section-container.blue h2, .section-container.blue p {text-align: center !important;} .extended-promo.promo-full-width-3-white-cta .component-content p a, .extended-promo.promo-full-width-3-white-cta .component-content p a:visited {color:#FFFFFF !important; text-decoration:underline !important;} .extended-promo.promo-full-width-3-white-cta .component-content p a:hover, .extended-promo.promo-full-width-3-white-cta .component-content p a:visited:hover {color:#FFFFFF !important; text-decoration:none !important;} .section-container.blue .link.button.white a, .section-container.blue .link.button.white a:visited {color:#1b5585 !important;} .section-container.blue .link.button.white a:hover, .section-container.blue .link.button.white a:visited:hover {color:#FFFFFF !important;} Kelsey-Seybold Clinic Kelsey-Seybold Clinic is Houston's trusted healthcare source. Whether you need a primary care doctor or specialist, we have appointments available close to work or home.",
+        "Kelsey-Seybold Clinic is Houston's trusted healthcare source. Whether you need a primary care doctor or specialist, we have appointments available close to work or home."
+      ],
+      "links": [
+        {
+          "text": "Primary Care",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties/primary-care",
+          "target": ""
+        },
+        {
+          "text": "Specialty Care",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties",
+          "target": ""
+        }
+      ],
+      "images": []
+    },
+    {
+      "position": 9,
+      "tagName": "footer",
+      "classHint": "",
+      "backgroundHint": "light",
+      "headings": [],
+      "paragraphs": [
+        "Appointments",
+        "Kelsey-Seybold Clinic | 24/7 Appointment Scheduling | TTY 711",
+        "Download the MyKelsey Scheduling App:"
+      ],
+      "links": [
+        {
+          "text": "Make an Appointment",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment",
+          "target": ""
+        },
+        {
+          "text": "After-Hours Care",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/new-patient/after-hours-and-weekend-care",
+          "target": ""
+        },
+        {
+          "text": "Insurance Accepted",
+          "href": "https://www.kelsey-seybold.com/make-an-appointment/insurance-accepted",
+          "target": ""
+        },
+        {
+          "text": "Pay Your Bill Online",
+          "href": "https://www.mykelseyonline.com/MyChart/billing/guestpay/payasguest",
+          "target": "_blank"
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://www.kelsey-seybold.com/find-a-houston-doctor",
+          "target": ""
+        },
+        {
+          "text": "Find a Location",
+          "href": "https://www.kelsey-seybold.com/find-a-location",
+          "target": ""
+        },
+        {
+          "text": "Find a Pharmacy",
+          "href": "https://www.kelsey-seybold.com/pharmacy",
+          "target": ""
+        },
+        {
+          "text": "Medical Specialties",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties",
+          "target": ""
+        },
+        {
+          "text": "Our Medical Services",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties",
+          "target": ""
+        },
+        {
+          "text": "Corporate Wellness",
+          "href": "https://www.kelsey-seybold.com/corporate-services/corporate-wellness",
+          "target": ""
+        },
+        {
+          "text": "Executive Health",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties/concierge-health",
+          "target": ""
+        },
+        {
+          "text": "Travel Medicine",
+          "href": "https://www.kelsey-seybold.com/medical-services-and-specialties/travel-clinic",
+          "target": ""
+        },
+        {
+          "text": "About Kelsey-Seybold",
+          "href": "https://www.kelsey-seybold.com/why-kelsey-seybold",
+          "target": ""
+        },
+        {
+          "text": "Our Founder",
+          "href": "https://www.kelsey-seybold.com/why-kelsey-seybold/dr-kelsey",
+          "target": ""
+        },
+        {
+          "text": "Careers",
+          "href": "https://kelseyseyboldcareers.com/",
+          "target": "_blank"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.kelsey-seybold.com/why-kelsey-seybold/contact-us",
+          "target": ""
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.kelsey-seybold.com/newsroom-landing",
+          "target": ""
+        },
+        {
+          "text": "713-442-0427",
+          "href": "tel:7134420427",
+          "target": ""
+        },
+        {
+          "text": "Affiliate Providers",
+          "href": "https://www.kelsey-seybold.com/affiliate-provider",
+          "target": ""
+        },
+        {
+          "text": "Comments and Concerns",
+          "href": "https://www.kelsey-seybold.com/why-kelsey-seybold/comments-and-concerns",
+          "target": ""
+        },
+        {
+          "text": "Employee Secure Web Access",
+          "href": "https://remote.ksnet.com/",
+          "target": ""
+        },
+        {
+          "text": "Guide to Clinics and Providers",
+          "href": "https://ksms-p-001.sitecorecontenthub.cloud/api/public/content/0e5e0011c9fc42989ecf556431d050c7",
+          "target": "_blank"
+        },
+        {
+          "text": "Guia de Clinicas y Proveedores",
+          "href": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/PDF/Misc/guide-to-clinics-and-providers-spanish.pdf",
+          "target": ""
+        },
+        {
+          "text": "Kelsey CareLink",
+          "href": "https://www.kelsey-seybold.com/kelsey-carelink",
+          "target": ""
+        },
+        {
+          "text": "Kelsey Research Foundation",
+          "href": "https://www.kelseyresearch.com/",
+          "target": ""
+        },
+        {
+          "text": "Notice of Privacy Practices (including Availability of Language Assistance and Non-Discrimination)",
+          "href": "https://www.kelsey-seybold.com/privacy-practices",
+          "target": ""
+        },
+        {
+          "text": "Online Services Privacy Policy",
+          "href": "https://www.kelsey-seybold.com/online-services-privacy-policy",
+          "target": ""
+        },
+        {
+          "text": "Patient Financial Policy",
+          "href": "https://ksms-p-001.sitecorecontenthub.cloud/api/public/content/Acknowledgement-and-Patient-Financial-Policy-0126?v=77f68614",
+          "target": "_blank"
+        },
+        {
+          "text": "Derechos del Paciente",
+          "href": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/PDF/Misc/patient-rights-spanish.pdf",
+          "target": ""
+        },
+        {
+          "text": "Right to Receive a Good Faith Estimate of Expected Charges",
+          "href": "https://www.kelsey-seybold.com/good-faith-estimate-notice",
+          "target": ""
+        },
+        {
+          "text": "Notice Regarding Surprise Medical Bills",
+          "href": "https://www.kelsey-seybold.com/oon-disclosure-notice",
+          "target": ""
+        },
+        {
+          "text": "Patient Rights",
+          "href": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/PDF/Misc/patient-rights.pdf",
+          "target": ""
+        },
+        {
+          "text": "Release of Information",
+          "href": "https://www.kelsey-seybold.com/release-of-information",
+          "target": ""
+        },
+        {
+          "text": "Permission to Communicate PHI",
+          "href": "https://ksms-p-001.sitecorecontenthub.cloud/api/public/content/Permission-to-Communicate-PHI.pdf?v=5c3a1953",
+          "target": "_blank"
+        },
+        {
+          "text": "Permiso para Comunicar PHI",
+          "href": "https://ksms-p-001.sitecorecontenthub.cloud/api/public/content/Permiso-Para-Comunicar-PHI?v=42679c03",
+          "target": "_blank"
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://www.kelsey-seybold.com/terms-of-use",
+          "target": ""
+        },
+        {
+          "text": "Utilization Management Policy",
+          "href": "https://www.kelsey-seybold.com/utilization-management-policy",
+          "target": ""
+        },
+        {
+          "text": "Complaint Notification",
+          "href": "https://ksms-p-001.sitecorecontenthub.cloud/api/public/content/Mandatory-Complaint-Notification-TX-2025-ENG-Flyer",
+          "target": "_blank"
+        },
+        {
+          "text": "Aviso Sobre Quejas",
+          "href": "https://ksms-p-001.sitecorecontenthub.cloud/api/public/content/Mandatory-Complaint-Notification-TX-2025-ESP-Flyer",
+          "target": "_blank"
+        },
+        {
+          "text": "TTY 711",
+          "href": "tel:7134425818",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Logo/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=9E176AF330028477354B22F95D22D610",
+          "alt": "Kelsey-Seybold Clinic",
+          "type": "img",
+          "width": 1065,
+          "height": 121
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Icons/fax-icon-blk.png?h=15&w=15&hash=7F1A4EC2605B195AB477CEF9A4B7E0B0",
+          "alt": "TTY",
+          "type": "img",
+          "width": 15,
+          "height": 15
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Shell-Images/icon-apple-app-store.png?h=34&w=101&hash=EA6C53190214F913FDE9DF87AEC082E9",
+          "alt": "apple store icon",
+          "type": "img",
+          "width": 101,
+          "height": 34
+        },
+        {
+          "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/Shell-Images/icon-google-play.png?h=34&w=113&hash=4F351C8AEBC5B9A00DD7FD859555FDD9",
+          "alt": "google play icons",
+          "type": "img",
+          "width": 113,
+          "height": 34
+        }
+      ],
+      "listItems": [
+        {
+          "link": {
+            "text": "",
+            "href": "https://www.kelsey-seybold.com/"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Logo/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=9E176AF330028477354B22F95D22D610",
+            "alt": "Kelsey-Seybold Clinic"
+          }
+        },
+        {
+          "description": ".footer-link p.footer-heading {margin: 0 0 0 36px !important; font-size: 25px; color: #007fa3; padding-bottom: 18px; } Appointments Make an Appointment After-Hours Care Insurance Accepted Pay Your Bill Online",
+          "link": {
+            "text": "Make an Appointment",
+            "href": "https://www.kelsey-seybold.com/make-an-appointment"
+          }
+        },
+        {
+          "title": "Kelsey-Seybold Clinic",
+          "description": ".social-icons ul li { list-style-type: none; margin-left: -5px; } .social-icons ul li span.fa-stack { font-size: 20px; color: #1b5585; } .social-icons ul { display: flex; justify-content: space-around; }",
+          "badge": "",
+          "link": {
+            "text": "Make an Appointment",
+            "href": "https://www.kelsey-seybold.com/make-an-appointment"
+          },
+          "image": {
+            "src": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Icons/fax-icon-blk.png?h=15&w=15&hash=7F1A4EC2605B195AB477CEF9A4B7E0B0",
+            "alt": "TTY"
+          }
+        }
+      ]
+    }
+  ]
+}

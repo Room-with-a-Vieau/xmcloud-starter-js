@@ -1,0 +1,3101 @@
+{
+  "title": "Kelsey-Seybold Clinic | Find a Doctor or Specialist in Houston",
+  "themeColor": null,
+  "msColor": null,
+  "ogTitle": "Kelsey-Seybold Clinic | Find a Doctor or Specialist in Houston",
+  "ogDescription": null,
+  "ogImage": null,
+  "ogSiteName": null,
+  "favicon": "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Favicon/favicon.png",
+  "googleFontsLinks": [
+    "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+  ],
+  "fontFaces": [
+    {
+      "family": "FontAwesome",
+      "src": "url(\"../fonts/fontawesome-webfont-woff2.woff2?v=4.7.0\") format(\"woff2\"), url(\"../fonts/fontawesome-webfont-woff.woff?v=4.7.0\") format(\"woff\"), url(\"../fonts/fontawesome-webfont-ttf.ttf?v=4.7.0\") format(\"truetype\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Lato",
+      "src": "local(\"Lato Regular\"), local(\"Lato-Regular\"), url(\"https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXjeu.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Lato",
+      "src": "local(\"Lato Regular\"), local(\"Lato-Regular\"), url(\"https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Lato",
+      "src": "local(\"Lato Bold Italic\"), local(\"Lato-BoldItalic\"), url(\"https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_FQft1dw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Lato",
+      "src": "local(\"Lato Bold Italic\"), local(\"Lato-BoldItalic\"), url(\"https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwft.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Lato Bold",
+      "src": "local(\"Lato Bold Italic\"), local(\"Lato-BoldItalic\"), url(\"https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_FQft1dw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Lato Bold",
+      "src": "local(\"Lato Bold Italic\"), local(\"Lato-BoldItalic\"), url(\"https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwft.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Lato",
+      "src": "url(\"https://fonts.gstatic.com/s/lato/v19/S6u_w4BMUTPHjxsI9w2_FQft1dw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Lato",
+      "src": "url(\"https://fonts.gstatic.com/s/lato/v19/S6u_w4BMUTPHjxsI9w2_Gwft.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Roboto",
+      "src": "url(\"../fonts/roboto/Roboto-Bold.ttf\") format(\"truetype\")",
+      "weight": "700"
+    },
+    {
+      "family": "Roboto",
+      "src": "url(\"../fonts/roboto/Roboto-BoldItalic.ttf\") format(\"truetype\")",
+      "weight": "700"
+    },
+    {
+      "family": "Roboto",
+      "src": "url(\"../fonts/roboto/Roboto-Regular.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Roboto",
+      "src": "url(\"../fonts/roboto/Roboto-Italic.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Roboto",
+      "src": "url(\"../fonts/roboto/Roboto-Light.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Roboto",
+      "src": "url(\"../fonts/roboto/Roboto-LightItalic.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "SCL-2020-ICM",
+      "src": "url(\"../fonts/kcaicon/SCL-2020-ICM-ttf.ttf\") format(\"truetype\"), url(\"../fonts/kcaicon/SCL-2020-ICM-woff.woff\") format(\"woff\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-8.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-11.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-3.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-4.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-8.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-11.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-17.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-18.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-19.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-20.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-21.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-22.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-0.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-1.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-2.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-3.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-4.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-8.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-11.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-12.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-13.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-14.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-15.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-16.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-17.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-18.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-19.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-20.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-21.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-22.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-5.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-9.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-23.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-24.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-25.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-26.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-27.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-28.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-28.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-27.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-26.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-25.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-24.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-23.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-11.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-10.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-9.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-8.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-7.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-6.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-5.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-22.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-21.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-20.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-19.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-18.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-17.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-16.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-15.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-14.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-13.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-12.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-11.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-10.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-9.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-8.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-7.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-6.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-5.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-4.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-3.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-2.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-1.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-0.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-22.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-21.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-20.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-19.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-18.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-17.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-11.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-10.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-9.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-8.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-7.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-6.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-5.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-4.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-3.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-11.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-10.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-9.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-8.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-7.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-6.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-5.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-22.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-21.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-20.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-19.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-18.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-17.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-16.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-15.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-14.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-13.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-12.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-11.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-10.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-9.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-8.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-7.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-6.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-5.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-4.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-3.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-2.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-1.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-thin-100-0.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-8.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-11.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-3.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-4.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-8.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-11.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-17.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-18.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-19.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-20.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-21.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-22.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-0.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-1.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-2.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-3.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-4.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-8.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-11.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-12.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-13.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-14.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-15.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-16.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-17.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-18.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-19.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-20.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-21.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Pro",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-light-300-22.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-5.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-9.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-23.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-24.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-25.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-26.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-27.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 5 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-28.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-0.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-1.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-3.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-12.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-13.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-solid-900-14.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-1.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-0.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-1.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-12.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-13.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-14.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-15.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-regular-400-16.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "FontAwesome",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-v4compatibility.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-v4compatibility.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-28.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-27.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-26.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-25.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-24.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-23.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-22.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-21.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-20.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-19.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-18.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-17.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-16.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-15.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-14.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-13.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-12.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-11.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-10.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-9.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-8.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-7.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-6.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-5.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-4.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-3.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-regular-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-28.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-27.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-26.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-25.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-24.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-23.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-22.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-21.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-20.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-19.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-18.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-17.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-16.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-15.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-14.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-13.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-12.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-11.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-10.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-9.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-8.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-7.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-6.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-5.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-4.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-3.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-2.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-1.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-light-300-0.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-28.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-27.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-26.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-25.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-24.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-23.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-22.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-21.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-20.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-19.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-18.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-17.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-16.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-15.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-14.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-13.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-12.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-11.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-10.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-9.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-8.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-7.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-6.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-5.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-4.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-3.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-2.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-1.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-thin-100-0.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-11.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-10.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-9.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-8.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-7.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-6.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-5.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-solid-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-22.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-21.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-20.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-19.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-18.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-17.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-16.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-15.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-14.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-13.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-12.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-11.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-10.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-9.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-8.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-7.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-6.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-5.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-4.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-3.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-regular-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-22.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-21.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-20.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-19.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-18.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-17.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-16.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-15.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-14.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-13.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-12.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-11.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-10.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-9.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-8.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-7.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-6.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-5.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-4.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-3.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-2.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-1.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-light-300-0.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-22.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-21.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-20.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-19.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-18.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-17.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-16.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-15.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-14.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-13.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-12.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-11.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-10.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-9.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-8.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-7.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-6.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-5.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-4.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-3.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-2.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-1.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-thin-100-0.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-28.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-27.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-26.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-25.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-24.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-23.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-22.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-21.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-20.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-19.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-18.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-17.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-16.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-15.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-14.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-13.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-12.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-11.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-10.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-9.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-8.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-7.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-6.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-5.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-4.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-3.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-2.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-1.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-solid-900-0.ttf\") format(\"truetype\")",
+      "weight": "900"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-28.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-27.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-26.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-25.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-24.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-23.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-22.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-21.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-20.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-19.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-18.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-17.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-16.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-15.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-14.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-13.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-12.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-11.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-10.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-9.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-8.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-7.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-6.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-5.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-4.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-3.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-2.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-1.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-regular-400-0.ttf\") format(\"truetype\")",
+      "weight": "400"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-28.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-27.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-26.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-25.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-24.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-23.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-22.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-21.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-20.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-19.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-18.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-17.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-16.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-15.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-14.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-13.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-12.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-11.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-10.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-9.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-8.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-7.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-6.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-5.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-4.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-3.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-2.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-1.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-light-300-0.ttf\") format(\"truetype\")",
+      "weight": "300"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-28.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-28.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-27.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-27.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-26.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-26.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-25.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-25.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-24.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-24.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-23.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-23.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-22.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-22.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-21.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-21.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-20.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-20.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-19.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-19.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-18.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-18.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-17.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-17.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-16.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-16.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-15.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-15.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-14.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-14.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-13.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-13.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-12.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-12.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-11.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-11.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-10.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-10.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-9.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-9.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-8.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-8.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-7.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-7.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-6.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-6.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-5.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-5.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-4.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-4.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-3.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-3.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-2.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-2.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-1.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-1.ttf\") format(\"truetype\")",
+      "weight": "100"
+    },
+    {
+      "family": "Font Awesome 6 Sharp Duotone",
+      "src": "url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-0.woff2\") format(\"woff2\"), url(\"https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-sharp-duotone-thin-100-0.ttf\") format(\"truetype\")",
+      "weight": "100"
+    }
+  ],
+  "logoCandidates": [
+    "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=22297EB453FD500D8A3931799A85C6EC",
+    "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Icons/phone-icon.png?w=15&h=15&hash=BFBC582E1C79145D529E0BE75FCDA2FB",
+    "https://www.kelsey-seybold.com/-/media/Project/KelseySeybold/KelseySeyboldClinic/Images/ksc-logo-040725.png?h=121&iar=0&w=1065&hash=22297EB453FD500D8A3931799A85C6EC"
+  ],
+  "heroBgImage": null
+}

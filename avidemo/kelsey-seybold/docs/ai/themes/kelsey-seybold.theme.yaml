@@ -1,0 +1,124 @@
+# Client Brand Theme — Kelsey-Seybold Clinic
+# Extracted from: https://www.kelsey-seybold.com/
+
+client:
+  name: "Kelsey-Seybold Clinic"
+  sourceUrl: "https://www.kelsey-seybold.com/"
+  extractedAt: "2026-10-30T21:30:00Z"
+  extractedBy: "claude-code"
+
+colors:
+  primary: "#007899"            # teal — Book an Appointment panel, utility bar, links, card headings
+  primaryForeground: "#ffffff"
+  secondary: "#1b5585"          # deep blue — "Visit Healthy Living Resources" / "Visit Our Newsroom" pill buttons
+  secondaryForeground: "#ffffff"
+  accent: "#ab0032"             # crimson — "Start Virtual Urgent Care" primary CTA
+  accentForeground: "#ffffff"
+  background: "#ffffff"
+  foreground: "#23282a"
+  muted: "#f4f4f4"              # quick-link card backgrounds
+  mutedForeground: "#4a5558"
+  headerBackground: "#ffffff"   # white main nav; teal (#007899) utility bar above it
+  headerForeground: "#23282a"
+  footerBackground: "#ffffff"   # white link footer; teal (#007fa3) banner above and copyright bar below
+  footerForeground: "#23282a"
+  border: "#ededed"
+  ring: "#007fa3"
+  extra:
+    - { name: "teal-bright", value: "#007fa3" }    # section headings (H2), card top stripes, closing banner
+    - { name: "teal-dark", value: "#015873" }      # search field in utility bar
+    - { name: "green", value: "#207100" }          # MyKelseyOnline, "View accepted insurance plans"
+    - { name: "orange", value: "#d96e2f" }         # ConnectNOW / Virtual CareNOW promo
+    - { name: "light-teal", value: "#dff3f9" }     # notice / cookie banner
+    - { name: "gold", value: "#f2b632" }           # left accent bar on insurance callout (visual estimate)
+
+typography:
+  headingFamily: "'Roboto', sans-serif"
+  headingWeight: "700"
+  bodyFamily: "'Lato', sans-serif"
+  bodyWeight: "400"
+  monoFamily: "'Roboto Mono', monospace"
+  googleFontsUrl: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
+  scale:
+    hero: "2.125rem"   # 34px "Book an Appointment"
+    h1: "2.125rem"
+    h2: "1.8rem"       # 28–29px section headings
+    h3: "1.5625rem"    # 25px card headings
+    body: "1.0625rem"  # 17px
+    small: "0.875rem"
+  headingTransform: "none"
+  letterSpacing: "normal"
+  lineHeight: "relaxed"   # 25.5px on 17px body
+
+spacing:
+  density: "normal"
+  sectionGap: "4rem"
+  containerMaxWidth: "1440px"
+  containerPadding: "1rem"
+
+shape:
+  borderRadius: "0.25rem"
+  buttonRadius: "999px"     # every CTA is a pill
+  cardRadius: "0.25rem"
+  imageRadius: "0"
+  shadowStyle: "subtle"     # quick-link and feature cards carry a soft drop shadow
+  borderStyle: "subtle"
+
+tone:
+  overall: "clinical, trustworthy, approachable"
+  colorMode: "light"
+  contrast: "high"
+  imagery: "photography (patients and physicians, warm and candid)"
+  heroStyle: "split — photo with floating promo card on the left, solid teal booking panel on the right"
+  cardStyle: "elevated — light gray cards with a teal top stripe; teal feature cards with full-width photo"
+  navStyle: "solid-bar — teal utility bar over a white main nav with logo left"
+
+tailwind:
+  colors:
+    brand:
+      primary: "#007899"
+      secondary: "#1b5585"
+      accent: "#ab0032"
+  fontFamily:
+    heading: ["Roboto", "sans-serif"]
+    body: ["Lato", "sans-serif"]
+  borderRadius:
+    DEFAULT: "0.25rem"
+    button: "999px"
+    card: "0.25rem"
+
+cssVariables: |
+  :root {
+    --brand-primary: #007899;
+    --brand-primary-foreground: #ffffff;
+    --brand-secondary: #1b5585;
+    --brand-secondary-foreground: #ffffff;
+    --brand-accent: #ab0032;
+    --brand-accent-foreground: #ffffff;
+    --brand-bg: #ffffff;
+    --brand-fg: #23282a;
+    --brand-muted: #f4f4f4;
+    --brand-muted-fg: #4a5558;
+    --brand-header-bg: #ffffff;
+    --brand-header-fg: #23282a;
+    --brand-footer-bg: #ffffff;
+    --brand-footer-fg: #23282a;
+    --brand-border: #ededed;
+    --brand-ring: #007fa3;
+    --brand-heading-font: 'Roboto', sans-serif;
+    --brand-body-font: 'Lato', sans-serif;
+    --brand-radius: 0.25rem;
+    --brand-button-radius: 999px;
+    --brand-card-radius: 0.25rem;
+  }
+
+extraction:
+  confidence: "high"
+  method: "playwright-full"
+  notes:
+    - "Colors come from computed styles in a live Playwright render (area-weighted backgrounds, heading/button colors); gold accent bar is a visual estimate from the screenshot."
+    - "Two teals are in use: #007899 (panel, utility bar, H2 promo heading) and #007fa3 (section headings, card stripes, closing banner). Primary = #007899."
+    - "CTA colors vary by intent: crimson #ab0032 (urgent care), green #207100 (MyKelseyOnline / insurance), orange #d96e2f (ConnectNOW), deep blue #1b5585 (resource links), outlined teal pills for secondary actions."
+    - "Fonts are Google Fonts already (Roboto headings, Lato body) — no substitution needed."
+    - "Header and footer are white; brand color shows in the teal utility bar, closing banner and copyright bar rather than the header/footer bodies."
+    - "Logo (docs/ai/themes/kelsey-seybold/images/logo.png) is the real wordmark: teal K mark + gray (#6b6e6e-ish) serif type."

@@ -1,0 +1,204 @@
+client:
+  name: "Kelsey-Seybold"
+  displayName: "Kelsey-Seybold Clinic"
+  sourceUrl: "https://www.kelsey-seybold.com/"
+  sourceLanguage: "en"
+  targetLanguage: "en"
+  translationApplied: false
+  extractedAt: "2026-10-30T21:55:00Z"
+  mappedAt: "2026-10-30T22:00:00Z"
+
+sections:
+  - position: 2
+    componentName: "PromoCta"
+    manifestName: "PromoCta"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Promo CTA - Virtual Specialty CareNOW"
+    apiAddable: true
+    fields:
+      Eyebrow: "Virtual Specialty CareNOW"
+      Title: "NEW! Virtual Specialty CareNOW"
+      Subtitle: ""
+      Text: "<p>Connect now by video with Kelsey-Seybold specialists. No appointment or referral needed.</p>"
+      Link: { text: "ConnectNOW", href: "https://www.mykelseyonline.com/mychart/app/on-demand-video-visits", target: "_blank" }
+      Link2: ""
+    children: []
+    imageFields:
+      - { field: "Image", localFile: "section2-img3.jpg", alt: "Smiling older man using a tablet at home" }
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 3
+    componentName: "FourColumnCta"
+    manifestName: "FourColumnCta"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Four Column CTA - Book an Appointment"
+    apiAddable: true
+    fields:
+      Title1: "Same-Day Care"
+      Text1: "Book an Appointment"
+      Link1: { text: "Same-Day Care", href: "https://www.kelsey-seybold.com/make-an-appointment", target: "" }
+      Title2: "Adult Primary Care"
+      Text2: "Book an Appointment"
+      Link2: { text: "Adult Primary Care", href: "https://www.kelsey-seybold.com/make-an-appointment", target: "" }
+      Title3: "Specialty Care"
+      Text3: "Book an Appointment"
+      Link3: { text: "Specialty Care", href: "https://www.kelsey-seybold.com/make-an-appointment", target: "" }
+      Title4: "Pediatrics"
+      Text4: "Book an Appointment"
+      Link4: { text: "Pediatrics", href: "https://www.kelsey-seybold.com/make-an-appointment", target: "" }
+    children: []
+    imageFields:
+      - { field: "Image1", localFile: "section2-img5-teal.png", alt: "Same-Day Care" }
+      - { field: "Image2", localFile: "section2-img6-teal.png", alt: "Adult Primary Care" }
+      - { field: "Image3", localFile: "section2-img7-teal.png", alt: "Specialty Care" }
+      - { field: "Image4", localFile: "section2-img8-teal.png", alt: "Pediatrics" }
+    matchConfidence: "low"
+    contentSource: "extractor"
+    notes: "Booking options open a scheduling modal on the live site (no href) — linked to /make-an-appointment. Icons recolored white → teal and rasterized to PNG (Next image optimizer rejects SVG)."
+
+  - position: 4
+    componentName: "FourColumnCta"
+    manifestName: "FourColumnCta"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Four Column CTA - Quick Actions"
+    apiAddable: true
+    fields:
+      Title1: "Virtual Urgent Care"
+      Text1: "Start Virtual Urgent Care"
+      Link1: { text: "Start Virtual Urgent Care", href: "https://www.mykelseyonline.com/mychart/app/on-demand-video-visits", target: "_blank" }
+      Title2: "Call to Schedule"
+      Text2: "Call 713-442-0427"
+      Link2: { text: "Call 713-442-0427", href: "tel:7134420427", target: "" }
+      Title3: "Find a Doctor"
+      Text3: "View Doctors Near Me"
+      Link3: { text: "View Doctors Near Me", href: "https://www.kelsey-seybold.com/find-a-houston-doctor", target: "" }
+      Title4: "Find a Location"
+      Text4: "View Locations Near Me"
+      Link4: { text: "View Locations Near Me", href: "https://www.kelsey-seybold.com/find-a-location", target: "" }
+    children: []
+    imageFields:
+      - { field: "Image1", localFile: "section5-img9.png", alt: "Virtual Urgent Care" }
+      - { field: "Image2", localFile: "section5-img10.png", alt: "Call to Schedule" }
+      - { field: "Image3", localFile: "section5-img11.png", alt: "Find a Doctor" }
+      - { field: "Image4", localFile: "section5-img12.png", alt: "Find a Location" }
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 5
+    componentName: "TwoColumnCta"
+    manifestName: "TwoColumnCta"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Two Column CTA"
+    apiAddable: true
+    fields:
+      Title1: "Specialty Care at Kelsey-Seybold Clinic"
+      Text1: "Get personalized care from Kelsey-Seybold specialists who are all connected to each other and to you. 65+ medical specialties across more than 40 convenient locations!"
+      Link1: { text: "Get Specialty Care", href: "https://www.kelsey-seybold.com/medical-services-and-specialties", target: "" }
+      Title2: "Kelsey-Seybold for Seniors"
+      Text2: "Kelsey-Seybold Clinic accepts many of the nation's top Medicare Advantage plans. Explore your Medicare plan options this enrollment period."
+      Link2: { text: "Kelsey-Seybold for Seniors", href: "https://seniors.kelsey-seybold.com/", target: "" }
+    children: []
+    imageFields:
+      - { field: "Image1", localFile: "section6-img13.jpg", alt: "Kelsey-Seybold specialists in white coats" }
+      - { field: "Image2", localFile: "section6-img14.jpg", alt: "Grandparents smiling with their grandchild" }
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 6
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Heading CTA - Insurance"
+    apiAddable: true
+    fields:
+      Eyebrow: ""
+      Heading: "In-Network With 50+ Insurance Plans Including BlueCross BlueShield."
+      Text: ""
+      Link: { text: "View accepted insurance plans", href: "https://www.kelsey-seybold.com/make-an-appointment/insurance-accepted", target: "" }
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 7
+    componentName: "Features"
+    manifestName: "Features"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Features - Healthy Living Resources"
+    apiAddable: true
+    fields:
+      Eyebrow: "Healthy Living Resources"
+      Text: "<p>Explore trusted health articles and resources from Kelsey-Seybold experts.</p>"
+      Link: { text: "Visit Healthy Living Resources", href: "https://www.kelsey-seybold.com/your-health-resources/blog", target: "" }
+      Title1: "Why Everyone's Talking About Perimenopause"
+      Text1: ""
+      Title2: "Living Well Through Menopause: Healthy Habits for Every Stage of the Journey"
+      Text2: ""
+    children: []
+    imageFields:
+      - { field: "Image1", localFile: "section6-img15.jpg", alt: "Why Everyone's Talking About Perimenopause" }
+      - { field: "Image2", localFile: "section6-img16.jpg", alt: "Living Well Through Menopause" }
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Features has no per-item link field; the article URLs are recorded here for reference only."
+    articleLinks:
+      - "https://www.kelsey-seybold.com/your-health-resources/blog/why-everyone-is-talking-about-perimenopause"
+      - "https://www.kelsey-seybold.com/your-health-resources/blog/living-well-through-menopause"
+
+  - position: 8
+    componentName: "PromoCta"
+    manifestName: "PromoCta"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Promo CTA - Keep Up with Kelsey"
+    apiAddable: true
+    fields:
+      Eyebrow: "Keep Up with Kelsey!"
+      Title: "Kelsey-Seybold Clinic Opens New Location in Towne Lake"
+      Subtitle: ""
+      Text: "<p>Stay informed with the latest news and updates from Kelsey-Seybold Clinic.</p>"
+      Link: { text: "Read More", href: "https://www.kelsey-seybold.com/newsroom-landing/archive/kelsey-seybold-clinic-opens-new-location-in-towne-lake", target: "" }
+      Link2: { text: "Visit Our Newsroom", href: "https://www.kelsey-seybold.com/newsroom-landing", target: "" }
+    children: []
+    imageFields:
+      - { field: "Image", localFile: "section6-img18.jpg", alt: "New Kelsey-Seybold Clinic building in Towne Lake" }
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 9
+    componentName: "HeadingCta"
+    manifestName: "HeadingCta"
+    kind: "simple"
+    datasourceItemName: "Kelsey-Seybold - Heading CTA - Closing"
+    apiAddable: true
+    fields:
+      Eyebrow: ""
+      Heading: "Kelsey-Seybold Clinic"
+      Text: "Kelsey-Seybold Clinic is Houston's trusted healthcare source. Whether you need a primary care doctor or specialist, we have appointments available close to work or home."
+      Link: { text: "Primary Care", href: "https://www.kelsey-seybold.com/medical-services-and-specialties/primary-care", target: "" }
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Second CTA (Specialty Care → /medical-services-and-specialties) dropped; Heading CTA has one link."
+
+datasourceItems:
+  - { position: 2, componentName: "PromoCta", itemId: "{D830BB70-B0FD-4AEB-A68F-759138F3C7CD}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+  - { position: 3, componentName: "FourColumnCta", itemId: "{08C1D73B-1745-47E6-AAE8-DD22E0CAEAD5}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+  - { position: 4, componentName: "FourColumnCta", itemId: "{2E8479AD-D327-4A73-9F05-452C525B571C}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+  - { position: 5, componentName: "TwoColumnCta", itemId: "{D87ECC0B-62DA-46A2-8B9E-A85249D58CEE}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+  - { position: 6, componentName: "HeadingCta", itemId: "{DF77FA65-8128-4E65-BE67-A9141B74EEDE}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+  - { position: 7, componentName: "Features", itemId: "{1813A9FD-E1D4-4B01-9A00-38C2433A10A3}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+  - { position: 8, componentName: "PromoCta", itemId: "{A5563FD9-B4B2-42F7-A6DF-BA332CC0082F}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+  - { position: 9, componentName: "HeadingCta", itemId: "{903A5D48-17CB-4A70-B6CE-9B2A831C7366}", parentFolder: "{54E2FEBD-B254-4160-ACE6-CA70F97BC02F}", imageFieldsPending: [] }
+
+summary:
+  totalSections: 10
+  sectionsWithContent: 8
+  contextOnlySkipped: 2   # Header (1), Footer (10) — partial designs, manual
+  fieldsPopulated: 64
+  imageFieldsMapped: 15
+  imagesSkipped: 12
+  videosFound: 0
+  translationApplied: false
+  sourceLanguage: "en"

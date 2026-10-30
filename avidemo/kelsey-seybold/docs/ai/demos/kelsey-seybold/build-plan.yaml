@@ -1,0 +1,251 @@
+# Demo Build Plan — Kelsey-Seybold Clinic
+client:
+  name: "Kelsey-Seybold Clinic"
+  sourceUrl: "https://www.kelsey-seybold.com/"
+  themeFile: "docs/ai/themes/kelsey-seybold.theme.yaml"
+  analyzedAt: "2026-10-30T21:45:00Z"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/kelsey-seybold/screenshot-desktop.png"
+    mobile: "docs/ai/themes/kelsey-seybold/screenshot-mobile.png"
+    hero: "docs/ai/themes/kelsey-seybold/screenshot-hero.png"
+    userProvided: "docs/ai/demos/kelsey-seybold/homepage-screenshot.webp"
+  totalSections: 10
+  templateMatches: 10
+  customRequired: 0
+  apiAddable: 8
+  manualChrome: 2
+
+# Existing Home page (copied from Prospera) — reuse in place where possible
+existingPageComponents:
+  reuse:
+    - { instanceId: "d49a8931-f041-4988-9cc3-f2400e6422d0", componentName: "Promo CTA", usedFor: 2 }
+    - { instanceId: "633506e7-54d0-4410-9051-72fb4c9fecb4", componentName: "Promo CTA", usedFor: 8 }
+    - { instanceId: "0ed2d2c2-e9ef-4e40-b040-6289cb174e03", componentName: "Two Column CTA", usedFor: 5 }
+  manualCleanup:   # not in plan; cannot be removed via MCP
+    - { instanceId: "124106de-fb02-4b43-a521-a309fc75a5bc", componentName: "Carousel" }
+    - { instanceId: "b882746c-c313-4283-8f58-b9402bcf9c6a", componentName: "Five Column CTA" }
+    - { instanceId: "d54d53b4-1aa4-4998-9bdf-eb934c32cfb6", componentName: "Three Column CTA" }
+    - { instanceId: "1a516b9b-cc7b-49c9-a8eb-5be281a98612", componentName: "Promo CTA" }
+    - { instanceId: "854de8ce-208f-494d-b7c8-c1162d00144f", componentName: "Article List" }
+    - { instanceId: "251b0936-4659-4127-9952-52ca5140d803", componentName: "Documents List" }
+    - { instanceId: "7ebe6f29-1c6f-4138-8bf9-287acf0cd530", componentName: "App Promo" }
+
+sections:
+  - position: 1
+    description: "Teal utility bar (phone, Appointments, Find a Doctor, Pharmacy, En Español, Pay My Bill, search, green MyKelseyOnline) over a white main nav with the Kelsey-Seybold Clinic logo and Locations / Specialties / About Us / Medicare Advantage / Health Plans."
+    matchedComponent:
+      registryId: "Header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "context-only"
+    apiAddable: false
+    sectionBackground: "default"
+    content:
+      Logo: "Kelsey-Seybold Clinic wordmark (docs/ai/themes/kelsey-seybold/images/logo.png)"
+      NavLinks: ["Locations", "Specialties", "About Us", "Medicare Advantage", "Health Plans"]
+      UtilityLinks: ["713-442-0427", "Appointments", "Find a Doctor", "Pharmacy", "En Español", "Pay My Bill", "MyKelseyOnline"]
+    contentNotes: "Header lives in the partial design and its nav is driven by the page tree. The two-tier utility bar is not reproduced by the Prospera header."
+    variantReason: "Image logo, not a text logo."
+
+  - position: 2
+    description: "Hero left: photo of a smiling older man with a tablet, overlaid by a white card — Virtual Specialty CareNOW logo, headline, two lines of copy, orange ConnectNOW pill."
+    matchedComponent:
+      registryId: "PromoCta"
+      manifestName: "PromoCta"
+      variant: "WithBackgroundImage"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: true
+    reuseInstanceId: "d49a8931-f041-4988-9cc3-f2400e6422d0"
+    sectionBackground: "default"
+    content:
+      Eyebrow: "Virtual Specialty CareNOW"
+      Title: "NEW! Virtual Specialty CareNOW"
+      Text: "Connect now by video with Kelsey-Seybold specialists. No appointment or referral needed."
+      Link: { text: "ConnectNOW", href: "https://www.kelsey-seybold.com/" }
+      Image: "Older man smiling at a tablet on a sofa"
+    contentNotes: "The real hero is a compound split: this promo card + photo on the left, the teal Book an Appointment panel on the right (section 3). Prospera has no single component for both, so they stack."
+    variantReason: "White text card floating over a full photo = PromoCta WithBackgroundImage (theme mapping §4)."
+
+  - position: 3
+    description: "Solid teal 'Book an Appointment' panel listing four options with line icons and white chevron buttons: Same-Day Care, Adult Primary Care, Specialty Care, Pediatrics."
+    matchedComponent:
+      registryId: "FourColumnCta"
+      manifestName: "FourColumnCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "low"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "primary"
+    content:
+      Title1: "Same-Day Care"
+      Title2: "Adult Primary Care"
+      Title3: "Specialty Care"
+      Title4: "Pediatrics"
+      Text1: "Book an Appointment"
+      Text2: "Book an Appointment"
+      Text3: "Book an Appointment"
+      Text4: "Book an Appointment"
+      Links: ["Same-Day Care", "Adult Primary Care", "Specialty Care", "Pediatrics"]
+      Images: "Line icons: calendar, stethoscope, brain, child"
+    contentNotes: "Visually a vertical list inside a teal panel beside the hero; Four Column CTA shows the same four links as a row of tiles. The panel heading 'Book an Appointment' has no field — carried in each tile's Text. Best Phase 5.5 candidate if pixel-perfect is wanted."
+    variantReason: "Only variant."
+
+  - position: 4
+    description: "Four light-gray cards with a teal top stripe, each with a large teal icon, heading and button: Virtual Urgent Care (crimson 'Start Virtual Urgent Care'), Call to Schedule ('Call 713-442-0427'), Find a Doctor ('View Doctors Near Me'), Find a Location ('View Locations Near Me')."
+    matchedComponent:
+      registryId: "FourColumnCta"
+      manifestName: "FourColumnCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title1: "Virtual Urgent Care"
+      Title2: "Call to Schedule"
+      Title3: "Find a Doctor"
+      Title4: "Find a Location"
+      Link1: { text: "Start Virtual Urgent Care" }
+      Link2: { text: "Call 713-442-0427", href: "tel:7134420427" }
+      Link3: { text: "View Doctors Near Me" }
+      Link4: { text: "View Locations Near Me" }
+      Images: "Teal icons: medical bag, phone, doctor, location pin"
+    contentNotes: "Per-card button colors (crimson for urgent care) are not configurable; all buttons take the theme style."
+    variantReason: "Only variant."
+
+  - position: 5
+    description: "Two teal cards side by side, each with a photo on top and centered white heading, copy and outlined pill: 'Specialty Care at Kelsey-Seybold Clinic' (physicians) and 'Kelsey-Seybold for Seniors' (grandparents with grandchild)."
+    matchedComponent:
+      registryId: "TwoColumnCta"
+      manifestName: "TwoColumnCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+    kind: "simple"
+    apiAddable: true
+    reuseInstanceId: "0ed2d2c2-e9ef-4e40-b040-6289cb174e03"
+    sectionBackground: "default"
+    content:
+      Title1: "Specialty Care at Kelsey-Seybold Clinic"
+      Text1: "Get personalized care from Kelsey-Seybold specialists who are all connected to each other and to you. 65+ medical specialties across more than 40 convenient locations!"
+      Link1: { text: "Get Specialty Care" }
+      Title2: "Kelsey-Seybold for Seniors"
+      Text2: "Kelsey-Seybold Clinic accepts many of the nation's top Medicare Advantage plans. Explore your Medicare plan options this enrollment period."
+      Link2: { text: "Kelsey-Seybold for Seniors" }
+      Images: "Team of physicians in white coats; smiling grandparents with grandchild"
+    variantReason: "Only variant."
+
+  - position: 6
+    description: "Slim white strip with a gold left accent bar: shield-check icon, 'In-Network With 50+ Insurance Plans Including BlueCross BlueShield.' and a green 'View accepted insurance plans' pill on the right."
+    matchedComponent:
+      registryId: "HeadingCta"
+      manifestName: "HeadingCta"
+      variant: "Compact"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Heading: "In-Network With 50+ Insurance Plans Including BlueCross BlueShield."
+      Link: { text: "View accepted insurance plans" }
+    contentNotes: "No icon field; gold accent bar not reproduced."
+    variantReason: "Slim one-line strip = Compact. Needs a Variant Definition item (only Default exists in Sitecore)."
+    variantDefinitionMissing: true
+
+  - position: 7
+    description: "Left column: 'Healthy Living Resources' heading, one-line intro, navy 'Visit Healthy Living Resources' pill, then two article cards with photos ('Why Everyone's Talking About Perimenopause', 'Living Well Through Menopause: Healthy Habits for Every Stage of the Journey')."
+    matchedComponent:
+      registryId: "Features"
+      manifestName: "Features"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      Eyebrow: "Healthy Living Resources"
+      Text: "Explore trusted health articles and resources from Kelsey-Seybold experts."
+      Link: { text: "Visit Healthy Living Resources" }
+      Title1: "Why Everyone's Talking About Perimenopause"
+      Title2: "Living Well Through Menopause: Healthy Habits for Every Stage of the Journey"
+      Images: "Woman smiling in patterned blouse; woman in knit sweater"
+    contentNotes: "Features = eyebrow + intro + link over two image/title pairs, which is exactly this block. On the live site it sits beside section 8 in a two-column row; here the two stack."
+    variantReason: "Only variant."
+
+  - position: 8
+    description: "Right column: 'Keep Up with Kelsey!' heading, intro, navy 'Visit Our Newsroom' pill, then a news card: photo of a new clinic building with a teal overlay 'Kelsey-Seybold Clinic Opens New Location in Towne Lake' and 'Read More'."
+    matchedComponent:
+      registryId: "PromoCta"
+      manifestName: "PromoCta"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: true
+    reuseInstanceId: "633506e7-54d0-4410-9051-72fb4c9fecb4"
+    sectionBackground: "default"
+    content:
+      Eyebrow: "Keep Up with Kelsey!"
+      Title: "Kelsey-Seybold Clinic Opens New Location in Towne Lake"
+      Subtitle: "Stay informed with the latest news and updates from Kelsey-Seybold Clinic."
+      Link: { text: "Read More" }
+      Link2: { text: "Visit Our Newsroom" }
+      Image: "New Kelsey-Seybold Clinic building in Towne Lake"
+    variantReason: "Image beside text."
+
+  - position: 9
+    description: "Full-width teal band, centered: 'Kelsey-Seybold Clinic' heading, one-line description, two white pills 'Primary Care' and 'Specialty Care'."
+    matchedComponent:
+      registryId: "HeadingCta"
+      manifestName: "HeadingCta"
+      variant: "Centered"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: true
+    sectionBackground: "primary"
+    content:
+      Heading: "Kelsey-Seybold Clinic"
+      Text: "Kelsey-Seybold Clinic is Houston's trusted healthcare source. Whether you need a primary care doctor or specialist, we have appointments available close to work or home."
+      Link: { text: "Primary Care" }
+    contentNotes: "Heading CTA has one link — 'Specialty Care' button is dropped. Teal background comes from the component's styling param, not content."
+    variantReason: "Centered intro band. Needs a Variant Definition item (only Default exists in Sitecore)."
+    variantDefinitionMissing: true
+
+  - position: 10
+    description: "White footer: logo, four link columns (Appointments, Find Us, Services, About Us), action buttons + social icons, two long legal link lists, app store badges, and a teal copyright bar with medical disclaimer."
+    matchedComponent:
+      registryId: "Footer"
+      manifestName: "Footer"
+      variant: "WithSocials"
+      matchType: "template"
+      matchConfidence: "medium"
+    kind: "simple"
+    apiAddable: false
+    sectionBackground: "default"
+    content:
+      Title1: "Appointments"
+      Title2: "Find Us"
+      Title3: "Services"
+      Title4: "About Us"
+      Copyright: "© 2026 Kelsey-Seybold Clinic. All Rights Reserved."
+    contentNotes: "Footer lives in the partial design, not on Home. Legal link lists and app badges are not reproduced."
+    variantReason: "Social icons row present."
+
+customComponents: []
+
+buildOrder:
+  phase1_sitecore: [2, 3, 4, 5, 6, 7, 8, 9]
+  phase2_theme: "site-theme-class .site-kelsey-seybold"
+  phase3_custom: []
+  manual: [1, 10]
