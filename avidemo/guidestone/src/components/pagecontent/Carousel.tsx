@@ -41,21 +41,33 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
   const [index, setIndex] = useState(0);
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
+  // The Layout Service can return this rendering with no fields (isContentResolved: false).
+  const items = props.fields?.items ?? [];
 
   const handleNext = () => {
-    setIndex((prevIndex) => (prevIndex < props.fields.items.length - 1 ? prevIndex + 1 : 0));
+    setIndex((prevIndex) => (prevIndex < items.length - 1 ? prevIndex + 1 : 0));
   };
 
   const handlePrev = () => {
-    setIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : props.fields.items.length - 1));
+    setIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : items.length - 1));
   };
 
   const sxaStyles = `${props.params?.styles || ''}`;
 
+  if (items.length === 0) {
+    return isPageEditing ? (
+      <section className={`component carousel ${sxaStyles}`} id={id ? id : undefined}>
+        <p>Carousel has no slides to display.</p>
+      </section>
+    ) : (
+      <></>
+    );
+  }
+
   return (
     <section className={`component carousel ${sxaStyles}`} id={id ? id : undefined}>
       <div className="carousel-inner">
-        {props.fields.items.map((item, i) => (
+        {items.map((item, i) => (
           <div key={i} className={'carousel-item ' + (i == index ? 'active' : '')}>
             {!isPageEditing && item.fields?.Video?.value?.src ? (
               <video
@@ -95,7 +107,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
         ))}
       </div>
       <ol className="carousel-indicators">
-        {props.fields.items.map((_item, i) => (
+        {items.map((_item, i) => (
           <li
             key={i}
             aria-label="Slide"
