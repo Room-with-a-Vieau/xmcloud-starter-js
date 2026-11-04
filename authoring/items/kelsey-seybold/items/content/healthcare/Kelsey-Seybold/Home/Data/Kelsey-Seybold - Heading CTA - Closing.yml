@@ -1,0 +1,44 @@
+﻿---
+ID: "903a5d48-17cb-4a70-b6ce-9b2a831c7366"
+Parent: "54e2febd-b254-4160-ace6-ca70f97bc02f"
+Template: "fa136527-6302-471d-83ab-e66fc72bda99"
+Path: "/sitecore/content/healthcare/Kelsey-Seybold/Home/Data/Kelsey-Seybold - Heading CTA - Closing"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T213501Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "766d5032-930f-4763-aacd-3f6ac8169f0a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "bbd90ce3-fdf4-425e-844b-63c5b3db8916"
+      Hint: Text
+      Value: "Kelsey-Seybold Clinic is Houston's trusted healthcare source. Whether you need a primary care doctor or specialist, we have appointments available close to work or home."
+    - ID: "be9c7836-a932-4e3b-a4a0-c7d5aa869337"
+      Hint: Link
+      Value: |
+        <link text="Primary Care" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.kelsey-seybold.com/medical-services-and-specialties/primary-care" />
+    - ID: "cef85d28-d6bc-4204-a2e4-8706c80d8a3c"
+      Hint: Heading
+      Value: "Kelsey-Seybold Clinic"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261030T213502Z
+    - ID: "ee323ed7-4732-4a64-a008-18df97dc0737"
+      Hint: Eyebrow
+      Value: 

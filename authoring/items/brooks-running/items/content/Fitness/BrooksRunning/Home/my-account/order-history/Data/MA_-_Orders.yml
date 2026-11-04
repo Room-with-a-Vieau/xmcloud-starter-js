@@ -1,0 +1,159 @@
+﻿---
+ID: "9e825486-ead1-401b-92b5-62160afede11"
+Parent: "fa63288e-029b-49a6-ac7b-6ff1b1146e88"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: "/sitecore/content/Fitness/BrooksRunning/Home/my-account/order-history/Data/MA_-_Orders"
+SharedFields:
+- ID: "23f621dd-d403-49df-93f6-391a1757feb3"
+  Hint: Image4
+  Value: |
+    <image mediaid="{BD2E2547-5782-4FD1-8D23-0B9DE5630ED3}" alt="Men's Brooks Cascadia 8 trail running shoe" />
+- ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
+  Hint: Image1
+  Value: |
+    <image mediaid="{FDB1B5EB-0A57-4E66-A37A-14E824161ED6}" alt="Men's Brooks Cascadia 16 trail running shoe" />
+- ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
+  Hint: Image3
+  Value: |
+    <image mediaid="{B2154AE7-6015-455B-AFB4-902E9795F3B6}" alt="Men's Brooks Cascadia 11 trail running shoe" />
+- ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
+  Hint: Image2
+  Value: |
+    <image mediaid="{A8AB1C5F-2D58-4130-B6D3-B0E1371C7191}" alt="Men's Brooks Cascadia 14 trail running shoe" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "305b87d1-4924-4ba8-a31a-f84d015267b4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f3e30f-8075-4c1b-912e-e27fffeda904"
+      Hint: Text1
+      Value: "Ordered May 3, 2022 · Order #BR-2022-05873 · Size 10.5 · $130 · Delivered"
+    - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
+      Hint: Text4
+      Value: "Ordered Jun 14, 2013 · Order #BR-2013-06141 · Size 10.5 · $120 · Delivered"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261026T221652Z
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: Men's Cascadia 11
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: Men's Cascadia 8
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95d22de9-1215-417a-92ad-1a3e3afd0153"
+    - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
+      Hint: Text3
+      Value: "Ordered Aug 9, 2016 · Order #BR-2016-08092 · Size 10.5 · $120 · Delivered"
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: Men's Cascadia 14
+    - ID: "b1b9e108-7c50-4a04-8e7a-37f30c6a784c"
+      Hint: Link3
+      Value: |
+        <link linktype="internal" text="Buy again" id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" />
+    - ID: "b2befdd5-351d-4c5e-85fd-2402e3ff96bf"
+      Hint: Link1
+      Value: |
+        <link linktype="internal" text="Buy again" id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" />
+    - ID: "ba2af883-e3bb-43cf-8c97-ab5c97edc09d"
+      Hint: Link4
+      Value: |
+        <link linktype="internal" text="Buy again" id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: Men's Cascadia 16
+    - ID: "c24d6ca7-49ab-4f08-9dae-e5a844d79139"
+      Hint: Text2
+      Value: "Ordered Sep 21, 2019 · Order #BR-2019-09214 · Size 10.5 · $130 · Delivered"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261026T222739Z
+    - ID: "df548755-6a31-445f-bb84-c704698d6048"
+      Hint: Link2
+      Value: |
+        <link linktype="internal" text="Buy again" id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" />
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f3e30f-8075-4c1b-912e-e27fffeda904"
+      Hint: Text1
+      Value: "Pedido el 3 de mayo de 2022 · Pedido #BR-2022-05873 · Talla 10.5 · $130 · Entregado"
+    - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
+      Hint: Text4
+      Value: "Pedido el 14 de junio de 2013 · Pedido #BR-2013-06141 · Talla 10.5 · $120 · Entregado"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261026T221652Z
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: Cascadia 11 para hombre
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: Cascadia 8 para hombre
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84389c85-35ba-4f7e-a282-b09e126173a2"
+    - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
+      Hint: Text3
+      Value: "Pedido el 9 de agosto de 2016 · Pedido #BR-2016-08092 · Talla 10.5 · $120 · Entregado"
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: Cascadia 14 para hombre
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b1b9e108-7c50-4a04-8e7a-37f30c6a784c"
+      Hint: Link3
+      Value: |
+        <link id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" linktype="internal" text="Comprar de nuevo" />
+    - ID: "b2befdd5-351d-4c5e-85fd-2402e3ff96bf"
+      Hint: Link1
+      Value: |
+        <link id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" linktype="internal" text="Comprar de nuevo" />
+    - ID: "ba2af883-e3bb-43cf-8c97-ab5c97edc09d"
+      Hint: Link4
+      Value: |
+        <link id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" linktype="internal" text="Comprar de nuevo" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: Cascadia 16 para hombre
+    - ID: "c24d6ca7-49ab-4f08-9dae-e5a844d79139"
+      Hint: Text2
+      Value: "Pedido el 21 de septiembre de 2019 · Pedido #BR-2019-09214 · Talla 10.5 · $130 · Entregado"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191440Z
+    - ID: "df548755-6a31-445f-bb84-c704698d6048"
+      Hint: Link2
+      Value: |
+        <link id="{76743622-3CF6-4D8A-9BE0-57251EE04911}" linktype="internal" text="Comprar de nuevo" />

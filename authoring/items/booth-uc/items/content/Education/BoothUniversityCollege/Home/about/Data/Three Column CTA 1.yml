@@ -1,0 +1,181 @@
+﻿---
+ID: "95cc978a-9adb-437c-99ee-61b48950f918"
+Parent: "fc38ecec-bf18-4e99-bc8e-e8f985c77948"
+Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+Path: /sitecore/content/Education/BoothUniversityCollege/Home/about/Data/Three Column CTA 1
+SharedFields:
+- ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
+  Hint: Image3
+  Value: |
+    <image mediaid="{D003CC04-4887-4A08-87BD-656E125BC845}" alt="Booth UC students talking on the campus steps" />
+- ID: "39fe4fb3-3794-4b9a-a584-ff877e93e33b"
+  Hint: Image2
+  Value: |
+    <image mediaid="{3A785CD6-055F-411D-9A86-AE82E0BC978E}" alt="Booth UC convocation celebration" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+- ID: "c511247c-fec1-4690-81d6-ce791da18d4a"
+  Hint: Image1
+  Value: |
+    <image mediaid="{AA746611-F505-42F7-B1E5-8F2A38A921CA}" alt="Booth University College banner on the campus building" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "99919008-f542-4bb7-8895-1284d812b30a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link class="" querystring="" id="06EB748C-7492-4CF9-B212-0E54B28B641C" anchor="" target="" title="" linktype="internal" text="Get started" url="/Education/BoothUniversityCollege/Home/personal/investing" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165629Z
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: From a small Salvation Army college to a university college serving students across Canada.
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link class="" querystring="" id="A0AAA54B-EA78-410E-B2F7-CAC8139CB954" anchor="" target="" title="" linktype="internal" text="Get started" url="/Education/BoothUniversityCollege/Home/personal/borrowing" />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: Our History
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: Discover the convictions about faith, justice, and service that shape everything we teach.
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: Mission and Values
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: Leadership
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link class="" querystring="" id="76A5E2ED-D6B8-42A4-89C9-E07923ADA4CB" anchor="" target="" title="" linktype="internal" text="Get started" url="/Education/BoothUniversityCollege/Home/personal/everyday-banking" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a606326c-f162-46a3-8fc4-21b982ebb4b5"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: Meet the people who guide Booth UC, from our board to our academic leaders.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261029T013418Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link class="" querystring="" id="06EB748C-7492-4CF9-B212-0E54B28B641C" anchor="" target="" title="" linktype="internal" text="Commencez" url="/Education/BoothUniversityCollege/Home/personal/investing" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165629Z
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: Laissez nos experts vous aider à démarrer avec des investissements à faibles frais pour propulser votre avenir.
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link class="" querystring="" id="A0AAA54B-EA78-410E-B2F7-CAC8139CB954" anchor="" target="" title="" linktype="internal" text="Commencez" url="/Education/BoothUniversityCollege/Home/personal/borrowing" />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: Investir
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: Lisez les témoignages de personnes ordinaires qui ont progressé dans les opérations bancaires courantes.
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: banque au quotidien
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: Emprunter
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link class="" querystring="" id="76A5E2ED-D6B8-42A4-89C9-E07923ADA4CB" anchor="" target="" title="" linktype="internal" text="Commencez" url="/Education/BoothUniversityCollege/Home/personal/everyday-banking" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a84c41b-6bd7-48bc-9c9f-9cf15d655e2f"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: "Ne laissez pas la dette vous effrayer - des cartes de crédit sans frais et votre ligne de crédit personnelle sont là."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T154354Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link class="" id="{06EB748C-7492-4CF9-B212-0E54B28B641C}" querystring="" anchor="" target="" title="" linktype="internal" text="はじめる" url="/Education/BoothUniversityCollege/Home/personal/investing" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165629Z
+    - ID: "2731b4d6-b866-466a-9731-5161788d662b"
+      Hint: SubText2
+      Value: 低手数料の投資で、あなたの未来にパワーを。
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link class="" id="{A0AAA54B-EA78-410E-B2F7-CAC8139CB954}" querystring="" anchor="" target="" title="" linktype="internal" text="はじめる" url="/Education/BoothUniversityCollege/Home/personal/borrowing" />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: 投資
+    - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
+      Hint: SubText1
+      Value: 日常的なバンキングでレベルアップした人々の声を知る
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: デイリーバンキング
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: 借入金
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link class="" id="{76A5E2ED-D6B8-42A4-89C9-E07923ADA4CB}" querystring="" anchor="" target="" title="" linktype="internal" text="はじめる" url="/Education/BoothUniversityCollege/Home/personal/everyday-banking" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4930dfe8-3874-47e6-9af8-4c46855b75fa"
+    - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
+      Hint: SubText3
+      Value: 借金に怯える必要はありません。手数料無料のクレジットカードと個人信用枠がここにあります。
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T154354Z

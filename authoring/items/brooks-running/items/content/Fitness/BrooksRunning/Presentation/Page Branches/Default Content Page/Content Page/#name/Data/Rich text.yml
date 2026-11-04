@@ -28,6 +28,37 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20261009T152230Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204616Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <p>Brooks cree que correr tiene el poder de cambiar vidas, y queremos que cada corredor lo sienta, desde su primera milla hasta su maratón número cien. No somos solo una empresa de calzado; somos una empresa de running, enfocada en ayudarte a correr feliz.</p><h2>Nuestra misión</h2><p>Inspirar a todas las personas a correr y mantenerse activas mediante la creación del mejor equipo para cada zancada. A través de la investigación en biomecánica y la retroalimentación de corredores, diseñamos calzado y ropa que se sienten bien desde el primer paso, para que puedas concentrarte en la carrera misma.</p><h2>Quiénes somos</h2><p>Un equipo de corredores, diseñadores y científicos con sede en Seattle. Combinamos pruebas de laboratorio con kilómetros en caminos y senderos reales, y cada producto pasa por ambos antes de llegar a tus manos.</p><h2>Lo que nos distingue</h2><p>No hay dos corredores iguales. Por eso ofrecemos opciones con amortiguación, soporte y velocidad para carretera, sendero y pista, además de ropa para cada temporada. Ya sea que estés entrenando para una carrera de 5K, buscando tu mejor marca personal o retomando las salidas después de un descanso, hay un ajuste para ti.</p><h2>Nuestro compromiso contigo</h2><p>Los corredores son lo primero. Respaldamos nuestro equipo con una prueba de 90 días y lo complementamos con orientación de ajuste, contenido de entrenamiento y una comunidad que se apoya mutuamente en cada carrera.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef3aba1b-0afe-41a0-b3e6-58206df56157"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191558Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

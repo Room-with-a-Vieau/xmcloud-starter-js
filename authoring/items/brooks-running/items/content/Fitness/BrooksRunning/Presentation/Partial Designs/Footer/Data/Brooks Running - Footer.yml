@@ -96,3 +96,70 @@ Languages:
     - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
       Hint: Title4
       Value: Get to know our brand
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24fe8274-d95f-439f-9aeb-6c240759ab6b"
+      Hint: Text1
+      Value: |
+        <p><a href="#">Eventos</a></p><p><a href="#">Future Run</a></p><p><a href="#">Invitación de PR</a></p><p><a href="#">Atletas</a></p><p><a href="#">Programa de Medicina Deportiva</a></p><p><a href="#">Héroes de la Comunidad</a></p><p><a href="#">Programa de Afiliados</a></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T215932Z
+    - ID: "342fb66b-0e4b-419d-ba86-2355e33ee1bf"
+      Hint: Title1
+      Value: Comunidad runner
+    - ID: "4770eb87-8856-4251-b831-6c8522c39da1"
+      Hint: Copyright
+      Value: © 2026 Brooks Sports, Inc
+    - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
+      Hint: Text4
+      Value: |
+        <p><a href="#">Nuestra empresa</a></p><p><a href="#">Nuestro propósito</a></p><p><a href="#">Nuestra historia</a></p><p><a href="#">Sustentabilidad</a></p><p><a href="#">Carreras</a></p><p><a href="#">Prensa</a></p><p><a href="#">Investigación e innovación</a></p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "63ec28c9-bceb-4180-ba86-5a6b3c975d52"
+      Hint: Link1
+      Value: |
+        <link class="" querystring="" anchor="" target="" title="" linktype="external" text="Política de privacidad" url="#" />
+    - ID: "798d70ab-9044-4c10-8792-8879857b22ac"
+      Hint: Link2
+      Value: |
+        <link class="" querystring="" anchor="" target="" title="" linktype="external" text="Términos" url="#" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "998ed190-88dd-4688-bbce-13390827b99d"
+    - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
+      Hint: Text3
+      Value: |
+        <p><a href="#">Contáctanos</a></p><p><a href="#">Promesa Run Happy</a></p><p><a href="#">Devoluciones</a></p><p><a href="#">Rastrea tu pedido</a></p><p><a href="#">Envíos</a></p><p><a href="#">Localizador de tiendas</a></p><p><a href="#">Preguntas frecuentes</a></p><p><a href="#">Tarjetas de regalo</a></p>
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "ca370d33-63e1-4e1b-986d-fe82ae23027c"
+      Hint: Text2
+      Value: |
+        <p><a href="#">Buscador de calzado</a></p><p><a href="#">Buscador de bras</a></p><p><a href="#">Guías de tallas</a></p><p><a href="#">Pregúntale a un Gurú</a></p><p><a href="#">Equipo usado</a></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191545Z
+    - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
+      Hint: Title2
+      Value: Encuentra tu equipo ideal
+    - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
+      Hint: Title3
+      Value: Atención al cliente
+    - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
+      Hint: Title4
+      Value: Conoce nuestra marca

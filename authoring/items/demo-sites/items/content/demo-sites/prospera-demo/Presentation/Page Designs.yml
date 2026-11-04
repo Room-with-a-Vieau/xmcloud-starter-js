@@ -1,0 +1,37 @@
+﻿---
+ID: "5b7fd089-64fe-4e72-b68d-e53f049831b9"
+Parent: "60307825-8279-473e-a28a-25929647dffc"
+Template: "609a79ac-e186-41e2-a3fa-771e95c26815"
+Path: "/sitecore/content/demo-sites/prospera-demo/Presentation/Page Designs"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b4AD644A8-7CDB-4574-8DF1-D01C3BB7B624%7d%3d%257BE5D51056-0EFA-4435-B7BB-D9E5C2B40128%257D%26%7bF83CCEFD-FC41-4A60-9882-8F7EA5CF41A8%7d%3d%257BF8AFEF57-0F66-4C2C-A201-9214109E5DA0%257D%26%7b1226C3C7-2D1F-48F5-87B4-C1DA459F05E5%7d%3d%257BCB097438-A5D1-4353-8AAC-2CE29AA7D39D%257D%26%7b5282D418-6C18-46EB-85AF-9116CDE9E6EB%7d%3d%257BE5D51056-0EFA-4435-B7BB-D9E5C2B40128%257D%26%7b14431DCE-508D-4D54-9D04-C22ABBDC8F83%7d%3d%257BE5D51056-0EFA-4435-B7BB-D9E5C2B40128%257D%26%7bAAD350F5-9331-4D71-A942-E3643653C028%7d%3d%257B1506E1A2-DFD9-49C8-89B7-5B1AB2D810DB%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "04d65340-f9b4-400c-a43f-25f91e6b23f3"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T230722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba7c6bc5-e5e6-450b-9610-16632b8967d5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T230827Z

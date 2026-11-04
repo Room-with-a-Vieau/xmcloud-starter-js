@@ -1,0 +1,38 @@
+﻿---
+ID: "f8afef57-0f66-4c2c-a201-9214109e5da0"
+Parent: "5b7fd089-64fe-4e72-b68d-e53f049831b9"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: "/sitecore/content/demo-sites/prospera-demo/Presentation/Page Designs/Article Page"
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{0CE08DE2-38E5-4D43-A3EC-474D298DFB7E}|{836672A2-731F-454C-8B79-8833C1F668F9}|{B952ED4A-E75D-4B40-A8FB-1636744CAC46}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9577FF23-7437-4375-9962-C6FE1D39C171}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8a006ebe-174c-41d3-973e-0f25e38e5e22"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T230722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a353502-ccad-4b85-8ae7-e9a49677f33b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T230936Z

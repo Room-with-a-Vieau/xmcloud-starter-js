@@ -1,0 +1,90 @@
+﻿---
+ID: "429e7a34-f4ce-44ad-a084-f2ae65588a7a"
+Parent: "9f98e7d1-8d95-4eda-8a8f-d092e32042d7"
+Template: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+Path: "/sitecore/content/Education/BoothUniversityCollege/Home/Data/Booth UC - Five Column CTA"
+SharedFields:
+- ID: "3b0a6484-9ce0-4386-b2b3-5792c0db7b72"
+  Hint: Image3
+  Value: |
+    <image mediaid="{DDA00D5C-4CBB-4BB5-B3DB-BFD203054C96}" alt="School of Humanities and Social Sciences" />
+- ID: "4301130a-505e-4a6d-ba47-f783d47a1750"
+  Hint: Image2
+  Value: |
+    <image mediaid="{919116EE-B6F5-463B-9B3B-29FA9B09F730}" alt="School of Social Work" />
+- ID: "c5d0b517-0ed6-4cd4-9354-8adf7a04bc7d"
+  Hint: Image4
+  Value: |
+    <image mediaid="{20BCFEB1-9717-4087-83B9-B257DA74EF58}" alt="School for Continuing Studies" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d93e33a5-8a64-46da-afc7-1a3c8aa45a24"
+- ID: "df3b6320-8a59-49d6-98a6-917ba4a400cf"
+  Hint: Image5
+  Value: |
+    <image mediaid="{02334870-4C46-4CCE-9374-083E2FAC9F98}" alt="School of Graduate Studies" />
+- ID: "f762ad0b-e486-48ca-acb3-d8523551a990"
+  Hint: Image1
+  Value: |
+    <image mediaid="{5020FE06-058E-4C7E-8EBC-9AFCE3D2AA0A}" alt="School of Business" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12ece9de-445a-42be-a483-9e8095ca3b8f"
+      Hint: Text5
+      Value: School of Graduate Studies
+    - ID: "1d581533-1aa5-4679-9e2a-e7fe765218ba"
+      Hint: Link3
+      Value: |
+        <link text="School of Humanities and Social Sciences" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://boothuc.ca/programs/our-schools/view-school/3/school-of-humanities-and-social-sciences/" />
+    - ID: "2490d428-27e2-4daa-8337-4e34f37fc26b"
+      Hint: Link2
+      Value: |
+        <link text="School of Social Work" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://boothuc.ca/programs/our-schools/view-school/2/school-of-social-work/" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T160051Z
+    - ID: "41910271-6970-45e7-8819-3d531826d4a6"
+      Hint: Link5
+      Value: |
+        <link text="School of Graduate Studies" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://boothuc.ca/programs/view-program/31/master-of-business-administration/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9dcfe03d-f2fe-466e-aa96-c06ed4b2f759"
+    - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
+      Hint: Text2
+      Value: School of Social Work
+    - ID: "91d94aff-4137-4702-93f7-8db4eacde4d5"
+      Hint: Text3
+      Value: School of Humanities and Social Sciences
+    - ID: "9ea34c36-7e22-4d12-b632-032361c3b17c"
+      Hint: Text1
+      Value: School of Business
+    - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
+      Hint: Link1
+      Value: |
+        <link text="School of Business" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://boothuc.ca/programs/our-schools/view-school/1/school-of-business/" />
+    - ID: "b8b8fa51-0c41-442e-8757-07b7a59d6d3f"
+      Hint: Link4
+      Value: |
+        <link text="School for Continuing Studies" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://boothuc.ca/programs/our-schools/view-school/5/school-for-continuing-studies/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T160051Z
+    - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
+      Hint: Text4
+      Value: School for Continuing Studies

@@ -1,0 +1,286 @@
+﻿---
+ID: "0aa34412-e0e9-463a-a00f-d91184247056"
+Parent: "7e5bd7f4-1987-4434-89fc-d3969e27982d"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: "/sitecore/content/healthcare/Kelsey-Seybold/Home/get-a-loan"
+SharedFields:
+- ID: "0d83e59a-c3f1-41be-81b2-762d35e0799f"
+  Hint: NavigationClass
+  Value: "{C35ECE85-F016-46BC-A9E8-B219A36EDB8D}"
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1EDFD4B7-E57D-42FE-A480-E474400CAA9E}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "30bd5cfc-d598-47e0-a296-8c212c98b3ce"
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{5C812E2D-EFFF-4C57-9C7C-3DAB992138D8}" alt="top-view-passport-money-with-copy-space" height="" width="" hspace="" vspace="" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E22FB733-ACCD-4CB7-A565-896E4CEACC38}"
+          p:before="*"
+          s:ds="local:/Data/Loan Calculator 1"
+          s:id="{A9598B40-14D5-47FC-B183-0B9FF10B90D3}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1/column-1-1" />
+        <r
+          uid="{BFFCE4D9-516A-4716-9144-B1782345EF65}"
+          p:after="r[@uid='{E22FB733-ACCD-4CB7-A565-896E4CEACC38}']"
+          s:ds="local:/Data/New Application Form"
+          s:id="{E4B51F7C-EF5D-4621-A05B-A0080826E54D}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1/column-2-1" />
+        <r
+          uid="{8BBF66CF-05F4-423C-A909-01FEE7184EC8}"
+          p:after="r[@uid='{BFFCE4D9-516A-4716-9144-B1782345EF65}']"
+          s:ds="B65FD89D-3403-4870-97D8-1A5F0ACD9CB8"
+          s:id="{20E5EA95-6B50-49CD-8852-433B7C565F06}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7BDA5DA1D5-8054-465C-B3CE-BE4024E5A068%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=13"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1/two-col-placeholder-left-0-5" />
+        <r
+          uid="{89AE2CFF-8572-4849-B48F-C992BDE10056}"
+          p:after="r[@uid='{8BBF66CF-05F4-423C-A909-01FEE7184EC8}']"
+          s:ds="995498A9-27B2-486F-84B8-A8C5F7187694"
+          s:id="{20E5EA95-6B50-49CD-8852-433B7C565F06}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7BDA5DA1D5-8054-465C-B3CE-BE4024E5A068%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=14"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1/two-col-placeholder-right-0-5" />
+        <r
+          uid="{10D59E48-538D-4B52-81C7-7EF2D06444AE}"
+          p:after="r[@uid='{89AE2CFF-8572-4849-B48F-C992BDE10056}']"
+          s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+          s:par="ColumnWidth1=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B81225C08-5783-4BED-A86A-AB2B87198885%7D&amp;ColumnWidth2=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B81225C08-5783-4BED-A86A-AB2B87198885%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{B70497A9-F3A8-4C8D-A1D9-B7E0D15BE26B}"
+          p:after="r[@uid='{10D59E48-538D-4B52-81C7-7EF2D06444AE}']"
+          s:ds="local:/Data/Text 2"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="FieldNames=%7B6016873E-3016-4793-BB07-C329E7F85428%7D&amp;RenderingIdentifier&amp;Styles=%7C%7BFC38BF09-64E2-4514-A6DA-B57315BF8DF5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=7"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{B674EFA0-1F20-4014-94BB-4C482FF011E0}"
+          p:after="r[@uid='{B70497A9-F3A8-4C8D-A1D9-B7E0D15BE26B}']"
+          s:ds="local:/Data/Two Column CTA 1"
+          s:id="{3A9A9D22-C092-4B54-9511-EB202CEABE8D}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{5782A059-6907-4BAD-992A-41905C1F610E}"
+          p:after="r[@uid='{B674EFA0-1F20-4014-94BB-4C482FF011E0}']"
+          s:ds="local:/Data/Text 3"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="FieldNames=%7B6016873E-3016-4793-BB07-C329E7F85428%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B9EDFD1BA-022B-45CC-A300-F7E4C08ADD77%7D%7C%7BFC38BF09-64E2-4514-A6DA-B57315BF8DF5%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=9"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{67C983BE-8757-409C-A161-8EC3C22174F2}"
+          p:after="r[@uid='{5782A059-6907-4BAD-992A-41905C1F610E}']"
+          s:ds="local:/Data/Questions 1"
+          s:id="{75464A5E-CBB7-4F96-BBBC-104AFE57923A}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=8"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{EAD5A350-5150-413A-B1E7-41DDC96DE838}"
+          p:after="r[@uid='{67C983BE-8757-409C-A161-8EC3C22174F2}']"
+          s:ds="local:/Data/Three Column CTA 1"
+          s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7BE75B2167-0112-4917-8D98-1766FD4DBF1F%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{DDF0E011-4103-497D-9732-9BB3366D9A06}"
+          p:after="r[@uid='{EAD5A350-5150-413A-B1E7-41DDC96DE838}']"
+          s:ds="local:/Data/Text 4"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B6016873E-3016-4793-BB07-C329E7F85428%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=16"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{FF977ED9-E566-465D-9ECD-E228E98738D2}"
+          p:after="*[1=2]"
+          s:ds="32A421B2-6548-4B0B-A4A9-F9546ACF5168"
+          s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=15"
+          s:ph="/headless-main/sxa-page-content/page-content-0-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "f4a2483d-dd3d-4ccb-a920-6846e1191595"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: MyKelseyOnline
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Consumer Loan Online
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T210915Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: For all your wishes – we have the right solution
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: MyKelseyOnline
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ebc7926-c81e-41a2-b50c-1e6169a81a4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261031T211512Z
+  - Version: 2
+    Fields:
+    - ID: "0e6f1e47-ee05-42b5-8480-7994d21209b3"
+      Hint: baseOgDescription
+      Value: Schedule visits, message your care team and view results online with MyKelseyOnline.
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: "MyKelseyOnline Patient Portal | Kelsey-Seybold Clinic"
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: MyKelseyOnline Patient Portal
+    - ID: "2569d76b-a34e-48bd-9fb5-505f5f170c51"
+      Hint: baseMetadataDescription
+      Value: Sign up for MyKelseyOnline to schedule appointments, message your care team, view test results, request prescription refills, pay bills and start video visits.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261102T231707Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Your health information, anytime and anywhere.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: MyKelseyOnline
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d619f83e-4714-46f9-a736-48e500e7ae4a"
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: "MyKelseyOnline Patient Portal | Kelsey-Seybold Clinic"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20261102T231707Z
+    - ID: "cb3deb57-fa16-43de-a76b-9704e6620c24"
+      Hint: baseMetadataKeywords
+      Value: "MyKelseyOnline, patient portal, online appointments, test results, prescription refills, pay my bill, Kelsey-Seybold app"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261102T231708Z
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Obtenir un prêt
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Prêt pour consommateurs en ligne
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T210916Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: "Pour tous vos souhaits - nous avons la solution adaptée"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Obtenir un prêt
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "265f77b0-d023-4083-8ce6-00f21d37b496"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261030T211032Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ローンを組む
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: 消費者ローン・オンライン
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T210916Z
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: あらゆるご希望にお応えします。
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: ローンを組む
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47ba1937-d7ef-4c20-8edc-9c7d8e285a72"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261030T211032Z

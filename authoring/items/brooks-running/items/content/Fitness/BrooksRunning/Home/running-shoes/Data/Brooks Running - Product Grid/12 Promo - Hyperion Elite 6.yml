@@ -53,3 +53,48 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20261007T230824Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c095bf9-1750-40cf-893a-7085f2f7a32a"
+      Hint: IsDark
+      Value: 1
+    - ID: "1bdf407a-17bd-464d-b1d8-47046d5962dc"
+      Hint: PromoImage
+      Value: |
+        <image mediaid="{EDB27102-1059-4DBE-9F02-53F6F0E1B923}" alt="Brooks Hyperion Elite 6" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230824Z
+    - ID: "261fcdc9-e616-42fd-ad24-6521818996c2"
+      Hint: PromoTitle
+      Value: Brilla bajo presión
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "723d7975-481e-4417-bed2-36001661e462"
+      Hint: PromoLink
+      Value: |
+        <link class="" querystring="" anchor="" target="_blank" title="" linktype="external" text="Comprar Hyperion Elite 6" url="https://www.brooksrunning.com/en_us/hyperion-elite-6/" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab6a4541-0f02-418b-8844-e1c1ce724aa7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b66b9a60-616e-43a9-b739-bebd0a207476"
+      Hint: PromoText
+      Value: <p>Convierte la presión en poder con los ultrapropulsivos Hyperion Elite 6.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191501Z

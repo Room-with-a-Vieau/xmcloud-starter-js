@@ -33,7 +33,7 @@ SharedFields:
   Value: Legal
 - ID: "89cecf4f-e545-44f2-813d-272c08661d14"
   Hint: Description
-  Value: Skinned demo collection for Cooley
+  Value: Skinned demo collection
 - ID: "9c596379-f8d4-45d1-a064-cdf1ede2e7c7"
   Hint: Templates
   Value: "{67B90D4A-7315-4915-B207-08AAF235C4F7}"
@@ -42,13 +42,17 @@ SharedFields:
   Value: "{1C8E6822-D757-4049-AED7-BED52CD10B0D}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 10
+  Value: 50
 - ID: "c5dbb136-3299-4835-a8ce-bca8b49ba3fa"
   Hint: BranchesFolder
   Value: "{C65D0267-1A20-4DB1-80CD-F40247D04A58}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8ead2445-3f93-49c9-8b27-f68aa1f41df8"
+  Value: "5877b6dd-1980-41a8-8335-fdbbc86b87aa"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Site Managing|pd|+item:delete|+item:write|+item:rename|+item:create|pe|+item:delete|+item:write|+item:rename|+item:create|ar|sitecore\Author|pd|+item:delete|+item:write|+item:rename|+item:create|pe|+item:delete|+item:write|+item:rename|+item:create|
 - ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
   Hint: MediaLibrary
   Value: "{D97C084A-5D67-4A5B-9EC2-1FE093AE6E01}"
@@ -73,11 +77,11 @@ Languages:
         sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e8a1805-f5fe-4f01-bcb6-c3317348eb4d"
+      Value: "0e7cafe8-0824-49d1-89f4-ab4785620eb5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20261007T224047Z
+      Value: 20261030T215206Z

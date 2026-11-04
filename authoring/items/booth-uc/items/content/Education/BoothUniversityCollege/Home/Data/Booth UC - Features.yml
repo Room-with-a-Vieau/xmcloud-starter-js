@@ -1,0 +1,65 @@
+﻿---
+ID: "b4148795-aacf-44ec-b3d0-9a39bcc933dd"
+Parent: "9f98e7d1-8d95-4eda-8a8f-d092e32042d7"
+Template: "d3fdded9-44ae-4410-961c-3320cc82d638"
+Path: "/sitecore/content/Education/BoothUniversityCollege/Home/Data/Booth UC - Features"
+SharedFields:
+- ID: "0d21639d-2d9d-4dab-ac19-a74397ea905b"
+  Hint: Image2
+  Value: |
+    <image mediaid="{23C442FD-22C3-4949-BB4B-A44B1440B02C}" alt="Woman looking at laptop computer with notebooks on the desk beside her." />
+- ID: "3ead9061-0aaf-4743-9278-1206162fe9ac"
+  Hint: Image1
+  Value: |
+    <image mediaid="{F4964B92-75DB-410F-8FFB-C1AB2CE30644}" alt="Students sitting at a desk with their laptop computers, laughing together." />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b78b9124-0d80-4532-8cac-8d7f86d3aacf"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f9bc8b-d647-4c6f-a67f-dc3b813f93cc"
+      Hint: Text1
+      Value: An undergraduate degree at Booth UC includes our core curriculum, your disciplinary major, and elective courses of your choice.
+    - ID: "188ab916-1cc0-4034-b57a-7d62bafcca30"
+      Hint: Title2
+      Value: Continuing Studies
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T160047Z
+    - ID: "2ea267e1-7e99-40db-b919-2ab9ade0658c"
+      Hint: Link
+      Value: |
+        <link text="Explore Programs" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://boothuc.ca/programs/explore-programs/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5d056c68-5c1a-4f1e-b5e1-55ff37357f95"
+      Hint: Eyebrow
+      Value: Your Path to a Better World
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cdd19d86-621b-46f9-bb55-f066be5c5da8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "c4e8a8a6-23ee-4204-a871-d7615b0ccd3e"
+      Hint: Text2
+      Value: Flexible, professional training in leadership, chaplaincy, and theological studies, through a range of certificate and degree programs.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T160047Z
+    - ID: "e325f933-a74c-4ab8-a40e-a6298391e093"
+      Hint: Title1
+      Value: Undergraduate Studies
+    - ID: "ea0498ea-e265-4f30-a26d-0650429f5f56"
+      Hint: Text
+      Value: "<p>How do you change the world? Start with an education that's anchored in academic excellence and based on a vision of social justice, hope, and mercy for all.</p>"

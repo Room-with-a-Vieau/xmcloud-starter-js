@@ -1,0 +1,65 @@
+﻿---
+ID: "1813a9fd-e1d4-4b01-9a00-38c2433a10a3"
+Parent: "54e2febd-b254-4160-ace6-ca70f97bc02f"
+Template: "d3fdded9-44ae-4410-961c-3320cc82d638"
+Path: "/sitecore/content/healthcare/Kelsey-Seybold/Home/Data/Kelsey-Seybold - Features - Healthy Living Resources"
+SharedFields:
+- ID: "0d21639d-2d9d-4dab-ac19-a74397ea905b"
+  Hint: Image2
+  Value: |
+    <image mediaid="{26176865-930F-41A2-A978-B71BD010C10C}" alt="Living Well Through Menopause" />
+- ID: "3ead9061-0aaf-4743-9278-1206162fe9ac"
+  Hint: Image1
+  Value: |
+    <image mediaid="{78995437-DCD2-49A7-B3D3-337AA9E00098}" alt="" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2066be45-c4be-4693-87b9-af631abd2a26"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f9bc8b-d647-4c6f-a67f-dc3b813f93cc"
+      Hint: Text1
+      Value: 
+    - ID: "188ab916-1cc0-4034-b57a-7d62bafcca30"
+      Hint: Title2
+      Value: "Living Well Through Menopause: Healthy Habits for Every Stage of the Journey"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T213459Z
+    - ID: "2ea267e1-7e99-40db-b919-2ab9ade0658c"
+      Hint: Link
+      Value: |
+        <link text="Visit Healthy Living Resources" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.kelsey-seybold.com/your-health-resources/blog" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5d056c68-5c1a-4f1e-b5e1-55ff37357f95"
+      Hint: Eyebrow
+      Value: Healthy Living Resources
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d544dc4-dba1-4f1f-a6de-214b168c7588"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "c4e8a8a6-23ee-4204-a871-d7615b0ccd3e"
+      Hint: Text2
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261030T222304Z
+    - ID: "e325f933-a74c-4ab8-a40e-a6298391e093"
+      Hint: Title1
+      Value: Why Everyone's Talking About Perimenopause
+    - ID: "ea0498ea-e265-4f30-a26d-0650429f5f56"
+      Hint: Text
+      Value: "<p>Explore trusted health articles and resources from Kelsey-Seybold experts.</p>"

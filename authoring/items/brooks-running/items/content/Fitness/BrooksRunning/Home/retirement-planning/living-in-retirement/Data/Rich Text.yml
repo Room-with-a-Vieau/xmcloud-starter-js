@@ -28,6 +28,37 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20261008T003452Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204602Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <h2>Correr para toda la vida</h2><p>Correr te da la oportunidad de explorar lugares nuevos, conocer gente nueva y sentirte de lo mejor, sin importar tu edad.</p><h3>Escucha a tu cuerpo</h3><p>Combina trotes suaves con caminatas y date más tiempo de recuperación entre los esfuerzos más intensos.</p><h3>Desarrolla fuerza</h3><p>Dos sesiones cortas de fuerza a la semana protegen tus articulaciones y mejoran tu forma al correr.</p><h3>Elige amortiguación</h3><p>Los zapatos con buena amortiguación, como los Ghost Max, reducen el impacto y hacen que cada paso sea cómodo.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ddb5613-aed3-400d-95c0-4e51ce543267"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191533Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

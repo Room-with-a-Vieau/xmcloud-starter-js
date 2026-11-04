@@ -42,13 +42,17 @@ SharedFields:
   Value: "{CA0EEACE-0C3E-468A-B6B4-7826545C3E8F}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 40
 - ID: "c5dbb136-3299-4835-a8ce-bca8b49ba3fa"
   Hint: BranchesFolder
   Value: "{AB20001B-D7BC-445B-BF70-BD8C37D0FF59}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bef60d52-41f8-4506-a1b9-1a8d15f54c2e"
+  Value: "adb976df-64d4-4470-8a18-9332fc585b4a"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Site Managing|pd|+item:delete|+item:write|+item:rename|+item:create|pe|+item:delete|+item:write|+item:rename|+item:create|ar|sitecore\Author|pd|+item:delete|+item:write|+item:rename|+item:create|pe|+item:delete|+item:write|+item:rename|+item:create|
 - ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
   Hint: MediaLibrary
   Value: "{AC6E5186-AA5D-40A8-81A8-A2619910C6F1}"
@@ -73,11 +77,11 @@ Languages:
         sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40879ffb-d9f9-4d56-85d9-239fb7f34485"
+      Value: "c0b54a85-5401-4519-b919-630577591453"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\andrew.vieau@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20261007T224210Z
+      Value: 20261030T215205Z

@@ -87,6 +87,62 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Introducing the Brooks Run app: your new training companion"
+- Language: "es-MX"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "00b6279e-fd52-4913-8c21-aba27d46d52a"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Presentamos la app Brooks Run: tu nueva compañera de entrenamiento"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: <p>Nos emociona presentarte la app Brooks Run, tu compañera de running todo en uno.</p><h3>Registra cada kilómetro</h3><p>Registra tus carreras automáticamente, sigue tu progreso con el tiempo y recibe recordatorios cuando tus zapatos estén listos para retirarse.</p><h3>Entrena con un plan</h3><p>Elige entre planes guiados de 5K a maratón, creados por nuestros coaches y adaptados a tu horario.</p><h3>Obtén recompensas</h3><p>Los miembros de Run Club ganan puntos por cada carrera y compra, canjeables por equipo nuevo.</p>
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: "Presentamos la app Brooks Run: tu nueva compañera de entrenamiento | Brooks Running"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204704Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Conoce la app Brooks Run, una nueva forma de registrar tus kilómetros, seguir planes de entrenamiento y desbloquear recompensas de Run Club.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Presentamos la app Brooks Run: tu nueva compañera de entrenamiento"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1751ae28-d48f-4f95-8ddd-7fe7ef79d221"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: "Presentamos la app Brooks Run: tu nueva compañera de entrenamiento | Brooks Running"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191211Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Presentamos la app Brooks Run: tu nueva compañera de entrenamiento"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

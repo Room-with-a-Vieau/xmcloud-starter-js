@@ -1,0 +1,27 @@
+﻿---
+ID: "ad13c958-1de3-461f-9da0-441ec06a1f09"
+Parent: "c7ac2f0c-fbc7-45ca-92a9-e360ebc61fbb"
+Template: "0da7aa52-0c24-4721-9b6c-f6d8d9faaaa0"
+Path: "/sitecore/content/demo-sites/prospera-demo/Presentation/Partial Designs/Header/Data/Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T230723Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aacd5255-d440-4678-88d1-ff57ae94142e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T230723Z

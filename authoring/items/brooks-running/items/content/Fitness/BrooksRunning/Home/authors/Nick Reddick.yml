@@ -68,6 +68,79 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20261008T003516Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "229e3024-997c-4fe7-9fcd-bfcc657da145"
+      Hint: SocialIcon3
+      Value: |
+        <image mediaid="{D7668912-4C04-4881-8C8B-3EEDBC4277A6}" alt="twitter" />
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: Nick Reddick, Investigador en biomecánica | Brooks Running
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204815Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Nick Reddick
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Investigador en biomecánica
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "612e1483-8de4-4fa8-adc5-1a0663b4788f"
+      Hint: SocialIcon1
+      Value: |
+        <image mediaid="{37E8F17D-5AA1-4AF4-9CB1-45C4F07BDD4C}" alt="facebook" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "226c526b-8c07-4830-8e8f-2fdf90ffe856"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>Nick estudia cómo se mueven los runners en nuestro laboratorio de carrera, convirtiendo los datos de captura de movimiento en zapatos que funcionan con tu cuerpo.</p>
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Nick Reddick
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: Nick Reddick, Investigador en biomecánica | Brooks Running
+    - ID: "a5c03008-537d-481f-834d-e1e89d12c304"
+      Hint: SocialLink1
+      Value: |
+        <link linktype="external" url="http://www.facebook.com" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "bdbbe5c9-d950-444c-90cd-a00674c10b0b"
+      Hint: SocialLink2
+      Value: |
+        <link linktype="external" url="http://www.instagram.com" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191219Z
+    - ID: "e2e9b7ce-f57c-4752-99e5-b0d56e3c8864"
+      Hint: SocialIcon2
+      Value: |
+        <image mediaid="{B5E0C7F5-5693-4875-B68F-70B99E7F34EF}" alt="instagram" />
+    - ID: "f7c9be6b-b582-453b-a9f9-add8c74ac508"
+      Hint: SocialLink3
+      Value: |
+        <link linktype="external" url="http://www.twitter.com" anchor="" target="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

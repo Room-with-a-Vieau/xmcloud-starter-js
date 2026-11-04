@@ -42,3 +42,44 @@ Languages:
     - ID: "e1a6e7a7-5869-48d7-ad7e-265b12820a8d"
       Hint: Title
       Value: Running shoes
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230728Z
+    - ID: "3c9f29c0-0f5e-4cea-8acc-5f4102506b62"
+      Hint: Intro
+      Value: <p>Ya seas corredor de toda la vida o estés empezando en este deporte, encuentra calzado para correr en asfalto o trail perfecto para tu recorrido.</p>
+    - ID: "3dd8f48b-a4be-4091-a009-751772762674"
+      Hint: CalloutLink
+      Value: |
+        <link class="" querystring="" anchor="" target="_blank" title="" linktype="external" text="Prueba el Buscador de Calzado" url="https://www.brooksrunning.com/en_us/shoe-finder/" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5b8843b5-1cb3-443f-888f-4ab1a8eb6af5"
+      Hint: CalloutText
+      Value: Encuentra el calzado perfecto para ti.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6fbc5e24-e6db-4f9c-ab2a-148bdb00888a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191315Z
+    - ID: "e1a6e7a7-5869-48d7-ad7e-265b12820a8d"
+      Hint: Title
+      Value: Calzado para correr

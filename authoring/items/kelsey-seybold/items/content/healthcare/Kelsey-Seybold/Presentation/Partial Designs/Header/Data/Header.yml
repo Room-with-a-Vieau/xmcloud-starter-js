@@ -1,0 +1,31 @@
+﻿---
+ID: "9e7e666f-6cc6-43ea-8b05-8337e6fa30a7"
+Parent: "662ad688-2ab4-4473-95bc-6f11352d8f16"
+Template: "0da7aa52-0c24-4721-9b6c-f6d8d9faaaa0"
+Path: "/sitecore/content/healthcare/Kelsey-Seybold/Presentation/Partial Designs/Header/Data/Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bf1334e-9153-4310-89f7-3cd8c5bbf927"
+      Hint: LogoImage
+      Value: |
+        <image mediaid="{4CB8E7B8-4A22-43A6-B729-6C2C3AA5A6E1}" alt="Kelsey-Seybold Clinic" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T210828Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "402b812a-b93e-4cab-9099-86a65f8da9f2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261030T221302Z

@@ -1,0 +1,63 @@
+﻿---
+ID: "4ef63c56-ddc7-4896-9821-09f50ab56301"
+Parent: "9f98e7d1-8d95-4eda-8a8f-d092e32042d7"
+Template: "c24bfc74-c6e2-413a-aebd-903180dfaff7"
+Path: "/sitecore/content/Education/BoothUniversityCollege/Home/Data/Booth UC - Stats Counter"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f832359-8b54-46b9-9095-08efc28958e1"
+      Hint: Image1
+      Value: |
+        <image mediaid="{3A785CD6-055F-411D-9A86-AE82E0BC978E}" alt="Booth UC convocation celebration" />
+    - ID: "239a7f68-3d70-4c7a-81c3-c280e5283e02"
+      Hint: Image2
+      Value: |
+        <image mediaid="{5020FE06-058E-4C7E-8EBC-9AFCE3D2AA0A}" alt="Booth UC student" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T160046Z
+    - ID: "375bdefa-68a4-4da9-aaa9-fe47bb5fb441"
+      Hint: Value1
+      Value: 18
+    - ID: "3d96d269-32ef-4ebb-b651-e7ec45497c93"
+      Hint: Caption1
+      Value: Average Class Size
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "56884586-c14f-4b35-83c8-e1c1650c7b36"
+      Hint: Value3
+      Value: 20
+    - ID: "5935d1eb-46d7-4a5f-936a-73d3235fe72a"
+      Hint: Symbol1
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "37e6a845-949d-4a67-9366-552c978ea98d"
+    - ID: "a5f0268c-d355-4872-9411-c869ad9a1267"
+      Hint: Caption3
+      Value: Programs Delivered
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "cc0eff80-a988-4cca-9dbc-5d0688781148"
+      Hint: Value2
+      Value: 14
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T160046Z
+    - ID: "edf8ebc1-a19b-4a1b-b707-c4434c7e17bc"
+      Hint: Symbol2
+      Value: ":1"
+    - ID: "f3ee3553-9d93-4d8e-89e9-7a9050c97a5a"
+      Hint: Caption2
+      Value: "Student-Faculty Ratio"

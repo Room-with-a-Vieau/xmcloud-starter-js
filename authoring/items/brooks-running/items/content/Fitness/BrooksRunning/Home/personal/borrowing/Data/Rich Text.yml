@@ -32,6 +32,37 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20261008T003435Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204557Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <h2>Ropa para correr</h2><p>La ropa adecuada puede marcar la diferencia entre una carrera que solo soportas y una que realmente disfrutas.</p><h3>Vístete en capas según el clima</h3><p>Empieza con una capa base que absorba la humedad, agrega una capa intermedia ligera cuando haga fresco y termina con una chamarra resistente al viento o al agua.</p><h3>Hazte visible</h3><p>Los detalles reflejantes y los colores brillantes te ayudan a mantenerte visible en tus carreras de temprano por la mañana y al atardecer.</p><h3>El soporte importa</h3><p>Nuestros bras deportivos para correr están diseñados para movimientos de alto impacto, con opciones para cada talla y nivel de soporte.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7c0faa3-9180-4611-bb6d-d8aa8ad46cd8"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191516Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

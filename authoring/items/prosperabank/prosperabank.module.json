@@ -61,6 +61,10 @@
           {
             "path": "/BrooksRunning",
             "scope": "ignored"
+          },
+          {
+            "path": "/Kelsey-Seybold",
+            "scope": "ignored"
           }
         ]
       }

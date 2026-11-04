@@ -1,0 +1,64 @@
+﻿---
+ID: "5e64d7ca-017e-4f36-a49d-8ccc2dd88d6b"
+Parent: "a7efad46-d097-4895-ad8d-b8a16c5e361c"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: /sitecore/content/Education/BoothUniversityCollege/Home/about/Data/Questions 1/Question 1
+BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FE577AD4-C2F1-4056-91A9-C864C8D2199D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T152315Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95f263ef-4433-4b7a-aa25-5dc2711cb256"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Is Booth UC an accredited university?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261029T013421Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Yes. Booth University College is a chartered Manitoba university college, and our degrees are recognized by universities and employers across Canada.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2747d9e7-97b3-470b-8e55-1b412ba345af"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Comment puis-je gérer efficacement mon budget et économiser davantage d'argent ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Notre site web offre une gamme d'outils et de ressources pour vous aider à gérer efficacement vos finances. Des modèles de budget personnalisables aux fonctionnalités de suivi des dépenses, nous vous fournissons tout ce dont vous avez besoin pour maîtriser vos dépenses et économiser plus d'argent chaque mois.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7fc241d0-d8e0-4602-bfc9-dbba6fa353aa"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: 予算を効果的に管理し、より多くのお金を節約するには？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: 当協会のウェブサイトでは、効果的な財務管理に役立つさまざまな予算管理ツールや資料を提供しています。 カスタマイズ可能な予算テンプレートから支出追跡機能まで、毎月の支出を管理し、より多くのお金を節約するために必要なすべてを提供します。

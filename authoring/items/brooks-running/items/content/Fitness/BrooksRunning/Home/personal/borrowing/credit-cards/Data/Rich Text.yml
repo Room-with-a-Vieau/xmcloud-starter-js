@@ -32,6 +32,37 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20261008T003436Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204558Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <h2>Cómo elegir la playera para correr adecuada</h2><p>Busca telas que alejen el sudor de la piel y se sequen rápido. Evita el algodón, ya que retiene la humedad y puede causar rozaduras.</p><h3>Carreras en clima frío</h3><p>Una capa intermedia térmica y una chamarra ligera atrapan el calor sin provocar sobrecalentamiento una vez que empiezas a correr.</p><h3>Carreras en clima lluvioso</h3><p>Las chamarras resistentes al agua con costuras selladas mantienen la lluvia afuera mientras las ventilaciones permiten que escape el calor.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b8e3d48-4a8b-413c-b502-22a75201ba7f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191552Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

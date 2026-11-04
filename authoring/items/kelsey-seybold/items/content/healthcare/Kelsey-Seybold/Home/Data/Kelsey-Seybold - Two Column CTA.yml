@@ -1,0 +1,63 @@
+﻿---
+ID: "d87ecc0b-62da-46a2-8b9e-a85249d58cee"
+Parent: "54e2febd-b254-4160-ace6-ca70f97bc02f"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: "/sitecore/content/healthcare/Kelsey-Seybold/Home/Data/Kelsey-Seybold - Two Column CTA"
+SharedFields:
+- ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+  Hint: Image1
+  Value: |
+    <image mediaid="{E4CFC8A2-B32D-45B5-8B3F-D158FF4C57C7}" alt="Kelsey-Seybold specialists in white coats" />
+- ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+  Hint: Image2
+  Value: |
+    <image mediaid="{657F231D-44EA-414D-9D01-86FFDC622F03}" alt="Grandparents smiling with their grandchild" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a93566e9-43bd-4c88-812e-473740f119a5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T213455Z
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="Get Specialty Care" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.kelsey-seybold.com/medical-services-and-specialties" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: "Specialty Care at Kelsey-Seybold Clinic"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="Kelsey-Seybold for Seniors" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://seniors.kelsey-seybold.com/" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: "Kelsey-Seybold for Seniors"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: "Get personalized care from Kelsey-Seybold specialists who are all connected to each other and to you. 65+ medical specialties across more than 40 convenient locations!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18e3ad9c-c7c6-4c01-9778-ed2cb87d1792"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261030T213456Z
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: "Kelsey-Seybold Clinic accepts many of the nation's top Medicare Advantage plans. Explore your Medicare plan options this enrollment period."

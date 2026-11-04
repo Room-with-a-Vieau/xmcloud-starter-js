@@ -1,0 +1,219 @@
+﻿---
+ID: "3b5b7139-16d4-4169-a885-f5679456ba10"
+Parent: "2be896cc-7156-4e88-b384-279be2d3c3bd"
+Template: "947db8f8-dc76-453f-aca1-a27babfe633b"
+Path: /sitecore/content/Education/BoothUniversityCollege/Presentation/Partial Designs/Footer/Data/Footer 1
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "36eddb77-3ee2-4a4a-8cf2-90c2b33f2c8f"
+- ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
+  Hint: Image1
+  Value: |
+    <image mediaid="{B727E5D2-8A6B-460A-B0C3-686912CEEDD2}" alt="Booth University College" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "24fe8274-d95f-439f-9aeb-6c240759ab6b"
+      Hint: Text1
+      Value: <p>290 Vaughan Street<br />Winnipeg, Manitoba<br />R3B 2N8 CANADA</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T152341Z
+    - ID: "342fb66b-0e4b-419d-ba86-2355e33ee1bf"
+      Hint: Title1
+      Value: Booth University College
+    - ID: "4770eb87-8856-4251-b831-6c8522c39da1"
+      Hint: Copyright
+      Value: © 2026 Booth University College
+    - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
+      Hint: Text4
+      Value: |
+        <p><a href="https://boothuc.ca/news-and-events/news/">News</a></p><p><a href="https://boothuc.ca/news-and-events/events/">Events</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "63ec28c9-bceb-4180-ba86-5a6b3c975d52"
+      Hint: Link1
+      Value: |
+        <link text="Privacy Policy" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://boothuc.ca/privacy-policy/" />
+    - ID: "798d70ab-9044-4c10-8792-8879857b22ac"
+      Hint: Link2
+      Value: 
+    - ID: "7ce64d4f-9943-4db3-92f2-882703a73e83"
+      Hint: SocialLink2
+      Value: |
+        <link text="Instagram" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.instagram.com/booth_uc/" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "66f73502-21a6-466a-97e1-988feeff226e"
+    - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
+      Hint: Text3
+      Value: |
+        <p><a href="https://boothuc.ca/programs/explore-programs/">Explore Programs</a></p><p><a href="https://boothuc.ca/admissions/why-booth-uc/">Why Booth UC?</a></p><p><a href="https://boothuc.ca/admissions/why-booth-uc/salvationist-students/">Salvationist Students</a></p>
+    - ID: "9b41e129-1410-48d0-832e-d812d38fc892"
+      Hint: SocialLink3
+      Value: |
+        <link text="LinkedIn" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.linkedin.com/school/booth-university-college" />
+    - ID: "9bab16e3-3b9d-425e-8adc-06c0838f7706"
+      Hint: SocialsTitle
+      Value: Follow us
+    - ID: "af34efbc-ee7c-4106-8772-c851c58b7b56"
+      Hint: SocialLink1
+      Value: |
+        <link text="Facebook" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.facebook.com/BoothUC/" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "ca370d33-63e1-4e1b-986d-fe82ae23027c"
+      Hint: Text2
+      Value: |
+        <p><a href="https://boothuc.ca/about/our-people/contact-us/">Contact Us</a></p><p><a href="https://boothuc.ca/about/our-story/land-acknowledgement/">Land Acknowledgement</a></p><p><a href="https://boothuc.ca/news-and-events/news/unsubscribe/">Unsubscribe</a></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T230554Z
+    - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
+      Hint: Title2
+      Value: About
+    - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
+      Hint: Title3
+      Value: Study
+    - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
+      Hint: Title4
+      Value: News and Events
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24fe8274-d95f-439f-9aeb-6c240759ab6b"
+      Hint: Text1
+      Value: |
+        <div class="ck-content"><p><a class="ck-link_selected" href="~/link.aspx?_id=22D3A45B7237400E8689EAD5376FA19A&amp;_z=z">À propos de nous</a></p><p><a href="~/link.aspx?_id=6EC68AC987A0424883573B57A042B570&amp;_z=z">FAQs</a></p><p><a href="~/link.aspx?_id=D45E156771D84639A058E8C17CCE9C57&amp;_z=z">Service à la clientèle</a></p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T152444Z
+    - ID: "342fb66b-0e4b-419d-ba86-2355e33ee1bf"
+      Hint: Title1
+      Value: "PLAY! financier"
+    - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
+      Hint: Text4
+      Value: |
+        <p><a href="/?utm_campaign=business">Campagne affaires</a></p>
+        <p><a href="/?utm_campaign=retirement">Campagne retraite</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "63ec28c9-bceb-4180-ba86-5a6b3c975d52"
+      Hint: Link1
+      Value: |
+        <link linktype="external" url="https://www.sitecore.com/legal/privacy-policy" target="" text="Politique de confidentialité" title="" class=""/>
+    - ID: "798d70ab-9044-4c10-8792-8879857b22ac"
+      Hint: Link2
+      Value: |
+        <link linktype="external" url="https://www.sitecore.com/legal" target="" text="Conditions d'utilisation" title="" class=""/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ebf2bae5-d81d-47a0-970a-5c51a4ac2e87"
+    - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
+      Hint: Text3
+      Value: |
+        <p>
+        <a href="~/link.aspx?_id=336C97C245704A0A9735C840975F7D8B&amp;_z=z">Obtenez un prêt</a>&nbsp;</p>
+        <p> <a href="~/link.aspx?_id=264150BE9DB04262A729460BEE48F276&amp;_z=z">Articles</a></p>
+        <p> <a href="~/link.aspx?_id=98AC07E1EFB74A13AAF09BD3558150C9&amp;_z=z">Auteurs</a></p>
+    - ID: "9bab16e3-3b9d-425e-8adc-06c0838f7706"
+      Hint: SocialsTitle
+      Value: Partagez
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "ca370d33-63e1-4e1b-986d-fe82ae23027c"
+      Hint: Text2
+      Value: |
+        <p><a href="~/link.aspx?_id=23CBB236E5974C26A30C6140C1CAD801&amp;_z=z">Personnel</a></p>
+        <p><a href="~/link.aspx?_id=E5C283BC1E0D471EB3D095B2D4AAF112&amp;_z=z">Petites entreprises</a></p>
+        <p><a href="~/link.aspx?_id=38561A89D6CE41578D171568B8F39270&amp;_z=z">Planification de la retraite</a></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T152555Z
+    - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
+      Hint: Title2
+      Value: Services
+    - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
+      Hint: Title3
+      Value: Ressources
+    - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
+      Hint: Title4
+      Value: Liens rapides
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24fe8274-d95f-439f-9aeb-6c240759ab6b"
+      Hint: Text1
+      Value: |
+        <div class="ck-content"><p><a class="ck-link_selected" href="~/link.aspx?_id=22D3A45B7237400E8689EAD5376FA19A&amp;_z=z">会社概要</a></p><p><a href="~/link.aspx?_id=6EC68AC987A0424883573B57A042B570&amp;_z=z">よくある質問と回答</a></p><p><a href="~/link.aspx?_id=D45E156771D84639A058E8C17CCE9C57&amp;_z=z">カスタマーサポート</a></p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T152445Z
+    - ID: "342fb66b-0e4b-419d-ba86-2355e33ee1bf"
+      Hint: Title1
+      Value: "PLAY! Finance"
+    - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
+      Hint: Text4
+      Value: |
+        <p><a href="/ja-JP?utm_campaign=business">法人向けキャンペーン</a></p>
+        <p><a href="/ja-JP?utm_campaign=retirement">年金運用キャンペーン</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "63ec28c9-bceb-4180-ba86-5a6b3c975d52"
+      Hint: Link1
+      Value: |
+        <link text="プライバシー" linktype="external" url="https://www.sitecore.com/legal/privacy-policy" anchor="" title="プライバシー" target="" />
+    - ID: "798d70ab-9044-4c10-8792-8879857b22ac"
+      Hint: Link2
+      Value: |
+        <link text="使用条件" linktype="external" url="https://www.sitecore.com/legal" anchor="" title="使用条件" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b6fbe1d2-4d17-40b3-9e22-b088daed89a0"
+    - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
+      Hint: Text3
+      Value: |
+        <p>
+        <a href="~/link.aspx?_id=336C97C245704A0A9735C840975F7D8B&amp;_z=z">ローンを組む</a>&nbsp;</p>
+        <p> <a href="~/link.aspx?_id=264150BE9DB04262A729460BEE48F276&amp;_z=z">記事</a></p>
+        <p> <a href="~/link.aspx?_id=98AC07E1EFB74A13AAF09BD3558150C9&amp;_z=z">著者</a></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "ca370d33-63e1-4e1b-986d-fe82ae23027c"
+      Hint: Text2
+      Value: |
+        <p><a href="~/link.aspx?_id=23CBB236E5974C26A30C6140C1CAD801&amp;_z=z">個人のお客さま</a></p>
+        <p><a href="~/link.aspx?_id=E5C283BC1E0D471EB3D095B2D4AAF112&amp;_z=z">企業のお客様</a></p>
+        <p><a href="~/link.aspx?_id=38561A89D6CE41578D171568B8F39270&amp;_z=z">年金運用プラン</a></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T152555Z
+    - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
+      Hint: Title2
+      Value: サービス
+    - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
+      Hint: Title3
+      Value: リソース
+    - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
+      Hint: Title4
+      Value: ヘルプ & サポート

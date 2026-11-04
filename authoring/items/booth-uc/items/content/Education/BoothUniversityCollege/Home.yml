@@ -1,0 +1,291 @@
+﻿---
+ID: "ce9938ed-e55d-416b-834e-b63be62e86e2"
+Parent: "a57ae737-a30c-44c6-8b68-a76047690f5e"
+Template: "5282d418-6c18-46eb-85af-9116cde9e6eb"
+Path: /sitecore/content/Education/BoothUniversityCollege/Home
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {5282D418-6C18-46EB-85AF-9116CDE9E6EB}
+    {14431DCE-508D-4D54-9D04-C22ABBDC8F83}
+- ID: "4a749557-242b-4372-8a20-b2db9d406301"
+  Hint: __AutoThumbnails
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E28D8F9E-6129-45FE-8A56-7D63D8B37C0E}" />
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1e6513f6-44f4-4c96-9a0f-5b2c53364f14"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BD73D7D7-2439-448F-B561-733678497187}"
+          p:before="*"
+          s:ds="{E704B084-C0F2-4654-B1BC-1C5939D174E0}"
+          s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=31"
+          s:ph="headless-main" />
+        <r
+          uid="{69A3CDA5-A123-4875-9719-95A201949A36}"
+          p:after="r[@uid='{BD73D7D7-2439-448F-B561-733678497187}']"
+          s:ds="{4EF63C56-DDC7-4896-9821-09F50AB56301}"
+          s:id="{316889FA-FDD4-42A6-A034-201124FE54E8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=32"
+          s:ph="headless-main" />
+        <r
+          uid="{05B24419-B75D-44C2-BEB9-88404816E97C}"
+          p:after="r[@uid='{69A3CDA5-A123-4875-9719-95A201949A36}']"
+          s:ds="{B4148795-AACF-44EC-B3D0-9A39BCC933DD}"
+          s:id="{B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=33"
+          s:ph="headless-main" />
+        <r
+          uid="{576AD8E6-056E-4665-9AF6-016DC82FEF49}"
+          p:after="r[@uid='{05B24419-B75D-44C2-BEB9-88404816E97C}']"
+          s:ds="{F4A29241-849D-484A-9FD6-AB359D0909E8}"
+          s:id="{89E1D547-7CD6-4EF0-9A27-1E99410797DD}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=34"
+          s:ph="headless-main" />
+        <r
+          uid="{B882746C-C313-4283-8F58-B9402BCF9C6A}"
+          p:after="r[@uid='{576AD8E6-056E-4665-9AF6-016DC82FEF49}']"
+          s:ds="{429E7A34-F4CE-44AD-A084-F2AE65588A7A}"
+          s:id="{333DEF3E-C272-4AD9-A493-8D5CCAE08312}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCD675730-DCC8-478B-884F-8B9358154931%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=18"
+          s:ph="headless-main" />
+        <r
+          uid="{E87B99B9-9668-447B-ADCB-3F129FBC47AE}"
+          p:after="r[@uid='{B882746C-C313-4283-8F58-B9402BCF9C6A}']"
+          s:ds="{A8C5381E-85CC-4B09-847E-D0ED72712122}"
+          s:id="{488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=35"
+          s:ph="headless-main" />
+        <r
+          uid="{A1D565CE-1A9E-4710-97E9-FD026B577FD2}"
+          p:after="r[@uid='{E87B99B9-9668-447B-ADCB-3F129FBC47AE}']"
+          s:ds="{F1039B28-6A53-4349-AA60-EDADA4191CF3}"
+          s:id="{89E1D547-7CD6-4EF0-9A27-1E99410797DD}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=36"
+          s:ph="headless-main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{124106DE-FB02-4B43-A521-A309FC75A5BC}"
+              s:uid="{124106DE-FB02-4B43-A521-A309FC75A5BC}">
+              <p:da
+                name="pt" />
+            </r>
+            <r
+              uid="{D49A8931-F041-4988-9CC3-F2400E6422D0}"
+              p:after="r[@uid='{124106DE-FB02-4B43-A521-A309FC75A5BC}']"
+              s:ds="local:/Data/Promo CTA 1"
+              s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE48989E9-B3F4-46B8-B060-C6B569E92C92%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=30"
+              s:ph="headless-main" />
+            <r
+              uid="{633506E7-54D0-4410-9051-72FB4C9FECB4}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BED53409A-B6FC-47F5-8CD1-FB37B0431F44%7D&amp;Styles=%7B3684B834-3405-4A75-8738-04643A39C70D%7D%7C%7B9E475C7E-9D2C-4862-8DCD-6226FDE7F1B4%7D%7C%7B6331FA51-F5AE-4C40-BD61-9219FC67B477%7D%7C%7BFFD3038E-CE24-49BB-9445-51819DF21673%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=25" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T004803Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Financial
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\kaitlyn.folsom@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7e51722-1b75-4d28-8175-611553db5c35"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
+      Hint: Title
+      Value: "PLAY! Financial"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T152530Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BD73D7D7-2439-448F-B561-733678497187}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{83AA7C04-AA5D-4C13-86FD-F44BD754BB7D}"
+                    s:name="28395bde035049b58237a466cf3e2969">
+                    <conditions>
+                      <condition
+                        uid="4D5560FE7DA948A8A0CC135021781DC0"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="28395bde035049b58237a466cf3e2969" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{7C2B64A7-8FD5-4156-B475-0DE5B0CB4F5E}"
+                        s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}"
+                        s:RenderingItem="1a375fac-6cc1-4a5a-a159-9bc6dbc66b80" />
+                      <action
+                        uid="{2DEAA787-7374-4D8E-81D5-EB41B86056DF}"
+                        s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                        s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE48989E9-B3F4-46B8-B060-C6B569E92C92%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=37&amp;Include in schema" />
+                      <action
+                        uid="{40ECDD72-A17C-40EF-935E-FEE6B6F4B172}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="0a083338-0baa-44d8-88e1-3181489d534e" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E85AD0E135C64073A38859D3BB473FE6"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T160232Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f5ca455-963e-4632-84e2-69d4d3c343a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20261028T160232Z
+    - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
+      Hint: Title
+      Value: Booth University College
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261029T182235Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T152404Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Financial
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ed44430-5324-4851-89f7-5268c2094e97"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
+      Hint: Title
+      Value: Financial
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T152530Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ホーム
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T152405Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea492283-3ae6-46a0-a248-fce5c9c1a739"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
+      Hint: Title
+      Value: "PLAY! Financial"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T152530Z

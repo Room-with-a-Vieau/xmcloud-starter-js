@@ -1,0 +1,37 @@
+﻿---
+ID: "b9a023b5-b5d9-4cc7-a882-735466b994fe"
+Parent: "71ab5084-2738-4eea-ae20-7e6217ecd62b"
+Template: "609a79ac-e186-41e2-a3fa-771e95c26815"
+Path: /sitecore/content/Education/BoothUniversityCollege/Presentation/Page Designs
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b4AD644A8-7CDB-4574-8DF1-D01C3BB7B624%7d%3d%257BD784F893-7132-43AC-A1E6-5F4A0E7B70CB%257D%26%7bF83CCEFD-FC41-4A60-9882-8F7EA5CF41A8%7d%3d%257BDC14A9F0-AA41-4156-84E4-D927CB7FBD54%257D%26%7b1226C3C7-2D1F-48F5-87B4-C1DA459F05E5%7d%3d%257B21DFC221-1D39-45AB-AC65-9770C8E03F33%257D%26%7b5282D418-6C18-46EB-85AF-9116CDE9E6EB%7d%3d%257BD784F893-7132-43AC-A1E6-5F4A0E7B70CB%257D%26%7b14431DCE-508D-4D54-9D04-C22ABBDC8F83%7d%3d%257BD784F893-7132-43AC-A1E6-5F4A0E7B70CB%257D%26%7bAAD350F5-9331-4D71-A942-E3643653C028%7d%3d%257B3F83BA72-68F7-42EB-B894-2E6391696C9F%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "02b3cb53-4418-43eb-b61a-6bf871d16b42"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T152340Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af89f4d1-6d1e-493f-89d5-ba67befcd2af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T152442Z

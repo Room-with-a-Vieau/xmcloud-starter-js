@@ -1,0 +1,91 @@
+﻿---
+ID: "2e8479ad-d327-4a73-9f05-452c525b571c"
+Parent: "54e2febd-b254-4160-ace6-ca70f97bc02f"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: "/sitecore/content/healthcare/Kelsey-Seybold/Home/Data/Kelsey-Seybold - Four Column CTA - Quick Actions"
+SharedFields:
+- ID: "23f621dd-d403-49df-93f6-391a1757feb3"
+  Hint: Image4
+  Value: |
+    <image mediaid="{C99D7AD0-7CEE-436C-B5C2-BE30C25FB2B8}" alt="Find a Location" />
+- ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
+  Hint: Image1
+  Value: |
+    <image mediaid="{7FDDCC80-036E-4624-B93A-C7F33C9314A7}" alt="Virtual Urgent Care" />
+- ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
+  Hint: Image3
+  Value: |
+    <image mediaid="{2A0771EA-DF6E-43AA-857F-8F484F105288}" alt="Find a Doctor" />
+- ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
+  Hint: Image2
+  Value: |
+    <image mediaid="{1E3CF9A9-EE7B-4958-AB56-597D0E2D1623}" alt="Call to Schedule" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fc8c0095-bcae-4cbc-8342-f8424a855535"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f3e30f-8075-4c1b-912e-e27fffeda904"
+      Hint: Text1
+      Value: Start Virtual Urgent Care
+    - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
+      Hint: Text4
+      Value: View Locations Near Me
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261030T213454Z
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: Find a Doctor
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: Find a Location
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e0ef60d-a25a-4587-8604-31a3cfef512b"
+    - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
+      Hint: Text3
+      Value: View Doctors Near Me
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: Call to Schedule
+    - ID: "b1b9e108-7c50-4a04-8e7a-37f30c6a784c"
+      Hint: Link3
+      Value: |
+        <link text="View Doctors Near Me" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.kelsey-seybold.com/find-a-houston-doctor" />
+    - ID: "b2befdd5-351d-4c5e-85fd-2402e3ff96bf"
+      Hint: Link1
+      Value: |
+        <link text="Start Virtual Urgent Care" anchor="" linktype="external" class="" title="" target="_blank" querystring="" url="https://www.mykelseyonline.com/mychart/app/on-demand-video-visits" />
+    - ID: "ba2af883-e3bb-43cf-8c97-ab5c97edc09d"
+      Hint: Link4
+      Value: |
+        <link text="View Locations Near Me" anchor="" linktype="external" class="" title="" target="" querystring="" url="https://www.kelsey-seybold.com/find-a-location" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: Virtual Urgent Care
+    - ID: "c24d6ca7-49ab-4f08-9dae-e5a844d79139"
+      Hint: Text2
+      Value: "Call 713-442-0427"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261030T221709Z
+    - ID: "df548755-6a31-445f-bb84-c704698d6048"
+      Hint: Link2
+      Value: |
+        <link text="Call 713-442-0427" anchor="" linktype="external" class="" title="" target="" querystring="" url="tel:7134420427" />

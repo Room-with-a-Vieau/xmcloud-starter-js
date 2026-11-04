@@ -94,6 +94,62 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Introducing the Ghost Max 4: our most cushioned Ghost yet"
+- Language: "es-MX"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "59db30a8-1884-40d5-be00-f428b9b0a046"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Te presentamos Ghost Max 4: nuestro Ghost con más amortiguación hasta ahora"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: <p>El miembro más nuevo de la familia Ghost ya está aquí, con más amortiguación que nunca.</p><h3>Máxima amortiguación</h3><p>Una mayor altura de la espuma DNA LOFT suaviza cada aterrizaje.</p><h3>Pisada suave</h3><p>La forma tipo rocker te ayuda a pasar del talón a la punta con suavidad.</p><h3>Comodidad diaria</h3><p>Ideal para kilómetros suaves, caminatas largas y para usarlo todo el día.</p>
+    - ID: "246173e5-bda6-4e4e-a235-1d8a31e79a66"
+      Hint: baseOgTitle
+      Value: "Te presentamos Ghost Max 4: nuestro Ghost con más amortiguación hasta ahora | Brooks Running"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T204705Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Ghost Max 4 combina máxima amortiguación con la pisada suave y familiar que tanto les gusta a los corredores.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Te presentamos Ghost Max 4: nuestro Ghost con más amortiguación hasta ahora"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uOsH5C0aan6uFWJMjpdHZ7IMjCUqv6Ur
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa91a84e-d826-4f20-9151-32e7a55acc15"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a1b03767-ad31-45d6-8edb-1940f1ab4d0d"
+      Hint: baseMetadataTitle
+      Value: "Te presentamos Ghost Max 4: nuestro Ghost con más amortiguación hasta ahora | Brooks Running"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191212Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Te presentamos Ghost Max 4: nuestro Ghost con más amortiguación hasta ahora"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

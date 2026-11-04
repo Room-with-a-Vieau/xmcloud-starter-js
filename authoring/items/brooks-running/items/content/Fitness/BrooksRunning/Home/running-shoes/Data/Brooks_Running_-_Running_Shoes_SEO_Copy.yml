@@ -32,3 +32,34 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20261007T230954Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261007T230935Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>Calzado para correr Brooks para hombre y mujer</h2><p>Te mueves a tu manera. Por eso, encuentra calzado para correr hecho para caminar, correr, explorar senderos y para todo tipo de movimiento. Ya sea que busques velocidad, soporte, comodidad o control, en Brooks puedes encontrar tu calzado para correr ideal.</p><h3>Calzado para correr en carretera</h3><p>El calzado para correr en carretera para hombre y para mujer impulsa tu energía al correr sobre cualquier pavimento. Si buscas amortiguación adicional para una pisada suave, explora la colección Ghost, diseñada con tecnología DNA LOFT para acompañar cada paso que das. Y si quieres mayor velocidad, nuestras colecciones ligeras Launch y Hyperion te dejarán listo para despegar.</p><h3>Calzado con amortiguación</h3><p>El calzado con amortiguación Brooks para mujer y para hombre busca el equilibrio perfecto entre suavidad y fluidez para tu zancada. Avanza kilómetro tras kilómetro con la colección Glycerin, que incorpora nuestra tecnología DNA LOFT v3 para una pisada más suave y con mayor respuesta. O mantén la suavidad con los zapatos Adrenaline GTS, hechos para suavizar el impacto y apoyar cada paso. Con gran soporte y nuestra tecnología más reciente de amortiguación supersuave, nuestro calzado con amortiguación te hará sentir como si caminaras en el aire.</p><h3>Calzado para trail running y senderismo</h3><p>Cuando tu aventura te lleva fuera del camino, el calzado de trail running para mujer y para hombre te ayuda a enfrentar cualquier obstáculo en tu ruta. Para senderistas y corredores de trail, conquista nuevas cimas a toda velocidad con la colección Catamount. Diseñada con una placa de propulsión SkyVault responsiva en la suela, domina cualquier sendero con la potencia para impulsarte en terrenos complicados. Si recorres largas distancias en senderos extensos, la colección Caldera tiene la amortiguación que necesitas para rendir por más tiempo. Y cuando necesitas tracción adicional en tu recorrido, la colección Cascadia puede ayudarte a enfrentar hasta los senderos más técnicos.</p><h3>Calzado para caminar</h3><p>¿Siempre en movimiento? Entonces necesitas comodidad durante todo el día. Hazles un favor a tus pies con el calzado para caminar Brooks para hombre y para mujer, antiderrapante, con soporte confiable y disponible en anchos especiales para un ajuste perfecto. Con excelente soporte para el arco y espacio adicional para plantillas u órtesis si las usas, este calzado reduce el desgaste de un día largo de pie.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ac8e3d5-fb8b-4ce8-9fc4-62b88a2b28fa"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\andrew.vieau@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261027T191315Z
