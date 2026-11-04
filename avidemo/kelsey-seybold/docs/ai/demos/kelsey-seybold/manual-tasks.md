@@ -9,7 +9,7 @@ Site: `/sitecore/content/healthcare/Kelsey-Seybold` · Home page ID `7e5bd7f4-19
 - Footer: logo, four link columns (Appointments, Find Us, Services, About Us), legal links and copyright now come from kelsey-seybold.com. The Default variant is kept because WithSocials renders only 2 columns.
 
 ## 1. Header navigation
-The nav links (Personal, Business, Retirement planning, Articles, Get a loan) come from the copied Prospera page tree. Rename or hide those pages to match Locations / Specialties / About Us / Medicare Advantage / Health Plans.
+Done (2026-10-31): Navigation titles now read Locations, Specialties, About Us, Medicare Advantage, Health Plans, plus a MyKelseyOnline button. The about-us page was unhidden and moved to third. Only navigation fields changed; the pages behind those links still have Prospera content and URLs (/personal, /business, …).
 
 ## 2. Workflow
 The two Promo CTA datasources (`Kelsey-Seybold - Promo CTA - …`) were created in the **Draft** workflow state. Approve them before publishing.

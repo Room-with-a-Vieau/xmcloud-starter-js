@@ -73,7 +73,7 @@
       "path": "./avidemo/guidestone",
       "nodeVersion": "24.14.1",
       "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
-      "enabled": false,
+      "enabled": true,
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "next:start"
@@ -100,7 +100,7 @@
       "path": "./avidemo/logix",
       "nodeVersion": "24.14.1",
       "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
-      "enabled": false,
+      "enabled": true,
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "next:start"
